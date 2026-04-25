@@ -1,0 +1,5 @@
+- id: translations
+  translation: "中文"
+
+- id: read_more
+  translation: "Read more"
