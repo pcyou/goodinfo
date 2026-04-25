@@ -98,6 +98,14 @@ defaultContentLanguage = 'zh'
   ShowShareButtons = true
   ShowReadingTime = true
   displayFullLangName = true
+  env = 'production'
+
+  [params.schema]
+    publisherType = 'Organization'
+    sameAs = ['https://goodinfo.net']
+
+  [params.assets]
+    favicon = 'favicon.ico'
 
 [taxonomies]
   category = 'categories'
@@ -107,3 +115,13 @@ defaultContentLanguage = 'zh'
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
+
+[outputs]
+  home = ['HTML', 'RSS', 'WebAppManifest']
+  section = ['HTML', 'RSS']
+  taxonomy = ['HTML', 'RSS']
+  term = ['HTML', 'RSS']
+
+[services]
+  [services.rss]
+    limit = 50

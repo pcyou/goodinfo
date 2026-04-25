@@ -4,6 +4,13 @@ date: 2026-04-25T10:00:00+08:00
 tags: ["OpenAI", "GPT-5", "大语言模型"]
 categories: ["ai-tech"]
 summary: "OpenAI 今日正式发布新一代基础模型 GPT-5，在推理能力、数学和代码生成方面实现重大突破，各项基准测试成绩全面超越前代。"
+sources:
+  - name: "OpenAI Official Blog"
+    url: "https://openai.com/blog/gpt-5"
+    publisher: "OpenAI"
+  - name: "TechCrunch Coverage"
+    url: "https://techcrunch.com"
+    publisher: "TechCrunch"
 ---
 
 ## 📰 正文
@@ -25,4 +32,4 @@ OpenAI 今日正式发布新一代基础模型 **GPT-5**，这是该公司迄今
 
 ---
 
-*来源：OpenAI 官方博客、科技媒体综合报道*
+*来源：[OpenAI 官方博客](https://openai.com/blog/gpt-5)、[TechCrunch](https://techcrunch.com)*

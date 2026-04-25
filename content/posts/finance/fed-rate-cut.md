@@ -4,6 +4,13 @@ date: 2026-04-25T14:00:00+08:00
 tags: ["美联储", "利率", "宏观经济"]
 categories: ["finance"]
 summary: "受近期就业数据疲软影响，市场普遍预期美联储将在6月会议上降息25个基点，联邦基金利率期货定价概率已升至78%。"
+sources:
+  - name: "Bloomberg"
+    url: "https://www.bloomberg.com"
+    publisher: "Bloomberg"
+  - name: "CME FedWatch"
+    url: "https://www.cmegroup.com/markets/interest-rates/cme-fedwatch-tool.html"
+    publisher: "CME Group"
 ---
 
 ## 📰 正文
@@ -24,4 +31,4 @@ summary: "受近期就业数据疲软影响，市场普遍预期美联储将在6
 
 ---
 
-*来源：彭博社、CME FedWatch*
+*来源：[彭博社](https://www.bloomberg.com)、[CME FedWatch](https://www.cmegroup.com/markets/interest-rates/cme-fedwatch-tool.html)*

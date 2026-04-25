@@ -4,6 +4,13 @@ date: 2026-04-25T16:00:00+08:00
 tags: ["欧盟", "AI监管", "法规"]
 categories: ["world"]
 summary: "欧盟委员会今日公布了《AI 法案》的具体实施细则，这是全球首个全面的 AI 监管框架，预计将于7月正式生效。"
+sources:
+  - name: "European Commission"
+    url: "https://commission.europa.eu/topics/ai-strategy"
+    publisher: "European Commission"
+  - name: "Financial Times"
+    url: "https://www.ft.com"
+    publisher: "Financial Times"
 ---
 
 ## 📰 正文
@@ -27,4 +34,4 @@ summary: "欧盟委员会今日公布了《AI 法案》的具体实施细则，�
 
 ---
 
-*来源：欧盟委员会官网、金融时报*
+*来源：[欧盟委员会](https://commission.europa.eu/topics/ai-strategy)、[金融时报](https://www.ft.com)*

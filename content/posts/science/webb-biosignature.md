@@ -4,6 +4,13 @@ date: 2026-04-25T18:00:00+08:00
 tags: ["NASA", "韦伯望远镜", "系外行星"]
 categories: ["science"]
 summary: "NASA 詹姆斯·韦伯太空望远镜首次在系外行星 K2-18b 的大气中检测到二甲硫醚（DMS），这一物质在地球上仅由生物活动产生。"
+sources:
+  - name: "NASA Press Release"
+    url: "https://www.nasa.gov"
+    publisher: "NASA"
+  - name: "Nature Preprint"
+    url: "https://www.nature.com"
+    publisher: "Nature"
 ---
 
 ## 📰 正文
@@ -23,4 +30,4 @@ NASA **詹姆斯·韦伯太空望远镜** 取得了里程碑式的发现。
 
 ---
 
-*来源：NASA 新闻发布会、Nature 预印本*
+*来源：[NASA 新闻发布会](https://www.nasa.gov)、[Nature 预印本](https://www.nature.com)*

@@ -4,6 +4,13 @@ date: 2026-04-25T10:00:00+08:00
 tags: ["OpenAI", "GPT-5", "LLM"]
 categories: ["ai-tech"]
 summary: "OpenAI has officially announced its next-generation foundation model GPT-5, achieving major breakthroughs in reasoning, mathematics, and code generation, with benchmark scores surpassing all previous models."
+sources:
+  - name: "OpenAI Official Blog"
+    url: "https://openai.com/blog/gpt-5"
+    publisher: "OpenAI"
+  - name: "TechCrunch Coverage"
+    url: "https://techcrunch.com"
+    publisher: "TechCrunch"
 ---
 
 ## 📰 Full Story
@@ -25,4 +32,4 @@ Multiple tech companies have begun integrating GPT-5 into their API pipelines. M
 
 ---
 
-*Source: OpenAI official blog, tech media reports*
+*Source: [OpenAI official blog](https://openai.com/blog/gpt-5), [TechCrunch](https://techcrunch.com)*

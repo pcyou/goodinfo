@@ -4,6 +4,13 @@ date: 2026-04-25T12:00:00+08:00
 tags: ["特斯拉", "Optimus", "人形机器人"]
 categories: ["ai-tech"]
 summary: "Tesla 的 Optimus 人形机器人已在弗里蒙特工厂完成首次自主装配任务，标志着人形机器人商业化迈出关键一步。"
+sources:
+  - name: "Tesla AI Day 2026"
+    url: "https://www.tesla.com/AI"
+    publisher: "Tesla"
+  - name: "Reuters"
+    url: "https://www.reuters.com"
+    publisher: "Reuters"
 ---
 
 ## 📰 正文
@@ -23,4 +30,4 @@ Tesla 的 **Optimus** 人形机器人已在弗里蒙特工厂完成首次自主�
 
 ---
 
-*来源：Tesla AI Day 演示视频、路透社*
+*来源：[Tesla AI Day](https://www.tesla.com/AI)、[路透社](https://www.reuters.com)*
