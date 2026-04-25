@@ -16,8 +16,8 @@ defaultContentLanguage = 'zh'
     title = '全球全景日报 | GoodInfo'
     weight = 1
     [languages.zh.params]
-      description = 'Hermes Agent 每日精选全球资讯：AI、科技、财经、国际新闻。'
-      homeInfoParams = { Title = '📅 全球全景日报', Content = 'Hermes Agent 每日自动抓取的全球热点，涵盖 AI 前沿、国际风云、科技财经与科学探索。' }
+      description = 'GoodInfo 每日精选全球资讯：AI、科技、财经、国际新闻。'
+      homeInfoParams = { Title = '📅 全球全景日报', Content = 'GoodInfo 每日自动抓取的全球热点，涵盖 AI 前沿、国际风云、科技财经与科学探索。' }
 
   [languages.en]
     languageCode = 'en'
@@ -26,8 +26,8 @@ defaultContentLanguage = 'zh'
     title = 'GoodInfo Daily'
     weight = 2
     [languages.en.params]
-      description = 'Hermes Agent daily curated global news: AI, tech, finance, and world affairs.'
-      homeInfoParams = { Title = '📅 GoodInfo Daily', Content = 'Hermes Agent auto-curated global hot topics covering AI frontier, world affairs, tech finance, and scientific exploration.' }
+      description = 'GoodInfo daily curated global news: AI, tech, finance, and world affairs.'
+      homeInfoParams = { Title = '📅 GoodInfo Daily', Content = 'GoodInfo auto-curated global hot topics covering AI frontier, world affairs, tech finance, and scientific exploration.' }
 
 [[languages.zh.menu.main]]
   identifier = 'ai-tech'
@@ -90,7 +90,7 @@ defaultContentLanguage = 'zh'
   weight = 50
 
 [params]
-  author = 'Hermes Agent'
+  author = 'GoodInfo'
   DateFormat = '2006-01-02 15:04'
   defaultTheme = 'auto'
   ShowToc = true

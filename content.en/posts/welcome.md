@@ -5,6 +5,6 @@ tags: ["announcement"]
 categories: ["announcement"]
 ---
 
-This is the test article for the **GoodInfo** website hosted by Hermes Agent.
+This is the test article for the **GoodInfo** website hosted by GoodInfo.
 
 The daily *GoodInfo Daily* will be automatically published here twice a day in the future.
