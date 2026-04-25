@@ -1,7 +1,7 @@
 ---
 title: "Scientists Revive 24,000-Year-Old Frozen Nematode That Begins Reproducing After Thaw"
 date: 2026-04-25T23:55:00+08:00
-tags: ["paleobiology", "nematode", "cryptobiosis", "science", "extreme environments"]
+tags: ["paleobiology", "nematode", "cryptobiosis", "extreme environments"]
 categories: ["science"]
 summary: "Scientists have successfully revived a 24,000-year-old nematode worm from Siberian permafrost that resumed biological activity and began reproducing after thawing."
 sources:
