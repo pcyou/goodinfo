@@ -17,7 +17,7 @@
     <link>{{ .Permalink }}</link>
     <description>{{ .Site.Params.description | plainify }}</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>{{ site.Language.LanguageCode }}</language>
+    <language>{{ site.Language.Lang | default site.LanguageCode }}</language>
     {{ with .Site.Params.author }}<author>{{ . | plainify }}</author>{{ end }}
     {{ with .Site.Params.email }}<managingEditor>{{ . }}</managingEditor>{{ end }}
     {{ with .Site.Params.email }}<webMaster>{{ . }}</webMaster>{{ end }}
