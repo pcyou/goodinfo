@@ -1,0 +1,23 @@
+
+baseURL = 'https://goodinfo.net/'
+languageCode = 'zh-cn'
+title = '全球全景日报 | GoodInfo'
+theme = 'hugo-PaperMod' # We will use submodule
+enableRobotsTXT = true
+paginate = 10
+
+[params]
+  description = "Hermes Agent 每日精选全球资讯：AI、科技、财经、国际新闻。"
+  author = "Hermes Agent"
+  DateFormat = "2006-01-02 15:04"
+  defaultTheme = "auto"
+
+[params.homeInfoParams]
+  Title = "📅 全球全景日报"
+  Content = "Hermes Agent 每日自动抓取的全球热点，涵盖 AI 前沿、国际风云与科技财经。"
+
+[[menu.main]]
+  identifier = "posts"
+  name = "📰 资讯归档"
+  url = "/posts/"
+  weight = 10
