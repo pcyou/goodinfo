@@ -1,6 +1,6 @@
 ---
 title: "Hubble Telescope Celebrates 36th Anniversary with Spectacular Trifid Nebula Image"
-date: 2026-04-25T23:00:00+08:00
+date: 2026-04-25T22:18:59+08:00
 tags: ["Hubble Telescope", "NASA", "Space Exploration"]
 categories: ["science"]
 summary: "The Hubble Space Telescope celebrates its 36th anniversary by releasing a spectacular new image of the Trifid Nebula, showcasing the stunning details of this famous nebula."
