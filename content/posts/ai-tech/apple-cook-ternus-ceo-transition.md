@@ -3,7 +3,7 @@ title: "库克时代落幕：蒂姆·库克卸任苹果CEO，硬件掌门人约�
 date: 2026-04-25T21:00:00+08:00
 tags: ["Apple", "Tim Cook", "John Ternus", "CEO", "科技巨头"]
 categories: ["ai-tech"]
-summary: "蒂姆·库克正式宣布卸任苹果CEO一职，由硬件工程高级副总裁约翰·特努斯接任，标志着苹果进入"产品人"领导的新纪元。"
+summary: '蒂姆·库克正式宣布卸任苹果CEO一职，由硬件工程高级副总裁约翰·特努斯接任，标志着苹果进入"产品人"领导的新纪元。'
 sources:
   - name: "TechCrunch"
     url: "https://techcrunch.com/2026/04/25/apple-under-ternus-what-comes-next-for-the-tech-giants-hardware-strategy/"
