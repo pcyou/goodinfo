@@ -1,9 +1,9 @@
 ---
-title: "白宫指控中国"工业规模"窃取美国AI技术，威胁全面打击模型蒸馏行为"
+title: '白宫指控中国"工业规模"窃取美国AI技术，威胁全面打击模型蒸馏行为'
 date: 2026-04-26T14:00:00+08:00
 tags: ["中美关系", "AI", "技术安全", "知识产权", "白宫"]
 categories: ["ai-tech"]
-summary: "白宫发布备忘录，指控中国公司通过"蒸馏"等技术手段大规模窃取美国AI模型，并宣布将采取措施打击此类行为。中方回应称相关指控为"诽谤"。"
+summary: '白宫发布备忘录，指控中国公司通过"蒸馏"等技术手段大规模窃取美国AI模型，并宣布将采取措施打击此类行为。中方回应称相关指控为"诽谤"。'
 sources:
   - name: "Reuters"
     url: "https://www.reuters.com/technology/white-house-accuses-china-industrial-scale-theft-ai-technology-2026-04-25/"
