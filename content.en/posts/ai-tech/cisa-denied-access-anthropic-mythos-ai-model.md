@@ -1,6 +1,6 @@
 ---
 title: "US Cyber Agency Locked Out: CISA Denied Access to Anthropic's Most Powerful AI Hacking Model"
-date: 2026-04-26T18:30:00+08:00
+date: 2026-04-26T18:00:00+08:00
 tags: ["CISA", "Anthropic", "Mythos", "AI security", "cybersecurity", "US government"]
 categories: ["ai-tech"]
 summary: "The US Cybersecurity and Infrastructure Security Agency (CISA) has been denied access to Anthropic's latest powerful AI model Mythos, raising concerns about the government's cybersecurity capabilities."

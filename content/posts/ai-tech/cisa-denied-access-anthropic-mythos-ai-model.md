@@ -1,6 +1,6 @@
 ---
 title: "美国网络安全机构被拒门外：CISA 未能获取 Anthropic 最强 AI 黑客模型"
-date: 2026-04-26T18:30:00+08:00
+date: 2026-04-26T18:00:00+08:00
 tags: ["CISA", "Anthropic", "Mythos", "AI安全", "网络安全", "美国政府"]
 categories: ["ai-tech"]
 summary: "美国网络安全与基础设施安全局（CISA）未能获得 Anthropic 最新强大 AI 黑客模型 Mythos 的访问权限，引发对政府网络安全能力的担忧。"
