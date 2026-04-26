@@ -3,7 +3,7 @@ title: "胰腺癌mRNA疫苗早期试验展现持久疗效，数十年来的重�
 date: 2026-04-26T16:30:00+08:00
 tags: ["胰腺癌", "mRNA疫苗", "癌症治疗", "免疫疗法", "医学突破"]
 categories: ["science"]
-summary: "胰腺癌mRNA疫苗在一项早期临床试验中展现出持久的治疗效果，被《国家地理》称为"数十年来胰腺癌治疗领域的最大突破"。"
+summary: '胰腺癌mRNA疫苗在一项早期临床试验中展现出持久的治疗效果，被《国家地理》称为"数十年来胰腺癌治疗领域的最大突破"。'
 sources:
   - name: "NBC News"
     url: "https://www.nbcnews.com/health/cancer/pancreatic-cancer-mrna-vaccine-trial-2026"
