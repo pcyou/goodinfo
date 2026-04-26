@@ -105,6 +105,7 @@ defaultContentLanguage = 'zh'
     sameAs = ['https://goodinfo.net']
 
   [params.assets]
+  customCSS = ["css/extended/custom.css"]
     favicon = 'favicon.ico'
 
 [taxonomies]

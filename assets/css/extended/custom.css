@@ -1,0 +1,10 @@
+/* Custom font size for news content */
+.post-content {
+    font-size: 1.1rem;
+    line-height: 1.7;
+}
+
+/* Increase heading sizes slightly too */
+.post-content h1 { font-size: 1.6rem; }
+.post-content h2 { font-size: 1.4rem; }
+.post-content h3 { font-size: 1.2rem; }
