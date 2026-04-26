@@ -1,9 +1,9 @@
 ---
-title: "NYT Investigation: U.S. Mint Buys Drug Cartel Gold and Sells It as 'American'"
+title: 'NYT Investigation: U.S. Mint Buys Drug Cartel Gold and Sells It as ''American'''
 date: 2026-04-26T17:00:00+08:00
 tags: ["U.S. Mint", "drug cartel", "gold", "investigation"]
 categories: ["finance"]
-summary: "A New York Times investigation reveals the U.S. Mint has been purchasing gold from questionable sources, including traces linked to Latin American drug cartels, which is then refined and sold to consumers under 'American-made' labels."
+summary: 'A New York Times investigation reveals the U.S. Mint has been purchasing gold from questionable sources, including traces linked to Latin American drug cartels, which is then refined and sold to consumers under ''American-made'' labels.'
 sources:
   - name: "The New York Times"
     url: "https://www.nytimes.com/2026/04/26/business/us-mint-cartel-gold.html"
