@@ -1,5 +1,5 @@
 ---
-title: "UK Insists Falklands Sovereignty 'Not in Question' After Leaked Pentagon Memo Hints at Policy Shift"
+title: "UK Insists Falklands Sovereignty Not in Question After Leaked Pentagon Memo Hints at Policy Shift"
 date: 2026-04-26T16:00:00+08:00
 tags: ["Falkland Islands", "UK", "USA", "Pentagon", "diplomacy", "sovereignty"]
 categories: ["world"]
