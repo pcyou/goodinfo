@@ -1,5 +1,5 @@
 ---
-title: "RF-DETR：最先进的实时物体检测模型 实时识别视频画面中的物体 "
+title: "RF-DETR：最先进的实时物体检测模型 实时识别视频画面中的物体"
 date: 2025-03-23T08:00:00+08:00
 tags: []
 categories: ["opensource"]

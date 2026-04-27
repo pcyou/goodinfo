@@ -3,7 +3,7 @@ title: "Hume AI 发布 TTS 模型：TADA 零幻觉、速度快，能跑在手机
 date: 2026-03-11T08:00:00+08:00
 tags: []
 categories: ["opensource"]
-summary: "做情感 AI 出身的 Hume AI 发布了 TADA，这是一个基于 LLM 架构的 TTS（Text-to-Speech）系统，主打"快、准、轻"三大特性，在速度、幻觉率和端侧部署能力上均展现出显著优势。   在 1000 多个测试样本中实现了零内容幻觉，比同级别 LLM TTS 快 5 倍，轻到"
+summary: "做情感 AI 出身的 Hume AI 发布了 TADA，这是一个基于 LLM 架构的 TTS（Text-to-Speech）系统，主打快、准、轻三大特性，在速度、幻觉率和端侧部署能力上均展现出显著优势。   在 1000 多个测试样本中实现了零内容幻觉，比同级别 LLM TTS 快 5 倍，轻到"
 source_url: "https://www.xiaohu.ai/p/hume-ai-tts-tada/30532893"
 xiahuid: "30532893"
 ---

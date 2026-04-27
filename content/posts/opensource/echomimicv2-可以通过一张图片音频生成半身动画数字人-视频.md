@@ -1,6 +1,5 @@
 ---
-title: "EchoMimicV2 ：可以通过一张图片+音频生成半身动画数字人 视频
-"
+title: "EchoMimicV2 ：可以通过一张图片+音频生成半身动画数字人 视频"
 date: 2025-01-06T08:00:00+08:00
 tags: []
 categories: ["opensource"]

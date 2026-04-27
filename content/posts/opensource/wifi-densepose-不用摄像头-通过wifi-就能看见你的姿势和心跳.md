@@ -1,5 +1,5 @@
 ---
-title: "WiFi-DensePose ：不用摄像头 通过WiFi 就能"看见"你的姿势和心跳"
+title: "WiFi-DensePose ：不用摄像头 通过WiFi 就能看见你的姿势和心跳"
 date: 2026-03-02T08:00:00+08:00
 tags: []
 categories: ["opensource"]

@@ -1,5 +1,5 @@
 ---
-title: "Google 与 耶鲁大学 利用 Gemma 模型自动生成并验证了一个此前未被人类发现的癌症治疗假说 "
+title: "Google 与 耶鲁大学 利用 Gemma 模型自动生成并验证了一个此前未被人类发现的癌症治疗假说"
 date: 2025-10-16T08:00:00+08:00
 tags: []
 categories: ["opensource"]

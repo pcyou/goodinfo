@@ -1,5 +1,5 @@
 ---
-title: " Zonos：一个 高质量、实时的文本转语音 (TTS) 开源模型，支持高保真语音克隆 媲美ElevenLabs"
+title: "Zonos：一个 高质量、实时的文本转语音 (TTS) 开源模型，支持高保真语音克隆 媲美ElevenLabs"
 date: 2025-02-11T08:00:00+08:00
 tags: []
 categories: ["opensource"]

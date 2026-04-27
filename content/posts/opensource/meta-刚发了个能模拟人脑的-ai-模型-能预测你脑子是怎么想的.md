@@ -1,9 +1,9 @@
 ---
-title: "Meta 刚发了个能"模拟人脑"的 AI 模型" 能预测你脑子是怎么想的"
+title: "Meta 刚发了个能模拟人脑的 AI 模型 能预测你脑子是怎么想的"
 date: 2026-03-27T08:00:00+08:00
 tags: []
 categories: ["opensource"]
-summary: "兄弟们，Meta 昨天悄悄扔了个炸弹。   不是聊天机器人，也不是图片生成模型，而是一个能"模拟人脑"的 AI 模型，叫 TRIBE v2（Trimodal Brain Encoder v2）。   简单说就是：给你的大脑做一个"数字双胞胎"，给它看一段视频、听一段播客，它能直接预测你大脑会怎么反应"
+summary: "兄弟们，Meta 昨天悄悄扔了个炸弹。   不是聊天机器人，也不是图片生成模型，而是一个能模拟人脑的 AI 模型，叫 TRIBE v2（Trimodal Brain Encoder v2）。   简单说就是：给你的大脑做一个数字双胞胎，给它看一段视频、听一段播客，它能直接预测你大脑会怎么反应"
 source_url: "https://www.xiaohu.ai/p/meta-ai/31062955"
 xiahuid: "31062955"
 ---

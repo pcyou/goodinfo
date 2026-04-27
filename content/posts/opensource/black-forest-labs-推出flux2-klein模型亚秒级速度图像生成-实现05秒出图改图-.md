@@ -1,5 +1,5 @@
 ---
-title: "Black Forest Labs 推出FLUX.2 [klein]模型：亚秒级速度图像生成 实现0.5秒出图改图 "
+title: "Black Forest Labs 推出FLUX.2 [klein]模型：亚秒级速度图像生成 实现0.5秒出图改图"
 date: 2026-01-16T08:00:00+08:00
 tags: []
 categories: ["opensource"]

@@ -1,5 +1,5 @@
 ---
-title: "Tahoe-x1 (Tx1)：能够理解 基因、细胞和药物之间关系的AI模型 "
+title: "Tahoe-x1 (Tx1)：能够理解 基因、细胞和药物之间关系的AI模型"
 date: 2025-10-25T08:00:00+08:00
 tags: []
 categories: ["opensource"]

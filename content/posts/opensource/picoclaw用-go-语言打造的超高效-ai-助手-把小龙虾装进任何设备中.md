@@ -3,7 +3,7 @@ title: "PicoClaw：用 Go 语言打造的超高效 AI 助手 把小龙虾装进�
 date: 2026-02-12T08:00:00+08:00
 tags: []
 categories: ["opensource"]
-summary: "PicoClaw 是Sipeed发布的一个超轻量级 AI 助手，用 Go 语言编写，主打在极低成本硬件上运行 AI Agent。  >   超轻量级 AI Agent 助手，专为“低成本硬件 + 超低内存”设计。    它不是在本地跑大模型，而是作为一个超轻量的 "Agent 客户端"，通过 API"
+summary: "PicoClaw 是Sipeed发布的一个超轻量级 AI 助手，用 Go 语言编写，主打在极低成本硬件上运行 AI Agent。  >   超轻量级 AI Agent 助手，专为“低成本硬件 + 超低内存”设计。    它不是在本地跑大模型，而是作为一个超轻量的Agent 客户端，通过 API"
 source_url: "https://www.xiaohu.ai/p/picoclaw-go-ai/29608276"
 xiahuid: "29608276"
 ---

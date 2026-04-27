@@ -1,5 +1,5 @@
 ---
-title: "阿里巴巴发布 Photoshop 级别的图像分层模型：Qwen-Image-Layered "
+title: "阿里巴巴发布 Photoshop 级别的图像分层模型：Qwen-Image-Layered"
 date: 2025-12-22T08:00:00+08:00
 tags: []
 categories: ["opensource"]

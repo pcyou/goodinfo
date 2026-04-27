@@ -1,5 +1,5 @@
 ---
-title: " Black Forest Labs 宣布开源对标GPT 4o 的 FLUX.1 Kontext [dev]图像模型"
+title: "Black Forest Labs 宣布开源对标GPT 4o 的 FLUX.1 Kontext [dev]图像模型"
 date: 2025-06-26T08:00:00+08:00
 tags: []
 categories: ["opensource"]

@@ -1,5 +1,5 @@
 ---
-title: "微软开源 Magentic-UI：一个能自动执行复杂网页任务的智能代理系统 但你可以控制走向 "
+title: "微软开源 Magentic-UI：一个能自动执行复杂网页任务的智能代理系统 但你可以控制走向"
 date: 2025-05-20T08:00:00+08:00
 tags: []
 categories: ["opensource"]

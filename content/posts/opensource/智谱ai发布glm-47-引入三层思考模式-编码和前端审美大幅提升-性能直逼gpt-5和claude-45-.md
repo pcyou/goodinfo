@@ -1,5 +1,5 @@
 ---
-title: "智谱AI发布：GLM-4.7  引入三层思考模式 编码和前端审美大幅提升 性能直逼GPT-5和Claude 4.5 "
+title: "智谱AI发布：GLM-4.7  引入三层思考模式 编码和前端审美大幅提升 性能直逼GPT-5和Claude 4.5"
 date: 2025-12-23T08:00:00+08:00
 tags: []
 categories: ["opensource"]

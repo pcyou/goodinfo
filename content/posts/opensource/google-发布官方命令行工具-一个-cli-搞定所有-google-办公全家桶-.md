@@ -1,5 +1,5 @@
 ---
-title: "Google 发布官方命令行工具 一个 CLI 搞定所有 Google 办公全家桶 "
+title: "Google 发布官方命令行工具 一个 CLI 搞定所有 Google 办公全家桶"
 date: 2026-03-05T08:00:00+08:00
 tags: []
 categories: ["opensource"]
