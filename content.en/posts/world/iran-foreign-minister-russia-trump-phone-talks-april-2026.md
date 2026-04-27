@@ -1,50 +1,56 @@
 ---
-title: "Iran's Foreign Minister Leaves Islamabad for Moscow as Trump Says Phone Talks Possible"
-date: 2026-04-26T22:00:00+08:00
-tags: ["Iran", "United States", "Pakistan", "Russia", "Diplomacy", "Ceasefire Negotiations", "Middle East"]
+title: "Iran's Foreign Minister Heads to Russia as Trump Says 'Call Us' to Negotiate"
+date: 2026-04-27T14:00:00+08:00
+tags: ["Iran", "Russia", "Trump", "diplomacy", "Pakistan", "negotiations"]
 categories: ["world"]
-summary: "After direct US-Iran talks failed to materialize, Iranian Foreign Minister Araghchi departs Pakistan for Russia, while Trump says both sides can continue negotiations by phone, as Pakistan's mediation efforts persist."
+summary: "After the U.S. canceled diplomatic envoy trips to Pakistan, Iran's foreign minister traveled to Russia seeking support, while Trump stated that if Iran wants to negotiate, they can simply call."
 sources:
-  - name: "France 24 - Iran's top diplomat leaves Pakistan for Russia, Trump says Tehran can talk by phone"
-    url: "https://www.france24.com/en/middle-east/iran-diplomat-pakistan-russia-trump-phone-talks-april-2026"
-    publisher: "France 24"
-  - name: "Spectrum News - Iran's top diplomat returns to Pakistan but Trump says the sides can talk by phone"
-    url: "https://spectrumlocalnews.com/iran-diplomat-pakistan-trump-phone-april-2026"
-    publisher: "Spectrum News"
-  - name: "Fox 59 - Pakistan says US-Iran mediation moving ahead after Trump holds back envoys"
-    url: "https://fox59.com/news/us-iran-mediation-pakistan-april-2026"
-    publisher: "Fox 59"
+  - name: "Reuters"
+    url: "https://www.reuters.com/world/iran/iranian-foreign-minister-heads-russia-trump-says-call-us-negotiate-2026-04-27/"
+    publisher: "Reuters"
+  - name: "CNBC"
+    url: "https://www.cnbc.com/2026/04/27/iran-diplomat-russia-trump-peace-talks.html"
+    publisher: "CNBC"
+  - name: "CBS News"
+    url: "https://www.cbsnews.com/news/iran-foreign-minister-pakistan-russia-live-updates-2026/"
+    publisher: "CBS News"
+  - name: "Fortune"
+    url: "https://fortune.com/2026/04/27/iran-pakistan-us-ceasefire-talks/"
+    publisher: "Fortune"
 ---
 
-## Iran's Foreign Minister Leaves Islamabad for Moscow as Trump Says Phone Talks Possible
+## Iran's Foreign Minister Heads to Russia as Trump Says 'Call Us' to Negotiate
 
-On April 26, 2026, Iranian Foreign Minister Abbas Araghchi departed Pakistan's capital Islamabad for a visit to Russia, after long-awaited direct US-Iran talks failed to materialize. Meanwhile, US President Trump stated that despite the failed face-to-face meeting, both sides could still continue negotiations via telephone.
+On April 27, 2026, the Iranian diplomatic situation took a significant turn. Following the sudden cancellation of U.S. diplomatic envoy trips to Pakistan, Iran's foreign minister made an urgent trip to Russia seeking diplomatic support, while President Donald Trump publicly stated that if Iran wants to negotiate, "they can just call us."
 
-### A Shift in Diplomatic Trajectory
+### Diplomatic Itinerary Changes
 
-According to Agence France-Presse and France 24, Araghchi's decision to travel to Moscow after a brief stop in Islamabad has drawn significant attention from international observers. Earlier, there were widespread expectations that the US and Iran would hold direct talks under Pakistani mediation, but Iran had already made clear its unwillingness to meet face-to-face with the American delegation.
+According to Reuters, the United States had previously planned to send envoys to Pakistan to mediate the escalating tensions between Iran and the U.S. However, the trip was abruptly canceled at the last minute, throwing the already fragile diplomatic negotiation process back into uncertainty.
 
-Responding to the situation, Trump indicated that a direct meeting was not essential. He told reporters: "They can talk on the phone, they don't necessarily have to sit together." This statement suggests that the US remains open to indirect communication channels, though it does not explicitly accept Iran's stated preconditions for negotiations.
+Iran's foreign minister subsequently made a brief return visit to Pakistan before immediately departing for Moscow. This itinerary is being interpreted as Iran's attempt to seek Russia's support and mediation in the ongoing diplomatic dispute.
 
-### Pakistan's Mediation Efforts Continue
+### Trump's 'Phone Negotiation' Proposal
 
-Despite the failure of direct talks, Pakistani officials maintain that mediation efforts are still progressing. According to Fox 59, Pakistan's Foreign Ministry issued a statement saying that the US-Iran mediation process is "moving ahead," and that Pakistan will continue to play its role as a mediator in facilitating dialogue between the two sides.
+In response to the situation, Trump stated that negotiations between the U.S. and Iran do not require complicated arrangements, saying "if they want to talk, they can call us." This statement has been widely interpreted as the U.S. taking a harder stance on the negotiation terms.
 
-Islamabad had previously implemented extensive security measures in anticipation of the talks, including road closures and enhanced security checkpoints. As the talks failed to take place, the city gradually returned to normal operations, though the lockdown drew complaints from local merchants.
+The Wall Street Journal reported that Trump's remarks reflect his administration's consistent approach to Iran policy — namely, that the U.S. holds the dominant position in any negotiations and will not easily lower the threshold for engagement.
 
-### Hormuz Strait Tensions Escalate
+### Pakistan's Mediation Efforts
 
-While the diplomatic maneuvering continues, military tensions in the Strait of Hormuz region are also escalating. According to The Sunday Guardian, as the Iran war enters its 55th day, threats of a Hormuz Strait blockade are intensifying, adding new uncertainty to global energy markets.
+According to CNBC, despite the cancellation of the U.S. envoy trip, Pakistan continues its efforts to salvage the peace talks. Pakistani government officials stated they will continue to play the role of intermediary, pushing both sides to return to the negotiating table.
 
-Analysts note that the prolonged diplomatic stalemate increases the risk of further military escalation in the region. The United States' inconsistent approach to sanctions against Iran has made it difficult for market participants to assess the trajectory of the situation. The New York Times analysis described America's "zigzag" sanctions policy as shaping a new world of economic warfare.
+During the Iranian foreign minister's brief stay in Pakistan, emergency consultations were held with senior Pakistani officials. Both sides discussed the current diplomatic situation and possible next steps.
 
-### International Appeals
+### Regional Implications
 
-The UN Secretary-General's spokesperson once again called on both the US and Iran to resume substantive dialogue as soon as possible. The United Nations stated it remains ready to provide necessary mediation assistance to both parties. EU High Representative for Foreign Affairs Josep Borrell also stated that Europe will continue to support a diplomatic resolution to the Iran issue.
+This diplomatic standoff has profound implications for the security situation in the Middle East. The tension between Iran and the United States has long been a major factor in regional instability. Analysts note that if diplomatic negotiations remain stalled, the risk of regional conflict will increase significantly.
 
-Currently, international concern over the Middle East situation continues to mount. While the ceasefire between Israel and Lebanon has been extended for three weeks, Israel's military strikes against Hezbollah targets in Lebanon continue. Meanwhile, the ongoing Iran war is impacting global energy supplies and trade patterns, placing sustained pressure on the world economy.
+Russia's role in this matter has also drawn considerable attention. As Iran's traditional ally, Moscow's involvement could complicate the situation further, but it may also provide a new avenue for breaking the deadlock.
 
-Analysts widely agree that the restoration of diplomatic channels is essential to prevent further deterioration of the situation. However, given the current gap between the two sides' positions, the prospects for a breakthrough agreement in the near term remain uncertain.
+### International Reactions
 
----
-*Source: [France 24](https://www.france24.com/en/middle-east/iran-diplomat-pakistan-russia-trump-phone-talks-april-2026), [Spectrum News](https://spectrumlocalnews.com/iran-diplomat-pakistan-trump-phone-april-2026), [Fox 59](https://fox59.com/news/us-iran-mediation-pakistan-april-2026)*
+The international community has expressed concern over the current diplomatic situation. The UN Secretary-General has called on both sides to exercise restraint and resolve differences through dialogue. The European Union has also issued a statement expressing willingness to provide mediation under appropriate conditions.
+
+As of now, Iran has not made an official response to Trump's "phone negotiation" proposal.
+
+*Source: [Reuters](https://www.reuters.com/world/iran/iranian-foreign-minister-heads-russia-trump-says-call-us-negotiate-2026-04-27/) | [CNBC](https://www.cnbc.com/2026/04/27/iran-diplomat-russia-trump-peace-talks.html) | [CBS News](https://www.cbsnews.com/news/iran-foreign-minister-pakistan-russia-live-updates-2026/) | [Fortune](https://fortune.com/2026/04/27/iran-pakistan-us-ceasefire-talks/)*
