@@ -3,7 +3,7 @@ title: "特朗普怒斥CBS《60分钟》节目：不应采访我关于枪击案�
 date: 2026-04-27T15:30:00+08:00
 tags: ["特朗普", "CBS", "60分钟", "白宫记者协会", "枪击事件", "宣言"]
 categories: ["world"]
-summary: "特朗普在接受CBS《60分钟》节目采访时，对主持人诺拉·奥唐纳就枪击案凶手宣言内容的提问表示愤怒，称相关问题"不公平"且"荒谬"。"
+summary: "特朗普在接受CBS《60分钟》节目采访时，对主持人诺拉·奥唐纳就枪击案凶手宣言内容的提问表示愤怒，称相关问题「不公平」且「荒谬」。"
 sources:
   - name: "Axios"
     url: "https://www.axios.com/2026/04/27/trump-60-minutes-manifesto-shooting"
