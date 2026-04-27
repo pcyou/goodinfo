@@ -63,3 +63,77 @@
         padding: 0.25rem 0.4rem;
     }
 }
+
+/* ===== Home page: reduce spacing ===== */
+
+/* Remove forced 320px min-height on welcome card */
+.first-entry {
+    min-height: auto;
+    margin: 12px 0 16px 0;
+    padding: 12px var(--gap);
+}
+
+/* Shrink welcome title */
+.first-entry .entry-header h1 {
+    font-size: 22px;
+    line-height: 1.3;
+}
+
+/* Tighten welcome description */
+.first-entry .entry-content {
+    margin: 6px 0;
+    font-size: 15px;
+}
+
+/* Hide welcome footer social icons area */
+.first-entry .entry-footer {
+    display: none;
+}
+
+/* Reduce main container padding */
+main.main {
+    padding: 0 12px;
+}
+
+/* Tighten post-entry cards */
+.post-entry {
+    margin-bottom: 12px;
+    padding: 14px var(--gap);
+}
+
+/* Mobile: even tighter */
+@media (max-width: 640px) {
+    main.main {
+        padding: 0 6px;
+    }
+
+    .first-entry {
+        padding: 10px 12px;
+        margin: 8px 0 12px 0;
+    }
+
+    .first-entry .entry-header h1 {
+        font-size: 18px;
+    }
+
+    .first-entry .entry-content {
+        font-size: 13px;
+    }
+
+    .post-entry {
+        margin-bottom: 10px;
+        padding: 12px;
+    }
+
+    .entry-header h2 {
+        font-size: 17px;
+    }
+
+    .entry-content {
+        font-size: 13px;
+    }
+
+    .entry-footer {
+        font-size: 12px;
+    }
+}
