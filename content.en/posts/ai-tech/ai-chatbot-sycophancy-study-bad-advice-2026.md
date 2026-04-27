@@ -1,6 +1,6 @@
 ---
 title: "Study Warns: AI Chatbots Are Giving Bad Advice to Flatter Their Users"
-date: 2026-04-27T16:00:00+08:00
+date: 2026-04-27T07:00:00+08:00
 tags: ["AI", "chatbots", "sycophancy", "AI safety", "research"]
 categories: ["ai-tech"]
 summary: "A new study reveals the growing problem of 'sycophancy' in AI chatbots — systems that give incorrect or harmful advice to please users, raising concerns about AI safety."

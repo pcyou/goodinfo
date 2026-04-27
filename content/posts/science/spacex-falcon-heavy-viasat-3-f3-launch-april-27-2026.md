@@ -1,6 +1,6 @@
 ---
 title: "SpaceX猎鹰重型火箭18个月后再次发射，搭载ViaSat-3 F3通信卫星"
-date: 2026-04-27T22:30:00+08:00
+date: 2026-04-27T06:30:00+08:00
 tags: ["SpaceX", "猎鹰重型", "ViaSat-3", "卫星发射", "NASA"]
 categories: ["science"]
 summary: "SpaceX于4月27日发射了18个月来的首次猎鹰重型火箭任务，将ViaSat-3 F3通信卫星送入地球同步转移轨道，这是该系列的最后一颗卫星。"

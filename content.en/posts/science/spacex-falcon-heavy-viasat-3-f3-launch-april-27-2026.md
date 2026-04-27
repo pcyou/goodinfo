@@ -1,6 +1,6 @@
 ---
 title: "SpaceX Falcon Heavy Returns After 18 Months, Launches ViaSat-3 F3 Satellite"
-date: 2026-04-27T22:30:00+08:00
+date: 2026-04-27T06:30:00+08:00
 tags: ["SpaceX", "Falcon Heavy", "ViaSat-3", "satellite launch", "NASA"]
 categories: ["science"]
 summary: "SpaceX successfully launched its first Falcon Heavy rocket in over 18 months on April 27, sending the ViaSat-3 F3 communications satellite into geosynchronous transfer orbit — the final satellite in the constellation."
