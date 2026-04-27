@@ -123,6 +123,11 @@ def make_slug(title):
     return slug[:80]
 
 
+def clean_yaml_value(val):
+    """Remove quotes from YAML values."""
+    return val.replace('"', '').replace("'", '').replace('\n', ' ').strip()
+
+
 def fetch_all_posts():
     """Fetch all posts from the space."""
     all_posts = []
@@ -190,14 +195,14 @@ def generate_hugo_md(post, output_dir):
     tags_str = ", ".join(f'"{t}"' for t in tags if t) if tags else ""
 
     # Summary: first 150 chars of body
-    summary = body[:150].replace("\n", " ").strip() if body else ""
+    summary = body[:150].replace("\n", " ").replace('"', '').replace("'", '').strip() if body else ""
 
     content = f"""---
-title: "{title}"
+title: "{clean_yaml_value(title)}"
 date: {pub_date}T08:00:00+08:00
 tags: [{tags_str}]
 categories: ["opensource"]
-summary: "{summary}"
+summary: "{clean_yaml_value(summary)}"
 source_url: "{post_url}"
 xiahuid: "{post['id']}"
 ---
