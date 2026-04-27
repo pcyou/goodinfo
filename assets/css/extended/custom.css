@@ -67,8 +67,14 @@
 
 /* Mobile optimization */
 @media (max-width: 640px) {
+    /* 压缩头部空白 */
     .header-nav {
-        padding: 0.5rem 0.5rem 0.3rem;
+        padding: 0.3rem 0.3rem 0.15rem;
+        line-height: 1.2 !important;
+    }
+
+    .header-nav .logo {
+        margin-bottom: 0;
     }
 
     .header-nav .logo > a {
@@ -77,11 +83,12 @@
 
     .header-nav .menu {
         gap: 0.15rem 0.5rem;
+        padding-top: 0.1rem;
     }
 
     .header-nav .menu li a {
         font-size: 0.85rem;
-        padding: 0.25rem 0.4rem;
+        padding: 0.15rem 0.3rem;
     }
 
     /* 移动端标题统一 1.3rem - 覆盖 PaperMod first-entry 特殊样式 */
