@@ -1,13 +1,13 @@
 /* Custom font size for news content */
 .post-content {
-    font-size: 1.1rem;
-    line-height: 1.7;
+    font-size: 1.25rem;
+    line-height: 1.8;
 }
 
 /* Increase heading sizes slightly too */
-.post-content h1 { font-size: 1.6rem; }
-.post-content h2 { font-size: 1.4rem; }
-.post-content h3 { font-size: 1.2rem; }
+.post-content h1 { font-size: 1.75rem; }
+.post-content h2 { font-size: 1.5rem; }
+.post-content h3 { font-size: 1.3rem; }
 
 /* Header: 2-row layout, centered */
 .header-nav {
