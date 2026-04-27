@@ -9,6 +9,25 @@
 .post-content h2 { font-size: 1.5rem; }
 .post-content h3 { font-size: 1.3rem; }
 
+/* === 首页/列表页字体统一 === */
+.post-entry {
+    font-size: 1.25rem;
+    line-height: 1.8;
+}
+
+.post-entry h2,
+.entry-header h2 {
+    font-size: 1.75rem;
+}
+
+.post-entry .entry-content p {
+    font-size: 1.25rem;
+}
+
+.post-entry .entry-footer {
+    font-size: 1rem;
+}
+
 /* Header: 2-row layout, centered */
 .header-nav {
     flex-wrap: wrap;
