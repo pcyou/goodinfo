@@ -1,6 +1,6 @@
 ---
 title: "US Supreme Court Hears 'Geofence Warrant' Case: Can Police Mass-Collect Cell Location Data?"
-date: 2026-04-28T01:00:00+08:00
+date: 2026-04-27T23:00:00+08:00
 tags: ["Supreme Court", "Privacy", "Geofence", "Cell Location", "Fourth Amendment"]
 categories: ["world"]
 summary: "The US Supreme Court heard oral arguments in Chatrie v. United States today, one of the final cases of the term, centering on whether police can use 'geofence warrants' to mass-collect cellphone location data within specified areas."

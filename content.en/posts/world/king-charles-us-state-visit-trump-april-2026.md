@@ -1,6 +1,6 @@
 ---
 title: "King Charles Begins US State Visit: Mending Transatlantic Ties at a Tense Moment"
-date: 2026-04-28T01:30:00+08:00
+date: 2026-04-27T23:00:00+08:00
 tags: ["King Charles", "United States", "State Visit", "Diplomacy", "US-UK Relations"]
 categories: ["world"]
 summary: "King Charles III and Queen Camilla arrived in the US on April 27 for a rare state visit. In the tense atmosphere following the WHCA dinner shooting, the trip is seen as a significant diplomatic effort to repair US-UK transatlantic relations."

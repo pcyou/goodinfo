@@ -1,6 +1,6 @@
 ---
 title: "Record-Breaking US Measles Outbreak Ends: Vaccination Rates Surge in South Carolina After Nearly 1,000 Cases"
-date: 2026-04-28T02:00:00+08:00
+date: 2026-04-27T23:00:00+08:00
 tags: ["Measles", "Outbreak", "Vaccination", "Public Health", "South Carolina"]
 categories: ["science"]
 summary: "South Carolina officially ended its 200-day measles outbreak on April 27, with nearly 1,000 infections. Following the outbreak, vaccination rates in the region surged significantly, suggesting the public health crisis may have driven increased immunization awareness."
