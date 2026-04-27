@@ -9,30 +9,57 @@
 .post-content h2 { font-size: 1.4rem; }
 .post-content h3 { font-size: 1.2rem; }
 
-/* Header: 2-row layout */
+/* Header: 2-row layout, centered */
 .header-nav {
     flex-wrap: wrap;
-    justify-content: space-between;
-    gap: 0.4rem 0;
-    padding-bottom: 0.5rem;
+    justify-content: center;
+    gap: 0.5rem 0;
+    padding: 0.8rem 1rem 0.5rem;
 }
 
+/* Row 1: Logo / title */
 .header-nav .logo {
     width: 100%;
     order: 1;
-    justify-content: flex-start;
-    margin-bottom: 0.2rem;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 0.1rem;
 }
 
+.header-nav .logo > a {
+    font-size: 1.3rem;
+}
+
+/* Row 2: Menu items */
 .header-nav .menu {
     width: 100%;
     order: 2;
-    justify-content: flex-start;
+    justify-content: center;
     flex-wrap: wrap;
-    gap: 0.3rem 0.8rem;
-    padding-top: 0.2rem;
+    gap: 0.2rem 1rem;
+    padding-top: 0.3rem;
 }
 
 .header-nav .menu li {
     margin: 0;
+}
+
+/* Mobile optimization */
+@media (max-width: 640px) {
+    .header-nav {
+        padding: 0.5rem 0.5rem 0.3rem;
+    }
+
+    .header-nav .logo > a {
+        font-size: 1.1rem;
+    }
+
+    .header-nav .menu {
+        gap: 0.15rem 0.5rem;
+    }
+
+    .header-nav .menu li a {
+        font-size: 0.85rem;
+        padding: 0.25rem 0.4rem;
+    }
 }
