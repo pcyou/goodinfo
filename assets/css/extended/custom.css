@@ -81,6 +81,21 @@
         font-size: 0.85rem;
         padding: 0.25rem 0.4rem;
     }
+
+    /* 移动端标题统一大小 */
+    .post-content h1,
+    .post-content h2,
+    .post-content h3,
+    .post-entry h2,
+    .entry-header h2 {
+        font-size: 1.3rem !important;
+        line-height: 1.5;
+    }
+
+    .post-content {
+        font-size: 1.15rem;
+        line-height: 1.7;
+    }
 }
 
 /* ===== Home page: reduce spacing ===== */
