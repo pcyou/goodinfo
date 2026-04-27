@@ -54,6 +54,12 @@ defaultContentLanguage = 'zh'
   weight = 40
 
 [[languages.zh.menu.main]]
+  identifier = 'opensource'
+  name = '📦 开源项目'
+  url = '/categories/opensource/'
+  weight = 45
+
+[[languages.zh.menu.main]]
   identifier = 'archive'
   name = '📰 全部归档'
   url = '/posts/'
@@ -82,6 +88,12 @@ defaultContentLanguage = 'zh'
   name = '🔬 Science'
   url = '/en/categories/science/'
   weight = 40
+
+[[languages.en.menu.main]]
+  identifier = 'opensource'
+  name = '📦 Open Source'
+  url = '/en/categories/opensource/'
+  weight = 45
 
 [[languages.en.menu.main]]
   identifier = 'archive'
