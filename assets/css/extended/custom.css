@@ -179,7 +179,7 @@
     }
 }
 
-/* ===== Home page: reduce spacing (desktop) ===== */
+/* ===== Desktop: reduce spacing ===== */
 
 /* Remove forced 320px min-height on welcome card */
 .first-entry {
@@ -190,7 +190,7 @@
 
 /* Shrink welcome title - desktop */
 .first-entry .entry-header h1 {
-    font-size: 1.3rem !important;
+    font-size: 1.3rem;
     line-height: 1.5;
 }
 
