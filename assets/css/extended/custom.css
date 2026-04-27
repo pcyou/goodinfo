@@ -19,7 +19,7 @@
 
 .post-entry h2,
 .entry-header h2 {
-    font-size: 1.3rem;
+    font-size: 1.3rem !important;
 }
 
 .post-entry .entry-content p {
@@ -84,14 +84,24 @@
         padding: 0.25rem 0.4rem;
     }
 
-    /* 移动端标题统一 */
+    /* 移动端标题统一 1.3rem - 覆盖 PaperMod first-entry 特殊样式 */
     .post-content h1,
     .post-content h2,
     .post-content h3,
     .post-entry h2,
-    .entry-header h2 {
+    .entry-header h2,
+    .first-entry .entry-header h1,
+    .first-entry .entry-header h2,
+    .entry-header h1 {
         font-size: 1.3rem !important;
         line-height: 1.5;
+    }
+
+    .post-content,
+    .first-entry .entry-content,
+    .entry-content {
+        font-size: 1.25rem !important;
+        line-height: 1.7;
     }
 }
 
@@ -104,10 +114,10 @@
     padding: 12px var(--gap);
 }
 
-/* Shrink welcome title */
+/* Shrink welcome title - desktop */
 .first-entry .entry-header h1 {
-    font-size: 22px;
-    line-height: 1.3;
+    font-size: 1.3rem !important;
+    line-height: 1.5;
 }
 
 /* Tighten welcome description */
@@ -143,25 +153,9 @@ main.main {
         margin: 8px 0 12px 0;
     }
 
-    .first-entry .entry-header h1 {
-        font-size: 1.3rem;
-    }
-
-    .first-entry .entry-content {
-        font-size: 1.25rem;
-    }
-
     .post-entry {
         margin-bottom: 10px;
         padding: 12px;
-    }
-
-    .entry-header h2 {
-        font-size: 1.3rem;
-    }
-
-    .entry-content {
-        font-size: 1.25rem;
     }
 
     .entry-footer {
