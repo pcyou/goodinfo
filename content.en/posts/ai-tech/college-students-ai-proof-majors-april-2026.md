@@ -1,5 +1,5 @@
 ---
-title: "AI Anxiety Sweeps US Colleges: Students Pivot to 'AI-Proof' Majors"
+title: 'AI Anxiety Sweeps US Colleges: Students Pivot to "AI-Proof" Majors'
 date: 2026-04-27T14:15:00+08:00
 tags: ["artificial intelligence", "higher education", "job market", "college students", "career planning"]
 categories: ["ai-tech"]

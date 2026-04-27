@@ -1,5 +1,5 @@
 ---
-title: "Car Bomb Explodes Outside Police Station in Dunmurry, Northern Ireland; New IRA Suspected"
+title: 'Car Bomb Explodes Outside Police Station in Dunmurry, Northern Ireland; New IRA Suspected'
 date: 2026-04-27T14:00:00+08:00
 tags: ["Northern Ireland", "car bomb", "New IRA", "Belfast", "PSNI"]
 categories: ["world"]

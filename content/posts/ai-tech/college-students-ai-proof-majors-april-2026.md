@@ -1,9 +1,9 @@
 ---
-title: "AI焦虑席卷美国高校：越来越多学生转向追求"AI免疫"专业"
+title: 'AI焦虑席卷美国高校：越来越多学生转向追求"AI免疫"专业'
 date: 2026-04-27T14:15:00+08:00
 tags: ["人工智能", "高等教育", "就业市场", "大学生", "职业规划"]
 categories: ["ai-tech"]
-summary: "随着AI技术对就业市场的冲击日益显现，约70%的美国大学生认为AI威胁到自身就业前景，大批学生正在放弃传统技术类专业，转而选择注重人际交往和批判性思维的"AI免疫"专业。"
+summary: '随着AI技术对就业市场的冲击日益显现，约70%的美国大学生认为AI威胁到自身就业前景，大批学生正在放弃传统技术类专业，转而选择注重人际交往和批判性思维的"AI免疫"专业。'
 sources:
   - name: "AP News"
     url: "https://apnews.com/article/ai-anxiety-college-major-4af9a0a8caae1d302acb5aadc"
