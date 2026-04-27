@@ -3,7 +3,7 @@ title: "北爱尔兰警察局外汽车炸弹爆炸，警方指异议共和派所
 date: 2026-04-27T19:16:00+08:00
 tags: ["北爱尔兰", "汽车炸弹", "新IRA", "恐怖袭击", "PSNI"]
 categories: ["world"]
-summary: "北爱尔兰邓默里警察局外发生汽车炸弹爆炸，首席警官称袭击"蓄意、鲁莽且愚蠢"，怀疑由新爱尔兰共和军（New IRA）策划，按谋杀未遂处理。"
+summary: "北爱尔兰邓默里警察局外发生汽车炸弹爆炸，首席警官称袭击'蓄意、鲁莽且愚蠢'，怀疑由新爱尔兰共和军（New IRA）策划，按谋杀未遂处理。"
 sources:
   - name: "BBC News"
     url: "https://www.bbc.com/news/articles/c80m0mgvm05o"
