@@ -8,3 +8,31 @@
 .post-content h1 { font-size: 1.6rem; }
 .post-content h2 { font-size: 1.4rem; }
 .post-content h3 { font-size: 1.2rem; }
+
+/* Header: 2-row layout */
+.header-nav {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 0.4rem 0;
+    padding-bottom: 0.5rem;
+}
+
+.header-nav .logo {
+    width: 100%;
+    order: 1;
+    justify-content: flex-start;
+    margin-bottom: 0.2rem;
+}
+
+.header-nav .menu {
+    width: 100%;
+    order: 2;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 0.3rem 0.8rem;
+    padding-top: 0.2rem;
+}
+
+.header-nav .menu li {
+    margin: 0;
+}
