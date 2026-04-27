@@ -1,0 +1,29 @@
+{{- $scratch := newScratch }}
+
+{{- if not .Date.IsZero -}}
+{{- $scratch.Add "meta" (slice (printf "<span title='%s'>%s</span>" (.Date) (.Date | time.Format (default ":date_long" site.Params.DateFormat)))) }}
+{{- end }}
+
+{{- /* 类目标签替换原来的阅读时间 */}}
+{{- with .Params.categories -}}
+  {{- $catMap := dict "ai-tech" "🤖 AI与科技" "finance" "💰 财经" "world" "🌍 国际" "science" "🔬 科学" -}}
+  {{- range first 1 . -}}
+    {{- $catSlug := . -}}
+    {{- $catName := index $catMap $catSlug | default $catSlug -}}
+    {{- $scratch.Add "meta" (slice (printf "<span>%s</span>" $catName)) -}}
+  {{- end -}}
+{{- end -}}
+
+{{- if (.Param "ShowWordCount") -}}
+{{- $scratch.Add "meta" (slice (printf "<span>%s</span>" (i18n "words" .WordCount | default (printf "%d words" .WordCount)))) }}
+{{- end }}
+
+{{- if not (.Param "hideAuthor") -}}
+{{- with (partial "author.html" .) }}
+{{- $scratch.Add "meta" (slice (printf "<span>%s</span>" .)) }}
+{{- end }}
+{{- end }}
+
+{{- with ($scratch.Get "meta") }}
+{{- delimit . "&nbsp;·&nbsp;" | safeHTML -}}
+{{- end -}}

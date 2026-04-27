@@ -1,6 +1,6 @@
 baseURL = 'https://goodinfo.net/'
 languageCode = 'zh-cn'
-title = '全球全景日报 | GoodInfo'
+title = '全球全景日报 | goodinfo.net'
 theme = 'hugo-PaperMod'
 enableRobotsTXT = true
 defaultContentLanguage = 'zh'
@@ -13,21 +13,21 @@ defaultContentLanguage = 'zh'
     languageCode = 'zh-cn'
     languageName = '中文'
     contentDir = 'content'
-    title = '全球全景日报 | GoodInfo'
+    title = '全球全景日报 | goodinfo.net'
     weight = 1
     [languages.zh.params]
-      description = 'GoodInfo 每日精选全球资讯：AI、科技、财经、国际新闻。'
-      homeInfoParams = { Title = '📅 全球全景日报', Content = 'GoodInfo 每日自动抓取的全球热点，涵盖 AI 前沿、国际风云、科技财经与科学探索。' }
+      description = 'goodinfo.net 每日精选全球资讯：AI、科技、财经、国际新闻。'
+      homeInfoParams = { Title = '📅 全球全景日报', Content = 'goodinfo.net 每日自动抓取的全球热点，涵盖 AI 前沿、国际风云、科技财经与科学探索。' }
 
   [languages.en]
     languageCode = 'en'
     languageName = 'English'
     contentDir = 'content.en'
-    title = 'GoodInfo Daily'
+    title = 'goodinfo.net Daily'
     weight = 2
     [languages.en.params]
-      description = 'GoodInfo daily curated global news: AI, tech, finance, and world affairs.'
-      homeInfoParams = { Title = '📅 GoodInfo Daily', Content = 'GoodInfo auto-curated global hot topics covering AI frontier, world affairs, tech finance, and scientific exploration.' }
+      description = 'goodinfo.net daily curated global news: AI, tech, finance, and world affairs.'
+      homeInfoParams = { Title = '📅 goodinfo.net Daily', Content = 'goodinfo.net auto-curated global hot topics covering AI frontier, world affairs, tech finance, and scientific exploration.' }
 
 [[languages.zh.menu.main]]
   identifier = 'ai-tech'
@@ -90,13 +90,13 @@ defaultContentLanguage = 'zh'
   weight = 50
 
 [params]
-  author = 'GoodInfo'
+  author = 'goodinfo.net'
   DateFormat = '2006-01-02 15:04'
   defaultTheme = 'auto'
   ShowToc = true
   ShowCodeCopyButtons = true
   ShowShareButtons = true
-  ShowReadingTime = true
+  ShowReadingTime = false
   displayFullLangName = true
   env = 'production'
 
