@@ -4,10 +4,12 @@
     line-height: 1.8;
 }
 
-/* Increase heading sizes slightly too */
-.post-content h1 { font-size: 1.75rem; }
-.post-content h2 { font-size: 1.5rem; }
-.post-content h3 { font-size: 1.3rem; }
+/* Increase heading sizes slightly too - desktop */
+.post-content h1,
+.post-content h2,
+.post-content h3 {
+    font-size: 1.3rem;
+}
 
 /* === 首页/列表页字体统一 === */
 .post-entry {
@@ -17,7 +19,7 @@
 
 .post-entry h2,
 .entry-header h2 {
-    font-size: 1.75rem;
+    font-size: 1.3rem;
 }
 
 .post-entry .entry-content p {
@@ -46,7 +48,7 @@
 }
 
 .header-nav .logo > a {
-    font-size: 1.75rem;
+    font-size: 1.65rem;
 }
 
 /* Row 2: Menu items */
@@ -70,7 +72,7 @@
     }
 
     .header-nav .logo > a {
-        font-size: 1.3rem;
+        font-size: 1.35rem;
     }
 
     .header-nav .menu {
@@ -82,7 +84,7 @@
         padding: 0.25rem 0.4rem;
     }
 
-    /* 移动端标题统一大小 */
+    /* 移动端标题统一 */
     .post-content h1,
     .post-content h2,
     .post-content h3,
@@ -90,11 +92,6 @@
     .entry-header h2 {
         font-size: 1.3rem !important;
         line-height: 1.5;
-    }
-
-    .post-content {
-        font-size: 1.15rem;
-        line-height: 1.7;
     }
 }
 
@@ -147,11 +144,11 @@ main.main {
     }
 
     .first-entry .entry-header h1 {
-        font-size: 18px;
+        font-size: 1.3rem;
     }
 
     .first-entry .entry-content {
-        font-size: 13px;
+        font-size: 1.25rem;
     }
 
     .post-entry {
@@ -160,11 +157,11 @@ main.main {
     }
 
     .entry-header h2 {
-        font-size: 17px;
+        font-size: 1.3rem;
     }
 
     .entry-content {
-        font-size: 13px;
+        font-size: 1.25rem;
     }
 
     .entry-footer {
