@@ -124,7 +124,7 @@
 
     .first-entry .entry-header h1,
     .first-entry .entry-header h2 {
-        font-size: 1.1rem !important;
+        font-size: 1.4rem !important;
         line-height: 1.35;
     }
 
@@ -151,7 +151,7 @@
     }
 
     .entry-header h2 {
-        font-size: 1rem !important;
+        font-size: 1.4rem !important;
         line-height: 1.35;
     }
 
@@ -174,7 +174,7 @@
     .post-content h1,
     .post-content h2,
     .post-content h3 {
-        font-size: 1.1rem !important;
+        font-size: 1.4rem !important;
         line-height: 1.35;
     }
 }
