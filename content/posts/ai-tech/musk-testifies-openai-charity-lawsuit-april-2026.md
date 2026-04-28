@@ -1,9 +1,9 @@
 ---
-title: "马斯克出庭作证：OpenAI"窃取"慈善机构将摧毁慈善事业根基"
+title: "马斯克出庭作证：OpenAI'窃取'慈善机构将摧毁慈善事业根基"
 date: 2026-04-28T23:15:00+08:00
 tags: ["马斯克", "OpenAI", "诉讼", "人工智能", "慈善"]
 categories: ["ai-tech"]
-summary: "马斯克在OpenAI诉讼案中出庭作证，指控OpenAI从非营利机构转变为营利企业等同于"窃取慈善"，OpenAI律师则反击称诉讼动机是打击竞争对手。"
+summary: "马斯克在OpenAI诉讼案中出庭作证，指控OpenAI从非营利机构转变为营利企业等同于'窃取慈善'，OpenAI律师则反击称诉讼动机是打击竞争对手。"
 sources:
   - name: "BBC News"
     url: "https://www.bbc.com/news/articles/cz027nyz529o"
