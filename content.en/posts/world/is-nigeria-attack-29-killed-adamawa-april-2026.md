@@ -1,6 +1,6 @@
 ---
 title: "IS Claims Responsibility for Nigeria Attack That Killed 29 in Village Massacre"
-date: 2026-04-28T14:00:00+08:00
+date: 2026-04-28T06:00:00+08:00
 tags: ["Nigeria", "Islamic State", "terror attack", "African security", "Adamawa state"]
 categories: ["world"]
 summary: "At least 29 people killed in armed attack on a village in Nigeria's north-eastern Adamawa state. The Islamic State group (IS) has claimed responsibility. Militants opened fire at random on a football pitch before burning houses and places of worship."

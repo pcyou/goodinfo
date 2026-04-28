@@ -1,6 +1,6 @@
 ---
 title: "Why Spotify Has No Button to Filter Out AI Music: A Streaming Platform's Dilemma"
-date: 2026-04-28T14:00:00+08:00
+date: 2026-04-28T06:00:00+08:00
 tags: ["Spotify", "AI music", "streaming", "Suno", "Udio", "music industry"]
 categories: ["ai-tech"]
 summary: "As AI-generated music floods platforms, Spotify refuses to offer users a filter option, sparking community backlash. An Oxford expert calls it an 'existential balancing act,' while rival Deezer has already implemented AI content labeling."

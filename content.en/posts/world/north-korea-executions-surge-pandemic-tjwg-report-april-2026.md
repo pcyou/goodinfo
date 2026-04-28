@@ -1,6 +1,6 @@
 ---
 title: "Report: Executions in North Korea Surged During Pandemic, 153 Sentenced or Executed"
-date: 2026-04-28T14:00:00+08:00
+date: 2026-04-28T06:00:00+08:00
 tags: ["North Korea", "human rights", "death penalty", "pandemic", "South Korean NGO", "K-pop"]
 categories: ["world"]
 summary: "Seoul-based NGO TJWG reports at least 153 people were executed or sentenced to death in North Korea between 2020-2024, a sharp increase from the five pre-pandemic years. Consuming K-dramas and K-pop emerged as among the most common capital offences."

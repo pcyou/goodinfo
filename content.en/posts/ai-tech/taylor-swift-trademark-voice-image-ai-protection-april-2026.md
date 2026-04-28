@@ -1,6 +1,6 @@
 ---
 title: "Taylor Swift Files to Trademark Voice and Image in Bid to Combat AI Deepfakes"
-date: 2026-04-28T14:00:00+08:00
+date: 2026-04-28T06:00:00+08:00
 tags: ["Taylor Swift", "AI deepfake", "trademark protection", "intellectual property", "celebrity rights"]
 categories: ["ai-tech"]
 summary: "Pop superstar Taylor Swift has filed three trademark applications in the US to protect her voice and image from AI misuse, following Matthew McConaughey's pioneering use of trademark law for similar purposes."

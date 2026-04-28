@@ -1,6 +1,6 @@
 ---
 title: "Mercor Data Breach: 4TB of Voice Samples Stolen, 40,000 AI Contractors' Biometric Data at Risk"
-date: 2026-04-28T14:00:00+08:00
+date: 2026-04-28T06:00:00+08:00
 tags: ["data breach", "voice cloning", "biometrics", "AI security", "Mercor", "Lapsus$"]
 categories: ["ai-tech"]
 summary: "AI training data company Mercor hit by Lapsus$ extortion group; voice samples and government IDs of 40,000 contractors stolen, raising deepfake and identity fraud concerns."
