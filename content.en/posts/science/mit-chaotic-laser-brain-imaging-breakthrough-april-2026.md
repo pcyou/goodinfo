@@ -3,7 +3,7 @@ title: "MIT Scientists Transform Chaotic Laser Light into Powerful Brain Imaging
 date: 2026-04-28T13:52:47+08:00
 tags: ["MIT", "laser technology", "brain imaging", "neuroscience", "medical breakthrough"]
 categories: ["science"]
-summary: "MIT researchers have developed a self-organizing 'pencil beam' laser technology that converts chaotic laser light into a high-precision brain imaging tool, opening new pathways for targeted neurological disease treatment."
+summary: "MIT researchers have developed a self-organizing pencil beam laser technology that converts chaotic laser light into a high-precision brain imaging tool, opening new pathways for targeted neurological disease treatment."
 sources:
   - name: "ScienceDaily"
     url: "https://www.sciencedaily.com/releases/2026/04/260428-mit-laser-brain-imaging.htm"
@@ -24,7 +24,7 @@ The core breakthrough of this technology lies in exploiting the self-organizing 
 
 According to ScienceDaily, this imaging tool can deliver higher spatial resolution than existing functional MRI (fMRI) while offering the advantage of real-time dynamic monitoring. This means doctors can observe brain activity under more physiologically realistic conditions, providing more precise target localization for diagnosing and treating neurodegenerative diseases such as Parkinson's, Alzheimer's, and epilepsy.
 
-GEN Bio noted that this "pencil beam" laser technology could help researchers design more precise brain-targeted therapies. One of the greatest challenges in traditional brain treatment is how to precisely intervene in diseased areas without damaging healthy brain tissue — the high-precision imaging capability of this new technology provides a key tool for solving this problem.
+GEN Bio noted that this pencil beam laser technology could help researchers design more precise brain-targeted therapies. One of the greatest challenges in traditional brain treatment is how to precisely intervene in diseased areas without damaging healthy brain tissue — the high-precision imaging capability of this new technology provides a key tool for solving this problem.
 
 The MIT research team stated that the technology has completed proof-of-concept testing in laboratory settings, with animal experiments planned next to evaluate its imaging performance in live brain tissue. If clinical trials proceed smoothly, the technology could be translated into clinical diagnostic equipment within the coming years.
 
