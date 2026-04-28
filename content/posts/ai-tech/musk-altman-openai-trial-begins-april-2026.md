@@ -1,47 +1,46 @@
 ---
-title: "马斯克诉OpenAI案今日开庭：科技巨头对簿公堂，AI未来之争"
-date: 2026-04-27T21:30:00+08:00
-tags: ["Elon Musk", "Sam Altman", "OpenAI", "诉讼", "AI治理"]
+title: "马斯克诉奥特曼案开庭：九人陪审团就位，OpenAI权力斗争全面公开"
+date: 2026-04-28T07:30:00+08:00
+tags: ["埃隆·马斯克", "山姆·奥特曼", "OpenAI", "诉讼", "法庭", "硅谷"]
 categories: ["ai-tech"]
-summary: "埃隆·马斯克对OpenAI及CEO山姆·阿尔特曼的诉讼案于周一正式开庭，这场长达数年的法律纠纷将围绕OpenAI的创立使命展开激烈对抗。"
+summary: "马斯克与奥特曼之间的法律诉讼正式开庭，九人陪审团已就位，这场备受瞩目的案件将揭开OpenAI内部权力斗争的全貌。"
 sources:
-  - name: "The Guardian"
-    url: "https://www.theguardian.com/technology/2026/apr/27/elon-musk-sam-altman-court-openai"
-    publisher: "The Guardian"
-  - name: "NPR"
-    url: "https://www.npr.org/2026/04/27/musk-altman-openai-trial"
-    publisher: "NPR"
+  - name: "Reuters"
+    url: "https://www.reuters.com/legal/elon-musk-trial-against-sam-altman-reveal-openai-power-struggle-jury-seated-2026-04-27/"
+    publisher: "Reuters"
   - name: "CNBC"
-    url: "https://www.cnbc.com/2026/04/24/musk-v-altman-openai-trial-preview.html"
+    url: "https://www.cnbc.com/2026/04/27/judge-musk-v-altman-seats-nine-person-jury-opening-arguments-start-tuesday.html"
     publisher: "CNBC"
+  - name: "The New York Times"
+    url: "https://www.nytimes.com/2026/04/27/technology/elon-musk-sam-altman-openai-trial-oakland.html"
+    publisher: "The New York Times"
 ---
 
-# 马斯克诉OpenAI案今日开庭：科技巨头对簿公堂，AI未来之争
+## 马斯克诉奥特曼案开庭：九人陪审团就位，OpenAI权力斗争全面公开
 
-2026年4月27日，埃隆·马斯克（Elon Musk）对OpenAI及其CEO山姆·阿尔特曼（Sam Altman）提起的诉讼案在加州联邦法院正式开庭审理。这场长达数年的法律纠纷终于进入实质性审判阶段，双方将就OpenAI是否背离其创立时的非营利使命展开激烈对抗。
+2026年4月27日，埃隆·马斯克（Elon Musk）与山姆·奥特曼（Sam Altman）之间备受瞩目的法律纠纷正式开庭。加州奥克兰联邦法院的法官完成了九人陪审团的遴选程序，双方律师即将展开开庭陈词。这场被媒体称为"硅谷世纪审判"的案件，将首次公开展示OpenAI内部权力斗争的全貌。
 
-## 案件背景
+### 案件背景
 
-马斯克是OpenAI的联合创始人之一，该组织于2015年与阿尔特曼等人共同创立，最初定位为一家非营利性人工智能研究机构，致力于以安全的方式开发造福全人类的通用人工智能（AGI）。
+马斯克是OpenAI的联合创始人之一，他于2015年与奥特曼等人共同创立了该组织。然而，随着OpenAI在2023年推出ChatGPT并取得巨大商业成功，马斯克与奥特曼之间的关系急剧恶化。马斯克声称OpenAI已经背离了其最初的非营利使命，转变为一家由奥特曼主导的营利性企业。
 
-然而，2019年OpenAI转型为"有限营利性"架构，并接受微软的大额投资，引发了马斯克的不满。马斯克指控OpenAI及其领导层背叛了组织的创立使命，将一家本应为公共利益服务的非营利机构转变为追求利润的商业实体。
+马斯克在诉讼中指控奥特曼滥用职权，将OpenAI从其创立时所承诺的非营利研究机构转变为追求利润的商业实体。奥特曼和OpenAI方面则否认了这些指控，认为马斯克试图通过法律手段干预公司的正常运营，并质疑其动机与自身AI公司xAI的竞争利益相关。
 
-## 今日庭审焦点
+### 庭审看点
 
-据《卫报》报道，今天的庭审将聚焦于OpenAI的创立文件、早期通信记录以及公司治理结构的演变。马斯克的法律团队将试图证明，阿尔特曼及其他OpenAI领导人在组织转型过程中违反了受托责任。
+据CNBC报道，法官已正式组建九人陪审团，开庭陈词将于周二正式开始。此案预计将涉及以下关键议题：
 
-NPR指出，这场审判被视为科技行业近年来最具影响力的法律案件之一，其判决结果可能对非营利科技组织的治理模式产生深远影响。
+- OpenAI从非营利组织向营利性公司的转型是否合法合规
+- 奥特曼在领导OpenAI过程中是否违背了对联合创始人和捐赠者的信托义务
+- 微软与OpenAI的合作协议是否违反了OpenAI的原始章程
+- 马斯克自身AI公司xAI与OpenAI之间的竞争关系是否影响本案的公正性
 
-## 更广泛的背景
+### 硅谷瞩目
 
-值得注意的是，就在本周开庭之前，马斯克此前对OpenAI和阿尔特曼提起的另一项欺诈指控已被联邦法官批准撤回。此次开庭的案件是双方长期法律纠纷中剩余的核心诉讼。
+《纽约时报》报道称，马斯克和奥特曼将这场OpenAI审判的"奇观"带到了奥克兰法庭。庭审期间，双方可能披露大量此前未公开的电子邮件、内部文件和通信记录，为外界揭示这家全球最具价值AI初创公司内部运作的全貌。
 
-此次庭审恰逢OpenAI宣布与微软重塑合作伙伴关系，进一步凸显了这家AI巨头在2026年面临的复杂法律和商业环境。OpenAI一方面在与创始人的法律纠纷中捍卫自身，另一方面正在重新定义其与最大商业伙伴微软的合作边界。
+WIRED杂志注意到，马斯克在庭审开始后通过其社交平台X转发了《纽约客》杂志对奥特曼的深度报道，进一步加剧了这场公开冲突的热度。
 
-## 各方立场
+分析人士普遍认为，无论最终判决如何，这场诉讼都将对AI行业的治理结构和初创企业的公司治理产生深远影响。
 
-马斯克方面认为，OpenAI的转型剥夺了公众对其AGI研究成果的访问权，违背了创立者们的初衷。而OpenAI方面则辩称，向有限营利性转型是筹集足够资金、建设必要基础设施以实现AGI目标的必要举措。
-
-分析师普遍认为，无论判决结果如何，此案都将为AI行业树立重要的法律先例，影响未来非营利与营利性AI研究机构的运作模式。
-
-*来源: [The Guardian](https://www.theguardian.com/technology/2026/apr/27/elon-musk-sam-altman-court-openai) | [NPR](https://www.npr.org/2026/04/27/musk-altman-openai-trial) | [CNBC](https://www.cnbc.com/2026/04/24/musk-v-altman-openai-trial-preview.html)*
+*来源：[Reuters](https://www.reuters.com/legal/elon-musk-trial-against-sam-altman-reveal-openai-power-struggle-jury-seated-2026-04-27/) | [CNBC](https://www.cnbc.com/2026/04/27/judge-musk-v-altman-seats-nine-person-jury-opening-arguments-start-tuesday.html) | [The New York Times](https://www.nytimes.com/2026/04/27/technology/elon-musk-sam-altman-openai-trial-oakland.html)*
