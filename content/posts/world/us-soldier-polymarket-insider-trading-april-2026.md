@@ -1,5 +1,5 @@
 ---
-title: "美国军人利用机密信息在Polymarket下注，获利超40万美元
+title: "美国军人利用机密信息在Polymarket下注，获利超40万美元"
 date: 2026-04-28T23:35:00+08:00
 tags: ["美国", "Polymarket", "内幕交易", "加密货币", "军事机密"]
 categories: ["world"]
