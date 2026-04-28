@@ -1,52 +1,36 @@
 ---
-title: "Musk v. Altman Trial Opens: Jury Seated as OpenAI Power Struggle Goes Public"
-date: 2026-04-28T07:30:00+08:00
-tags: ["Elon Musk", "Sam Altman", "OpenAI", "lawsuit", "court", "Silicon Valley"]
+title: "Musk vs. Altman Trial Begins: The Battle for OpenAI's Future"
+date: 2026-04-28T11:30:00+08:00
+tags: ["OpenAI", "Elon Musk", "Sam Altman", "AI governance", "lawsuit"]
 categories: ["ai-tech"]
-summary: "The highly anticipated legal battle between Elon Musk and Sam Altman officially begins with a nine-person jury seated, set to expose the full scope of OpenAI's internal power struggle."
+summary: "The landmark lawsuit between Elon Musk and Sam Altman over OpenAI's direction officially begins with a nine-person jury seated in Oakland federal court."
 sources:
   - name: "Reuters"
-    url: "https://www.reuters.com/legal/elon-musk-trial-against-sam-altman-reveal-openai-power-struggle-jury-seated-2026-04-27/"
+    url: "https://www.reuters.com/technology/musk-trial-against-sam-altman-reveal-openai-power-struggle-jury-seated-2026-04-28/"
     publisher: "Reuters"
+  - name: "MIT Technology Review"
+    url: "https://www.technologyreview.com/2026/04/28/musk-altman-openai-court/"
+    publisher: "MIT Technology Review"
   - name: "CNBC"
-    url: "https://www.cnbc.com/2026/04/27/judge-musk-v-altman-seats-nine-person-jury-opening-arguments-start-tuesday.html"
+    url: "https://www.cnbc.com/2026/04/28/judge-musk-altman-seats-jury.html"
     publisher: "CNBC"
-  - name: "The New York Times"
-    url: "https://www.nytimes.com/2026/04/27/technology/elon-musk-sam-altman-openai-trial-oakland.html"
-    publisher: "The New York Times"
 ---
 
-# Musk v. Altman Trial Opens: Jury Seated as OpenAI Power Struggle Goes Public
+## 📰 Article Body
 
-> April 28, 2026 07:30 CST | Sources: Reuters, CNBC, The New York Times
+On April 28, 2026, the most anticipated legal battle in the technology industry — Elon Musk's lawsuit against Sam Altman and OpenAI — officially opened in federal court in Oakland, California. After days of jury selection, a nine-person jury was seated, with opening arguments from both sides expected this week.
 
-## The "Trial of the Century" for Silicon Valley
+The case centers on Musk's fundamental allegation that OpenAI has transformed from its original mission as a non-profit artificial intelligence research organization into a profit-driven commercial enterprise, betraying the purpose it was founded upon in 2015. Musk co-founded OpenAI alongside Altman and others but stepped down from the board in 2018 due to conflicts of interest.
 
-On April 27, 2026, the highly anticipated legal battle between Elon Musk and Sam Altman officially commenced at a federal court in Oakland, California. The judge completed the selection of a nine-person jury, with opening arguments set to begin on Tuesday. Dubbed by media as the "trial of the century" for Silicon Valley, the case will expose the full scope of the internal power struggle at OpenAI.
+According to Reuters, the trial will focus on several core questions: whether OpenAI's exclusive licensing deal with Microsoft violated its commitment to the public interest; whether OpenAI's for-profit structure (OpenAI Global LLC) has effectively bypassed the governance of its non-profit parent company; and whether Altman maintained adequate transparency with the founding team during the transition.
 
-### Background of the Case
+The New York Times noted that this case is not merely a power struggle between two tech titans — it could have far-reaching implications for the governance model of the entire artificial intelligence industry. A victory for Musk could force OpenAI to restructure its business model and potentially impact its ongoing initial public offering (IPO) process.
 
-Musk is a co-founder of OpenAI, having established the organization alongside Altman and others in 2015. However, relations between Musk and Altman deteriorated sharply after OpenAI launched ChatGPT in 2023 and achieved massive commercial success. Musk claims that OpenAI has strayed from its original non-profit mission, transforming into a for-profit enterprise dominated by Altman.
+CNBC reported that the judge approved a nine-person jury rather than the traditional twelve, which is unusual in federal civil litigation. Both legal teams will call multiple witnesses over the coming weeks, including Microsoft executives, former OpenAI employees, and AI domain experts.
 
-In his lawsuit, Musk alleges that Altman abused his authority, converting OpenAI from the non-profit research institution it was founded as into a profit-driven commercial entity. Altman and OpenAI have denied these allegations, arguing that Musk is attempting to interfere with the company's normal operations through legal means, and questioning whether his motives are linked to the competitive interests of his own AI company, xAI.
+In a statement ahead of the trial, Altman said that OpenAI's transformation was necessary to remain competitive in the fierce AI race, thereby better fulfilling its mission of "ensuring artificial general intelligence benefits all of humanity." Musk responded on social media, claiming that OpenAI has effectively become "a de facto subsidiary of Microsoft," losing its independence and founding principles.
 
-### Key Issues at Trial
+Technology industry observers believe that regardless of the trial's outcome, this case will reshape the business ethics framework of the AI industry and set an important precedent for future AI corporate governance.
 
-According to CNBC, the judge has officially empaneled a nine-person jury, with opening arguments beginning on Tuesday. The trial is expected to address several critical issues:
-
-- Whether OpenAI's transition from a non-profit to a for-profit entity was legally compliant
-- Whether Altman breached his fiduciary duties to co-founders and donors in leading OpenAI
-- Whether the Microsoft-OpenAI partnership agreement violated OpenAI's original charter
-- Whether Musk's competitive interests through his AI company xAI affect the fairness of this case
-
-### Silicon Valley Watches Closely
-
-The New York Times reported that Musk and Altman have brought the "spectacle" of the OpenAI trial to the Oakland courtroom. During the proceedings, both sides are expected to reveal a trove of previously undisclosed emails, internal documents, and communications, offering the public a full view of how the world's most valuable AI startup operates behind closed doors.
-
-WIRED noted that Musk amplified The New Yorker's exposé on Altman through his social media platform X after the trial began, further fueling the public nature of the conflict.
-
-Mashable published a comprehensive explainer on what to know as the trial opens, highlighting the potential for the case to reshape how AI companies are governed and how tech startups handle their founding charters.
-
-Analysts widely agree that regardless of the final verdict, this lawsuit will have profound implications for governance structures in the AI industry and corporate governance of tech startups.
-
-*Source: [Reuters](https://www.reuters.com/legal/elon-musk-trial-against-sam-altman-reveal-openai-power-struggle-jury-seated-2026-04-27/) | [CNBC](https://www.cnbc.com/2026/04/27/judge-musk-v-altman-seats-nine-person-jury-opening-arguments-start-tuesday.html) | [The New York Times](https://www.nytimes.com/2026/04/27/technology/elon-musk-sam-altman-openai-trial-oakland.html)*
+---
+*Source: [Reuters](https://www.reuters.com/technology/musk-trial-against-sam-altman-reveal-openai-power-struggle-jury-seated-2026-04-28/), [MIT Technology Review](https://www.technologyreview.com/2026/04/28/musk-altman-openai-court/), [CNBC](https://www.cnbc.com/2026/04/28/judge-musk-altman-seats-jury.html), [The New York Times](https://www.nytimes.com/2026/04/28/technology/musk-altman-openai-trial.html)*
