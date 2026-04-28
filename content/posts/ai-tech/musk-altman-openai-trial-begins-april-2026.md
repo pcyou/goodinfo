@@ -1,36 +1,47 @@
 ---
-title: "马斯克与奥特曼法庭对决：OpenAI 未来归属案正式开庭"
-date: 2026-04-28T11:30:00+08:00
-tags: ["OpenAI", "马斯克", "奥特曼", "AI监管", "法庭诉讼"]
+title: '马斯克诉Altman案庭审开启：揭露OpenAI"关联方交易"内幕，AGI定义成争议焦点'
+date: 2026-04-28T17:30:00+08:00
+tags: ["Elon Musk", "Sam Altman", "OpenAI", "诉讼", "AGI", "AI治理"]
 categories: ["ai-tech"]
-summary: "埃隆·马斯克与萨姆·奥特曼围绕OpenAI控制权的世纪诉讼正式开庭，九人陪审团已就位，双方将就OpenAI是否背离非营利使命展开激烈辩论。"
+summary: '马斯克与OpenAI CEO萨姆·奥特曼之间的法律大战正式开庭。马斯克的律师指控奥特曼通过"关联方冲突交易"从OpenAI获利，并指出2022年10月微软第三笔交易是OpenAI背离非营利使命的转折点。'
 sources:
-  - name: "Reuters"
-    url: "https://www.reuters.com/technology/musk-trial-against-sam-altman-reveal-openai-power-struggle-jury-seated-2026-04-28/"
-    publisher: "Reuters"
-  - name: "MIT Technology Review"
-    url: "https://www.technologyreview.com/2026/04/28/musk-altman-openai-court/"
-    publisher: "MIT Technology Review"
-  - name: "CNBC"
-    url: "https://www.cnbc.com/2026/04/28/judge-musk-altman-seats-jury.html"
-    publisher: "CNBC"
+  - name: "The Verge"
+    url: "https://www.theverge.com/tech/917225/sam-altman-elon-musk-openai-lawsuit"
+    publisher: "The Verge"
+  - name: "BBC"
+    url: "https://www.bbc.com/news/articles/elon-musk-sam-altman-openai-trial-2026"
+    publisher: "BBC"
+  - name: "New York Times"
+    url: "https://www.nytimes.com/live/2026/04/28/technology/openai-sam-altman-elon-musk-trial"
+    publisher: "New York Times"
 ---
 
-## 📰 正文
+## 马斯克诉Altman案庭审开启：揭露OpenAI"关联方交易"内幕，AGI定义成争议焦点
 
-2026年4月28日，科技界最受瞩目的诉讼案——埃隆·马斯克（Elon Musk）诉萨姆·奥特曼（Sam Altman）及OpenAI一案在加利福尼亚州奥克兰联邦法院正式开庭。经过数日的陪审团遴选，九人陪审团已于当日就位，双方律师将于本周展开开场陈述。
+Elon Musk与OpenAI CEO Sam Altman之间备受瞩目的法律大战于4月28日正式开庭。这场由Musk发起的诉讼指控Altman和Greg Brockman"窃取"了原本为非营利目的创建的OpenAI，将其转变为一家追求利润的营利性公司。
 
-此案源于马斯克对OpenAI的根本性指控：他认为OpenAI已从最初的非营利性人工智能研究机构蜕变为以营利为导向的商业实体，违背了2015年创立时的使命。马斯克于2015年与奥特曼等人共同创立OpenAI，但在2018年因利益冲突退出董事会。
+### 马斯克律师的开场陈述
 
-据路透社报道，庭审焦点将围绕以下几个核心问题展开：OpenAI向微软授予独家授权是否违反了其对公众利益的承诺；OpenAI的营利性架构（OpenAI Global LLC）是否在事实上架空了非营利母公司的治理权；以及奥特曼在转型过程中是否对创始团队保持了充分的信息透明。
+Musk的代理律师Steven Molo在开庭陈述中提出了核心指控：Altman通过所谓的"关联方冲突交易"（related party conflicted transactions）从OpenAI获取个人利益。Molo指出，Altman投资的公司获得了由Altman本人审批的OpenAI合同，这就是Altman在不持有OpenAI股权的情况下从中获利的方式。
 
-《纽约时报》指出，此案不仅关乎两家科技巨头之间的权力博弈，更将对整个人工智能行业的治理模式产生深远影响。如果马斯克胜诉，可能迫使OpenAI重新调整其商业结构，甚至影响其正在进行的首次公开募股（IPO）进程。
+"本案中的被告窃取了一个慈善机构，"Molo在开场陈述中表示。他强调案件的核心不是针对Musk，而是关于Altman和Brockman的行为。
 
-CNBC报道显示，法官已批准采用九人陪审团而非传统的十二人制，这在联邦民事诉讼中较为罕见。双方律师团队将在接下来的数周内传唤包括微软高管、OpenAI前员工及人工智能领域专家在内的多名证人。
+### 2022年微软交易：关键转折点
 
-奥特曼在庭审前夕发表声明称，OpenAI的转型是为了确保在激烈的AI竞赛中保持竞争力，从而更好地实现"让人工智能惠及全人类"的使命。马斯克则在社交媒体上回应称，OpenAI已沦为"微软事实上的子公司"，丧失了独立性和初心。
+Molo指出，OpenAI背离其"为全人类造福"初衷的关键转折点是2022年10月20日的第三笔微软交易。"那是OpenAI不再为人类利益服务的时刻，"Molo说，"也是Musk聘请律师的时刻。"
 
-科技行业观察人士认为，无论庭审结果如何，此案都将重塑AI行业的商业伦理框架，并为未来的AI公司治理提供重要判例。
+Musk在2015年与Altman等人共同创立了OpenAI，但随后离开并创建了自己的AI公司xAI。他声称OpenAI已经放弃了其最初的非营利使命。
 
----
-*来源：[Reuters](https://www.reuters.com/technology/musk-trial-against-sam-altman-reveal-openai-power-struggle-jury-seated-2026-04-28/)、[MIT Technology Review](https://www.technologyreview.com/2026/04/28/musk-altman-openai-court/)、[CNBC](https://www.cnbc.com/2026/04/28/judge-musk-altman-seats-jury.html)、[The New York Times](https://www.nytimes.com/2026/04/28/technology/musk-altman-openai-trial.html)*
+### AGI：庭审的核心概念
+
+尽管"AGI"（通用人工智能）的概念在AI行业已逐渐失宠，但Molo将其置于庭审的核心位置。他指出，Musk的担忧源于计算机超越人类智能的可能性，"有人认为这并不遥远"。
+
+Molo的开场陈述多次被打断——麦克风出现故障，甚至引发了"这是微软产品吗？"的调侃。法官回应称："我们能说什么呢，我们是由联邦政府资助的。"
+
+### 庭审走向
+
+Musk预计将作为首位证人出庭作证。这场审判不仅关乎两位AI领域最具影响力的企业家之间的个人恩怨，更可能对未来AI治理、非营利与营利性AI研究的边界产生深远影响。
+
+值得注意的是，这场诉讼的时机恰逢全球AI监管框架加速构建之际，法庭对OpenAI商业模式的审视可能为未来的AI行业监管提供重要先例。
+
+*Source: [The Verge](https://www.theverge.com/tech/917225/sam-altman-elon-musk-openai-lawsuit) | [BBC](https://www.bbc.com/news/articles/elon-musk-sam-altman-openai-trial-2026) | [New York Times](https://www.nytimes.com/live/2026/04/28/technology/openai-sam-altman-elon-musk-trial)*
