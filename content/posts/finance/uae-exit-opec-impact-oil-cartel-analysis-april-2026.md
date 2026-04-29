@@ -3,7 +3,7 @@ title: "阿联酋退出OPEC：图表解读对全球油价格局的深远影响"
 date: 2026-04-29T22:15:00+08:00
 tags: ["OPEC", "阿联酋", "石油", "能源市场"]
 categories: ["finance"]
-summary: "阿联酋计划退出OPEC被视为对该组织的重大打击，有分析人士称这是"OPEC终结的开始"。本文通过五张图表解读OPEC如何影响油价以及阿联酋离开的潜在后果。"
+summary: '阿联酋计划退出OPEC被视为对该组织的重大打击，有分析人士称这是"OPEC终结的开始"。本文通过五张图表解读OPEC如何影响油价以及阿联酋离开的潜在后果。'
 sources:
   - name: "BBC News"
     url: "https://www.bbc.com/news/articles/c70vjpny0dno"
