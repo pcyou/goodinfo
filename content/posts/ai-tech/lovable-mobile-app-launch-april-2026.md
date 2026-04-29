@@ -1,9 +1,9 @@
 ---
-title: "AI编程平台Lovable推出iOS和Android移动应用，将"氛围编程"带到手机端"
+title: 'AI编程平台Lovable推出iOS和Android移动应用，将"氛围编程"带到手机端'
 date: 2026-04-29T10:00:00+08:00
 tags: ["Lovable", "氛围编程", "移动应用", "低代码", "AI开发"]
 categories: ["ai-tech"]
-summary: "AI编程平台Lovable正式发布iOS和Android移动应用，将自然语言驱动的应用开发能力扩展至智能手机，推动"氛围编程"向移动端延伸。"
+summary: 'AI编程平台Lovable正式发布iOS和Android移动应用，将自然语言驱动的应用开发能力扩展至智能手机，推动"氛围编程"向移动端延伸。'
 sources:
   - name: "TechCrunch"
     url: "https://techcrunch.com/2026/04/29/lovable-launches-mobile-app/"
