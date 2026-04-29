@@ -1,6 +1,6 @@
 ---
 title: "Amazon Launches AI-Powered Audio Q&A Feature for Conversational Product Shopping"
-date: 2026-04-29T13:30:00+08:00
+date: 2026-04-29T12:30:00+08:00
 tags: ["Amazon", "AI", "eCommerce", "voice", "shopping experience", "Rufus"]
 categories: ["ai-tech"]
 summary: "Amazon rolls out 'Join the chat' feature in its shopping app, allowing users to ask product questions via voice or text and receive real-time conversational audio responses from AI shopping experts."

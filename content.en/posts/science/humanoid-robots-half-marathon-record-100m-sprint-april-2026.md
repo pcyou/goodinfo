@@ -1,6 +1,6 @@
 ---
 title: "Humanoid Robots Close in on 100m Sprint World Record After Beijing Half-Marathon Triumph"
-date: 2026-04-29T14:30:00+08:00
+date: 2026-04-29T11:30:00+08:00
 tags: ["humanoid robots", "robotics", "Unitree", "AI", "Beijing half marathon"]
 categories: ["science"]
 summary: "Humanoid robots set a new half-marathon record in Beijing with a winning time of 50:26, surpassing the human world record. Unitree's H1 robot has reached sprint speeds of 10 m/s, closing in on Usain Bolt's 100m world record."

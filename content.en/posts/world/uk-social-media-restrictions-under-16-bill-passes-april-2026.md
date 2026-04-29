@@ -1,9 +1,9 @@
 ---
 title: "UK Government Advances Under-16 Social Media Restrictions Bill as Consultation Continues"
-date: 2026-04-29T14:00:00+08:00
+date: 2026-04-29T12:00:00+08:00
 tags: ["UK", "social media", "child protection", "online safety", "legislation"]
 categories: ["world"]
-summary: "The Children's Wellbeing and Schools Bill passes the Commons by 272 to 64 votes. The government commits to imposing age or functionality restrictions for under-16s, with具体措施 to be determined after a consultation ending May 26."
+summary: "The Children's Wellbeing and Schools Bill passes the Commons by 272 to 64 votes. The government commits to imposing age or functionality restrictions for under-16s, with specific measures to be determined after a consultation ending May 26."
 sources:
   - name: "BBC"
     url: "https://www.bbc.com/news/articles/c5y7d2zx63jo"
