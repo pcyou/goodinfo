@@ -1,9 +1,9 @@
 ---
-title: "美国司法部再次起诉前FBI局长科米，指控其"威胁"特朗普"
+title: '美国司法部再次起诉前FBI局长科米，指控其"威胁"特朗普'
 date: 2026-04-29T09:30:00+08:00
 tags: ["詹姆斯·科米", "美国司法部", "特朗普", "FBI", "言论自由"]
 categories: ["world"]
-summary: "联邦大陪审团以前FBI局长詹姆斯·科米在社交媒体上发布的一张贝壳照片涉嫌"威胁杀害"特朗普为由，第二次对其提起刑事起诉，引发法律专家和民权组织的强烈批评。"
+summary: '联邦大陪审团以前FBI局长詹姆斯·科米在社交媒体上发布的一张贝壳照片涉嫌"威胁杀害"特朗普为由，第二次对其提起刑事起诉，引发法律专家和民权组织的强烈批评。'
 sources:
   - name: "CNN"
     url: "https://www.cnn.com/2026/04/28/politics/james-comey-indictment-threat-trump/index.html"

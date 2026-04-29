@@ -28,7 +28,7 @@ Comey has denied any wrongdoing and expressed confidence that he will be exonera
 
 ### Second Indictment
 
-This marks the second federal criminal indictment Comey has faced in less than a year. The Justice Department had previously brought another case against Comey related to separate matters, which has not yet gone to trial. The叠加 of two indictments makes Comey one of the highest-ranking former law enforcement officials in U.S. history to face criminal prosecution.
+This marks the second federal criminal indictment Comey has faced in less than a year. The Justice Department had previously brought another case against Comey related to separate matters, which has not yet gone to trial. The combination of two indictments makes Comey one of the highest-ranking former law enforcement officials in U.S. history to face criminal prosecution.
 
 CNN reported exclusively that federal investigators had been examining Comey's social media activity for months before presenting the case to the grand jury. NBC News reported that the indictment detailed how investigators interpreted the "8647" number combination and linked it to security concerns regarding Trump.
 
