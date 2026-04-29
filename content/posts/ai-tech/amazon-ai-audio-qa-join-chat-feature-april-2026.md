@@ -3,7 +3,7 @@ title: "亚马逊推出AI语音问答功能，购物者可对话式查询商品�
 date: 2026-04-29T13:30:00+08:00
 tags: ["亚马逊", "AI", "电商", "语音", "购物体验", "Rufus"]
 categories: ["ai-tech"]
-summary: "亚马逊在购物应用中推出"加入对话"功能，用户可通过语音或文字向AI购物专家提问，获得实时生成的对话式音频回复。"
+summary: '亚马逊在购物应用中推出"加入对话"功能，用户可通过语音或文字向AI购物专家提问，获得实时生成的对话式音频回复。'
 sources:
   - name: "TechCrunch"
     url: "https://techcrunch.com/2026/04/28/amazon-launches-an-ai-powered-audio-qa-experience-on-product-pages/"

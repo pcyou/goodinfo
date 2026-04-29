@@ -3,7 +3,7 @@ title: "六国联合声明批评中国扣押近70艘巴拿马籍船只，巴拿�
 date: 2026-04-29T13:00:00+08:00
 tags: ["巴拿马运河", "中国", "地缘政治", "航运", "拉美", "美国"]
 categories: ["world"]
-summary: "美国、玻利维亚、哥斯达黎加等六国发表联合声明，批评中国在巴拿马最高法院裁决后对巴拿马籍船只实施"针对性经济压力"。"
+summary: '美国、玻利维亚、哥斯达黎加等六国发表联合声明，批评中国在巴拿马最高法院裁决后对巴拿马籍船只实施"针对性经济压力"。'
 sources:
   - name: "Al Jazeera"
     url: "https://www.aljazeera.com/news/2026/4/29/us-latin-america-countries-criticise-chinas-retaliation-over-panama-canal"
