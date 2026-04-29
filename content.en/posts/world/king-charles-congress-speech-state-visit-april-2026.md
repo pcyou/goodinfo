@@ -1,6 +1,6 @@
 ---
 title: "King Charles III Addresses Congress, Urges Stronger UK-US Cooperation on Global Challenges"
-date: 2026-04-29T10:00:00+08:00
+date: 2026-04-29T09:15:00+08:00
 tags: ["King Charles III", "US Congress", "UK-US Relations", "Diplomacy", "America 250"]
 categories: ["world"]
 summary: "King Charles III delivered a speech at a joint session of the U.S. Congress during his state visit to Washington, D.C., calling for enhanced cooperation between the UK and US to address global challenges, as part of a trip commemorating the 250th anniversary of American independence."
