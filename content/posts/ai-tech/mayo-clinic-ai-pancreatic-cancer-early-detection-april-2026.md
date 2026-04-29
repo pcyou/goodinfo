@@ -3,7 +3,7 @@ title: "梅奥诊所AI突破：可在症状出现前3年检测胰腺癌"
 date: 2026-04-29T21:15:00+08:00
 tags: ["人工智能", "胰腺癌", "梅奥诊所", "早期检测", "医疗AI"]
 categories: ["ai-tech"]
-summary: "梅奥诊所研究人员开发的人工智能模型可在胰腺癌症状出现前数年检测到"隐形"组织变化，为这一致命疾病的早期筛查带来重大突破。"
+summary: '梅奥诊所研究人员开发的人工智能模型可在胰腺癌症状出现前数年检测到"隐形"组织变化，为这一致命疾病的早期筛查带来重大突破。'
 sources:
   - name: "AI Spots Pancreatic Cancer Years Before It Shows Up, Study Finds"
     url: "https://www.bloomberg.com/news/articles/2026-04-29/ai-pancreatic-cancer-early-detection-mayo-clinic"
