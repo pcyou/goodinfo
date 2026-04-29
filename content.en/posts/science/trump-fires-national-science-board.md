@@ -1,34 +1,32 @@
 ---
-title: "Trump Fires Entire National Science Board, Sparking Uncertainty for US Research Policy"
-date: 2026-04-26T04:30:00+08:00
-tags: ["United States", "Research Policy", "NSF", "Trump"]
+title: "Trump Administration Fires All 22 Members of National Science Board Overnight, Scientists Protest"
+date: 2026-04-29T02:00:00+08:00
+tags: ["Trump", "National Science Board", "NSF", "scientific research"]
 categories: ["science"]
-summary: "The Trump administration dismisses all members of the National Science Board, which oversees the National Science Foundation (NSF), drawing sharp criticism from the scientific community."
+summary: "The White House notified all 22 sitting members of the National Science Board via a terse email that they were terminated effective immediately, sparking concerns about the independence of federal science funding."
 sources:
-  - name: "The Washington Post"
-    url: "https://www.washingtonpost.com"
-    publisher: "The Washington Post"
-  - name: "The Verge"
-    url: "https://www.theverge.com"
-    publisher: "The Verge"
-  - name: "House.gov"
-    url: "https://www.house.gov"
-    publisher: "US House of Representatives"
+  - name: "NPR"
+    url: "https://www.npr.org/2026/04/28/nx-s1-5801465/national-science-board-trump-firing"
+    publisher: "NPR"
 ---
 
-## Trump Dismisses National Science Board, Shaking US Research System
+## 📰 Body
 
-According to reports from The Washington Post, The Verge, and other outlets, the Trump administration has dismissed all members of the National Science Board (NSB), the highest oversight and policy-making body of the National Science Foundation (NSF). The board is responsible for setting the direction of national research policy and managing the allocation of federal research funding.
+The White House abruptly dismissed all 22 sitting members of the National Science Board (NSB) on Friday, informing each via a terse email that they had been "terminated, effective immediately." The board oversees the National Science Foundation (NSF) and serves as the core decision-making body for federal basic science research grant allocations in the United States.
 
-Representative Zoe Lofgren (D-CA) issued a strong condemnation, calling the move "the latest attempt to undermine American science." She noted that NSB members are appointed with Senate confirmation and possess independent academic judgment, making the unilateral dismissal a serious departure from the traditional governance principles of the US research system.
+Willie May, vice president for research and economic development at Morgan State University and one of the fired members, said he was "deeply disappointed" but not surprised. The chemist and former director of the National Institute of Standards and Technology said, "I have watched the systematic dismantling of the scientific advisory infrastructure of this government with growing alarm, and the National Science Board is simply the latest casualty."
 
-The National Science Board consists of 24 members spanning disciplines including physics, biology, engineering, and computer science. These members, drawn from top universities and research institutions, are responsible for reviewing major NSF decisions, approving research budgets, and evaluating America's position in global scientific competition.
+The dismissal comes against the backdrop of the Trump administration's push for deep cuts to the NSF. In its preliminary 2026 budget request, the White House sought to slash $4.7 billion from the NSF's $9 billion budget — more than half. The administration has also rescinded thousands of already-approved NSF grants.
 
-Analysts believe the dismissal is directly linked to the administration's push to reduce federal research spending. In recent years, the government has expressed dissatisfaction with basic science funding, preferring to redirect resources toward applied research and defense technology.
+In a written statement to NPR, the White House said the firing aligned with a 2021 Supreme Court ruling that "raised constitutional questions about whether non-Senate confirmed appointees can exercise the authorities that Congress gave the National Science Board." The statement added that "the NSF's work continues uninterrupted."
 
-The US scientific community has reacted strongly. Multiple research institutions issued a joint statement warning that the decision could plunge NSF governance into chaos, disrupting ongoing research project approvals and funding disbursements. Some scholars warned that without a functioning NSB, America's competitiveness in critical fields such as artificial intelligence, quantum computing, and biotechnology could be undermined.
+However, multiple legal scholars expressed confusion over this explanation. Jeff Powell, a law professor at Duke University and a leading expert on the appointments clause, noted a "puzzling disconnect between firing the Board members and the White House statement."
 
-The White House has not yet announced a replacement plan or new nominees for the National Science Board. The scientific community is urging Congress to intervene to ensure the independence and stability of the US research system remains free from political interference.
+The fired board members expressed deep concerns about the independence of science. Roger Beachy, professor emeritus of biology at Washington University, worried the NSB could become partisan, "taking orders from the administration rather than being independent." Astrophysicist Keivan Stassun emphasized that the NSB was created to safeguard "far-reaching, long-term investments that may not pay off for a generation."
+
+California Democratic Rep. Zoe Lofgren, ranking member on the House Science, Space, and Technology Committee, called the move an "attack on science." She noted that breakthroughs such as the internet, CRISPR gene-editing technology, and Doppler radar all benefited from NSF funding. "At one time, NSF grants were merit-based," she said. "Now they appear to have more political influence."
+
+May warned that undermining scientific institutions at a moment of intensifying global competition sends the wrong signal to international rivals. "That is not good for our country; it is not in the interest of American workers, American industry, or the next generation of scientists who are watching what we do at this critical time."
 
 ---
-*Sources: [The Washington Post](https://www.washingtonpost.com), [The Verge](https://www.theverge.com), [House.gov](https://www.house.gov)*
+*Source: [NPR](https://www.npr.org/2026/04/28/nx-s1-5801465/national-science-board-trump-firing)*
