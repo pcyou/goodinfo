@@ -1,41 +1,47 @@
 ---
 title: "Israel Intercepts Gaza Aid Flotilla Near Crete, Detains 175 Activists"
-date: 2026-04-30T15:30:00+08:00
-tags: ["Gaza", "Israel", "flotilla", "Palestine", "international waters"]
+date: 2026-04-30T20:35:00+08:00
+tags: ["Israel", "Gaza", "flotilla", "humanitarian aid", "international law"]
 categories: ["world"]
-summary: "The Israeli Navy intercepted 22 vessels from the Global Sumud Flotilla in international waters near Crete, detaining over 175 activists attempting to deliver humanitarian aid to Gaza."
+summary: "The Israeli navy intercepted 22 Gaza-bound aid vessels in international waters near the Greek island of Crete, detaining approximately 175 activists, drawing strong international reaction."
 sources:
-  - name: "Israel intercepts Global Sumud boats, demands activists halt"
-    url: "https://www.aljazeera.com/news/2026/4/29/"
-    publisher: "Al Jazeera"
-  - name: "Israel Intercepts Aid Flotilla Heading to Breach Naval Blockade"
-    url: "https://www.nytimes.com/"
-    publisher: "New York Times"
-  - name: "Navy detains over 20 flotilla ships, 175 activists en route to Gaza Strip"
-    url: "https://www.jpost.com/"
-    publisher: "Jerusalem Post"
+  - name: "BBC News"
+    url: "https://www.bbc.com/news/articles/c4g4lk9m77vo"
+    publisher: "BBC"
 ---
 
-# Israel Intercepts Gaza Aid Flotilla Near Crete, Detains 175 Activists
+## Israel Intercepts Gaza Flotilla, 175 Activists Detained
 
-**April 30, 2026** — The Israeli Navy intercepted 22 vessels from the Global Sumud Flotilla in international waters near the Greek island of Crete between Wednesday night and Thursday morning, detaining over 175 activists. The flotilla had been attempting to break Israel's maritime blockade of the Gaza Strip to deliver humanitarian aid.
+Pro-Palestinian activists say 22 boats from a flotilla carrying aid for Gaza have been intercepted by Israeli forces in international waters near the Greek island of Crete.
 
-## The Operation
+The organisers of the Global Sumud Flotilla (GSF) denounced the action as "piracy," saying those on board were seized unlawfully more than 965km (600 miles) from Gaza, which is under an Israeli naval blockade.
 
-According to Al Jazeera, Israeli naval forces raided the flotilla hundreds of miles from Gaza in international waters. Activists reported that 58 vessels were involved in the operation, with 22 intercepted and seized by Israeli military forces. The Jerusalem Post reported that the detained activists came from multiple countries and were attempting to transport aid supplies to blockaded Gaza.
+Israel's foreign ministry said about 175 activists were detained and dismissed the flotilla as a "PR stunt." Foreign Minister Gideon Saar said they would be "disembarked on a Greek beach" later on Thursday.
 
-The New York Times noted that the Global Sumud Flotilla has repeatedly attempted to breach Israel's decades-old naval blockade of Gaza. The organization described the interception in international waters as "illegal."
+The GSF's data showed most of the remaining 36 boats in the flotilla were currently close to Crete's south coast.
 
-## Reactions
+The flotilla set sail two weeks ago, with a total of 58 vessels joining from Spain, France and Italy, aiming to break Israel's blockade of Gaza.
 
-Flotilla organizers strongly condemned Israel's actions, stating that the interception in international waters violated international law. Activists called on the international community to pay attention to the humanitarian crisis in Gaza and urged the lifting of the maritime blockade.
+On Thursday, the GSF said Israeli naval forces had "intercepted, boarded, and systematically disabled and destroyed various boats" in the flotilla during a "violent raid in international waters" north-west of Crete overnight.
 
-The Israeli military stated that the operation was aimed at preventing contraband materials from entering Gaza through maritime channels and emphasized its right to inspect and intercept vessels that may pose a threat to national security.
+"Over 180 civilians from around the world have been directly attacked," it added.
 
-## Background
+"After detaining participants, smashing an engine and jamming communications, the [Israeli forces] retreated, kidnapping participants or intentionally leaving civilians stranded on powerless, broken vessels directly in the path of a massive approaching storm."
 
-Israel has maintained a land, sea, and air blockade of the Gaza Strip since 2007, citing the need to prevent Hamas from obtaining weapons and military materials. Over the years, multiple international aid flotillas have attempted to break through this blockade, most notably the 2010 "Gaza Freedom Flotilla" incident, which drew widespread international attention.
+Israel insists its actions comply with international law.
 
-This interception occurred against the backdrop of escalating US-Iran tensions, adding further complexity to an already volatile Middle East. The United Nations has called on all parties to exercise restraint and resolve disputes through dialogue.
+The Israeli foreign ministry said that "due to the large numbers of vessels participating in the flotilla and the risk of escalation, and the need to prevent the breach of a lawful blockade, an early action was required."
 
-*Source: [Al Jazeera](https://www.aljazeera.com/news/2026/4/29/), [New York Times](https://www.nytimes.com/), [Jerusalem Post](https://www.jpost.com/)*
+"The operation was carried out in international waters peacefully and without any casualties. An initial inspection of the vessels revealed materials that appear to be drugs and contraceptives," it added.
+
+The ministry accused the flotilla's organisers of "joining hands" with the Palestinian armed group Hamas "with the aim of sabotaging President Trump's [Gaza] peace plan transition to its second phase and intended to divert attention from Hamas's refusal to disarm."
+
+The Greek Ministry of Foreign Affairs called in a statement for "restraint and universal respect" for international law.
+
+Greece said it had "asked Israel to withdraw its vessels from the region" and offered to receive the passengers and ensure their safe return home.
+
+Italian Prime Minister Giorgia Meloni condemned the seizure and demanded Israel immediately release "all the unlawfully detained Italians." Italian media reported that 24 Italians had been detained.
+
+EU foreign affairs spokesman Anouar El Anouni told reporters: "We reiterate our call on Israeli authorities to respect international law, including international humanitarian law and international maritime law."
+
+*Source: [BBC News](https://www.bbc.com/news/articles/c4g4lk9m77vo)*

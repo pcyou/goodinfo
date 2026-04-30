@@ -1,33 +1,52 @@
 ---
-title: "US House Votes to End Government Shutdown Over Immigration Operations"
-date: 2026-05-01T01:50:00+08:00
-tags: ["US politics", "government shutdown", "immigration policy", "Congress"]
+title: "US House Votes to End 76-Day Partial Government Shutdown Over Immigration Dispute"
+date: 2026-04-30T21:00:00+08:00
+tags: ["US government", "shutdown", "immigration", "Congress"]
 categories: ["world"]
-summary: "The US House of Representatives has voted to end the federal government shutdown with a bill already passed by the Senate, expected to be swiftly signed by President Trump."
+summary: "The US House of Representatives voted to pass a Senate-backed DHS funding bill, ending a 76-day partial shutdown, but excluding funding for immigration enforcement agencies."
 sources:
   - name: "BBC News"
-    url: "https://www.bbc.com/news"
+    url: "https://www.bbc.com/news/articles/ce3pw5x3z54o"
     publisher: "BBC"
+  - name: "NBC News"
+    url: "https://www.nbcnews.com/"
+    publisher: "NBC News"
 ---
 
-# US House Votes to End Government Shutdown Over Immigration Operations
+## House Votes to End Partial Government Shutdown
 
-The US House of Representatives voted on April 30, 2026, to pass legislation ending a federal government shutdown triggered by a political impasse over immigration enforcement operations. The bill, which had already been approved by the Senate, now moves to President Donald Trump's desk, where he is expected to swiftly sign it into law.
+US lawmakers voted on Thursday to end a 76-day partial government shutdown that centered on opposition to the Trump administration's immigration enforcement operations.
 
-## The Shutdown
+Members of the US House of Representatives approved a Senate-passed bill to fund the Department of Homeland Security (DHS), sending it to President Donald Trump for signature. The measure reopens DHS but does not provide funding for Immigration and Customs Enforcement (ICE) or parts of Customs and Border Protection — the two subagencies responsible for immigration enforcement.
 
-The shutdown stemmed from deep partisan divisions in Congress over immigration enforcement funding and policy direction. During the closure, numerous federal agencies and non-essential federal employees were affected, with partial government operations grinding to a halt.
+Democrats have refused to fund the two agencies unless they are reformed following two deadly shootings in Minnesota involving federal immigration officers. Republicans have rejected the demands, instead pushing for full funding for ICE and Border Patrol, resulting in a prolonged impasse.
 
-According to BBC, the House vote clears the way for the government to reopen. With the Senate having already passed the measure, the final step is presidential signature, which the White House is anticipated to deliver promptly.
+The two agencies would now receive additional funding through a separate bill currently being considered by the House.
 
-## Background and Impact
+The DHS, which oversees these two agencies, has continued to operate without routine funding since February 14, leading to major disruptions and hours-long wait times at airports across the United States. Thursday's vote clears the funding deadlock, ensuring security officers at checkpoints can now get paid in time.
 
-This marks another government shutdown in recent years, highlighting the persistent challenges in passing temporary spending measures when partisan disagreements persist. During the shutdown, national parks, certain federal services, and government contractors all experienced disruptions.
+In March, after days of snarled traffic at US airports, Trump signed an executive order to pay Transportation Security Administration (TSA) agents, who are considered essential workers and are required to work without immediate pay during a federal shutdown.
 
-Analysts noted that while the legislation temporarily resolves the shutdown, the underlying disagreements over immigration policy remain unresolved, suggesting that Congress may face similar budget standoffs in the future.
+While that eased tensions, the Trump administration warned that emergency DHS funds were set to run out later this week.
 
-## Market Reaction
+Calls for action further intensified after Saturday's shooting at the White House Correspondents' Association dinner in Washington, where prosecutors say a man attempted to assassinate Trump.
 
-Markets responded relatively calmly to news of the shutdown's end. Investor concerns about prolonged government closure eased somewhat, though analysts warned that political uncertainty continues to be a significant factor affecting market sentiment.
+The White House budget office warned that homeland security operations not involved in Trump's immigration crackdown could run out of money in May for workers employed in presidential and airport security.
 
-*Source: [BBC News](https://www.bbc.com/news)*
+House Speaker Mike Johnson, who had resisted bringing the Senate-passed bill to a vote for weeks — calling it inadequate and insisting that immigration enforcement be fully funded — eventually relented.
+
+"We were not going to have lines at TSA. Everybody will get their paychecks now," Johnson told reporters after the vote.
+
+DHS Secretary Markwayne Mullin celebrated the end of the shutdown on X.
+
+"To be clear, this Democrat shutdown NEVER should have happened," he wrote.
+
+Democrats said the shutdown was extended for more than a month by Speaker Johnson for "no reason at all."
+
+"This is the same bill the Senate unanimously passed five weeks ago," said Patty Murray, the top Democrat on government funding in the Senate. "After Republicans spent months blocking disaster relief and funding for the TSA, Coast Guard, and our cyber defense agency, it is a very good thing that this bill is finally on track to be signed into law to fund these agencies."
+
+Congressional Republicans now turn their attention to approving up to $70 billion in funding for ICE and CBP for the remainder of Trump's term, while Democrats continue to demand tighter oversight and limits on enforcement practices.
+
+Last week, Republicans used a procedural manoeuvre to clear the bill in the Senate that did not require the support of opposition Democrats.
+
+*Source: [BBC News](https://www.bbc.com/news/articles/ce3pw5x3z54o), [NBC News](https://www.nbcnews.com/)*
