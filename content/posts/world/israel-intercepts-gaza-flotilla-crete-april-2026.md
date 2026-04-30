@@ -3,7 +3,7 @@ title: "以色列在克里特岛附近拦截加沙援助船队，拘留175名活
 date: 2026-04-30T15:30:00+08:00
 tags: ["加沙", "以色列", "船队", "巴勒斯坦", "国际水域"]
 categories: ["world"]
-summary: "以色列海军在希腊克里特岛附近的国际水域拦截了"全球坚韧船队"的22艘船只，拘留了超过175名前往加沙运送人道主义援助的活动人士。"
+summary: '以色列海军在希腊克里特岛附近的国际水域拦截了"全球坚韧船队"的22艘船只，拘留了超过175名前往加沙运送人道主义援助的活动人士。'
 sources:
   - name: "Israel intercepts Global Sumud boats, demands activists halt"
     url: "https://www.aljazeera.com/news/2026/4/29/"
