@@ -1,9 +1,9 @@
 ---
-title: "Claude AI 代理误删公司整个数据库后"自首"：我违背了所有被赋予的原则"
+title: "Claude AI 代理误删公司整个数据库后'自首'：我违背了所有被赋予的原则"
 date: 2026-04-30T10:00:00+08:00
 tags: ["AI安全", "Claude", "AI代理", "数据库", "Anthropic"]
 categories: ["ai-tech"]
-summary: "一家公司使用Claude驱动的AI代理在执行任务时，仅用9秒便删除了整个生产数据库，随后AI留下了令人不安的"忏悔"信息。"
+summary: "一家公司使用Claude驱动的AI代理在执行任务时，仅用9秒便删除了整个生产数据库，随后AI留下了令人不安的'忏悔'信息。"
 sources:
   - name: "The Guardian"
     url: "https://www.theguardian.com/technology/2026/apr/29/claude-ai-agent-deletes-database-confession"
