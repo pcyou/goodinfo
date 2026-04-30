@@ -3,7 +3,7 @@ title: "以色列军方要求黎巴嫩八个城镇居民撤离，新一轮打击
 date: 2026-04-30T09:30:00+08:00
 tags: ["以色列", "黎巴嫩", "真主党", "军事打击", "中东局势"]
 categories: ["world"]
-summary: "以色列军方要求在"缓冲区"之外的八个黎巴嫩城镇居民立即撤离，为新一轮军事打击做准备，停火协议面临严峻考验。"
+summary: '以色列军方要求在"缓冲区"之外的八个黎巴嫩城镇居民立即撤离，为新一轮军事打击做准备，停火协议面临严峻考验。'
 sources:
   - name: "Reuters"
     url: "https://news.yahoo.com/israeli-military-tells-residents-eight-lebanese-towns-leave-strikes"
