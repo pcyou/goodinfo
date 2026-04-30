@@ -37,7 +37,7 @@ Gold prices also climbed, approaching $4,649 per ounce, reflecting safe-haven de
 
 ### Iran's Response
 
-Iran's Supreme Leader Khamenei previously issued a强硬 statement declaring that "Americans have no place in the Persian Gulf," and said that a "new phase" is taking shape in the Strait of Hormuz and the Gulf region. This statement was interpreted as a signal that Iran refuses to make concessions on strait navigation issues.
+Iran's Supreme Leader Khamenei previously issued a hardline statement declaring that "Americans have no place in the Persian Gulf," and said that a "new phase" is taking shape in the Strait of Hormuz and the Gulf region. This statement was interpreted as a signal that Iran refuses to make concessions on strait navigation issues.
 
 Analysts warned that if tensions in the Strait of Hormuz continue to escalate, global energy markets could face even more severe impacts — particularly as the summer driving season approaches, rising fuel prices will have a direct effect on ordinary consumers.
 
