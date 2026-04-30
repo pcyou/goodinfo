@@ -3,7 +3,7 @@ title: "Alphabet Q1财报：Google Cloud收入飙升63%，2026年资本支出上
 date: 2026-04-30T06:30:00+08:00
 tags: ["Alphabet", "Google", "Google Cloud", "财报", "AI", "资本支出"]
 categories: ["ai-tech"]
-summary: "Alphabet发布2026年第一季度财报，营收1099亿美元超预期，Google Cloud收入同比增长63%。公司将2026年资本支出上限上调至1900亿美元，并预计2027年将"显著增加"。"
+summary: "Alphabet发布2026年第一季度财报，营收1099亿美元超预期，Google Cloud收入同比增长63%。公司将2026年资本支出上限上调至1900亿美元，并预计2027年将'显著增加'。"
 sources:
   - name: "Alphabet ups 2026 capex to as much as $190 billion, expects to 'significantly increase' in 2027"
     url: "https://www.cnbc.com/2026/04/29/alphabet-googl-q1-earnings-2026.html"
