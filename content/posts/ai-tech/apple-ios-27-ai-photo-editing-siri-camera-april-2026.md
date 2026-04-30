@@ -3,7 +3,7 @@ title: "苹果计划在iOS 27中引入重大AI照片编辑功能，Siri相机模
 date: 2026-04-30T00:30:00+08:00
 tags: ["苹果", "iOS 27", "AI", "照片编辑", "Siri"]
 categories: ["ai-tech"]
-summary: "据彭博社记者马克·古尔曼报道，苹果计划在即将发布的iOS 27中为照片应用引入三项全新的AI驱动编辑功能，并在相机应用中新增"Siri模式"，大幅升级视觉AI能力。"
+summary: "据彭博社记者马克·古尔曼报道，苹果计划在即将发布的iOS 27中为照片应用引入三项全新的AI驱动编辑功能，并在相机应用中新增'Siri模式'，大幅升级视觉AI能力。"
 sources:
   - name: "Bloomberg"
     url: "https://www.bloomberg.com/news/articles/apple-ios-27-siri-camera-visual-ai-photos"
