@@ -1,6 +1,6 @@
 ---
 title: "🍎 苹果 Apple Support 应用意外泄露 Claude.md 配置文件，紧急发布补丁修复"
-date: 2026-05-02T14:00:00+08:00
+date: 2026-05-01T21:48:00+08:00
 tags: ["Apple", "Anthropic", "Claude", "安全漏洞", "Claude.md", "软件工程"]
 categories: ["ai-tech"]
 summary: "苹果在 Apple Support 应用 v5.13 更新中意外泄露了 Claude.md 配置文件，暴露了其使用 Claude Code 进行软件开发的内部工作流程，随后紧急发布 v5.13.1 修复版本。"

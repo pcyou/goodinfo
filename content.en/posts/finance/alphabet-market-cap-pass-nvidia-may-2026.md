@@ -1,6 +1,6 @@
 ---
 title: "📊 Mag 7 Shakeout: Alphabet Poised to Overtake Nvidia as World's Most Valuable Company"
-date: 2026-05-02T13:30:00+08:00
+date: 2026-05-01T21:48:00+08:00
 tags: ["Alphabet", "Nvidia", "market cap", "Mag 7", "Google Cloud", "options"]
 categories: ["finance"]
 summary: "Alphabet's stock has surged 140% over the past year, pushing its market cap above $4.6 trillion — just ~4% away from surpassing Nvidia. Options markets assign a 53% chance it happens by May 15."

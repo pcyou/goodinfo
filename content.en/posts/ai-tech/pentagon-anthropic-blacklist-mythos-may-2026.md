@@ -1,6 +1,6 @@
 ---
 title: "🔒 Pentagon: Anthropic Still Blacklisted, but Mythos Is a 'Separate National Security Issue'"
-date: 2026-05-02T13:30:00+08:00
+date: 2026-05-01T21:48:00+08:00
 tags: ["Anthropic", "Pentagon", "Mythos", "AI security", "supply chain risk", "cybersecurity"]
 categories: ["ai-tech"]
 summary: "DoD CTO Emil Michael says Anthropic remains a supply chain risk, but its advanced cyber-capable Mythos model is a separate national security issue, as the Pentagon announces agreements with seven AI companies for classified network deployment."

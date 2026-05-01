@@ -1,6 +1,6 @@
 ---
 title: "🍎 Apple Accidentally Ships Claude.md Config Files in Support App Update, Issues Emergency Patch"
-date: 2026-05-02T14:00:00+08:00
+date: 2026-05-01T21:48:00+08:00
 tags: ["Apple", "Anthropic", "Claude", "security leak", "Claude.md", "software engineering"]
 categories: ["ai-tech"]
 summary: "Apple accidentally bundled internal Claude.md configuration files in Apple Support app v5.13, exposing its Claude Code development workflow, then rushed out an emergency v5.13.1 fix."

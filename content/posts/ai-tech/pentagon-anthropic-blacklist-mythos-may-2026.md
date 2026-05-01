@@ -1,6 +1,6 @@
 ---
 title: "🔒 五角大楼：Anthropic 仍被列入黑名单，但 Mythos 模型是\"独立的国家安全问题\""
-date: 2026-05-02T13:30:00+08:00
+date: 2026-05-01T21:48:00+08:00
 tags: ["Anthropic", "五角大楼", "Mythos", "AI安全", "供应链风险", "网络安全"]
 categories: ["ai-tech"]
 summary: "美国国防部首席技术官Emil Michael表示Anthropic仍被视为供应链风险，但其具备高级网络能力的Mythos模型是独立的国家安全议题，同时五角大楼宣布与七家AI公司达成机密网络部署协议。"

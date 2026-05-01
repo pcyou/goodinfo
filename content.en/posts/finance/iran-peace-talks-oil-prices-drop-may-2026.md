@@ -1,6 +1,6 @@
 ---
 title: "⚡ Oil Prices Drop as Iran Responds to Draft Peace Agreement"
-date: 2026-05-02T13:30:00+08:00
+date: 2026-05-01T21:48:00+08:00
 tags: ["oil prices", "Iran", "peace agreement", "energy", "Strait of Hormuz"]
 categories: ["finance"]
 summary: "Iran sends response to U.S. amendments on draft peace agreement via Pakistani mediators, pushing international oil prices sharply lower as Brent crude falls below $110."
