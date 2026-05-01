@@ -3,7 +3,7 @@ title: "白宫宣布伊朗停火暂停60天战争授权倒计时"
 date: 2026-05-01T12:27:00+08:00
 tags: ["伊朗", "停火", "战争授权", "白宫", "中东"]
 categories: ["world"]
-summary: "白宫表示伊朗停火协议已暂停60天战争授权期限的倒计时，国防部长赫格塞斯称"时钟已暂停"，但国会两党对此存在分歧。"
+summary: "白宫表示伊朗停火协议已暂停60天战争授权期限的倒计时，国防部长赫格塞斯称'时钟已暂停'，但国会两党对此存在分歧。"
 sources:
   - name: "CNBC"
     url: "https://www.cnbc.com/2026/05/01/oil-rises-white-house-iran-ceasefire-halts-60-day-war-deadline.html"
