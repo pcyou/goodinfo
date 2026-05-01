@@ -1,9 +1,9 @@
 ---
-title: "英国恐袭威胁级别上调至"严重"——伦敦戈德斯格林犹太社区遇袭事件后"
+title: "英国恐袭威胁级别上调至「严重」——伦敦戈德斯格林犹太社区遇袭事件后"
 date: 2026-05-01T01:00:00+08:00
 tags: ["英国", "恐怖主义", "恐袭威胁", "反犹太主义", "戈德斯格林", "伦敦"]
 categories: ["world"]
-summary: "英国政府将恐怖主义威胁级别从"实质性"上调至"严重"，意味着未来六个月内恐袭极有可能发生。此次上调与伦敦北部戈德斯格林两名犹太男子遭持刀袭击事件直接相关。"
+summary: "英国政府将恐怖主义威胁级别从「实质性」上调至「严重」，意味着未来六个月内恐袭极有可能发生。此次上调与伦敦北部戈德斯格林两名犹太男子遭持刀袭击事件直接相关。"
 sources:
   - name: "UK terrorism threat level raised to severe after Golders Green attack"
     url: "https://www.bbc.com/news/articles/cq6p4pz6p62o"
