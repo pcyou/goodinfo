@@ -1,6 +1,6 @@
 ---
 title: "FDA批准胰腺癌新药daraxonrasib早期使用，为患者带来新希望"
-date: 2026-05-02T10:15:00+08:00
+date: 2026-05-02T09:00:00+08:00
 tags: ["FDA", "胰腺癌", "daraxonrasib", "抗癌药", "早期使用"]
 categories: ["science"]
 summary: "美国FDA批准扩大使用胰腺癌新药daraxonrasib，此前治疗失败的转移性胰腺导管腺癌患者可提前获得该突破性药物。"

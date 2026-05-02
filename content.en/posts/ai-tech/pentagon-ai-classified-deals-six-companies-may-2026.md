@@ -1,6 +1,6 @@
 ---
 title: "Pentagon Reaches Deals With Top AI Companies for Classified Network Deployment"
-date: 2026-05-02T10:00:00+08:00
+date: 2026-05-02T08:55:00+08:00
 tags: ["Pentagon", "AI", "Defense", "Anthropic", "Classified Networks"]
 categories: ["ai-tech"]
 summary: "The U.S. Department of Defense signs agreements with six leading AI companies to deploy AI systems on its most classified networks, while Anthropic sits out over security disagreements."

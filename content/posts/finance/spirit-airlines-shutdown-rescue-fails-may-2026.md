@@ -1,6 +1,6 @@
 ---
 title: "Spirit Airlines准备停止运营，政府救助计划失败"
-date: 2026-05-02T09:45:00+08:00
+date: 2026-05-02T08:50:00+08:00
 tags: ["Spirit Airlines", "航空业", "破产", "油价", "特朗普"]
 categories: ["finance"]
 summary: "美国廉价航空Spirit Airlines在政府救助方案失败后准备停止运营，伊朗战争推高的油价成为压垮公司的最后一根稻草。"

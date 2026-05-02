@@ -1,6 +1,6 @@
 ---
 title: "Trump Declares Iran Conflict 'Terminated,' Sparking War Powers Controversy"
-date: 2026-05-02T09:30:00+08:00
+date: 2026-05-02T08:45:00+08:00
 tags: ["Trump", "Iran", "War Powers", "Congress", "Middle East"]
 categories: ["world"]
 summary: "The Trump administration declares hostilities with Iran 'terminated' ahead of a 60-day congressional deadline, while attempting to reset the War Powers clock — a move that ignites constitutional debate."

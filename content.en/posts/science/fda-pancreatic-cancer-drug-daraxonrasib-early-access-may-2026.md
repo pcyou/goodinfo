@@ -1,6 +1,6 @@
 ---
 title: "FDA Grants Expanded Early Access to Breakthrough Pancreatic Cancer Drug Daraxonrasib"
-date: 2026-05-02T10:15:00+08:00
+date: 2026-05-02T09:00:00+08:00
 tags: ["FDA", "Pancreatic Cancer", "Daraxonrasib", "Oncology", "Expanded Access"]
 categories: ["science"]
 summary: "The U.S. FDA approves expanded access to daraxonrasib, a breakthrough targeted therapy for previously treated metastatic pancreatic ductal adenocarcinoma, offering new hope for patients with one of the deadliest cancers."

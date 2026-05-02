@@ -1,6 +1,6 @@
 ---
 title: "Spirit Airlines Prepares to Shut Down After Government Rescue Deal Fails"
-date: 2026-05-02T09:45:00+08:00
+date: 2026-05-02T08:50:00+08:00
 tags: ["Spirit Airlines", "Aviation", "Bankruptcy", "Oil Prices", "Trump"]
 categories: ["finance"]
 summary: "Ultra-low-cost carrier Spirit Airlines prepares to cease operations after a Trump administration bailout deal falls through, with Iran-war-driven oil prices proving the final blow."
