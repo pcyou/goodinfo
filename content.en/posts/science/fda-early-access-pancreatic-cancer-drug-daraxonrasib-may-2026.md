@@ -1,34 +1,36 @@
 ---
-title: "FDA Grants Early Access to Promising Pancreatic Cancer Drug Daraxonrasib"
-date: 2026-05-02T05:28:00+08:00
-tags: ["FDA", "Pancreatic Cancer", "Daraxonrasib", "Pharmaceuticals"]
+title: "FDA Grants Early Access to Breakthrough Pancreatic Cancer Drug"
+date: 2026-05-02T08:30:00+08:00
+tags: ["FDA", "Pancreatic Cancer", "Cancer Drug", "Medical Breakthrough", "daraxonrasib"]
 categories: ["science"]
-summary: "The U.S. FDA approves expanded access for the experimental pancreatic cancer drug daraxonrasib, which has shown significant efficacy in clinical trials, bringing new hope to patients."
+summary: "The US FDA approves expanded access to daraxonrasib, an innovative pancreatic cancer drug, offering new hope for patients facing one of the deadliest forms of cancer."
 sources:
   - name: "The New York Times"
-    url: "https://www.nytimes.com"
+    url: "https://www.nytimes.com/2026/05/01/health/fda-pancreatic-cancer-drug.html"
     publisher: "The New York Times"
   - name: "Reuters"
-    url: "https://www.reuters.com"
+    url: "https://www.reuters.com/business/healthcare-pharmaceuticals/"
     publisher: "Reuters"
+  - name: "USA Today"
+    url: "https://www.usatoday.com/story/news/health/2026/05/01/fda-pancreatic-cancer-drug/"
+    publisher: "USA Today"
 ---
 
-## FDA Grants Early Access to Promising Pancreatic Cancer Drug Daraxonrasib
+## FDA Grants Early Access to Breakthrough Pancreatic Cancer Drug
 
-The U.S. Food and Drug Administration (FDA) has approved expanded access for daraxonrasib, an experimental pancreatic cancer drug, allowing patients who are ineligible for clinical trials to use the medication ahead of full regulatory approval. The decision represents a major breakthrough in treating pancreatic cancer — often called the "king of cancers."
+According to The New York Times and Reuters, the US Food and Drug Administration (FDA) has approved expanded access to daraxonrasib, an innovative pancreatic cancer drug, offering new hope for patients facing one of the deadliest forms of cancer.
 
-Developed by Revolution Medicines, daraxonrasib is a KRAS G12D mutation-targeting inhibitor. KRAS mutations are among the most common genetic alterations in pancreatic cancer, affecting approximately 40% of patients. For decades, KRAS was considered an "undruggable" target, but a new generation of targeted therapies is changing that narrative.
+Pancreatic cancer is one of the most aggressive and lethal cancers, with a five-year survival rate of approximately 12%. Because early symptoms are often unnoticeable, most patients are diagnosed at advanced stages when treatment options are extremely limited. Daraxonrasib, developed by Revolution Medicines, is a targeted drug aimed at KRAS gene mutations—one of the most common oncogenic mutations in pancreatic cancer.
 
-According to The New York Times, the drug has demonstrated remarkable efficacy in early-stage clinical trials. Some late-stage pancreatic cancer patients experienced significant tumor shrinkage and notably extended survival. CBS News highlighted cases including the drug's help for relatives of former Senator Ben Sasse, drawing widespread public attention.
+Under the FDA's expanded access program (also known as "compassionate use"), eligible pancreatic cancer patients can receive the treatment before the drug is formally approved for market. This policy applies to patients who have no other available treatment options and are not eligible for clinical trials.
 
-"This is a milestone in pancreatic cancer treatment," said one oncologist. "For a cancer with a five-year survival rate of only about 12%, any substantive progress could save countless lives."
+Reuters reported that the drug has shown encouraging efficacy data in early clinical trials. Among treated patients, some demonstrated significant tumor shrinkage, and the drug was well-tolerated. Revolution Medicines plans to submit a New Drug Application (NDA) to the FDA later this year, seeking formal approval.
 
-The FDA's expanded access pathway, also known as compassionate use, is typically reserved for patients with serious or life-threatening conditions who have no other effective treatment options. Following the approval, Revolution Medicines will begin providing the drug to eligible patients while continuing to advance larger Phase III clinical trials.
+The New York Times analysis noted that the field of pancreatic cancer treatment has long lacked major breakthroughs, and daraxonrasib represents a significant advance. KRAS mutations were once considered "undruggable," but in recent years, advances in drug development technology have led to remarkable progress in KRAS-targeted therapeutic strategies.
 
-Pancreatic cancer remains one of the deadliest cancers worldwide. According to the American Cancer Association, approximately 66,000 people in the U.S. are expected to be diagnosed with pancreatic cancer in 2026, with over 51,000 projected deaths. Because early symptoms are often subtle, most patients are diagnosed at advanced stages when treatment options are extremely limited.
+According to American Cancer Society data, pancreatic cancer causes approximately 50,000 deaths annually in the United States, making it one of the deadliest cancers globally. The expanded access approval means some patients can obtain this potentially life-extending treatment sooner.
 
-The success of daraxonrasib also opens new pathways for treating other KRAS-mutant cancers. Beyond pancreatic cancer, KRAS G12D mutations are prevalent in colorectal cancer and lung cancer. Industry analysts predict that if the drug continues to show positive results in Phase III trials, it could gain full regulatory approval by 2027 or 2028.
+An oncologist at UW Health described the development as "exciting" but also cautioned patients and doctors to maintain realistic expectations, as long-term efficacy and safety data still require further validation.
 
-Notably, drug pricing may become a significant barrier to accessibility. Similar targeted cancer therapies typically cost hundreds of thousands of dollars per year of treatment, posing a substantial burden for many patients and healthcare insurance systems.
-
-*Sources: [The New York Times](https://www.nytimes.com), [Reuters](https://www.reuters.com)*
+---
+*Sources: [The New York Times](https://www.nytimes.com/2026/05/01/health/fda-pancreatic-cancer-drug.html), [Reuters](https://www.reuters.com/business/healthcare-pharmaceuticals/), [USA Today](https://www.usatoday.com/story/news/health/2026/05/01/fda-pancreatic-cancer-drug/)*
