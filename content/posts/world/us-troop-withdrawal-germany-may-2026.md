@@ -3,7 +3,7 @@ title: "美国宣布6至12个月内从德国撤军5000人，北约紧急寻求�
 date: 2026-05-03T03:00:00+08:00
 tags: ["美国撤军", "德国", "北约", "地缘政治", "伊朗战争"]
 categories: ["world"]
-summary: "美国宣布将在未来6至12个月内从德国撤出约5000名驻军，北约表示正在"努力理解美方决定的细节"，此举发生在美欧因伊朗战争分歧加剧的背景下。"
+summary: '美国宣布将在未来6至12个月内从德国撤出约5000名驻军，北约表示正在"努力理解美方决定的细节"，此举发生在美欧因伊朗战争分歧加剧的背景下。'
 sources:
   - name: "Al Jazeera"
     url: "https://www.aljazeera.com/news/2026/5/2/nato-assessing-details-of-us-troop-withdrawal-from-germany"
