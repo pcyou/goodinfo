@@ -3,7 +3,7 @@ title: "特朗普致信国会称伊朗停火意味着无需战争授权"
 date: 2026-05-02T08:30:00+08:00
 tags: ["伊朗", "战争授权", "特朗普", "国会", "停火"]
 categories: ["world"]
-summary: "特朗普总统致信国会，声称伊朗停火意味着"敌对行动已终止"，因此不需要国会授权即可继续军事行动。"
+summary: "特朗普总统致信国会，声称伊朗停火意味着'敌对行动已终止'，因此不需要国会授权即可继续军事行动。"
 sources:
   - name: "The New York Times"
     url: "https://www.nytimes.com/2026/05/01/us/politics/trump-iran-war-congress-authorization.html"
