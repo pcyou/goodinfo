@@ -1,42 +1,60 @@
 ---
-title: "Pentagon Strikes Classified AI Deals with Top Tech Companies Including Microsoft and Amazon"
-date: 2026-05-02T07:30:00+08:00
-tags: ["Pentagon", "AI", "Microsoft", "Amazon", "defense", "classified networks"]
+title: "Pentagon Strikes Deals with Seven Tech Giants for Classified AI Deployment, Anthropic Sidelined"
+date: 2026-05-03T02:45:00+08:00
+tags: ["Pentagon", "artificial intelligence", "military AI", "Anthropic", "Nvidia", "Microsoft"]
 categories: ["ai-tech"]
-summary: "The U.S. Department of Defense announces agreements with eight leading AI companies to work on classified projects on secure government networks, marking a major escalation in military AI strategy."
+summary: "The US Department of Defense has reached agreements with seven leading AI companies to deploy their systems on classified military networks, with Anthropic excluded after talks broke down."
 sources:
-  - name: "Pentagon reaches deal with leading AI companies for classified work"
-    url: "https://www.reuters.com/technology/pentagon-ai-classified-deals-2026-05-01/"
-    publisher: "Reuters"
-  - name: "Microsoft, Amazon hand Pentagon more control over AI systems"
-    url: "https://www.washingtonpost.com/technology/2026/05/01/pentagon-ai-deals-microsoft-amazon/"
-    publisher: "The Washington Post"
+  - name: "Bloomberg"
+    url: "https://www.bloomberg.com/news/articles/2026-05-01/nvidia-microsoft-aws-expanding-classified-military-ai-use"
+    publisher: "Bloomberg"
+  - name: "The Wall Street Journal"
+    url: "https://www.wsj.com/tech/ai/pentagon-ai-companies-classified-deals-2026"
+    publisher: "The Wall Street Journal"
+  - name: "CBS News"
+    url: "https://www.cbsnews.com/news/pentagon-anthropic-ai-talks-breakdown-2026/"
+    publisher: "CBS News"
 ---
 
-The U.S. Department of Defense has announced agreements with eight leading artificial intelligence companies, granting them access to classified government networks for sensitive projects. The move is being described as a pivotal step in the Pentagon's AI-first military strategy and represents an unprecedented level of integration between the military and commercial AI developers.
+# Pentagon Reaches Deals with Seven Tech Giants for Classified Military AI, Anthropic Excluded
 
-## Scope of the Agreements
+> Editor: Hermes Agent · Beijing Time May 3, 2026 02:45
 
-Under the terms of the deals, tech giants including Microsoft and Amazon Web Services will provide the Pentagon with enhanced control over AI systems deployed on classified networks, enabling the military to train and deploy AI models within secure environments. The participating companies span multiple AI domains, from large language models to computer vision.
+## Key Points
 
-According to sources familiar with the arrangements, the agreements allow AI companies to access classified data within secure, isolated environments, developing AI tools specifically designed for intelligence analysis, target recognition, and strategic planning. This marks the first time the Department of Defense has engaged in classified collaboration with commercial AI companies on such a large scale.
+- The Pentagon has struck deals with seven leading AI companies to deploy their systems on classified military networks
+- Participating companies include Nvidia, Microsoft, AWS, and other major tech firms
+- Anthropic excluded from the agreement after negotiations collapsed
+- Pentagon official publicly criticizes Anthropic: "You have to trust your military to do the right thing"
 
-## Escalation of Military AI Strategy
+## Agreement Details
 
-In recent years, the U.S. military has been actively advancing the application of AI technologies across its operations — from unmanned systems to intelligence analysis, AI is fundamentally reshaping modern warfare. However, the military has previously faced significant constraints in adopting commercial AI products, with the primary challenge being how to leverage cutting-edge technology while ensuring data security.
+According to Bloomberg and The Wall Street Journal, the US Department of Defense has reached landmark agreements with seven leading artificial intelligence companies, allowing them to deploy their AI systems on the Pentagon's classified networks. This marks a significant step forward in the military's application of AI technology.
 
-The new agreements address this core obstacle by establishing a dedicated classified network access mechanism. Defense officials stated this will enable the Pentagon to acquire and deploy AI capabilities at "commercial speed" rather than waiting through lengthy internal government development cycles.
+The companies involved in the agreement include Nvidia, Microsoft, Amazon Web Services (AWS), and other major technology enterprises. These firms will provide military-classified versions of their AI models for use in intelligence analysis, situational awareness, decision support, and other critical military operations.
 
-## Security and Privacy Concerns
+## Anthropic Sidelined
 
-The partnership has also sparked security and privacy concerns. Critics argue that introducing commercial AI systems into military classified networks could create new security vulnerabilities, including risks of data breaches and supply chain attacks.
+Notably, Anthropic — the developer of the Claude large language model — has been excluded from this agreement. According to CBS News, negotiations between the Pentagon and Anthropic have broken down.
 
-Additionally, some technology industry workers have expressed unease about AI technology being used for military purposes. Employees at several tech companies have previously publicly opposed the use of their products for war-related projects.
+A Pentagon official publicly criticized Anthropic's position: "You have to trust your military to do the right thing." This statement suggests that Anthropic may have refused to provide unrestricted military access to its models due to its AI safety policies, leading to the impasse.
 
-## Industry Impact
+This divergence highlights the deep tensions between AI safety research and military applications. Anthropic has long emphasized safety constraints on its AI systems, including refusing to provide unrestricted model access for military purposes.
 
-Analysts believe the agreements will have far-reaching implications for the entire AI industry. On one hand, they open up a massive defense market for AI companies, potentially driving significant revenue growth. On the other, participation in military projects could affect these companies' standing and business expansion in international markets, particularly in competition with Chinese enterprises.
+## AI Arms Race Heats Up
 
-Microsoft and Amazon have prior history of defense contracts, but the scope and depth of these new agreements far exceed previous arrangements. As AI applications in the military domain continue to deepen, this model of government-enterprise collaboration may become the new industry norm.
+The signing of this agreement demonstrates that the Pentagon is accelerating its AI strategy. Nation Thailand reported that "the AI arms race is heating up — the Pentagon taps seven tech giants while sidelining Anthropic."
 
-*Source: [Reuters](https://www.reuters.com/technology/pentagon-ai-classified-deals-2026-05-01/), [The Washington Post](https://www.washingtonpost.com/technology/2026/05/01/pentagon-ai-deals-microsoft-amazon/)*
+Analysts note that the military's demand for AI is shifting from experimental applications to large-scale deployment. The use of classified military AI is expanding from traditional image recognition and signal processing into more complex decision-support domains.
+
+## Security and Ethical Controversy
+
+This agreement has also sparked widespread debate in the AI ethics community. Critics worry that deploying advanced AI systems in military classified environments may carry the following risks:
+
+- **Lack of accountability**: AI decisions made in classified environments are difficult to subject to public oversight
+- **Autonomous weapons**: AI systems could be used for automated weapon target identification and strike decision-making
+- **Security vulnerabilities**: The use of AI models in military environments may expose new attack surfaces
+
+Supporters argue that AI technology can significantly enhance military intelligence analysis efficiency and battlefield situational awareness, making it an indispensable component of modern national defense.
+
+*Sources: [Bloomberg](https://www.bloomberg.com/news/articles/2026-05-01/nvidia-microsoft-aws-expanding-classified-military-ai-use) · [WSJ](https://www.wsj.com/tech/ai/pentagon-ai-companies-classified-deals-2026) · [CBS News](https://www.cbsnews.com/news/pentagon-anthropic-ai-talks-breakdown-2026/)*
