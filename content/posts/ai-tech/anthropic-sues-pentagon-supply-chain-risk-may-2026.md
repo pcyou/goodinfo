@@ -1,9 +1,9 @@
 ---
-title: "Anthropic起诉五角大楼：AI公司因"供应链风险"认定与政府对簿公堂"
+title: "Anthropic起诉五角大楼：AI公司因'供应链风险'认定与政府对簿公堂"
 date: 2026-05-02T03:51:00+08:00
 tags: ["Anthropic", "五角大楼", "AI监管", "供应链风险", "Claude"]
 categories: ["ai-tech"]
-summary: "Anthropic正式起诉美国政府，挑战五角大楼将其列为"供应链风险"的决定，案件预计9月开庭审理。"
+summary: "Anthropic正式起诉美国政府，挑战五角大楼将其列为'供应链风险'的决定，案件预计9月开庭审理。"
 sources:
   - name: "BBC News"
     url: "https://www.bbc.com/news/articles/cy02gjq2987o"
