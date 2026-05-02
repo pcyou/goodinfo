@@ -1,9 +1,9 @@
 ---
-title: "2026年肯塔基德比："Renegade"夺冠，赢得赛马界最激动人心的两分钟"
+title: '2026年肯塔基德比："Renegade"夺冠，赢得赛马界最激动人心的两分钟'
 date: 2026-05-02T17:00:00+08:00
 tags: ["肯塔基德比", "赛马", "体育", "美国"]
 categories: ["world"]
-summary: "2026年肯塔基德比在丘吉尔唐斯赛马场举行，"Renegade"赢得冠军，延续这一拥有150多年历史的经典赛事传统。"
+summary: '2026年肯塔基德比在丘吉尔唐斯赛马场举行，"Renegade"赢得冠军，延续这一拥有150多年历史的经典赛事传统。'
 sources:
   - name: "Yahoo Sports"
     url: "https://sports.yahoo.com/kentucky-derby-2026"
