@@ -3,7 +3,7 @@ title: "US Threatens Sanctions on Shipping Firms That Pay Iran Tolls"
 date: 2026-05-02T14:32:15+08:00
 tags: ["Iran", "shipping", "sanctions", "Strait of Hormuz", "geopolitics"]
 categories: ["world"]
-summary: "The Trump administration warns shipping companies they face sanctions if they pay Iran tolls for passage through the Strait of Hormuz, as Trump says he is 'not excited' by Iran\'s latest peace proposal."
+summary: "The Trump administration warns shipping companies they face sanctions if they pay Iran tolls for passage through the Strait of Hormuz, as Trump says he is 'not excited' by Iran's latest peace proposal."
 sources:
   - name: "BBC News"
     url: "https://www.bbc.com/news"
