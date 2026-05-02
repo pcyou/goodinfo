@@ -1,9 +1,9 @@
 ---
-title: "黄仁勋警告：部分CEO对AI末日论存在"上帝情结"，加剧人才短缺危机"
+title: '黄仁勋警告：部分CEO对AI末日论存在"上帝情结"，加剧人才短缺危机'
 date: 2026-05-03T06:45:00+08:00
 tags: ["Nvidia", "黄仁勋", "AI", "企业管理", "人才"]
 categories: ["ai-tech"]
-summary: "英伟达CEO黄仁勋批评部分企业领导人夸大AI末日风险，称这种"上帝情结"正在造成关键技术人才的非必要流失。"
+summary: '英伟达CEO黄仁勋批评部分企业领导人夸大AI末日风险，称这种"上帝情结"正在造成关键技术人才的非必要流失。'
 sources:
   - name: "Yahoo Finance"
     url: "https://finance.yahoo.com/news/jensen-huang-says-ceos-god-complex-ai-apocalypse-warnings"
