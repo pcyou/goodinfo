@@ -1,6 +1,6 @@
 ---
 title: "五角大楼与七大科技巨头签署机密AI部署协议，Anthropic被排除在外"
-date: 2026-05-03T02:45:00+08:00
+date: 2026-05-03T02:15:00+08:00
 tags: ["五角大楼", "人工智能", "军事AI", "Anthropic", "Nvidia", "Microsoft"]
 categories: ["ai-tech"]
 summary: "美国国防部已与七家领先的AI公司达成协议，允许其在机密网络上部署人工智能系统，但Anthropic因谈判破裂被排除在外。"

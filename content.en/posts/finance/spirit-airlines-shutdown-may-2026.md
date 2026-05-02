@@ -1,6 +1,6 @@
 ---
 title: "Spirit Airlines Ceases Operations Immediately After Failed Rescue Deal"
-date: 2026-05-03T02:30:00+08:00
+date: 2026-05-03T02:15:00+08:00
 tags: ["Spirit Airlines", "aviation", "bankruptcy", "US economy"]
 categories: ["finance"]
 summary: "Ultra-low-cost carrier Spirit Airlines halts all operations immediately after government bailout negotiations collapse, marking one of the largest airline failures in recent US history."

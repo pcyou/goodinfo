@@ -1,6 +1,6 @@
 ---
 title: "US to Withdraw 5,000 Troops from Germany in 6-12 Months, NATO Seeks Clarification"
-date: 2026-05-03T03:00:00+08:00
+date: 2026-05-03T02:15:00+08:00
 tags: ["US troop withdrawal", "Germany", "NATO", "geopolitics", "Iran war"]
 categories: ["world"]
 summary: "The US announces plans to withdraw approximately 5,000 troops from Germany over the next 6 to 12 months, with NATO saying it is 'working to understand the details' of the decision amid escalating US-Europe tensions over the Iran conflict."

@@ -1,6 +1,6 @@
 ---
 title: "美国Spirit航空公司宣布立即停止运营，34年廉航帝国崩塌"
-date: 2026-05-03T02:30:00+08:00
+date: 2026-05-03T02:15:00+08:00
 tags: ["Spirit Airlines", "航空业", "破产", "美国经济"]
 categories: ["finance"]
 summary: "美国超低成本航空公司Spirit Airlines在政府救援谈判破裂后宣布立即停止所有运营，成为美国航空业近年来最大规模的企业倒闭事件。"

@@ -1,6 +1,6 @@
 ---
 title: "Alzheimer's Breakthrough: Blocking a Single Protein Restores Memory in Mice"
-date: 2026-05-03T03:15:00+08:00
+date: 2026-05-03T02:15:00+08:00
 tags: ["Alzheimer's disease", "neuroscience", "protein", "memory restoration", "medical breakthrough"]
 categories: ["science"]
 summary: "Scientists discover that blocking or boosting a single key protein can help the brain fight Alzheimer's disease, successfully restoring memory and learning abilities in mice with advanced Alzheimer's, opening a new direction for treatment."

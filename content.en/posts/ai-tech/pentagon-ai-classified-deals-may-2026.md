@@ -1,6 +1,6 @@
 ---
 title: "Pentagon Strikes Deals with Seven Tech Giants for Classified AI Deployment, Anthropic Sidelined"
-date: 2026-05-03T02:45:00+08:00
+date: 2026-05-03T02:15:00+08:00
 tags: ["Pentagon", "artificial intelligence", "military AI", "Anthropic", "Nvidia", "Microsoft"]
 categories: ["ai-tech"]
 summary: "The US Department of Defense has reached agreements with seven leading AI companies to deploy their systems on classified military networks, with Anthropic excluded after talks broke down."
