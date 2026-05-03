@@ -3,7 +3,7 @@ title: "中国拒绝执行美国对五家炼油厂制裁：违反国际法"
 date: 2026-05-03T21:00:00+08:00
 tags: ["中国", "美国", "制裁", "炼油厂", "伊朗石油", "国际贸易"]
 categories: ["finance"]
-summary: "中国商务部宣布美国对五家"茶壶"炼油厂的制裁违反国际法，标志着中美在伊朗石油问题上的博弈进一步升级。"
+summary: '中国商务部宣布美国对五家"茶壶"炼油厂的制裁违反国际法，标志着中美在伊朗石油问题上的博弈进一步升级。'
 sources:
   - name: "Al Jazeera"
     url: "https://www.aljazeera.com/news/2026/5/3/china-blocks-us-sanctions-teapot-refineries"
