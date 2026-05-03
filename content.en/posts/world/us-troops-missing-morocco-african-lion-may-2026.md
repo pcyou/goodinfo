@@ -1,5 +1,5 @@
 ---
-title: "Two US Troops Missing During African Lion Military Exercise in Morocco"
+title: 'Two US Troops Missing During "African Lion" Military Exercise in Morocco'
 date: 2026-05-03T18:00:00+08:00
 tags: ["United States", "Morocco", "African Lion Exercise", "Military"]
 categories: ["world"]
