@@ -3,7 +3,7 @@ title: "互联网先驱Ask.com正式关停，25年搜索历史画上句号"
 date: 2026-05-03T16:30:00+08:00
 tags: ["Ask.com", "Jeeves", "搜索引擎", "IAC", "互联网历史", "AI搜索"]
 categories: ["ai-tech"]
-summary: "IAC宣布已于2026年5月1日正式关闭Ask.com搜索业务。这家以"Ask Jeeves"闻名的搜索引擎曾是最早的自然语言搜索平台之一，在运行近30年后最终被AI聊天机器人崛起的搜索新时代所淘汰。"
+summary: "IAC宣布已于2026年5月1日正式关闭Ask.com搜索业务。这家以'Ask Jeeves'闻名的搜索引擎曾是最早的自然语言搜索平台之一，在运行近30年后最终被AI聊天机器人崛起的搜索新时代所淘汰。"
 sources:
   - name: "The Verge"
     url: "https://www.theverge.com/culture/922810/ask-dot-com-closed-may-1st"
