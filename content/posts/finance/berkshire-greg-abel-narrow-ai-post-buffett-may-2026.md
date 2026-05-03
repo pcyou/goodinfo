@@ -3,7 +3,7 @@ title: "巴菲特后时代开启：伯克希尔投资者在年度大会上盛赞
 date: 2026-05-03T19:00:00+08:00
 tags: ["伯克希尔哈撒韦", "格雷格阿贝尔", "巴菲特", "投资大会"]
 categories: ["finance"]
-summary: "在巴菲特退休后的首次伯克希尔年度股东大会上，投资者对继任者格雷格·阿贝尔的"狭义AI"战略方向给予积极评价。"
+summary: "在巴菲特退休后的首次伯克希尔年度股东大会上，投资者对继任者格雷格·阿贝尔的战略方向给予积极评价。"
 sources:
   - name: "Berkshire investors praise Greg Abel at post-Buffett meeting"
     url: "https://finance.yahoo.com/news/berkshire-investors-praise-greg-abel-post-buffett-meeting-2026"
