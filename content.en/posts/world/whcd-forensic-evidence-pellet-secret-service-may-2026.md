@@ -1,6 +1,6 @@
 ---
 title: 'New Evidence in WHCD Shooting: Pellet in Agent Vest Confirms Suspect Link'
-date: 2026-05-04T08:15:00+08:00
+date: 2026-05-04T07:55:00+08:00
 tags: ["US", "WHCD", "Secret Service", "Trump", "Security"]
 categories: ["world"]
 summary: 'Federal prosecutors confirm that a pellet found in a Secret Service agent body armor came from suspect Cole Allen shotgun, directly linking him to the White House Correspondents dinner shooting.'

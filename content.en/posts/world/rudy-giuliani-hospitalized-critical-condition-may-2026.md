@@ -1,6 +1,6 @@
 ---
 title: 'Former NYC Mayor Rudy Giuliani Hospitalized in Critical Condition'
-date: 2026-05-04T08:00:00+08:00
+date: 2026-05-04T07:50:00+08:00
 tags: ["US Politics", "Giuliani", "Health"]
 categories: ["world"]
 summary: '81-year-old former New York City Mayor Rudy Giuliani has been hospitalized in Florida, with his spokesman describing his condition as critical but stable.'
