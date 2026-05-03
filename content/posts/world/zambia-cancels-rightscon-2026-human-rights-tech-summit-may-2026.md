@@ -3,7 +3,7 @@ title: "赞比亚取消全球最大人权科技峰会RightsCon，距开幕仅数
 date: 2026-05-03T11:30:00+08:00
 tags: ["RightsCon", "赞比亚", "人权", "科技", "审查"]
 categories: ["world"]
-summary: "赞比亚政府在峰会即将开幕前几天突然取消RightsCon 2026，称其不符合"国家价值观"，引发国际社会强烈批评。"
+summary: "赞比亚政府在峰会即将开幕前几天突然取消RightsCon 2026，称其不符合'国家价值观'，引发国际社会强烈批评。"
 sources:
   - name: "Zambia cancels world's largest human rights and tech summit days before start"
     url: "https://www.theguardian.com/global-development/2026/may/02/zambia-cancels-rightscon-summit-largest-human-rights-technology-conference"
