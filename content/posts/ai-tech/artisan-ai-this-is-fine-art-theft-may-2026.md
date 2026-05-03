@@ -1,15 +1,15 @@
 ---
-title: "经典网络迷因"This is fine"创作者指控AI初创公司Artisan盗用作品"
+title: '经典网络迷因"This is fine"创作者指控AI初创公司Artisan盗用作品'
 date: 2026-05-04T06:30:00+08:00
 tags: ["AI版权", "Artisan", "网络迷因", "知识产权"]
 categories: ["ai-tech"]
-summary: "经典网络迷因"This is fine"创作者KC Green指控AI初创公司Artisan未经授权在其广告中使用其作品，Artisan此前曾因"停止雇佣人类"广告牌引发争议。"
+summary: '经典网络迷因"This is fine"创作者KC Green指控AI初创公司Artisan未经授权在其广告中使用其作品，Artisan此前曾因"停止雇佣人类"广告牌引发争议。'
 sources:
   - name: "'This is fine' creator says AI startup stole his art"
     url: "https://techcrunch.com/2026/05/03/this-is-fine-creator-says-ai-startup-stole-his-art/"
     publisher: "TechCrunch"
----
 
+------
 ## 经典网络迷因"This is fine"创作者指控AI初创公司盗用作品
 
 过去十年最具持久影响力的网络迷因之一——一只人形狗坐在火焰中微笑说着"这没什么"（This is fine）——的创作者 KC Green，指控 AI 初创公司 Artisan 未经授权在其广告活动中使用了他的作品。

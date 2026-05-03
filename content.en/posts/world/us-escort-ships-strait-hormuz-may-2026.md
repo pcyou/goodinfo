@@ -14,8 +14,8 @@ sources:
   - name: "Oil Falls as Trump Says US to Start Guiding Ships Through Hormuz"
     url: "https://www.bloomberg.com"
     publisher: "Bloomberg"
----
 
+------
 ## Trump Announces US Will Begin Escorting Ships Through Strait of Hormuz
 
 US President Donald Trump announced on the evening of May 3 that the US military will begin escorting vessels trapped in the Persian Gulf through the Strait of Hormuz — one of the world's most critical oil shipping routes.

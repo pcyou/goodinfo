@@ -11,8 +11,8 @@ sources:
   - name: "Iran submits 14-point response to US proposal to end war"
     url: "https://www.npr.org"
     publisher: "NPR"
----
 
+------
 ## 伊朗称收到美国对14点和平提案的回应
 
 据BBC和NPR报道，伊朗方面于5月3日表示，已收到美国对其最新和平提案的回应。此前，伊朗向美方提交了一份包含14个要点的回应方案，旨在结束两国之间的冲突。

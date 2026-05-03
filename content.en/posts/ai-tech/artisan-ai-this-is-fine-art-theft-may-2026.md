@@ -8,8 +8,8 @@ sources:
   - name: "'This is fine' creator says AI startup stole his art"
     url: "https://techcrunch.com/2026/05/03/this-is-fine-creator-says-ai-startup-stole-his-art/"
     publisher: "TechCrunch"
----
 
+------
 ## 'This is Fine' Meme Creator Accuses AI Startup Artisan of Art Theft
 
 KC Green, the artist behind one of the internet's most enduring memes — an anthropomorphic dog sitting calmly amid flames saying "This is fine" — has accused AI startup Artisan of using his work in an advertising campaign without authorization.

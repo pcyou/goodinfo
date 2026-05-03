@@ -11,8 +11,8 @@ sources:
   - name: "Iran says US has responded to its latest peace proposal"
     url: "https://www.bbc.com"
     publisher: "BBC"
----
 
+------
 ## 特朗普宣布美国将开始护送船只通过霍尔木兹海峡
 
 美国总统特朗普于5月3日晚宣布，美军将开始为被困在波斯湾的船只提供护航，帮助其通过霍尔木兹海峡——这一全球最重要的石油运输通道。

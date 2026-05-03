@@ -11,8 +11,8 @@ sources:
   - name: "Iran submits 14-point response to US proposal to end war"
     url: "https://www.npr.org"
     publisher: "NPR"
----
 
+------
 ## Iran Says It Has Received US Response to 14-Point Peace Proposal
 
 Iran announced on May 3 that it has received a US response to its latest peace proposal, according to BBC and NPR. The submission included a 14-point response aimed at ending the ongoing conflict between the two nations.
