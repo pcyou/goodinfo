@@ -3,7 +3,7 @@ title: "伊朗袭击阿联酋目标，霍尔木兹海峡局势急剧升级"
 date: 2026-05-05T00:00:00+08:00
 tags: ["伊朗", "阿联酋", "霍尔木兹海峡", "自由行动", "中东局势", "原油价格"]
 categories: ["world"]
-summary: "伊朗对阿联酋发动自四月初停火以来的首次攻击，向富查伊拉发射四枚巡航导弹并用无人机袭击石油设施，同时美国启动"自由行动"为海峡船只护航。"
+summary: "伊朗对阿联酋发动自四月初停火以来的首次攻击，向富查伊拉发射四枚巡航导弹并用无人机袭击石油设施，同时美国启动'自由行动'为海峡船只护航。"
 sources:
   - name: "Associated Press"
     url: "https://apnews.com/article/iran-us-war-ceasefire-negotiations-strait-a4857f28d9b47e0170b65ced19451a25"
