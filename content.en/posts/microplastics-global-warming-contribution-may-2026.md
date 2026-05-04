@@ -1,6 +1,6 @@
 ---
 title: "Scientists Identify Atmospheric Microplastics as a New Contributor to Global Warming"
-date: 2026-05-05T02:00:00+08:00
+date: 2026-05-05T00:30:00+08:00
 tags: ["Microplastics", "Global Warming", "Climate Change", "Nature Climate Change", "Duke University", "Fudan University"]
 categories: ["science"]
 summary: "A new study published in Nature Climate Change finds that colored micro- and nanoplastics suspended in the atmosphere contribute to global warming at a level equal to 16% of that caused by black carbon, exceeding it fivefold in regions like the Pacific Garbage Patch."

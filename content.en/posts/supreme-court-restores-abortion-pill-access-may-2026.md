@@ -1,6 +1,6 @@
 ---
 title: "U.S. Supreme Court Temporarily Restores Full Access to Abortion Pill"
-date: 2026-05-05T01:00:00+08:00
+date: 2026-05-05T00:30:00+08:00
 tags: ["Supreme Court", "Abortion Rights", "Mifepristone", "Telehealth", "Healthcare Policy"]
 categories: ["world"]
 summary: "The Supreme Court issued an emergency order Monday restoring broad access to the abortion pill mifepristone through telehealth, mail, and pharmacies, blocking a federal appeals court ruling that imposed new restrictions last week."

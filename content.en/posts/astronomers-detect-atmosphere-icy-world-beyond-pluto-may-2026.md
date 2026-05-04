@@ -1,6 +1,6 @@
 ---
 title: "Astronomers Believe They've Detected an Atmosphere Around a Tiny Icy World Beyond Pluto"
-date: 2026-05-05T03:00:00+08:00
+date: 2026-05-05T00:30:00+08:00
 tags: ["Astronomy", "Pluto", "Trans-Neptunian Object", "Atmosphere", "Solar System"]
 categories: ["science"]
 summary: "Astronomers believe they have detected an atmosphere around a small icy world beyond Pluto for the first time, a finding that could reshape our understanding of objects at the edge of the solar system."
