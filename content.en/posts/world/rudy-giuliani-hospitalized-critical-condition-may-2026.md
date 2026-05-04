@@ -1,43 +1,42 @@
 ---
-title: 'Former NYC Mayor Rudy Giuliani Hospitalized in Critical Condition'
-date: 2026-05-04T07:50:00+08:00
-tags: ["US Politics", "Giuliani", "Health"]
+title: Rudy Giuliani, Trump Former Lawyer, Hospitalized in Critical Condition in Florida
+date: 2026-05-04T10:08:00+08:00
+tags: ["Giuliani", "Trump", "US Politics", "Florida"]
 categories: ["world"]
-summary: '81-year-old former New York City Mayor Rudy Giuliani has been hospitalized in Florida, with his spokesman describing his condition as critical but stable.'
+summary: Former New York City mayor Giuliani, 81, is in critical but stable condition at a Florida hospital, his spokesperson announced on Sunday
 sources:
-  - name: "Rudy Giuliani Is in Critical Condition in Florida Hospital"
-    url: "https://www.nytimes.com/2026/05/03/nyregion/rudy-giuliani-hospitalized.html"
-    publisher: "The New York Times"
-  - name: "Rudy Giuliani hospitalized in critical condition"
-    url: "https://www.washingtonexaminer.com/news/politics/rudy-giuliani-hospitalized"
-    publisher: "Washington Examiner"
+  - name: New York Times
+    url: https://www.nytimes.com/
+    publisher: The New York Times
+  - name: CNBC
+    url: https://www.cnbc.com/
+    publisher: CNBC
+  - name: BBC
+    url: https://www.bbc.com/
+    publisher: BBC
 ---
 
-## Former NYC Mayor Rudy Giuliani Hospitalized in Critical Condition
+## Giuliani Hospitalized in Critical Condition
 
-Rudy Giuliani, the 81-year-old former mayor of New York City, was admitted to a Florida hospital on Sunday, May 3, with his spokesperson confirming he is in "critical but stable" condition.
+Former New York City mayor and Trump personal attorney Rudy Giuliani is in critical but stable condition, his spokesperson Ted Goodman announced on Sunday via social media.
 
-### Spokesperson Statement
+The 81-year-old is receiving emergency treatment at a Florida hospital. Goodman said in a statement that Giuliani is fighting.
 
-Giuliani's spokesman, Ted Goodman, said in a statement: "Mayor Giuliani is a fighter who has faced every challenge in his life with unwavering strength, and he's fighting with that same spirit with this current health situation." The statement did not disclose the specific reason for his hospitalization.
+### Trump Response
 
-### Media Coverage
+Trump subsequently responded on social media, calling Giuliani a true warrior and the best mayor in the history of New York City. He attributed Giuliani condition to attacks from political opponents.
 
-According to The New York Times, Giuliani was transported to a hospital near Palm Beach, Florida. Multiple US media outlets confirmed the news almost simultaneously, including ABC News, Fox News, and the New York Post.
+### Giuliani Political Career
 
-The Daily Beast, citing sources familiar with the matter, reported that Giuliani, 81, is currently in critical condition at a Florida hospital. News12 Brooklyn and KVIA in El Paso were among the first local outlets to report the hospitalization.
+Giuliani served as mayor of New York City from 1994 to 2001, gaining widespread attention for his leadership during the September 11 attacks. He later became Trump personal attorney, playing a central role in the disputes over the 2020 election results.
 
-### Giuliani's Political Legacy
+In recent years, Giuliani has faced multiple legal disputes, including suspension of his law license and rulings related to 2020 election litigation.
 
-Rudy Giuliani is one of the most recognizable figures in American politics. He served as mayor of New York City from 1994 to 2001 and is best known for his leadership during the September 11, 2001 terrorist attacks. His presence at Ground Zero coordinating rescue efforts was widely praised as a model of crisis leadership, earning him Time magazine's Person of the Year title in 2001.
+### Widespread Attention
 
-Giuliani later became a key figure in Donald Trump's 2016 presidential campaign and subsequently served as Trump's personal attorney, becoming deeply involved in the president's various legal battles. In recent years, Giuliani has faced multiple legal challenges related to his role in efforts to overturn the 2020 presidential election.
+Multiple media outlets reported that Giuliani condition has drawn significant attention from political figures. CNBC noted that Giuliani dual identity as former New York mayor and Trump attorney made his hospitalization headline news quickly.
 
-### Health History
-
-Giuliani's health has been a matter of public concern in recent years. He underwent treatment for prostate cancer in 2021, was hospitalized with COVID-19 in 2023, and sustained injuries from a fall in late 2024.
-
-It is not yet known whether the current hospitalization is related to any of these pre-existing conditions. His spokesperson has not released further medical details.
+NBC News reported that Goodman statement came on Sunday, after Giuliani condition had been ongoing for some time.
 
 ---
-*Source: [The New York Times](https://www.nytimes.com/2026/05/03/nyregion/rudy-giuliani-hospitalized.html), [Washington Examiner](https://www.washingtonexaminer.com/news/politics/rudy-giuliani-hospitalized)*
+*Sources: [New York Times](https://www.nytimes.com/), [CNBC](https://www.cnbc.com/), [BBC](https://www.bbc.com/)*

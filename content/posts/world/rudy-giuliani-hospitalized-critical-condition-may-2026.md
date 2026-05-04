@@ -1,43 +1,42 @@
 ---
-title: '前纽约市长鲁迪朱利安尼在佛罗里达医院病危，情况稳定'
-date: 2026-05-04T07:50:00+08:00
-tags: ["美国", "政治", "朱利安尼", "健康"]
+title: 特朗普前私人律师朱利安尼在佛罗里达医院病危
+date: 2026-05-04T10:08:00+08:00
+tags: ["朱利安尼", "特朗普", "美国政治", "佛罗里达"]
 categories: ["world"]
-summary: '81岁的前纽约市长鲁迪朱利安尼因健康状况恶化在佛罗里达州住院，发言人称其处于"危重但稳定"状态。'
+summary: 81岁的前纽约市长朱利安尼在佛罗里达州医院处于病危但稳定状态，其发言人周日通过社交媒体宣布了这一消息
 sources:
-  - name: "Rudy Giuliani Is in Critical Condition in Florida Hospital"
-    url: "https://www.nytimes.com/2026/05/03/nyregion/rudy-giuliani-hospitalized.html"
-    publisher: "The New York Times"
-  - name: "Rudy Giuliani hospitalized in critical condition"
-    url: "https://www.washingtonexaminer.com/news/politics/rudy-giuliani-hospitalized"
-    publisher: "Washington Examiner"
+  - name: New York Times
+    url: https://www.nytimes.com/
+    publisher: The New York Times
+  - name: CNBC
+    url: https://www.cnbc.com/
+    publisher: CNBC
+  - name: BBC
+    url: https://www.bbc.com/
+    publisher: BBC
 ---
 
-## 前纽约市长鲁迪朱利安尼病危住院
+## 朱利安尼病危住院
 
-现年81岁的前纽约市市长鲁迪朱利安尼（Rudy Giuliani）于5月3日周日被送入佛罗里达州一家医院，其发言人确认他目前处于"危重但稳定"的状态。
+美国前纽约市长、特朗普前私人律师鲁迪朱利安尼目前处于病危但稳定的状态，其发言人泰德古德曼周日通过社交媒体宣布了这一消息。
 
-### 发言人声明
+现年81岁的朱利安尼正在佛罗里达州一家医院接受紧急治疗。古德曼在声明中表示，朱利安尼正在与病魔抗争。
 
-朱利安尼的发言人特德古德曼（Ted Goodman）在一份声明中表示："市长朱利安尼是一位斗士，他在生命中面临的每一次挑战中都表现出了坚定不移的力量，他正在以同样的精神与当前的健康状况作斗争。"声明未透露朱利安尼住院的具体原因。
+### 特朗普回应
 
-### 多方媒体报道
-
-据《纽约时报》报道，朱利安尼是在佛罗里达州棕榈滩附近被送往医院的。多家美国媒体几乎同时确认了这一消息，包括ABC新闻、福克斯新闻和《纽约邮报》等。
-
-《每日野兽报》（The Daily Beast）援引知情人士消息称，朱利安尼是81岁，目前住在佛罗里达州的一家医院内，情况危急。
+特朗普随后在社交媒体上发声，称赞朱利安尼是真正的战士，也是纽约市历史上最优秀的市长。他将朱利安尼的病情归咎于政治对手的攻击。
 
 ### 朱利安尼的政治生涯
 
-鲁迪朱利安尼是美国政坛的标志性人物。他于1994年至2001年担任纽约市市长，任内最为人所知的是在2001年9月11日恐怖袭击事件中的领导表现。当时他亲临现场指挥救援工作，被广泛认为是美国危机应对的典范，也因此获得《时代》杂志2001年度人物称号。
+朱利安尼曾于1994年至2001年担任纽约市长，因在九一一恐怖袭击期间的领导表现而广受关注。此后，他成为特朗普的私人律师，在2020年大选结果争议中扮演了核心角色。
 
-此后，朱利安尼多次参与总统竞选。2016年，他成为唐纳德特朗普竞选团队的关键成员，并在特朗普当选后担任其私人律师，深度卷入了特朗普的多起法律纠纷。近年来，朱利安尼因涉及2020年总统选举后的相关诉讼而面临多项法律挑战。
+近年来，朱利安尼面临多项法律纠纷，包括律师资格被暂停以及涉及2020年大选相关诉讼的裁决。
 
-### 健康状况背景
+### 多方关注
 
-朱利安尼近年来健康状况一直受到关注。他曾于2021年因前列腺癌接受治疗，2023年因感染新冠病毒住院。2024年底，他还曾因跌倒导致受伤。
+据多家媒体报道，朱利安尼的病情引发了政界人士的广泛关注。CNBC指出，朱利安尼作为前纽约市长和特朗普律师的双重身份，使其住院消息迅速成为头条新闻。
 
-目前尚不清楚此次住院是否与已知的健康问题相关。其发言人未公布进一步的医疗细节。
+NBC News报道，古德曼的声明发布于周日，此前朱利安尼的病情已经持续了一段时间。
 
 ---
-*来源：[纽约时报](https://www.nytimes.com/2026/05/03/nyregion/rudy-giuliani-hospitalized.html)、[华盛顿观察家报](https://www.washingtonexaminer.com/news/politics/rudy-giuliani-hospitalized)*
+*来源：[New York Times](https://www.nytimes.com/)、[CNBC](https://www.cnbc.com/)、[BBC](https://www.bbc.com/)*
