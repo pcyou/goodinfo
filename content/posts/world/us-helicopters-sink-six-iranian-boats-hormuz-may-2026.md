@@ -3,7 +3,7 @@ title: 美军直升机击沉六艘伊朗快艇 霍尔木兹海峡军事对抗升
 date: 2026-05-05T03:15:00+08:00
 tags: ["国际局势", "霍尔木兹海峡", "伊朗", "美国", "军事冲突"]
 categories: ["world"]
-summary: "美军AH-64阿帕奇和MH-60海鹰直升机在霍尔木兹海峡击沉六艘伊朗快艇，这些快艇据称正在 targeting 民用船只。特朗普警告伊朗政权可能"从地球上被抹去"。"
+summary: "美军AH-64阿帕奇和MH-60海鹰直升机在霍尔木兹海峡击沉六艘伊朗快艇，这些快艇据称正在 targeting 民用船只。特朗普警告伊朗政权可能'从地球上被抹去'。"
 sources:
   - name: "CBS News"
     url: "https://www.cbsnews.com/live-updates/iran-uae-tanker-strait-hormuz-project-freedom/"

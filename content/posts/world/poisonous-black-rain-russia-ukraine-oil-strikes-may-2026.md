@@ -3,7 +3,7 @@ title: "乌克兰无人机袭击俄罗斯炼油厂 黑海沿岸降下有毒黑�
 date: 2026-05-05T03:45:00+08:00
 tags: ["国际局势", "俄乌战争", "环境灾难", "无人机袭击"]
 categories: ["world"]
-summary: "乌克兰对俄罗斯关键石油设施的无人机袭击引发环境灾难，黑海沿岸城镇降下有毒黑雨，居民称"石油正从天空中落下"。"
+summary: "乌克兰对俄罗斯关键石油设施的无人机袭击引发环境灾难，黑海沿岸城镇降下有毒黑雨，居民称'石油正从天空中落下'。"
 sources:
   - name: "The Washington Post"
     url: "https://www.washingtonpost.com/"
