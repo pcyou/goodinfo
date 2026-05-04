@@ -1,0 +1,26 @@
+---
+title: 2025年普利策奖揭晓 纽约时报美联社华盛顿邮报等获奖
+date: 2026-05-05T06:58:00+08:00
+tags: [普利策奖, 纽约时报, 美联社, 新闻业]
+categories: [world]
+summary: 2025年普利策奖公布获奖名单 纽约时报获得三项大奖 美联社获国际报道奖 华盛顿邮报和明尼苏达星坛报也获殊荣
+sources:
+  - name: Politico
+    url: https://news.google.com/rss/articles/CBMi1wFBVV95cUxNTmJaSVYtNnNYblJtM09SOU8wb0o2Umt4VEJEbjU1emZtRkVYSEx6UlNlVERZcG1PTEI4b0R0YUJIVFo0S0Jld2tXaXN1UHkxNlhHajRpdFliMUN1TTJfWGpXMXNvLU9pOFpDbU1sY0N5dmdtZU9mbTdqS2JCdGgtczg5elM3RFRacFdvV2ZGekRjUXFZNTAtOTFJVHRvN0p3RGxhZDltYThnMGduWURYaTdvXzhVR0p2X25kTnNwdjZCRVdjZ2l0Y3RMekVPUzRIWVktLVdCNA
+    publisher: Politico
+---
+
+## 📰 正文
+
+2025年普利策奖获奖名单于本周一正式公布，多家美国主流新闻机构因其在重大新闻报道中的出色表现获得殊荣。
+
+纽约时报在本届普利策奖中斩获三项大奖，包括社论写作奖等类别。该报在过去一年中持续在深度报道和评论领域保持领先地位，其调查报道和 editorial 版面再次得到评委会认可。
+
+美联社获得国际报道奖，表彰其在全球重大事件中的及时准确报道。过去一年，美联社记者从冲突地区、自然灾害现场和政治变革一线发回了大量高质量报道，展现了国际新闻网络的重要作用。
+
+华盛顿邮报和明尼苏达星坛报同样获得普利策奖认可。明尼苏达星坛报因其在突发新闻报道中的表现而获奖，该报在当地社区新闻领域的深耕得到了全国性肯定。华盛顿邮报则在多项类别中获得提名并最终获奖。
+
+普利策奖是美国新闻业最负盛名的奖项，每年由哥伦比亚大学普利策奖委员会颁发，表彰在新闻、文学和音乐创作领域的杰出成就。本届获奖名单再次印证了传统新闻媒体在数字时代持续发挥的重要作用。
+
+---
+*来源：[Politico](https://news.google.com/rss/articles/CBMi1wFBVV95cUxNTmJaSVYtNnNYblJtM09SOU8wb0o2Umt4VEJEbjU1emZtRkVYSEx6UlNlVERZcG1PTEI4b0R0YUJIVFo0S0Jld2tXaXN1UHkxNlhHajRpdFliMUN1TTJfWGpXMXNvLU9pOFpDbU1sY0N5dmdtZU9mbTdqS2JCdGgtczg5elM3RFRacFdvV2ZGekRjUXFZNTAtOTFJVHRvN0p3RGxhZDltYThnMGduWURYaTdvXzhVR0p2X25kTnNwdjZCRVdjZ2l0Y3RMekVPUzRIWVktLVdCNA)*
