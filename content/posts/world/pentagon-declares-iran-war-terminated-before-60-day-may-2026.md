@@ -1,9 +1,9 @@
 ---
-title: "五角大楼宣布伊朗冲突已在60天期限前\"终止\"，赫格塞斯国会作证引发争议"
+title: '五角大楼宣布伊朗冲突已在60天期限前\终止\，赫格塞斯国会作证引发争议'
 date: 2026-05-01T05:30:00+08:00
 tags: ["伊朗战争", "战争权力法", "赫格塞斯", "五角大楼", "美国国会"]
 categories: ["world"]
-summary: "特朗普政府在《战争权力法》60天期限到来前宣布伊朗军事行动已\"终止\"，国防部长赫格塞斯连续两天在国会接受质询，声称停火协议暂停了国会授权的计时器。"
+summary: '特朗普政府在《战争权力法》60天期限到来前宣布伊朗军事行动已\终止\，国防部长赫格塞斯连续两天在国会接受质询，声称停火协议暂停了国会授权的计时器。'
 sources:
   - name: "Trump administration says its war in Iran has been 'terminated' before 60-day deadline"
     url: "https://www.washingtonpost.com/national-security/2026/05/01/iran-war-terminated-60-day-deadline/"

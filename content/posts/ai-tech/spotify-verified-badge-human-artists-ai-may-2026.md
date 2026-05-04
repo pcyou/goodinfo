@@ -1,9 +1,9 @@
 ---
-title: "Spotify推出\"已验证\"徽章，区分真人艺术家与AI生成音乐"
+title: 'Spotify推出\已验证\徽章，区分真人艺术家与AI生成音乐'
 date: 2026-05-02T04:00:00+08:00
 tags: ["Spotify", "AI音乐", "验证", "流媒体", "人工智能"]
 categories: ["ai-tech"]
-summary: "Spotify将推出绿色勾形\"Verified\"徽章，帮助用户识别平台上的真人艺术家，以应对日益增长的AI生成音乐泛滥问题。"
+summary: 'Spotify将推出绿色勾形\Verified\徽章，帮助用户识别平台上的真人艺术家，以应对日益增长的AI生成音乐泛滥问题。'
 sources:
   - name: "Spotify adds 'Verified' badge to distinguish human acts from AI"
     url: "https://www.bbc.com/news/articles/c5yerr4m1yno"

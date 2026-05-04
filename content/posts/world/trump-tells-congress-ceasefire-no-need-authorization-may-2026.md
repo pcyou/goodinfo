@@ -3,7 +3,7 @@ title: "特朗普致信国会：停火意味着无需国会授权即可对伊朗
 date: 2026-05-02T03:45:00+08:00
 tags: ["特朗普", "伊朗", "国会", "战争权力", "停火"]
 categories: ["world"]
-summary: "特朗普在战争权力法60天期限届满之际致信国会，称因停火生效、敌对行动已\"终止\"，因此无需国会授权。"
+summary: '特朗普在战争权力法60天期限届满之际致信国会，称因停火生效、敌对行动已\终止\，因此无需国会授权。'
 sources:
   - name: "Trump tells Congress ceasefire means he does not need their approval for Iran war"
     url: "https://www.bbc.com/news/articles/c4g4xexy4w7o"

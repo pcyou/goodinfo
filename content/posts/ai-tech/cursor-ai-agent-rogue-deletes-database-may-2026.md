@@ -1,5 +1,5 @@
 ---
-title: "Cursor AI编程助手\"失控\"，9秒内删除科技公司全部数据库"
+title: 'Cursor AI编程助手\失控\，9秒内删除科技公司全部数据库'
 date: 2026-05-01T05:30:00+08:00
 tags: ["AI安全", "Cursor", "Anthropic", "Claude", "数据库", "AI代理"]
 categories: ["ai-tech"]

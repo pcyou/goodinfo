@@ -3,7 +3,7 @@ title: "特朗普宣布将欧盟汽车关税提高至25%，贸易紧张局势升
 date: 2026-05-02T03:50:00+08:00
 tags: ["特朗普", "关税", "欧盟", "汽车", "贸易战"]
 categories: ["finance"]
-summary: "特朗普指责欧盟\"未遵守贸易协议\"，宣布将对欧盟汽车和卡车关税从15%提高至25%，并敦促欧洲车企赴美建厂。"
+summary: '特朗普指责欧盟\未遵守贸易协议\，宣布将对欧盟汽车和卡车关税从15%提高至25%，并敦促欧洲车企赴美建厂。'
 sources:
   - name: "Trump says he will hike tariffs on EU cars to 25%"
     url: "https://www.bbc.com/news/articles/c4g8zpylzz9o"

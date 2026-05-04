@@ -1,9 +1,9 @@
 ---
-title: "AI初创公司Artisan被指盗用经典表情包\"This is fine\"原作"
+title: 'AI初创公司Artisan被指盗用经典表情包\This is fine\原作'
 date: 2026-05-03T20:16:00+08:00
 tags: ["AI版权", "Artisan", "KC Green", "知识产权"]
 categories: ["ai-tech"]
-summary: "AI初创公司Artisan在地铁广告中使用经典漫画\"This is fine\"的改编版本，原作者KC Green表示其作品被盗用，正考虑寻求法律代理。"
+summary: 'AI初创公司Artisan在地铁广告中使用经典漫画\This is fine\的改编版本，原作者KC Green表示其作品被盗用，正考虑寻求法律代理。'
 sources:
   - name: "TechCrunch"
     url: "https://techcrunch.com/2026/05/03/this-is-fine-creator-says-ai-startup-stole-his-art/"

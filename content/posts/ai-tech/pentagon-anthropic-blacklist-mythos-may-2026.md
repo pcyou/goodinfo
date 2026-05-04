@@ -1,5 +1,5 @@
 ---
-title: "🔒 五角大楼：Anthropic 仍被列入黑名单，但 Mythos 模型是\"独立的国家安全问题\""
+title: '🔒 五角大楼：Anthropic 仍被列入黑名单，但 Mythos 模型是\独立的国家安全问题\'
 date: 2026-05-01T21:48:00+08:00
 tags: ["Anthropic", "五角大楼", "Mythos", "AI安全", "供应链风险", "网络安全"]
 categories: ["ai-tech"]

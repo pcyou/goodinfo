@@ -1,9 +1,9 @@
 ---
-title: "搁浅数周后，座头鲸\"Timmy\"在德国海岸获救并重返北海"
+title: '搁浅数周后，座头鲸\Timmy\在德国海岸获救并重返北海'
 date: 2026-05-02T19:40:00+08:00
 tags: ["座头鲸", "野生动物救援", "德国", "海洋生物", "环境"]
 categories: ["science"]
-summary: "在德国海岸搁浅数周的座头鲸\"Timmy\"经过大规模救援行动后被成功释放回北海，引发全球关注。"
+summary: '在德国海岸搁浅数周的座头鲸\Timmy\经过大规模救援行动后被成功释放回北海，引发全球关注。'
 sources:
   - name: "The Guardian"
     url: "https://www.theguardian.com/environment/2026/may/02/humpback-whale-timmy-released-germany"

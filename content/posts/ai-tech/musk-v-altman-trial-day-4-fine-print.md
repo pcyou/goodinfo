@@ -1,5 +1,5 @@
 ---
-title: "Musk 起诉 Altman 案第四天：马斯克承认未阅读 OpenAI 转为营利公司的\"细则条款\""
+title: 'Musk 起诉 Altman 案第四天：马斯克承认未阅读 OpenAI 转为营利公司的\细则条款\'
 date: 2026-05-01T08:24:00+08:00
 tags: ["AI", "OpenAI", "Musk", "Altman", "诉讼"]
 categories: ["ai-tech"]
