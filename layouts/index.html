@@ -1,0 +1,81 @@
+{{- define "main" }}
+<div class="dashboard-home">
+
+  <!-- 汉堡菜单 toggle (纯 CSS, 无需 JS) -->
+  <input type="checkbox" id="hamburger-toggle" class="hamburger-toggle" hidden>
+
+  {{/* ===== Hero Banner ===== */}}
+  <section class="hero-banner">
+    <h1>{{ site.Params.homeInfoParams.Title | default .Site.Title }}</h1>
+    <p>{{ site.Params.homeInfoParams.Content | default .Site.Params.description }}</p>
+  </section>
+
+  {{/* ===== 桌面导航栏 ===== */}}
+  <nav class="desktop-nav">
+    {{- range site.Menus.main }}
+    <a href="{{ .URL | absLangURL }}">{{ .Name }}</a>
+    {{- end }}
+  </nav>
+
+  {{/* ===== 移动端导航面板 ===== */}}
+  <label for="hamburger-toggle" class="hamburger-btn" aria-label="Toggle menu">
+    <span></span><span></span><span></span>
+  </label>
+  <div class="mobile-nav-panel">
+    {{- range site.Menus.main }}
+    <a href="{{ .URL | absLangURL }}">{{ .Name }}</a>
+    {{- end }}
+  </div>
+
+  {{/* ===== 头条推荐区 ===== */}}
+  {{- $allPosts := where site.RegularPages "Type" "posts" }}
+  {{- $latest := first 1 $allPosts }}
+  {{- with index $latest 0 }}
+  <section class="featured-section">
+    <a href="{{ .RelPermalink }}" class="featured-card">
+      <span class="featured-label">🔥 头条</span>
+      <h2>{{ .Title }}</h2>
+      <p class="meta">{{ .Date | time.Format ":date_medium" }} · {{ with .Params.categories }}{{ index . 0 }}{{ end }}</p>
+    </a>
+  </section>
+  {{- end }}
+
+  {{/* ===== 栏目网格 ===== */}}
+  <div class="category-grid">
+    {{- $categories := slice "ai-tech" "finance" "world" "science" "crypto" }}
+    {{- $catIcons := dict "ai-tech" "🤖" "finance" "💰" "world" "🌍" "science" "🔬" "crypto" "₿" }}
+    {{- $catNames := dict "ai-tech" "AI与科技" "finance" "财经" "world" "国际" "science" "科学" "crypto" "Crypto" }}
+
+    {{- range $cat := $categories }}
+    {{- $posts := where site.RegularPages "Params.categories" "intersect" (slice $cat) }}
+    {{- $posts = first 10 $posts }}
+    {{- if $posts }}
+    <section class="category-panel">
+      <div class="category-header">
+        <h3>{{ index $catIcons $cat }} {{ index $catNames $cat }}</h3>
+        <a href="{{ printf "/categories/%s/" $cat | absLangURL }}">更多 →</a>
+      </div>
+      <ul class="news-list">
+        {{- range $posts }}
+        <li>
+          <a href="{{ .RelPermalink }}">
+            {{ .Title }}
+            <span class="time">{{ .Date | time.Format "01-02 15:04" }}</span>
+          </a>
+        </li>
+        {{- end }}
+      </ul>
+    </section>
+    {{- end }}
+    {{- end }}
+  </div>
+
+  {{/* ===== 分页 ===== */}}
+  {{- if gt (len $allPosts) 40 }}
+  <div class="dashboard-pagination">
+    <a href="{{ "posts/" | absLangURL }}">📰 查看全部文章 →</a>
+  </div>
+  {{- end }}
+
+</div>
+{{- end }}
