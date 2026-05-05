@@ -1,12 +1,18 @@
 /* ============================================
-   GoodInfo Dashboard Home Page Styles v2
-   新闻仪表盘 - 2栏响应式
+   GoodInfo Dashboard Home Page Styles v3
+   新闻仪表盘 - 2栏响应式 + 大字体
    ============================================ */
 
+/* 解除 PaperMod 的 720px 宽度限制 */
+body.list .main {
+  max-width: 100% !important;
+  padding: 0;
+}
+
 .dashboard-home {
-  max-width: 1200px;
+  max-width: 1600px;
   margin: 0 auto;
-  padding: 1rem;
+  padding: 1.2rem 1.5rem;
 }
 
 /* --- 头条推荐区 --- */
@@ -31,19 +37,19 @@
   display: inline-block;
   background: var(--primary);
   color: var(--entry);
-  padding: 0.2rem 0.6rem;
+  padding: 0.25rem 0.7rem;
   border-radius: 4px;
-  font-size: 0.75rem;
+  font-size: 0.85rem;
   font-weight: 600;
   margin-bottom: 0.7rem;
 }
 .featured-card h2 {
   margin: 0 0 0.4rem;
-  font-size: 1.3rem;
+  font-size: 1.65rem;
   line-height: 1.4;
 }
 .featured-card .meta {
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   opacity: 0.6;
   margin: 0;
 }
@@ -65,17 +71,17 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0.8rem 1rem;
+  padding: 0.9rem 1.2rem;
   border-bottom: 1px solid var(--border);
   background: var(--tertiary);
 }
 .category-header h3 {
   margin: 0;
-  font-size: 1rem;
-  font-weight: 600;
+  font-size: 1.2rem;
+  font-weight: 700;
 }
 .category-header a {
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   color: var(--primary);
   text-decoration: none;
   opacity: 0.7;
@@ -97,11 +103,11 @@
 }
 .news-list a {
   display: block;
-  padding: 0.6rem 1rem;
+  padding: 0.7rem 1.2rem;
   text-decoration: none;
   color: var(--primary);
-  font-size: 0.85rem;
-  line-height: 1.4;
+  font-size: 1rem;
+  line-height: 1.5;
   transition: background 0.15s;
 }
 .news-list a:hover {
@@ -109,9 +115,9 @@
 }
 .news-list .time {
   display: block;
-  font-size: 0.72rem;
+  font-size: 0.8rem;
   opacity: 0.5;
-  margin-top: 0.15rem;
+  margin-top: 0.2rem;
 }
 
 /* 空面板 */
@@ -156,6 +162,19 @@
     padding: 1rem;
   }
   .featured-card h2 {
+    font-size: 1.35rem;
+  }
+  .featured-card .meta {
+    font-size: 0.85rem;
+  }
+  .category-header h3 {
     font-size: 1.1rem;
+  }
+  .news-list a {
+    font-size: 0.95rem;
+    padding: 0.65rem 1rem;
+  }
+  .news-list .time {
+    font-size: 0.75rem;
   }
 }
