@@ -3,16 +3,16 @@
    新闻仪表盘 - 2栏响应式 + 大字体
    ============================================ */
 
-/* 解除 PaperMod 的 720px 宽度限制 */
+/* 解除 PaperMod 的 720px 宽度限制，2栏布局适配 1100px */
 body.list .main {
   max-width: 100% !important;
   padding: 0;
 }
 
 .dashboard-home {
-  max-width: 1600px;
+  max-width: 1100px;
   margin: 0 auto;
-  padding: 1.2rem 1.5rem;
+  padding: 1.2rem 1rem;
 }
 
 /* --- 头条推荐区 --- */
@@ -37,19 +37,19 @@ body.list .main {
   display: inline-block;
   background: var(--primary);
   color: var(--entry);
-  padding: 0.25rem 0.7rem;
+  padding: 0.3rem 0.8rem;
   border-radius: 4px;
-  font-size: 0.85rem;
+  font-size: 0.95rem;
   font-weight: 600;
   margin-bottom: 0.7rem;
 }
 .featured-card h2 {
   margin: 0 0 0.4rem;
-  font-size: 1.65rem;
-  line-height: 1.4;
+  font-size: 2rem;
+  line-height: 1.35;
 }
 .featured-card .meta {
-  font-size: 0.9rem;
+  font-size: 0.95rem;
   opacity: 0.6;
   margin: 0;
 }
@@ -71,17 +71,17 @@ body.list .main {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0.9rem 1.2rem;
+  padding: 1rem 1.2rem;
   border-bottom: 1px solid var(--border);
   background: var(--tertiary);
 }
 .category-header h3 {
   margin: 0;
-  font-size: 1.2rem;
+  font-size: 1.35rem;
   font-weight: 700;
 }
 .category-header a {
-  font-size: 0.9rem;
+  font-size: 0.95rem;
   color: var(--primary);
   text-decoration: none;
   opacity: 0.7;
@@ -103,11 +103,11 @@ body.list .main {
 }
 .news-list a {
   display: block;
-  padding: 0.7rem 1.2rem;
+  padding: 0.75rem 1.2rem;
   text-decoration: none;
   color: var(--primary);
-  font-size: 1rem;
-  line-height: 1.5;
+  font-size: 1.1rem;
+  line-height: 1.45;
   transition: background 0.15s;
 }
 .news-list a:hover {
@@ -115,7 +115,7 @@ body.list .main {
 }
 .news-list .time {
   display: block;
-  font-size: 0.8rem;
+  font-size: 0.85rem;
   opacity: 0.5;
   margin-top: 0.2rem;
 }
@@ -162,19 +162,19 @@ body.list .main {
     padding: 1rem;
   }
   .featured-card h2 {
-    font-size: 1.35rem;
+    font-size: 1.5rem;
   }
   .featured-card .meta {
-    font-size: 0.85rem;
+    font-size: 0.9rem;
   }
   .category-header h3 {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
   }
   .news-list a {
-    font-size: 0.95rem;
+    font-size: 1rem;
     padding: 0.65rem 1rem;
   }
   .news-list .time {
-    font-size: 0.75rem;
+    font-size: 0.8rem;
   }
 }
