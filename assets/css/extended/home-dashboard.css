@@ -3,16 +3,17 @@
    新闻仪表盘 - 2栏响应式 + 大字体
    ============================================ */
 
-/* 解除 PaperMod 的 720px 宽度限制，2栏布局适配 1100px */
-body.list .main {
-  max-width: 100% !important;
-  padding: 0;
+/* 解除 PaperMod 的 720px 宽度限制，全站统一 1100px */
+.main {
+  max-width: 1100px !important;
+  margin: 0 auto !important;
+  padding: var(--gap);
 }
 
 .dashboard-home {
-  max-width: 1100px;
+  max-width: 100%;
   margin: 0 auto;
-  padding: 1.2rem 1rem;
+  padding: 0.5rem 0;
 }
 
 /* --- 头条推荐区 --- */
