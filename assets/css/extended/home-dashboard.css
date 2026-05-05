@@ -3,9 +3,9 @@
    新闻仪表盘 - 2栏响应式 + 大字体
    ============================================ */
 
-/* 解除 PaperMod 的 720px 宽度限制，全站统一 1100px */
+/* 解除 PaperMod 的 720px 宽度限制，全站统一 900px */
 .main {
-  max-width: 1100px !important;
+  max-width: 900px !important;
   margin: 0 auto !important;
   padding: var(--gap);
 }
