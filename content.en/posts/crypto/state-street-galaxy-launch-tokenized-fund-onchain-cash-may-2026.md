@@ -16,7 +16,7 @@ State Street, one of the world largest custodian banks, has partnered with crypt
 
 The fund allows institutional investors to earn yield on stablecoins while moving funds onchain, supporting around-the-clock operations. This marks another major move by a traditional finance giant into tokenized assets.
 
-State Street manages over 40 trillion dollars in custodial assets and is one of the world largest institutional asset managers. This collaboration with Galaxy demonstrates that the traditional financial system recognition of blockchain technology is moving from pilot stages to实质性 product deployment.
+State Street manages over 40 trillion dollars in custodial assets and is one of the world largest institutional asset managers. This collaboration with Galaxy demonstrates that the traditional financial system recognition of blockchain technology is moving from pilot stages to real product deployment.
 
 The core advantage of tokenized funds lies in settlement efficiency. Traditional financial market fund transfers are typically constrained by business days and time zones, while blockchain-based tokenized assets can achieve 24/7 real-time clearing and settlement.
 
