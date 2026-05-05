@@ -22,7 +22,7 @@
 
     {{- range $cat := $categories }}
     {{- $posts := where site.RegularPages "Params.categories" "intersect" (slice $cat) }}
-    {{- $posts = first 10 $posts }}
+    {{- $posts := first 5 $posts }}
     <section class="category-panel">
       <div class="category-header">
         <h3>{{ index $catIcons $cat }} {{ index $catNames $cat }}</h3>

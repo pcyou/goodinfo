@@ -67,6 +67,8 @@
   border: 1px solid var(--border);
   border-radius: 10px;
   overflow: hidden;
+  display: flex;
+  flex-direction: column;
 }
 .category-header {
   display: flex;
