@@ -1,6 +1,6 @@
 ---
 title: "U.S. Clears $8.6 Billion Arms Sales to Four Middle East Countries"
-date: 2026-05-05T11:40:00+08:00
+date: 2026-05-05T10:40:00+08:00
 tags: ["arms sales", "Middle East", "United States", "military", "Congress"]
 categories: ["world"]
 summary: "The U.S. government approved approximately $8.6 billion in arms sales to four Middle Eastern nations, waiving congressional review — a move that comes amid escalating US-Iran tensions in the Strait of Hormuz."

@@ -1,6 +1,6 @@
 ---
 title: "Dow Plunges 557 Points as Oil Tops $114 Amid Middle East Crisis"
-date: 2026-05-05T10:40:00+08:00
+date: 2026-05-05T10:38:00+08:00
 tags: ["stock market", "oil prices", "Middle East", "Iran", "Wall Street"]
 categories: ["finance"]
 summary: "The Dow Jones Industrial Average closed down 557 points at 48,941, while Brent crude surged past $114 per barrel as the US-Iran conflict in the Strait of Hormuz rattled global markets."

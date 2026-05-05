@@ -1,6 +1,6 @@
 ---
 title: "OpenAI CEO Sam Altman Warns 'AI Washing' Is Real, Job Displacement Is Coming"
-date: 2026-05-05T12:00:00+08:00
+date: 2026-05-05T10:41:00+08:00
 tags: ["OpenAI", "Sam Altman", "AI washing", "artificial intelligence", "jobs"]
 categories: ["ai-tech"]
 summary: "OpenAI CEO Sam Altman publicly warned that 'AI washing' — companies falsely claiming AI capabilities in their products — is a real and growing problem, while also acknowledging that AI technology will inevitably displace some jobs."

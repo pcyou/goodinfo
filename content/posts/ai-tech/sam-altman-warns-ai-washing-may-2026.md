@@ -1,6 +1,6 @@
 ---
 title: "OpenAI CEO 山姆·奥特曼警告：'AI 洗白'是真实存在的威胁"
-date: 2026-05-05T12:00:00+08:00
+date: 2026-05-05T10:41:00+08:00
 tags: ["OpenAI", "Sam Altman", "AI洗白", "人工智能", "就业"]
 categories: ["ai-tech"]
 summary: "OpenAI 首席执行官山姆·奥特曼公开警告'AI 洗白'（AI washing）现象确实存在，同时承认AI技术将带来一定程度的就业 displacement。"

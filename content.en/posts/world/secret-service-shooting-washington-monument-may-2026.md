@@ -1,6 +1,6 @@
 ---
 title: "Secret Service Shoots and Wounds Armed Man Near Washington Monument"
-date: 2026-05-05T11:00:00+08:00
+date: 2026-05-05T10:39:00+08:00
 tags: ["Secret Service", "Washington DC", "security incident", "United States"]
 categories: ["world"]
 summary: "The U.S. Secret Service exchanged gunfire with and wounded an armed suspect near the Washington Monument, in an incident that unfolded within a high-security perimeter around the White House."
