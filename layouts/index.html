@@ -46,6 +46,23 @@
     {{- end }}
   </div>
 
+  {{/* ===== 热门标签云 ===== */}}
+  <section class="tags-section">
+    <div class="tags-header">
+      <h3>🏷️ 热门专题</h3>
+      <a href="{{ "tags/" | absLangURL }}">查看全部 →</a>
+    </div>
+    <div class="tags-cloud">
+      {{- $tags := .Site.Taxonomies.tags }}
+      {{- $popular := first 25 ($tags.ByCount) }}
+      {{- range $popular }}
+      {{- if gt .Count 3 }}
+      <a href="{{ .Page.RelPermalink }}" class="tag-item" data-count="{{ .Count }}">{{ .Page.Title }}</a>
+      {{- end }}
+      {{- end }}
+    </div>
+  </section>
+
   {{/* ===== 查看全部 ===== */}}
   {{- if gt (len $allPosts) 40 }}
   <div class="dashboard-pagination">

@@ -17,7 +17,7 @@ defaultContentLanguage = 'zh'
     weight = 1
     [languages.zh.params]
       description = 'goodinfo.net 每日精选全球资讯：AI、科技、财经、国际新闻。'
-      homeInfoParams = { Title = '📅 全球全景日报', Content = 'goodinfo.net 每日自动抓取的全球热点，涵盖 AI 前沿、国际风云、科技财经与科学探索。' }
+      homeInfoParams = { Title = '🌍 goodinfo.net 全球全景日报', Content = 'AI 驱动的全球新闻过滤器 — 每小时自动聚合 AI科技、财经、国际、科学、Crypto 五大领域精选资讯。无广告、无噪音，只看真正重要的事。' }
 
   [languages.en]
     languageCode = 'en'
@@ -27,7 +27,7 @@ defaultContentLanguage = 'zh'
     weight = 2
     [languages.en.params]
       description = 'goodinfo.net daily curated global news: AI, tech, finance, and world affairs.'
-      homeInfoParams = { Title = '📅 goodinfo.net Daily', Content = 'goodinfo.net auto-curated global hot topics covering AI frontier, world affairs, tech finance, and scientific exploration.' }
+      homeInfoParams = { Title = '🌍 goodinfo.net Daily', Content = 'AI-powered global news filter — hourly curated insights across AI, Finance, World, Science & Crypto. No ads, no noise, only what matters.' }
 
 [[languages.zh.menu.main]]
   identifier = 'ai-tech'
@@ -58,6 +58,12 @@ defaultContentLanguage = 'zh'
   name = '📦 开源项目'
   url = '/categories/opensource/'
   weight = 45
+
+[[languages.zh.menu.main]]
+  identifier = 'rss'
+  name = '📡 RSS'
+  url = '/index.xml'
+  weight = 55
 
 [[languages.zh.menu.main]]
   identifier = 'archive'
@@ -94,6 +100,12 @@ defaultContentLanguage = 'zh'
   name = '📦 Open Source'
   url = '/en/categories/opensource/'
   weight = 45
+
+[[languages.en.menu.main]]
+  identifier = 'rss'
+  name = '📡 RSS'
+  url = '/en/index.xml'
+  weight = 55
 
 [[languages.en.menu.main]]
   identifier = 'archive'
