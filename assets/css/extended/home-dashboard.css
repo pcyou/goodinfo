@@ -97,6 +97,7 @@
   list-style: none;
   margin: 0;
   padding: 0;
+  flex: 1;
 }
 .news-list li {
   border-bottom: 1px solid var(--border);
@@ -112,6 +113,10 @@
   font-size: 1.1rem;
   line-height: 1.45;
   transition: background 0.15s;
+  min-height: 3.2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .news-list a:hover {
   background: var(--tertiary);
@@ -121,6 +126,7 @@
   font-size: 0.85rem;
   opacity: 0.5;
   margin-top: 0.2rem;
+  flex-shrink: 0;
 }
 
 /* 空面板 */
