@@ -1,32 +1,6 @@
 {{- define "main" }}
 <div class="dashboard-home">
 
-  <!-- 汉堡菜单 toggle (纯 CSS, 无需 JS) -->
-  <input type="checkbox" id="hamburger-toggle" class="hamburger-toggle" hidden>
-
-  {{/* ===== Hero Banner ===== */}}
-  <section class="hero-banner">
-    <h1>{{ site.Params.homeInfoParams.Title | default .Site.Title }}</h1>
-    <p>{{ site.Params.homeInfoParams.Content | default .Site.Params.description }}</p>
-  </section>
-
-  {{/* ===== 桌面导航栏 ===== */}}
-  <nav class="desktop-nav">
-    {{- range site.Menus.main }}
-    <a href="{{ .URL | absLangURL }}">{{ .Name }}</a>
-    {{- end }}
-  </nav>
-
-  {{/* ===== 移动端导航面板 ===== */}}
-  <label for="hamburger-toggle" class="hamburger-btn" aria-label="Toggle menu">
-    <span></span><span></span><span></span>
-  </label>
-  <div class="mobile-nav-panel">
-    {{- range site.Menus.main }}
-    <a href="{{ .URL | absLangURL }}">{{ .Name }}</a>
-    {{- end }}
-  </div>
-
   {{/* ===== 头条推荐区 ===== */}}
   {{- $allPosts := where site.RegularPages "Type" "posts" }}
   {{- $latest := first 1 $allPosts }}
@@ -49,12 +23,12 @@
     {{- range $cat := $categories }}
     {{- $posts := where site.RegularPages "Params.categories" "intersect" (slice $cat) }}
     {{- $posts = first 10 $posts }}
-    {{- if $posts }}
     <section class="category-panel">
       <div class="category-header">
         <h3>{{ index $catIcons $cat }} {{ index $catNames $cat }}</h3>
         <a href="{{ printf "/categories/%s/" $cat | absLangURL }}">更多 →</a>
       </div>
+      {{- if $posts }}
       <ul class="news-list">
         {{- range $posts }}
         <li>
@@ -65,12 +39,14 @@
         </li>
         {{- end }}
       </ul>
+      {{- else }}
+      <div class="empty-panel">暂无更新，敬请期待 ✨</div>
+      {{- end }}
     </section>
-    {{- end }}
     {{- end }}
   </div>
 
-  {{/* ===== 分页 ===== */}}
+  {{/* ===== 查看全部 ===== */}}
   {{- if gt (len $allPosts) 40 }}
   <div class="dashboard-pagination">
     <a href="{{ "posts/" | absLangURL }}">📰 查看全部文章 →</a>

@@ -1,87 +1,21 @@
 /* ============================================
-   GoodInfo Dashboard Home Page Styles
-   新闻仪表盘 - 响应式 + 汉堡菜单
+   GoodInfo Dashboard Home Page Styles v2
+   新闻仪表盘 - 2栏响应式
    ============================================ */
 
-/* --- 首页容器 --- */
 .dashboard-home {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 1.5rem 1rem;
-}
-
-/* --- 汉堡菜单 --- */
-.hamburger-toggle {
-  display: none;
-}
-.hamburger-btn {
-  display: none;
-  background: none;
-  border: none;
-  cursor: pointer;
-  padding: 0.5rem;
-  color: var(--primary);
-}
-.hamburger-btn span {
-  display: block;
-  width: 22px;
-  height: 2px;
-  background: var(--primary);
-  margin: 5px 0;
-  transition: 0.3s;
-  border-radius: 2px;
-}
-
-/* --- 顶部横幅区 --- */
-.hero-banner {
-  text-align: center;
-  padding: 1rem 0 1.5rem;
-}
-.hero-banner h1 {
-  font-size: 1.8rem;
-  margin: 0 0 0.3rem;
-  color: var(--primary);
-}
-.hero-banner p {
-  margin: 0;
-  opacity: 0.7;
-  font-size: 0.9rem;
-}
-
-/* --- 桌面导航栏 --- */
-.desktop-nav {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 0.5rem;
-  padding: 0.8rem 0;
-  border-bottom: 1px solid var(--border);
-  margin-bottom: 1.5rem;
-}
-.desktop-nav a {
-  padding: 0.4rem 1rem;
-  border-radius: 20px;
-  text-decoration: none;
-  font-size: 0.9rem;
-  font-weight: 500;
-  color: var(--primary);
-  background: var(--entry);
-  border: 1px solid var(--border);
-  transition: all 0.2s;
-}
-.desktop-nav a:hover {
-  background: var(--primary);
-  color: var(--entry);
-  border-color: var(--primary);
+  padding: 1rem;
 }
 
 /* --- 头条推荐区 --- */
 .featured-section {
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
 }
 .featured-card {
   border-radius: 12px;
-  padding: 1.5rem;
+  padding: 1.3rem 1.5rem;
   background: linear-gradient(135deg, var(--entry) 0%, var(--tertiary) 100%);
   border: 1px solid var(--border);
   text-decoration: none;
@@ -101,11 +35,11 @@
   border-radius: 4px;
   font-size: 0.75rem;
   font-weight: 600;
-  margin-bottom: 0.8rem;
+  margin-bottom: 0.7rem;
 }
 .featured-card h2 {
-  margin: 0 0 0.5rem;
-  font-size: 1.4rem;
+  margin: 0 0 0.4rem;
+  font-size: 1.3rem;
   line-height: 1.4;
 }
 .featured-card .meta {
@@ -114,10 +48,10 @@
   margin: 0;
 }
 
-/* --- 栏目网格 --- */
+/* --- 栏目网格 (2栏) --- */
 .category-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 1.2rem;
   margin-bottom: 2rem;
 }
@@ -169,9 +103,6 @@
   font-size: 0.85rem;
   line-height: 1.4;
   transition: background 0.15s;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
 }
 .news-list a:hover {
   background: var(--tertiary);
@@ -181,10 +112,17 @@
   font-size: 0.72rem;
   opacity: 0.5;
   margin-top: 0.15rem;
-  white-space: nowrap;
 }
 
-/* --- 分页 --- */
+/* 空面板 */
+.empty-panel {
+  padding: 2rem 1rem;
+  text-align: center;
+  opacity: 0.4;
+  font-size: 0.9rem;
+}
+
+/* --- 查看全部 --- */
 .dashboard-pagination {
   text-align: center;
   padding: 1.5rem 0;
@@ -204,89 +142,20 @@
 }
 
 /* ============================================
-   响应式 - 平板 (<=900px)
-   ============================================ */
-@media (max-width: 900px) {
-  .category-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-/* ============================================
    响应式 - 手机 (<=600px)
    ============================================ */
 @media (max-width: 600px) {
   .dashboard-home {
-    padding: 1rem 0.8rem;
+    padding: 0.8rem 0.5rem;
   }
-
-  .hero-banner h1 {
-    font-size: 1.4rem;
-  }
-
-  /* 隐藏桌面导航 */
-  .desktop-nav {
-    display: none;
-  }
-
-  /* 显示汉堡按钮 */
-  .hamburger-btn {
-    display: block;
-    position: absolute;
-    right: 1rem;
-    top: 0.8rem;
-    z-index: 100;
-  }
-
-  /* 汉堡动画 */
-  .hamburger-toggle:checked ~ .header-nav .hamburger-btn span:nth-child(1) {
-    transform: rotate(45deg) translate(5px, 5px);
-  }
-  .hamburger-toggle:checked ~ .header-nav .hamburger-btn span:nth-child(2) {
-    opacity: 0;
-  }
-  .hamburger-toggle:checked ~ .header-nav .hamburger-btn span:nth-child(3) {
-    transform: rotate(-45deg) translate(5px, -5px);
-  }
-
-  /* 移动端菜单面板 */
-  .mobile-nav-panel {
-    display: none;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: var(--entry);
-    z-index: 99;
-    padding: 4rem 1.5rem 1.5rem;
-    overflow-y: auto;
-  }
-  .hamburger-toggle:checked ~ .mobile-nav-panel {
-    display: block;
-  }
-  .mobile-nav-panel a {
-    display: block;
-    padding: 1rem;
-    text-decoration: none;
-    color: var(--primary);
-    font-size: 1.1rem;
-    border-bottom: 1px solid var(--border);
-  }
-  .mobile-nav-panel a:hover {
-    background: var(--tertiary);
-  }
-
-  /* 单列布局 */
   .category-grid {
     grid-template-columns: 1fr;
     gap: 1rem;
   }
-
-  .featured-card h2 {
-    font-size: 1.1rem;
-  }
   .featured-card {
     padding: 1rem;
+  }
+  .featured-card h2 {
+    font-size: 1.1rem;
   }
 }
