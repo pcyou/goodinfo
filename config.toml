@@ -16,7 +16,7 @@ defaultContentLanguage = 'zh'
     title = '全球全景日报 | goodinfo.net'
     weight = 1
     [languages.zh.params]
-      description = 'goodinfo.net 每日精选全球资讯：AI、科技、财经、国际新闻。'
+      description = 'AI 驱动的全球新闻过滤器 — 每小时自动聚合 AI科技、财经、国际、科学、Crypto 五大领域精选资讯。'
       homeInfoParams = { Title = '🌍 goodinfo.net 全球全景日报', Content = 'AI 驱动的全球新闻过滤器 — 每小时自动聚合 AI科技、财经、国际、科学、Crypto 五大领域精选资讯。无广告、无噪音，只看真正重要的事。' }
 
   [languages.en]
