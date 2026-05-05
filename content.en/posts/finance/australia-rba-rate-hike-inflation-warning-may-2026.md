@@ -1,6 +1,6 @@
 ---
 title: "Australia Hikes Rates Again, Warns Inflation to Stay Higher for Longer"
-date: 2026-05-05T22:00:00+08:00
+date: 2026-05-05T06:00:00+08:00
 tags: ["Australia", "interest rates", "inflation", "RBA", "monetary policy"]
 categories: ["finance"]
 summary: 'The Reserve Bank of Australia raises rates again, warning that Middle East conflict is pushing up fuel and commodity prices, keeping inflation elevated for an extended period.'

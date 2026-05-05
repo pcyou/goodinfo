@@ -1,6 +1,6 @@
 ---
 title: "China Eastern Boeing 737 Crash Report: Fuel Cut-Off Identified as Cause"
-date: 2026-05-05T22:00:00+08:00
+date: 2026-05-05T06:00:00+08:00
 tags: ["China", "China Eastern", "Boeing 737", "plane crash", "investigation"]
 categories: ["world"]
 summary: 'China releases the final investigation report into the 2022 China Eastern MU5735 crash, confirming fuel cut-off as the direct cause. All 132 people aboard were killed.'

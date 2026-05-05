@@ -1,6 +1,6 @@
 ---
 title: "HSBC Shares Drop as Q1 Pre-Tax Profit Misses Estimates on Higher Credit Loss Provisions"
-date: 2026-05-05T22:00:00+08:00
+date: 2026-05-05T06:00:00+08:00
 tags: ["HSBC", "earnings", "credit losses", "banking", "Europe"]
 categories: ["finance"]
 summary: 'Europe largest bank HSBC reports Q1 pre-tax profit of $9.4 billion, slightly missing analyst estimates, with higher expected credit losses being the main drag.'

@@ -1,6 +1,6 @@
 ---
 title: "Russia Declares Victory Day Truce in Ukraine, but Threatens to Strike Back at Any Disruption"
-date: 2026-05-05T22:00:00+08:00
+date: 2026-05-05T06:00:00+08:00
 tags: ["Russia", "Ukraine", "ceasefire", "Victory Day", "WWII commemoration"]
 categories: ["world"]
 summary: 'Russia announces a unilateral ceasefire in Ukraine to mark the defeat of Nazi Germany in WWII, but threatens to strike back at Kyiv if it attempts to disrupt the festivities.'
