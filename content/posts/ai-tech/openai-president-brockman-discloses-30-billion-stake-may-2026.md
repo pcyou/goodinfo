@@ -1,6 +1,6 @@
 ---
 title: "OpenAI总裁披露近300亿美元持股，财务与Altman深度绑定"
-date: 2026-05-05T08:45:00+08:00
+date: 2026-05-05T07:50:00+08:00
 tags: ["OpenAI", "Greg Brockman", "Sam Altman", "AI", "财务披露", "诉讼"]
 categories: ["ai-tech"]
 summary: "在Musk诉OpenAI案的庭审中，OpenAI总裁Greg Brockman披露了其近300亿美元的个人持股和财务利益，揭示了其与CEO Sam Altman之间深度交织的财务关系，引发公司治理质疑。"

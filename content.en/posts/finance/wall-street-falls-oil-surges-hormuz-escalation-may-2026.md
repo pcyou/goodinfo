@@ -1,6 +1,6 @@
 ---
 title: "Wall Street Falls From Records as Oil Surges on Hormuz Escalation"
-date: 2026-05-05T08:30:00+08:00
+date: 2026-05-05T07:50:00+08:00
 tags: ["Wall Street", "stock market", "oil prices", "Iran", "Middle East conflict", "financial markets"]
 categories: ["finance"]
 summary: "Escalating military conflict in the Strait of Hormuz sent Wall Street tumbling from its record highs on May 4, with crude oil prices surging and global shippers continuing to avoid the strait, raising fears of a broader economic crisis."

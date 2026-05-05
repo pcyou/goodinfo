@@ -1,6 +1,6 @@
 ---
 title: "Secret Service Shoots Armed Suspect Near White House in Second Security Incident"
-date: 2026-05-05T08:15:00+08:00
+date: 2026-05-05T07:50:00+08:00
 tags: ["United States", "Secret Service", "White House", "security", "shooting"]
 categories: ["world"]
 summary: "The U.S. Secret Service exchanged gunfire with an armed suspect near the White House on May 4 evening. The suspect was killed after firing at law enforcement officers, and one bystander was injured. The incident comes amid ongoing fallout from the White House Correspondents' Dinner shooting."

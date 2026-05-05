@@ -1,6 +1,6 @@
 ---
 title: "Blue Origin Moon Lander Completes NASA Vacuum Chamber Testing, Artemis Program Advances"
-date: 2026-05-05T09:00:00+08:00
+date: 2026-05-05T07:50:00+08:00
 tags: ["NASA", "Blue Origin", "Moon Lander", "Artemis", "space exploration"]
 categories: ["science"]
 summary: "Blue Origin's Blue Moon human landing system has completed vacuum chamber testing at NASA's Johnson Space Center, marking a key milestone for the Artemis program. Meanwhile, NASA has released over 12,000 Artemis II mission photographs."

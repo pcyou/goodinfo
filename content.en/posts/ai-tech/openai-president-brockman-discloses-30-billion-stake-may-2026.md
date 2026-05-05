@@ -1,6 +1,6 @@
 ---
 title: "OpenAI President Discloses Nearly $30 Billion Stake, Financial Ties to Altman"
-date: 2026-05-05T08:45:00+08:00
+date: 2026-05-05T07:50:00+08:00
 tags: ["OpenAI", "Greg Brockman", "Sam Altman", "AI", "financial disclosure", "lawsuit"]
 categories: ["ai-tech"]
 summary: "During the Musk v. OpenAI trial, OpenAI president Greg Brockman disclosed nearly $30 billion in personal holdings and financial interests, revealing deeply intertwined finances with CEO Sam Altman and raising fresh corporate governance questions."
