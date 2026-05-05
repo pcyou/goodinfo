@@ -3,7 +3,7 @@ title: "苹果iOS 27钱包应用将支持用户自定义创建通行证"
 date: 2026-05-05T09:00:00+08:00
 tags: ["Apple", "iOS 27", "Wallet", "通行证", "二维码"]
 categories: ["ai-tech"]
-summary: "据彭博社报道，苹果计划在即将发布的iOS 27中为钱包应用引入"创建通行证"功能，用户可将任意二维码或条形码转化为钱包中的自定义通行证。"
+summary: "据彭博社报道，苹果计划在即将发布的iOS 27中为钱包应用引入'创建通行证'功能，用户可将任意二维码或条形码转化为钱包中的自定义通行证。"
 sources:
   - name: "Bloomberg"
     url: "https://www.bloomberg.com/news/articles/2026-05-04/apple-ios-27-wallet-custom-passes"
