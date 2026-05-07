@@ -1,12 +1,12 @@
 ---
-title: "[Brief] DR Congo President Hints at Extending Term, Delaying Elections"
+title: "[快讯]刚果民主共和国总统暗示将延长任期并推迟选举"
 date: 2026-05-07T20:38:01+08:00
 draft: false
 categories: [world]
-tags: ["DRC", "Elections", "Politics"]
-description: "[Brief] DR Congo President Hints at Extending Term, Delaying Elections"
+tags: ["刚果", "选举", "政治"]
+description: "[快讯]刚果民主共和国总统暗示将延长任期并推迟选举"
 source: "BBC World"
 score: 6.5
 ---
 
-DR Congo President Tshisekedi has hinted he may accept a third term and signaled a delay in elections. Due to step down in 2028, his comments have raised international concern about the country's democratic process.
+刚果民主共和国总统齐塞克迪暗示可能接受第三个任期并表示将推迟选举。他原定应于2028年卸任，此番表态引发国际社会对刚果民主进程的关注。

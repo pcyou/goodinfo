@@ -1,11 +1,11 @@
 ---
-title: 'Dow Rises 600 Points on Iran Deal Optimism as AMD Jumps on Strong Earnings'
+title: '道指暴涨600点 AMD财报强劲 市场押注伊朗降级'
 date: 2026-05-07T04:07:00+08:00
 draft: false
 categories: [finance]
 tags: ["金融", "市场"]
 ---
 
-## Dow Rises 600 Points on Iran Deal Optimism as AMD Jumps on Strong Earnings
+## 道指暴涨600点 AMD财报强劲 市场押注伊朗降级
 
-Wall Street posted strong gains with the Dow Jones Industrial Average surging over 600 points, driven by optimism surrounding potential US-Iran diplomatic progress and better-than-expected technology earnings. AMD shares jumped after reporting quarterly results that beat analyst estimates, fueled by continued strong demand for AI chips. The rally reflects a broader risk-on sentiment as investors weigh the prospect of reduced geopolitical tensions in the Middle East against ongoing economic uncertainties. Energy stocks declined as crude oil prices fell on the prospect of an Iran deal, while tech stocks led the advance. Market analysts noted that the combination of diplomatic progress and solid corporate earnings provided a rare positive catalyst for equities.
+华尔街大幅上涨，道琼斯工业平均指数飙升逾600点，主要受美伊外交进展预期和超预期的科技股财报推动。AMD公布季度财报优于分析师预期，AI芯片需求持续强劲推动股价大涨。随着投资者权衡中东地缘政治紧张局势缓解的前景与持续的经济不确定性，市场风险偏好回升。能源股因原油价格下跌而走弱，科技股领涨。市场分析师指出，外交进展与稳健企业盈利的组合为股市提供了罕见的双重利好催化。

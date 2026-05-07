@@ -1,20 +1,20 @@
 ---
-title: "Hantavirus Cases Rise to 5 on Dutch Cruise Ship, WHO Monitoring"
+title: "汉坦病毒邮轮疫情升级：确诊病例升至5人，WHO介入调查"
 date: 2026-05-07T20:38:01+08:00
 draft: false
 categories: [health]
-tags: ["Hantavirus", "Public Health", "Cruise Ship", "WHO"]
-description: "Hantavirus Cases Rise to 5 on Dutch Cruise Ship, WHO Monitoring"
+tags: ["汉坦病毒", "公共卫生", "邮轮", "WHO"]
+description: "汉坦病毒邮轮疫情升级：确诊病例升至5人，WHO介入调查"
 source: "Yahoo/Google News"
 score: 8.5
 ---
 
-Confirmed hantavirus cases aboard the Dutch cruise ship MV Hondius have risen to five, with the World Health Organization closely monitoring the outbreak.
+一艘荷兰籍邮轮MV Hondius上的汉坦病毒确诊病例已升至5人，世界卫生组织正在密切关注疫情发展。
 
-The vessel diverted its route after passengers began showing symptoms. Three individuals were evacuated to the Netherlands for treatment, including one British citizen. The ship is now en route to Tenerife in Spain's Canary Islands.
+该邮轮此前因出现汉坦病毒疑似病例而紧急调整航线，三名出现症状的乘客已被送往荷兰接受进一步治疗，其中包括一名英国公民。目前，该船正驶向西班牙加那利群岛的特内里费岛。
 
-Local residents in Tenerife have expressed concern about the planned docking, with some calling it "reckless." Hantavirus is primarily transmitted through rodent droppings, and while person-to-person transmission is rare, it carries a high fatality rate.
+特内里费岛当地居民对邮轮计划靠港表示担忧，有人称此举"不负责任"。汉坦病毒主要通过啮齿动物排泄物传播，人际传播较为罕见，但致死率较高。
 
-Global health experts are working to identify the source and transmission patterns of the outbreak. The incident has reignited debate over cruise ship sanitation and infectious disease protocols.
+全球公共卫生专家正在努力确定病毒的来源和传播途径。此次疫情引发了对邮轮卫生和传染病防控的新一轮关注。
 
-The WHO said it is closely monitoring the situation and stands ready to provide technical support to affected countries.
+世界卫生组织表示，将密切监测事态发展，并向相关国家提供必要的技术支持。

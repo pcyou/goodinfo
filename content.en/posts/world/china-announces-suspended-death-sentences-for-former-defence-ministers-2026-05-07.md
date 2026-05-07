@@ -1,20 +1,20 @@
 ---
-title: "China Announces Suspended Death Sentences for Former Defence Ministers"
+title: "中国前国防部长被判死缓，高层反腐持续震动军方"
 date: 2026-05-07T20:38:01+08:00
 draft: false
 categories: [world]
-tags: ["China", "Anti-corruption", "Military", "Politics"]
-description: "China Announces Suspended Death Sentences for Former Defence Ministers"
+tags: ["中国", "反腐", "国防", "政治"]
+description: "中国前国防部长被判死缓，高层反腐持续震动军方"
 source: "BBC World"
 score: 9.0
 ---
 
-China announced on Thursday that two former defence ministers have been given suspended death sentences, marking one of the most significant anti-corruption actions in the country's military in recent years.
+中国官方周四宣布，两名前国防部长被判处死刑缓期执行，这是近年来中国军队系统最大规模的反腐行动之一。
 
-According to BBC reports, the sentences follow the recent ousting of several top officials in China's military hierarchy. Both former ministers had previously been expelled from the Communist Party and dismissed from public office over serious disciplinary and legal violations.
+据BBC报道，此次判决标志着中国军方高层反腐行动的又一次重大进展。两名前国防部长此前已被开除党籍和公职，涉嫌严重违纪违法。
 
-Analysts say the verdict sends a clear message to the military establishment about the government's zero-tolerance stance on corruption. In recent years, China has intensified its efforts to enforce discipline within the armed forces, with multiple senior officers investigated and removed over corruption allegations.
+分析人士指出，这一判决向中国军队系统传递了明确的反腐信号。近年来，中国持续加强军队纪律建设，多名高级将领因涉嫌腐败被调查和处理。
 
-The case has also drawn international attention to questions about transparency in China's political system. Western observers note that the opacity of China's military apparatus makes it difficult to assess the full scope and impact of the anti-corruption campaign.
+此次判决也引发了国际社会对中国政治透明度的关注。西方国家普遍认为，中国军队系统的不透明性使得外界难以准确评估反腐行动的真实规模和影响。
 
-Chinese state media stated that the anti-corruption campaign has no endpoint and that military discipline enforcement will continue resolutely, signaling that the purge within the armed forces is far from over.
+中国官方媒体表示，反腐败斗争没有休止符，军队反腐将坚定不移推进。这一表态显示，军方反腐行动仍将持续。

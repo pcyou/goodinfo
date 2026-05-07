@@ -1,11 +1,11 @@
 ---
-title: '[BREAKING] FBI Searches Office of Virginia Lawmaker Behind Redistricting Push'
+title: 'FBI搜查推动选区重划的弗吉尼亚州议员办公室'
 date: 2026-05-07T04:07:00+08:00
 draft: false
 categories: [world]
 tags: ["国际", "新闻", "快讯"]
 ---
 
-## [BREAKING] FBI Searches Office of Virginia Lawmaker Behind Redistricting Push
+## FBI搜查推动选区重划的弗吉尼亚州议员办公室
 
-The FBI conducted searches at the office and business locations of a Virginia state lawmaker who played a leading role in the state's controversial redistricting efforts.
+FBI搜查了在弗吉尼亚州选区重划中发挥关键作用的州议员办公室及相关商业场所。

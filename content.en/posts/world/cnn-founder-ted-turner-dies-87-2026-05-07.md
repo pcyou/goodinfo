@@ -1,11 +1,11 @@
 ---
-title: 'Ted Turner, Founder of CNN and Pioneer of 24-Hour News, Dies at 87'
+title: 'CNN创始人特德·特纳去世 享年87岁'
 date: 2026-05-07T04:07:00+08:00
 draft: false
 categories: [world]
 tags: ["国际", "新闻"]
 ---
 
-## Ted Turner, Founder of CNN and Pioneer of 24-Hour News, Dies at 87
+## CNN创始人特德·特纳去世 享年87岁
 
-Ted Turner, the media mogul who founded CNN and revolutionized global news broadcasting with the 24-hour news cycle, has died at the age of 87. Turner launched CNN in 1980, defying industry skeptics who believed around-the-clock news had no audience. The network went on to become one of the most influential news organizations in the world, shaping how billions of people consume information. Turner also owned the Atlanta Braves and was known for his philanthropy, most notably his $1 billion pledge to the United Nations. His media empire eventually merged with Time Warner in a landmark 1996 deal. Turner's legacy extends beyond broadcasting — he fundamentally changed how the world stays informed in real time.
+媒体大亨特德·特纳去世，享年87岁。特纳于1980年创立CNN，开创了24小时新闻播报模式，颠覆了全球新闻传播格局。当时业界普遍质疑全天候新闻没有受众，但CNN最终成为全球最具影响力的新闻机构之一，塑造了数十亿人获取信息的方式。特纳还拥有亚特兰大勇士队，并以慈善闻名，曾向联合国捐赠10亿美元。其媒体帝国于1996年与时代华纳合并，成为传媒史上的标志性交易。特纳的遗产超越了广播电视领域——他从根本上改变了世界实时获取信息的方式。

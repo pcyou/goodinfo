@@ -1,11 +1,11 @@
 ---
-title: 'Israel Bombs Beirut Southern Suburb Targeting Hezbollah Commander'
+title: '以色列空袭贝鲁特南部郊区 瞄准真主党指挥官'
 date: 2026-05-07T04:07:00+08:00
 draft: false
 categories: [world]
 tags: ["国际", "新闻"]
 ---
 
-## Israel Bombs Beirut Southern Suburb Targeting Hezbollah Commander
+## 以色列空袭贝鲁特南部郊区 瞄准真主党指挥官
 
-Israel conducted airstrikes on Beirut's southern suburb, a known Hezbollah stronghold, in an operation targeting a senior commander of the Lebanese militant group. The strike marks a significant escalation in the ongoing Israel-Lebanon tensions. Al Jazeera reported that this is the first major Israeli strike on Beirut in recent months, raising concerns about a broader conflict. Hezbollah has not yet confirmed the status of the targeted commander. The attack comes at a sensitive diplomatic moment, with US Secretary of State Rubio scheduled to visit Rome and regional diplomacy in flux. The southern suburbs of Beirut have been repeatedly targeted during previous conflicts, and residents reported significant damage to residential buildings.
+以色列对贝鲁特南部郊区——真主党的已知据点——发动空袭，行动目标是该黎巴嫩武装组织的一名高级指挥官。此次打击标志着以色列-黎巴嫩紧张局势的重大升级。半岛电视台报道称，这是近几个月来以色列对贝鲁特的首次重大打击，引发了对更广泛冲突的担忧。真主党尚未确认被 targeted 指挥官的状况。此次袭击发生在敏感的外交时刻，美国国务卿鲁比奥计划访问罗马，地区外交局势处于变动之中。贝鲁特南郊在此前的冲突中曾多次遭打击，居民报告住宅建筑受损严重。

@@ -1,11 +1,11 @@
 ---
-title: 'US and Iran Near Deal to End Conflict as Oil Plunges and Markets Surge'
+title: '美伊接近达成停火协议 油价暴跌全球市场大涨'
 date: 2026-05-07T04:07:00+08:00
 draft: false
 categories: [world]
 tags: ["国际", "新闻"]
 ---
 
-## US and Iran Near Deal to End Conflict as Oil Plunges and Markets Surge
+## 美伊接近达成停火协议 油价暴跌全球市场大涨
 
-Reuters reported that the United States and Iran are close to reaching an agreement to end their ongoing military confrontation. The news sent oil prices sharply lower while global equity markets rallied. The Dow Jones Industrial Average jumped over 600 points on the prospect of reduced geopolitical tensions in the Persian Gulf. However, US gasoline prices have already climbed past $4.50 per gallon, nearing all-time highs, as the conflict had disrupted supply chains. President Trump said there has been "great progress" in negotiations but cautioned it is "too soon" for new direct talks, while simultaneously threatening further strikes on Iran. The dual signals underscore the fragile and unpredictable nature of the diplomacy. Markets are pricing in a potential de-escalation, but traders remain wary given the administration's mixed messaging. Oil-producing nations are closely watching the developments, as a sustained peace deal could significantly impact global energy supply dynamics.
+据路透社报道，美国与伊朗已接近达成结束军事对峙的协议。消息传出后油价大幅下跌，全球股市 rally。道琼斯工业平均指数飙升逾600点，市场押注波斯湾地缘政治紧张局势将缓解。不过，美国汽油价格已突破每加仑4.50美元，逼近历史高位，此前冲突已扰乱供应链。特朗普表示谈判取得"重大进展"，但同时称"为时尚早"不宜开启新一轮直接对话，并威胁对伊朗发动进一步打击。这种矛盾信号凸显了外交进程的脆弱性和不可预测性。市场正在计入潜在的降级预期，但交易员对政府摇摆不定的表态保持警惕。产油国密切关注事态发展，因为一份持久的和平协议可能显著影响全球能源供应格局。

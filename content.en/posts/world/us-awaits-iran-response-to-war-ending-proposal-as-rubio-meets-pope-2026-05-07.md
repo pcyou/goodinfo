@@ -1,20 +1,20 @@
 ---
-title: "US Awaits Iran Response to War-Ending Proposal as Rubio Meets Pope"
+title: "美国等待伊朗对最新停战方案的回应，鲁比奥会见教皇缓和紧张局势"
 date: 2026-05-07T20:38:01+08:00
 draft: false
 categories: [world]
-tags: ["US", "Iran", "Diplomacy", "Pope"]
-description: "US Awaits Iran Response to War-Ending Proposal as Rubio Meets Pope"
+tags: ["美国", "伊朗", "外交", "教皇"]
+description: "美国等待伊朗对最新停战方案的回应，鲁比奥会见教皇缓和紧张局势"
 source: "CNN/AP"
 score: 8.0
 ---
 
-The United States is awaiting Iran's response to its latest proposal to end the ongoing conflict. According to CNN, US and Iranian negotiators are closing in on a one-page memorandum to end hostilities.
+美国正在等待伊朗对最新停战提案的回应。据CNN报道，美伊双方正接近就一份一页纸的停战备忘录达成一致。
 
-Meanwhile, US Secretary of State Rubio arrived at the Vatican for an audience with Pope Leo XIV, seeking to ease tensions after Trump's recent criticism of the pontiff. The visit is seen as an important step in repairing US-Vatican relations.
+与此同时，美国国务卿鲁比奥抵达梵蒂冈，与教皇利奥十四世会面，试图缓解因特朗普此前批评教皇而引发的紧张关系。此次访问被视为美国修复与梵蒂冈关系的重要一步。
 
-Iran's nuclear program and the broader Middle East situation are at the center of discussions. Analysts suggest that any agreement between Washington and Tehran would have profound implications for global oil prices and regional security.
+伊朗核问题和中东局势是双方讨论的核心议题。分析人士认为，美伊之间的任何协议都将对全球油价和地区安全格局产生深远影响。
 
-The diplomatic push follows an earlier escalation in which the US sank an Iranian tanker, raising fears of a wider conflict. Both sides now appear willing to pursue a diplomatic resolution.
+此前，美国击沉了一艘伊朗油轮，局势一度升级。目前双方均表现出通过外交途径解决问题的意愿。
 
-The Vatican said the Pope called on all parties to exercise restraint and resolve differences through dialogue.
+梵蒂冈方面表示，教皇呼吁各方保持克制，通过对话解决分歧。

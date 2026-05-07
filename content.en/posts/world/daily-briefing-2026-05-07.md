@@ -1,38 +1,38 @@
 ---
-title: '📅 Daily Briefing 2026-05-07'
+title: '📅 全球全景日报 2026-05-07'
 date: 2026-05-07T11:52:00+08:00
 categories: [world]
 tags: ["每日简报", "Daily Briefing"]
 ---
 
-## Today's Top 5
+## 今日 Top 5
 
-1. **US-Iran near ceasefire deal** Both sides negotiating 14-point memorandum. Iran confirms reviewing US proposal. Oil prices fall, global stocks rise on truce expectations.
-2. **CNN founder Ted Turner dies at 87** Revolutionized 24-hour news cycle when he launched CNN in 1980.
-3. **Epstein suicide note released by federal judge** Renewed scrutiny on case transparency. Commerce Secretary Lutnick admits long ties to Epstein.
-4. **PSG beats Bayern, reaches Champions League final** Will face Arsenal for the title. Dembele seals the victory.
-5. **Judge denies return of Fulton County 2020 ballots** Georgia ballot dispute continues as DOJ request rejected.
+1. **美伊接近达成停火协议** 双方正就14点谅解备忘录进行密集谈判，伊朗确认审阅美方提案。受停火预期影响，国际油价回落，全球股市上涨。
+2. **CNN创始人特德·特纳逝世** 享年87岁，1980年创办CNN，彻底革新24小时新闻循环的媒体模式。
+3. **爱泼斯坦疑似自杀笔记被联邦法官公布** 引发对案件透明度的新一轮质疑，商务部长卢特尼克也承认与爱泼斯坦有长期联系。
+4. **PSG击败拜仁挺进欧冠决赛** 将与阿森纳争夺冠军，登贝锁定胜局。
+5. **法官拒绝归还富尔顿县2020年选票** 乔治亚州选票争议持续，DOJ申请被驳回。
 
-## Key Data
+## 关键数据
 
-- **Oil**: Brent ~$96/bbl, falling on ceasefire expectations
-- **US Stocks**: S&P 500 futures 7,379, Dow 49,991, Nasdaq 28,665
-- **Gold**: $4,705.50 (+0.24%)
-- **BTC**: $81,668 (+0.02%), highest since January
-- **US Gas**: 52% higher than pre-Iran war levels
+- **油价**：布伦特约$96/桶，受停火预期影响回落
+- **美股**：标普500期货7,379，道指期货49,991，纳斯达克期货28,665
+- **黄金**：$4,705.50 (+0.24%)
+- **BTC**：$81,668 (+0.02%)，创1月以来新高
+- **汽油价格**：较伊朗战争前上涨52%
 
-## Other Headlines
+## 其他要闻
 
-- **Hantavirus cruise ship**: 3 evacuated to Netherlands including British citizen
-- **Crypto**: California man sentenced to 78 months for $250M theft ring
-- **Crypto**: 1inch provider TrustedVolumes hit by $6M exploit
-- **Mining**: Eric Trump's American Bitcoin posts $82M Q1 loss, despite record 817 BTC production
-- **AI**: White House considers pre-release review of AI models
-- **AI**: Anthropic partners with Wall Street giants to form new AI company
+- **汉坦病毒游轮疫情**：3人被疏散至荷兰，包括一名英国公民
+- **加密货币**：加州男子因参与2.5亿美元加密盗窃被判78个月
+- **加密货币**：1inch流动性提供商TrustedVolumes遭600万美元漏洞攻击
+- **加密矿业**：Eric Trump旗下American Bitcoin Q1亏损8200万美元，但创817枚BTC季度产量纪录
+- **白宫**：考虑在AI模型发布前建立审查机制
+- **Anthropic**：与华尔街金融巨头联手成立新AI公司
 
-## Tomorrow's Watch
+## 明日关注
 
-- US-Iran ceasefire memorandum signing
-- Strait of Hormuz and "Project Freedom" status
-- Crypto regulation bill (White House July 4 target)
-- Israel-Lebanon ceasefire stability after Beirut strike
+- 美伊停火协议能否签署正式备忘录
+- 霍尔木兹海峡局势与"自由计划"走向
+- 加密货币监管法案（白宫7月4日时间表）
+- 以色列-黎巴嫩停火协议稳定性（贝鲁特空袭后）

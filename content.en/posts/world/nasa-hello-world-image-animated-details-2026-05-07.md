@@ -1,11 +1,11 @@
 ---
-title: '[BREAKING] Animated Version of Iconic NASA Image Reveals New Details'
+title: 'NASA"你好世界"经典图像动画版揭示新细节'
 date: 2026-05-07T04:07:00+08:00
 draft: false
 categories: [world]
 tags: ["国际", "新闻", "快讯"]
 ---
 
-## [BREAKING] Animated Version of Iconic NASA Image Reveals New Details
+## NASA"你好世界"经典图像动画版揭示新细节
 
-NASA released an animated version of its iconic first image, revealing striking new details about the historic moment that captured global attention.
+NASA发布了其标志性首张图像的动画版本，揭示了这一历史性时刻的更多惊人细节。

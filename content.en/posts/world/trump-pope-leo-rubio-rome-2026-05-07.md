@@ -1,11 +1,11 @@
 ---
-title: '[BREAKING] Trump Lashes Out at Pope Leo Again Ahead of Rubio Visit to Rome'
+title: '特朗普再度抨击教皇利奥 鲁比奥罗马之行承压'
 date: 2026-05-07T04:07:00+08:00
 draft: false
 categories: [world]
 tags: ["国际", "新闻", "快讯"]
 ---
 
-## [BREAKING] Trump Lashes Out at Pope Leo Again Ahead of Rubio Visit to Rome
+## 特朗普再度抨击教皇利奥 鲁比奥罗马之行承压
 
-President Trump escalated his public criticism of Pope Leo ahead of Secretary of State Rubio's planned diplomatic visit to Rome, complicating US-Vatican relations at a sensitive moment.
+在国务卿鲁比奥计划访问罗马之际，特朗普升级了对教皇利奥的公开批评，在敏感时刻使美梵关系复杂化。

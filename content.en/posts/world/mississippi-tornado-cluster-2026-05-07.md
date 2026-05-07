@@ -1,12 +1,12 @@
 ---
-title: "[Brief] Tornado Cluster Damages Over 1,000 Buildings in Mississippi"
+title: "[快讯]密西西比州龙卷风群摧毁超1000栋建筑，17人受伤"
 date: 2026-05-07T20:38:01+08:00
 draft: false
 categories: [world]
-tags: ["US", "Tornado", "Natural Disaster"]
-description: "[Brief] Tornado Cluster Damages Over 1,000 Buildings in Mississippi"
+tags: ["美国", "龙卷风", "自然灾害"]
+description: "[快讯]密西西比州龙卷风群摧毁超1000栋建筑，17人受伤"
 source: "NYT"
 score: 7.5
 ---
 
-A cluster of tornadoes swept through Mississippi, damaging more than 1,000 buildings and injuring at least 17 people. The severe storms caused widespread destruction across multiple areas of the state, with rescue operations underway.
+一组龙卷风席卷密西西比州，造成超过1000栋建筑受损，至少17人受伤。严重风暴在该州多个地区造成广泛破坏，救援工作正在进行中。
