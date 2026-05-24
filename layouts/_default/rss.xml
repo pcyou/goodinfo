@@ -32,7 +32,7 @@
       <author>{{ with .Site.Params.author }}{{ . | plainify }}{{ end }}</author>
       <guid>{{ .Permalink }}</guid>
       <description>{{ .Summary | plainify }}</description>
-      <content:encoded>{{ .Content | html }}</content:encoded>
+      <content:encoded>{{ printf "<![CDATA[" | safeHTML }}{{ .Content }}{{ printf "]]>" | safeHTML }}</content:encoded>
       {{ range .Params.categories }}<category domain="category">{{ . }}</category>{{ end }}
       {{ range .Params.tags }}<category domain="tag">{{ . }}</category>{{ end }}
     </item>
