@@ -150,3 +150,6 @@ defaultContentLanguage = 'zh'
 [services]
   [services.rss]
     limit = 50
+
+[minify]
+  disableXML = true
