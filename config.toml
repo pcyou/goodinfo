@@ -48,6 +48,12 @@ defaultContentLanguage = 'zh'
   weight = 30
 
 [[languages.zh.menu.main]]
+  identifier = 'china-hotspot'
+  name = '🇨🇳 中国热点'
+  url = '/categories/china-hotspot/'
+  weight = 35
+
+[[languages.zh.menu.main]]
   identifier = 'science'
   name = '🔬 科学'
   url = '/categories/science/'
