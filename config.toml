@@ -77,6 +77,24 @@ defaultContentLanguage = 'zh'
   url = '/posts/'
   weight = 50
 
+[[languages.zh.menu.footer]]
+  identifier = 'about'
+  name = '关于'
+  url = '/about/'
+  weight = 10
+
+[[languages.zh.menu.footer]]
+  identifier = 'privacy'
+  name = '隐私政策'
+  url = '/privacy/'
+  weight = 20
+
+[[languages.zh.menu.footer]]
+  identifier = 'contact'
+  name = '联系我们'
+  url = '/contact/'
+  weight = 30
+
 [[languages.en.menu.main]]
   identifier = 'ai-tech'
   name = '🤖 AI & Tech'
@@ -118,6 +136,24 @@ defaultContentLanguage = 'zh'
   name = '📰 Archive'
   url = '/en/posts/'
   weight = 50
+
+[[languages.en.menu.footer]]
+  identifier = 'about'
+  name = 'About'
+  url = '/en/about/'
+  weight = 10
+
+[[languages.en.menu.footer]]
+  identifier = 'privacy'
+  name = 'Privacy Policy'
+  url = '/en/privacy/'
+  weight = 20
+
+[[languages.en.menu.footer]]
+  identifier = 'contact'
+  name = 'Contact'
+  url = '/en/contact/'
+  weight = 30
 
 [params]
   author = 'goodinfo.net'
