@@ -38,8 +38,8 @@ MAX_ARTICLES = 10  # 每次最多发布文章数
 # 注意：国内 RSS 源可能需要 -L 跟随重定向
 CHINA_RSS_SOURCES = [
     {
-        'name': '知乎日报',
-        'url': 'https://daily.zhihu.com/rss',
+        'name': '钛媒体',
+        'url': 'https://www.tmtpost.com/rss',
         'priority': 5,
         'follow_redirect': True,
     },
@@ -62,8 +62,8 @@ CHINA_RSS_SOURCES = [
         'follow_redirect': True,
     },
     {
-        'name': '界面新闻',
-        'url': 'https://www.jiemian.com/rss.html',
+        'name': '品玩',
+        'url': 'https://www.pingwest.com/feed',
         'priority': 3,
         'follow_redirect': True,
     },
