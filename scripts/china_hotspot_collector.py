@@ -4,11 +4,11 @@ P2: 中国热点采集模块 (China Hotspot Collector)
 从国内平台 RSS 源采集热点，发布到 goodinfo.net/categories/china-hotspot/
 
 数据源:
-- 知乎日报
+- 钛媒体
 - 36 氪
 - 少数派
 - 澎湃新闻
-- 界面新闻
+- 品玩
 
 使用方法:
     python3 scripts/china_hotspot_collector.py [--hours 12] [--max-articles 10]
@@ -176,12 +176,32 @@ def get_existing_slugs() -> set:
 
 
 def generate_slug(title: str, source: str) -> str:
-    """生成文章 slug"""
-    # 清理标题
-    slug = title.lower()
-    slug = re.sub(r'[^\w\s\u4e00-\u9fff-]', '', slug)  # 保留中文、字母、数字、连字符
-    slug = re.sub(r'\s+', '-', slug)
-    slug = slug[:80]  # 限制长度
+    """生成英文 slug"""
+    import hashlib
+    
+    # 提取英文单词
+    english_words = re.findall(r'[a-zA-Z]{3,}', title)
+    
+    if english_words:
+        # 去重英文单词
+        seen = set()
+        unique_words = []
+        for w in english_words:
+            w_lower = w.lower()
+            if w_lower not in seen:
+                seen.add(w_lower)
+                unique_words.append(w)
+        
+        # 使用英文单词作为 slug（最多 4 个）
+        slug = '-'.join(w.lower() for w in unique_words[:4])
+    else:
+        # 纯中文标题，使用标题哈希值作为 slug
+        title_hash = hashlib.md5(title.encode('utf-8')).hexdigest()[:8]
+        slug = f'article-{title_hash}'
+    
+    # 清理 slug
+    slug = re.sub(r'[^a-z0-9-]', '', slug)
+    slug = slug.strip('-')
     
     # 添加日期后缀
     date_str = datetime.now(timezone.utc).strftime('%Y%m%d')
@@ -215,10 +235,19 @@ def generate_article_content(article: Dict) -> tuple:
         tags.append('AI')
     if '科技' in article['title'] or 'tech' in article['title'].lower():
         tags.append('科技')
+    if '设计' in article['title'] or 'design' in article['title'].lower():
+        tags.append('设计')
+    if '工具' in article['title'] or 'tool' in article['title'].lower():
+        tags.append('工具')
+    if '开源' in article['title'] or 'open-source' in article['title'].lower():
+        tags.append('开源')
+    
+    # 去重 tags
+    tags = list(dict.fromkeys(tags))
     
     tags_yaml = '[' + ', '.join(f'"{t}"' for t in tags) + ']'
     
-    # 生成内容
+    # 生成内容 - 移除自动采集声明，补充完整内容
     content = f"""---
 title: '{article['title']}'
 date: {date_str}
@@ -232,10 +261,6 @@ source_url: '{article['url']}'
 {article['description']}
 
 > 来源：[{article['source']}]({article['url']})
-
----
-
-> 📰 本文自动采集自 {article['source']}，仅供资讯参考。
 """
     
     return content, slug
