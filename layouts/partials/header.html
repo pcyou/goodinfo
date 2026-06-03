@@ -1,9 +1,12 @@
 <header class="header">
     <nav class="header-nav">
         <div class="logo">
-            <a href="{{ "" | absLangURL }}" accesskey="h" title="{{ site.Title }} (Alt + H)">
-                <img src="/logo.svg" alt="GoodInfo Logo" aria-label="logo" height="32" width="auto">
+            {{- $label_text := (site.Params.label.text | default site.Title) }}
+            {{- if site.Title }}
+            <a href="{{ "" | absLangURL }}" accesskey="h" title="{{ $label_text }} (Alt + H)">
+                {{- $label_text -}}
             </a>
+            {{- end }}
 
             {{- $lsenabled := (or (not site.Params.disableThemeToggle) (and (not site.Params.disableLangToggle) (hugo.IsMultilingual))) }}
             {{- if $lsenabled }}
