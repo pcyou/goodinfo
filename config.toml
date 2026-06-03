@@ -4,6 +4,7 @@ title = '全球全景日报 | goodinfo.net'
 theme = 'hugo-PaperMod'
 enableRobotsTXT = true
 defaultContentLanguage = 'zh'
+defaultContentLanguageInSubdir = false
 
 [pagination]
   pagerSize = 10

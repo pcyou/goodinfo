@@ -3,7 +3,7 @@ title: '白宫记者晚宴枪击案新证据：特工防弹衣中发现弹丸，
 date: 2026-05-04T07:55:00+08:00
 tags: ["美国", "白宫记者晚宴", "特勤局", "特朗普", "安全"]
 categories: ["world"]
-summary: '联邦检察官确认，在特勤局特工防弹衣中发现的弹丸来自嫌疑人科爾艾倫的猎枪，法医证据将嫌疑人与白宫记者晚宴枪击案直接关联。'
+summary: '联邦检察官确认，在特勤局特工防弹衣中发现的弹丸来自嫌疑人科尔艾伦的猎枪，法医证据将嫌疑人与白宫记者晚宴枪击案直接关联。'
 sources:
   - name: "Pellet found in Secret Service agent's vest links suspect to WHCD attack"
     url: "https://www.google.com/search?q=pellet+Secret+Service+agent+WHCD+attack"
@@ -15,7 +15,7 @@ sources:
 
 ## 白宫记者晚宴枪击案新证据：法医确认弹丸来自嫌疑人猎枪
 
-联邦检察官周日公布了白宫记者协会晚宴（WHCD）枪击案的关键法医证据：在一名特勤局特工的防弹衣中发现的弹丸，经确认来自嫌疑人科爾托马斯艾倫（Cole Tomas Allen）所持猎枪发射的鹿弹。
+联邦检察官周日公布了白宫记者协会晚宴（WHCD）枪击案的关键法医证据：在一名特勤局特工的防弹衣中发现的弹丸，经确认来自嫌疑人科尔托马斯艾伦（Cole Tomas Allen）所持猎枪发射的鹿弹。
 
 ### 关键法医发现
 
