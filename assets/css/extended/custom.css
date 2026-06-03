@@ -49,20 +49,6 @@
 
 .header-nav .logo > a {
     font-size: 1.65rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    line-height: 1.3;
-}
-
-.header-nav .logo .logo-title {
-    font-size: 1.65rem;
-}
-
-.header-nav .logo .logo-subtitle {
-    font-size: 0.85rem;
-    opacity: 0.65;
-    font-weight: 400;
 }
 
 /* Row 2: Menu items */
@@ -98,17 +84,6 @@
 
     .header-nav .logo > a {
         font-size: 1.15rem;
-        flex-direction: column;
-        align-items: center;
-        line-height: 1.2;
-    }
-
-    .header-nav .logo .logo-title {
-        font-size: 1.15rem;
-    }
-
-    .header-nav .logo .logo-subtitle {
-        font-size: 0.7rem;
     }
 
     .header-nav .logo-switches span {

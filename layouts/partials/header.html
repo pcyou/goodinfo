@@ -4,13 +4,7 @@
             {{- $label_text := (site.Params.label.text | default site.Title) }}
             {{- if site.Title }}
             <a href="{{ "" | absLangURL }}" accesskey="h" title="{{ $label_text }} (Alt + H)">
-                {{- if strings.Contains $label_text " | " }}
-                    {{- $parts := split $label_text " | " }}
-                    <span class="logo-title">{{ index $parts 0 }}</span>
-                    <span class="logo-subtitle">{{ index $parts 1 }}</span>
-                {{- else }}
-                    {{- $label_text -}}
-                {{- end }}
+                {{- $label_text -}}
             </a>
             {{- end }}
 
