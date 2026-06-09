@@ -25,19 +25,19 @@ categories: ["资讯"]
 
 ## 💻 AI 与科技
 
-1. **免费领取价值30/90美金的NVIDIA DLI自学课程并测试获得证书** [](<![CDATA[https://www.solidot.org/story?sid=84518]]>)
+1. **免费领取价值30/90美金的NVIDIA DLI自学课程并测试获得证书** [](https://www.solidot.org/story?sid=84518)
    > 领取规则：未注册过开发者的用户可以通过如下链接免费选择一门 DLI 在线自主培训的付费课程，配套云端实验环境和可获得 NVIDIA 培训证书。每位用户（每个邮箱账号）仅可选择一门。
 https://developer.nvidia.cn/login?ncid=ref-dev-557858s
 
-2. **Google 将每月支付给 SpaceX 9.2 亿美元租用其算力** [](<![CDATA[https://www.solidot.org/story?sid=84502]]>)
+2. **Google 将每月支付给 SpaceX 9.2 亿美元租用其算力** [](https://www.solidot.org/story?sid=84502)
    > SpaceX/xAI 的聊天机器人 Grok 显然用户太少而导致马斯克（Elon Musk）耗巨资购买的英伟达 GPU 大量闲置，为了避免数据中心空转，SpaceX 近期先后与 Anthropic 和 Google 两大 AI 巨头达成了类似的算力出租协议：Anthropic 同意在 2029 年之
 
 3. **顺丰同城午前涨超4% 附属出资设立股权投资基金投资人工智能等领域** [](https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-06-09/doc-iniauquu6521700.shtml)
 
-4. **美国政府考虑在 AI 公司持有股份** [](<![CDATA[https://www.solidot.org/story?sid=84509]]>)
+4. **美国政府考虑在 AI 公司持有股份** [](https://www.solidot.org/story?sid=84509)
    > 美国政府考虑持有 AI 公司股份。OpenAI CEO Sam Altman 正与白宫就政府可能入股这家 AI 公司进行持续磋商。双方的讨论已持续一年多，本周 Altman 在华盛顿会见了多位议员和官员，就监管和 AI 的最新发展进行了磋商。作为潜在协议的一部分，OpenAI 可能会向美国政府捐赠股
 
-5. **科学家首次精确编辑人类胚胎基因** [](<![CDATA[https://cn.nytimes.com/science/20260605/embryos-gene-editing-crispr/?utm_source=RSS]]>)
+5. **科学家首次精确编辑人类胚胎基因** [](https://cn.nytimes.com/science/20260605/embryos-gene-editing-crispr/?utm_source=RSS)
    > 哥伦比亚大学的科学家使用了一种名为碱基编辑的新技术，以前所未有的精确度编辑了早期人类胚胎的DNA。这一成果可能为培育具有特定特征的“定制婴儿”打开大门。                    Claude Cortier/Science Source                    研究人员修
 
 6. **Anthropic向欧盟提供Mythos使用权限** [](https://www.ftchinese.com/story/001109903)
@@ -64,34 +64,34 @@ https://developer.nvidia.cn/login?ncid=ref-dev-557858s
 
 ## 🌍 国际地缘
 
-1. **因空气泄露国际空间站宇航员被告知准备紧急撤离** [](<![CDATA[https://www.solidot.org/story?sid=84501]]>)
+1. **因空气泄露国际空间站宇航员被告知准备紧急撤离** [](https://www.solidot.org/story?sid=84501)
    > 由于国际空间站俄罗斯舱段的漏气过去几天从每天一磅空气增加到两磅（0.9 公斤），NASA 命令国际空间站上的宇航员待在飞船内，做好紧急撤离的准备。NASA Crew-12 任务的四名宇航员——两名美国宇航员、一名法国宇航员和一名俄罗斯宇航员——于美国东部时间周五 9.04am 接到 NASA 任务控
 
-2. **美国再陷中东军事泥潭，特朗普难以脱身的伊朗困局** [](<![CDATA[https://cn.nytimes.com/usa/20260609/trump-iran-war-middle-east/?utm_source=RSS]]>)
+2. **美国再陷中东军事泥潭，特朗普难以脱身的伊朗困局** [](https://cn.nytimes.com/usa/20260609/trump-iran-war-middle-east/?utm_source=RSS)
    > 伊朗战争已进入第四个月，危机仍在不断发酵。特朗普正努力应对属于他自己的中东军事泥潭。这样的泥潭曾困扰多位美国总统，而特朗普曾承诺要避免再次陷入类似的局面。                    Haiyun Jiang/The New York Times                    特朗
 
-3. **习近平与金正恩会面，寻求重塑对平壤影响力** [](<![CDATA[https://cn.nytimes.com/china/20260609/xi-kim-china-north-korea-summit/?utm_source=RSS]]>)
+3. **习近平与金正恩会面，寻求重塑对平壤影响力** [](https://cn.nytimes.com/china/20260609/xi-kim-china-north-korea-summit/?utm_source=RSS)
    > 习近平此行旨在平衡俄罗斯对朝鲜的影响力。他表示愿意在“新时代”深化与金正恩的关系，承诺将在贸易等领域与朝鲜开展合作。中方通报中没有提及核计划。                    Pedro Pardo/Agence France-Presse — Getty Images
 
-4. **“奇迹般的转变”：金正恩如何重塑朝鲜** [](<![CDATA[https://cn.nytimes.com/asia-pacific/20260609/north-korea-kim-jong-un-pandemic-economy/?utm_source=RSS]]>)
+4. **“奇迹般的转变”：金正恩如何重塑朝鲜** [](https://cn.nytimes.com/asia-pacific/20260609/north-korea-kim-jong-un-pandemic-economy/?utm_source=RSS)
    > 几年前，新冠疫情和国际制裁使朝鲜民众深陷苦难。金正恩用残酷手段加强了对国家的控制，同时利用乌克兰战争与俄罗斯结盟并以此制衡中国，谋求经济复苏和军事强盛。                    Athit Perawongmetha/Reuters                    金正恩2019
 
-5. **“这一切都是为了什么？”：伊朗民众陷入幻灭和绝望** [](<![CDATA[https://cn.nytimes.com/world/20260608/iranians-despair-war-economy-inflation/?utm_source=RSS]]>)
+5. **“这一切都是为了什么？”：伊朗民众陷入幻灭和绝望** [](https://cn.nytimes.com/world/20260608/iranians-despair-war-economy-inflation/?utm_source=RSS)
    > 据报道伊朗已有1700名平民在冲突中丧生，经济崩溃导致民众日常生计举步维艰。停火协议摇摇欲坠之际，更多人陷入幻灭与绝望。那些渴望政权更迭的人尤为失望痛苦。                    Arash Khamooshi/Polaris for The New York Times
 
-6. **习近平将时隔七年访问朝鲜，他为何拉拢金正恩？** [](<![CDATA[https://cn.nytimes.com/china/20260605/china-north-korea-xi-jinping-visit/?utm_source=RSS]]>)
+6. **习近平将时隔七年访问朝鲜，他为何拉拢金正恩？** [](https://cn.nytimes.com/china/20260605/china-north-korea-xi-jinping-visit/?utm_source=RSS)
    > 预计习近平将借与金正恩的峰会展示中朝作为盟友共同对抗西方的统一阵线，同时重申对平壤的影响力。但金正恩可能利用与俄罗斯日益紧密的关系对北京施压，争取经济让步。                    Florence Lo/Reuters                    去年9月，习近平与金正恩在
 
-7. **特朗普政府加强经济封锁，外资纷纷撤离古巴** [](<![CDATA[https://cn.nytimes.com/world/20260605/cuba-hotels-economy-trump/?utm_source=RSS]]>)
+7. **特朗普政府加强经济封锁，外资纷纷撤离古巴** [](https://cn.nytimes.com/world/20260605/cuba-hotels-economy-trump/?utm_source=RSS)
    > 三家国际酒店集团以及一家处理维萨卡和万事达卡交易的银行相继撤出古巴。越来越多的企业撤离将导致失业率上升，并使古巴政府的财政资源减少，从而加剧经济危机。                    Yamil Lage/Agence France-Presse — Getty Images
 
-8. **韩国地方选举：执政党大胜，但在首尔落败** [](<![CDATA[https://cn.nytimes.com/asia-pacific/20260605/south-korea-seoul-mayor-elections/?utm_source=RSS]]>)
+8. **韩国地方选举：执政党大胜，但在首尔落败** [](https://cn.nytimes.com/asia-pacific/20260605/south-korea-seoul-mayor-elections/?utm_source=RSS)
    > 总统李在明所在的共同民主党在地方选举中取得压倒性胜利，但未能赢得首尔市长这一被认为仅次于总统的民选职位。就业机会稀缺和房价飙升使一些年轻选民日益右倾。                    Lee Jin-Man/Associated Press                    周三，聚集在首
 
-9. **特朗普提议对中国等60个贸易伙伴加征新关税** [](<![CDATA[https://cn.nytimes.com/business/20260604/trump-tariffs-force-labor/?utm_source=RSS]]>)
+9. **特朗普提议对中国等60个贸易伙伴加征新关税** [](https://cn.nytimes.com/business/20260604/trump-tariffs-force-labor/?utm_source=RSS)
    > 中国等国将被征收12.5%的关税；欧盟、加拿大和墨西哥将面临10%关税。美国贸易代表表示，这些国家未能制定或有效执行禁止进口强迫劳动产品的法律。                    Agence France-Presse — Getty Images                    202
 
-10. **众议院投票通过决议，要求特朗普结束伊朗战争** [](<![CDATA[https://cn.nytimes.com/usa/20260604/house-vote-trump-iran-war-powers/?utm_source=RSS]]>)
+10. **众议院投票通过决议，要求特朗普结束伊朗战争** [](https://cn.nytimes.com/usa/20260604/house-vote-trump-iran-war-powers/?utm_source=RSS)
    > 众议院以215票对208票通过决议，要求特朗普总统从伊朗撤出美国军队，或者获得国会批准以继续战争。这表明美国国内对伊朗战争的反对声浪正日益高涨。                    Kenny Holston/The New York Times                    周三的投票再
 
 11. **ABB掌门人：欧洲可能面临“大规模失业”** [](https://www.ftchinese.com/story/001109958)
@@ -104,7 +104,7 @@ https://developer.nvidia.cn/login?ncid=ref-dev-557858s
 
 ## 📊 财经与市场
 
-1. **中国要求企业出海前接受国安审查，构建经济堡垒** [](<![CDATA[https://cn.nytimes.com/business/20260608/china-investment-rules/?utm_source=RSS]]>)
+1. **中国要求企业出海前接受国安审查，构建经济堡垒** [](https://cn.nytimes.com/business/20260608/china-investment-rules/?utm_source=RSS)
    > 随着中国与欧美关系日益紧张，北京正围绕技术和供应链构建经济堡垒，阻止资金、技术流出国界。开放市场和自由贸易原则正让位于一个更加碎片化的时代。                    Jade Gao/Agence France-Presse — Getty Images
 
 2. **经合组织：补贴助推中企提升市场份额** [](https://www.ftchinese.com/story/001109902)
