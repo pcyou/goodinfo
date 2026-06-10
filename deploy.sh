@@ -22,5 +22,5 @@ fi
 echo "[$(date)] Build successful." >> $LOG
 
 # Deploy via rsync (ignore partial transfer code 23, usually harmless permission diffs)
-rsync -avz --delete -e "ssh -i $KEY -o StrictHostKeyChecking=no" public/ ${REMOTE}:${REMOTE_DIR}/ >> $LOG 2>&1 || true
+rsync -avz --delete --no-perms --no-owner --no-group -e "ssh -i $KEY -o StrictHostKeyChecking=no" public/ ${REMOTE}:${REMOTE_DIR}/ >> $LOG 2>&1 || true
 echo "[$(date)] Deploy complete." >> $LOG
