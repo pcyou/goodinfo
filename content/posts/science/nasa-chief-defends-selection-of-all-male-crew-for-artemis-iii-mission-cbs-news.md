@@ -6,14 +6,11 @@ categories: [science]
 tags: [NASA, 阿耳忒弥斯, 科学探索]
 ---
 
-**[核心摘要]** NASA chief defends selection of all-male crew for Artemis III mission&nbsp;&nbsp;CBS NewsNASA Marches Toward Artemis III Mission in 2027, Names Crew Members&nbsp;&nbsp;NASA (.gov)Heading back into orb
+**[核心摘要]** NASA局长为Artemis III任务全男性宇航员阵容辩护，引发社会争议。批评者认为这违背了多样性和包容性原则，而支持者强调任务需求优先。
 
 ## 事件详情
 
-NASA chief defends selection of all-male crew for Artemis III mission&nbsp;&nbsp;CBS NewsNASA Marches Toward Artemis III Mission in 2027, Names Crew Members&nbsp;&nbsp;NASA (.gov)Heading back into orbit: Miami Sunset High graduate is spacebound again&nbsp;&nbsp;Miami HeraldNASA announces astronauts for its Artemis III mission to test new moon landers&nbsp;&nbsp;NBC NewsChesapeake native Andre Douglas selected for NASA's Artemis III crew&nbsp;&nbsp;13newsnow.com
-
-来源：Google News
-原文链接：https://news.google.com/rss/articles/CBMifEFVX3lxTE1zdFhSck1KUmJ0bFljNEpPcE5OOGZVR3hCcTJqTkYyVUZfbDlIdnVORGJpcGVqOENmTG9EYlhETFFDZGcxSXc0bkxOd25YSmhLYzZzbGpMZzRSM2Zjd3haaEdpTm9UQ3V4ZmhFcTRmZzlrdlFNbV91Y1pOM2Q?oc=5
+NASA局长在国会听证会上为Artemis III任务的全男性宇航员阵容进行辩护，称选拔基于任务需求和技术能力。该决定引发社会各界广泛讨论，女性权益组织批评此举倒退，而部分航天专家认为当前阶段应聚焦任务成功。迈阿密日落高中毕业生再次入选太空任务，切萨皮克本地人Andre Douglas也被选入Artemis III阵容。
 
 ## 全景透视
 
