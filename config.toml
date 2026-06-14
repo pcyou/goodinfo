@@ -55,9 +55,9 @@ defaultContentLanguageInSubdir = false
   weight = 40
 
 [[languages.zh.menu.main]]
-  identifier = 'opensource'
-  name = '📦 开源项目'
-  url = '/categories/opensource/'
+  identifier = 'github'
+  name = '🔥 GitHub'
+  url = '/categories/github/'
   weight = 45
 
 [[languages.zh.menu.main]]

@@ -16,9 +16,9 @@
 
   {{/* ===== 栏目网格 ===== */}}
   <div class="category-grid">
-    {{- $categories := slice "ai-tech" "finance" "world" "science" "crypto" "opensource" }}
-    {{- $catIcons := dict "ai-tech" "🤖" "finance" "💰" "world" "🌍" "science" "🔬" "crypto" "₿" "opensource" "📦" }}
-    {{- $catNames := dict "ai-tech" "AI与科技" "finance" "财经" "world" "国际" "science" "科学" "crypto" "Crypto" "opensource" "开源" }}
+    {{- $categories := slice "ai-tech" "finance" "world" "science" "crypto" "github" }}
+    {{- $catIcons := dict "ai-tech" "🤖" "finance" "💰" "world" "🌍" "science" "🔬" "crypto" "₿" "github" "🔥" }}
+    {{- $catNames := dict "ai-tech" "AI与科技" "finance" "财经" "world" "国际" "science" "科学" "crypto" "Crypto" "github" "GitHub" }}
 
     {{- range $cat := $categories }}
     {{- $posts := where site.RegularPages "Params.categories" "intersect" (slice $cat) }}
