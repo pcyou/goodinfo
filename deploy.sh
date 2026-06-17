@@ -2,8 +2,9 @@
 set -e
 
 SITE_DIR="/root/goodinfo-site"
-REMOTE="root@43.153.121.114"
-REMOTE_DIR="/www/wwwroot/goodinfo.net"
+REMOTE="root@46.225.168.78"
+REMOTE_PORT="16651"
+REMOTE_DIR="/www/sites/goodinfo.net"
 KEY="/root/.ssh/id_rsa_hermes_migration"
 LOG="/var/log/goodinfo-deploy.log"
 
@@ -22,5 +23,5 @@ fi
 echo "[$(date)] Build successful." >> $LOG
 
 # Deploy via rsync (ignore partial transfer code 23, usually harmless permission diffs)
-rsync -avz --delete --no-perms --no-owner --no-group -e "ssh -i $KEY -o StrictHostKeyChecking=no" public/ ${REMOTE}:${REMOTE_DIR}/ >> $LOG 2>&1 || true
+rsync -avz --delete --no-perms --no-owner --no-group -e "ssh -i $KEY -p $REMOTE_PORT -o StrictHostKeyChecking=no" public/ ${REMOTE}:${REMOTE_DIR}/ >> $LOG 2>&1 || true
 echo "[$(date)] Deploy complete." >> $LOG
