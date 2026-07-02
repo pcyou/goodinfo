@@ -1,23 +1,23 @@
 ---
-title: "Kyiv Hit by Massive Russian Missile and Drone Barrage Despite Zelensky Warning"
-date: 2026-07-02T10:00:00+08:00
+title: "At Least 13 Killed in Massive Russian Missile and Drone Strikes on Kyiv"
+date: 2026-07-02T16:30:00+08:00
 draft: false
 categories: ["world"]
 tags: ["Ukraine", "Kyiv", "Russia", "Airstrikes", "International"]
-summary: "Ukraine's capital Kyiv was struck by a large-scale Russian missile and drone attack in the early hours of July 2, killing at least one person. The assault came just hours after President Zelensky warned that Moscow was planning a massive strike."
+summary: "Ukraine's capital Kyiv was struck by the largest Russian missile and drone attack of the year in the early hours of July 2, killing at least 13 people and injuring dozens, including children. The assault came just hours after President Zelensky warned that Moscow was planning a massive strike."
 ---
 
 ## Core Summary
 
-Kyiv, the capital of Ukraine, was hit by a combined large-scale Russian missile and drone attack in the early hours of July 2, killing at least one person and injuring several others. The attack came just hours after Ukrainian President Zelensky warned that Moscow was planning a "massive" assault. According to The New York Times, explosions rocked multiple areas of the city as air defense systems attempted but failed to fully intercept the incoming weapons.
+Kyiv, the capital of Ukraine, was hit by the largest Russian missile and drone attack of the year in the early hours of July 2, killing at least 13 people and injuring dozens, including several children. The attack came just hours after Ukrainian President Zelensky warned that Moscow was planning a "massive" assault. According to multiple international media outlets, explosions rocked multiple areas of the city as air defense systems attempted but failed to fully intercept the incoming weapons. Kyiv Mayor Vitali Klitschko confirmed that children were among the casualties, and the injured have been rushed to multiple hospitals for emergency treatment.
 
 ## Event Details
 
-According to BBC reporting, Kyiv suffered one of the most intense aerial bombardments of the year in the early hours of July 2. The Ukrainian Air Force stated that Russia deployed a large number of ballistic missiles and suicide drones in the attack, with multiple waves lasting several hours. Kyiv city authorities confirmed at least one death and damage to multiple civilian facilities, with rescue operations ongoing.
+According to BBC reporting, Kyiv suffered one of the most intense aerial bombardments of the year in the early hours of July 2. The Ukrainian Air Force stated that Russia deployed a large number of ballistic missiles and suicide drones in the attack, with multiple waves lasting several hours. Kyiv Mayor Klitschko reported at least 13 confirmed deaths and dozens injured, with multiple civilian facilities and residential buildings severely damaged. Rescue operations are ongoing.
 
-The New York Times reported that explosions were heard across the entire city, with some areas experiencing power outages. President Zelensky stated on social media that Russia had once again demonstrated its intent to target civilians, calling on Western allies to accelerate delivery of air defense systems.
+The New York Times reported that explosions were heard across the entire city, with some areas experiencing power and water outages. CBS News cited local officials saying rescue workers continue to search through rubble and the death toll may rise further. President Zelensky stated on social media that Russia had once again demonstrated its intent to target civilians, calling on Western allies to accelerate delivery of air defense systems.
 
-Notably, Zelensky had publicly warned just hours before the attack that intelligence indicated Moscow was preparing a "massive" operation. This advance warning suggests Ukrainian intelligence had prior knowledge of the attack plan, but limited air defense resources prevented full interception of incoming weapons.
+Notably, Zelensky had publicly warned just hours before the attack that intelligence indicated Moscow was preparing a "massive" operation. This advance warning suggests Ukrainian intelligence had prior knowledge of the attack plan, but limited air defense resources prevented full interception of incoming weapons. The Financial Times noted this was the largest bombardment of Kyiv in weeks.
 
 ## Broader Analysis
 
