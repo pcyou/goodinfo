@@ -1,19 +1,19 @@
 ---
-title: "At Least 13 Killed in Massive Russian Missile and Drone Strikes on Kyiv"
+title: "At Least 27 Killed in Massive Russian Missile and Drone Strikes on Kyiv"
 date: 2026-07-02T16:30:00+08:00
 draft: false
 categories: ["world"]
 tags: ["Ukraine", "Kyiv", "Russia", "Airstrikes", "International"]
-summary: "Ukraine's capital Kyiv was struck by the largest Russian missile and drone attack of the year in the early hours of July 2, killing at least 13 people and injuring dozens, including children. The assault came just hours after President Zelensky warned that Moscow was planning a massive strike."
+summary: "Ukraine's capital Kyiv was struck by the largest Russian missile and drone attack of the year in the early hours of July 2, killing at least 27 people and injuring dozens, including children. The assault came just hours after President Zelensky warned that Moscow was planning a massive strike."
 ---
 
 ## Core Summary
 
-Kyiv, the capital of Ukraine, was hit by the largest Russian missile and drone attack of the year in the early hours of July 2, killing at least 13 people and injuring dozens, including several children. The attack came just hours after Ukrainian President Zelensky warned that Moscow was planning a "massive" assault. According to multiple international media outlets, explosions rocked multiple areas of the city as air defense systems attempted but failed to fully intercept the incoming weapons. Kyiv Mayor Vitali Klitschko confirmed that children were among the casualties, and the injured have been rushed to multiple hospitals for emergency treatment.
+Kyiv, the capital of Ukraine, was hit by the largest Russian missile and drone attack of the year in the early hours of July 2, killing at least 27 people and injuring dozens, including several children. The attack came just hours after Ukrainian President Zelensky warned that Moscow was planning a "massive" assault. According to multiple international media outlets, explosions rocked multiple areas of the city as air defense systems attempted but failed to fully intercept the incoming weapons. Kyiv Mayor Vitali Klitschko confirmed that children were among the casualties, and the injured have been rushed to multiple hospitals for emergency treatment.
 
 ## Event Details
 
-According to BBC reporting, Kyiv suffered one of the most intense aerial bombardments of the year in the early hours of July 2. The Ukrainian Air Force stated that Russia deployed a large number of ballistic missiles and suicide drones in the attack, with multiple waves lasting several hours. Kyiv Mayor Klitschko reported at least 13 confirmed deaths and dozens injured, with multiple civilian facilities and residential buildings severely damaged. Rescue operations are ongoing.
+According to BBC reporting, Kyiv suffered one of the most intense aerial bombardments of the year in the early hours of July 2. The Ukrainian Air Force stated that Russia deployed a large number of ballistic missiles and suicide drones in the attack, with multiple waves lasting several hours. Kyiv Mayor Klitschko reported at least 27 confirmed deaths and dozens injured, with multiple civilian facilities and residential buildings severely damaged. Rescue operations are ongoing.
 
 The New York Times reported that explosions were heard across the entire city, with some areas experiencing power and water outages. CBS News cited local officials saying rescue workers continue to search through rubble and the death toll may rise further. President Zelensky stated on social media that Russia had once again demonstrated its intent to target civilians, calling on Western allies to accelerate delivery of air defense systems.
 
