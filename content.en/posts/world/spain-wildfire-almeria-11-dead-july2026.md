@@ -1,11 +1,11 @@
 ---
-title: "Spain Wildfire Kills at Least 11 as Heatwave Grips Southern Europe"
-date: "2026-07-10T15:26:00+08:00"
+title: "Spain Wildfire Kills 11, 19 Missing as Heatwave Grips Southern Europe"
+date: "2026-07-10T15:39:00+08:00"
 categories: ["world"]
 tags: ["World News", "Natural Disaster", "Climate Change"]
 ---
 
-**[Summary]** At least 11 people have died and six injured in a wildfire in Almeria, southern Spain. Some victims are believed to be British nationals. Around 150 firefighters are battling the blaze, with over 1,000 residents evacuated. The tragedy comes amid a sustained heatwave across Southern Europe, with France and Portugal also facing severe fire conditions.
+**[Summary]** At least 11 people have died and 19 are missing in a wildfire in Almeria, southern Spain, with 6 injured. Some victims are believed to be British nationals. Around 150 firefighters are battling the blaze, with over 1,000 residents evacuated. The tragedy comes amid a sustained heatwave across Southern Europe, with France and Portugal also facing severe fire conditions.
 
 **[Event Details]**
 
