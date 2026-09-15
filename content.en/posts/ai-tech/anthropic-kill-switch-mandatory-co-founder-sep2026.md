@@ -1,0 +1,62 @@
+---
+title: "Anthropic Co-Founder Jack Clark Calls for Mandatory AI 'Kill Switch' Across Industry"
+title_en: "Anthropic Co-Founder Jack Clark Calls for Mandatory AI 'Kill Switch' Across Industry"
+date: 2026-09-15T02:55:00+08:00
+draft: false
+categories: ["ai-tech"]
+tags: ["Anthropic", "AI Safety", "AI Regulation", "Jack Clark", "International"]
+description: "Anthropic co-founder Jack Clark said on September 14 that the 'kill switch' mechanisms currently used by AI labs to disconnect runaway models should be elevated from voluntary best practice to a mandatory industry requirement."
+summary: "Anthropic co-founder and policy lead Jack Clark said in a BBC News interview on September 14 that the 'kill switch' mechanisms currently used by AI labs to disconnect runaway models should be elevated from voluntary best practice to a mandatory regulatory requirement. Clark noted that major labs implement their cut-off mechanisms in widely different ways, creating a fragmented landscape that increases the risk of systemic harm if a frontier model behaves uncontrollably outside the lab. The statement comes as Anthropic continues to drive safety standards inside the Frontier Model Forum and holds informal consultations with the U.S. Congress on AI oversight, and is likely to shape the legislative path of U.S. and EU AI rules over the next 12 to 18 months."
+source: "BBC News"
+tier: 1
+---
+
+## Core Summary
+
+Anthropic co-founder and policy lead Jack Clark said in a BBC News interview on September 14 that the emergency kill switches that AI labs currently use to disconnect runaway frontier models should not remain at the level of voluntary self-regulation but should be codified as a mandatory regulatory requirement. Clark pointed out that the major AI labs implement their cut-off mechanisms in very different ways, from emergency API shutdowns and model weight freezes to disconnecting underlying GPU compute, and that the actual handoff procedures and trigger conditions are not standardized across vendors. This fragmentation means that if a frontier model behaves uncontrollably outside a test environment, regulators, users and the public effectively cannot tell which link in the chain can — and will — most quickly and reliably pull the plug. The remarks come as Anthropic continues to drive safety standards inside the Frontier Model Forum and consult informally with the U.S. Congress on AI oversight, and are being read by industry observers as a further hardening of the leading AI companies' position on frontier model safety governance.
+
+## Event Details
+
+**Clark's core remarks on BBC**: In conversation with the BBC presenter, Clark said the leading AI labs — including Anthropic, OpenAI and Google DeepMind — each have their own internal mechanism for cutting off a runaway model, but the technical implementation, governance details and trigger conditions all differ and there is no cross-vendor minimum standard. Clark argued that a kill switch design needs to solve problems at three layers: first, at the technical layer, the system must be able to cut output within a millisecond window when the model is already serving external traffic; second, at the governance layer, it must be clear who, and under what conditions, has the authority to trigger the mechanism; third, at the legal layer, those who trigger the mechanism need a clear safe harbor so they do not hesitate to pull the switch for fear of liability and thereby cause a worse outcome.
+
+**Anthropic's internal safety architecture evolution**: Anthropic is one of the leading AI companies that publicly discussed interpretability research and interruptibility training earliest. Its Constitutional AI methodology published last year already incorporated as a training objective the principle that a model should accept external interrupt commands without refusing. Clark's latest remarks lift this internal technical track up into a policy initiative aimed at the entire industry, reflecting Anthropic's strategic intent to seize the definitional high ground in the regulation debate.
+
+**U.S. and EU AI regulatory process**: In the U.S. Congress, the Senate Commerce Committee and the AI Caucus are discussing a draft Frontier AI Responsibility Act (FARIA) that already contains preliminary minimum-standard requirements for an emergency interrupt mechanism. In the EU, the AI Act is entering the second-stage implementation revision, and the Commission's AI Office has been assessing whether to add a dedicated emergency interrupt obligation for general-purpose AI models. Clark's remarks are being read as a key signal pushing both tracks forward.
+
+**Different reactions from other frontier labs**: OpenAI, Google DeepMind and Meta's FAIR have not yet publicly responded. Notably, OpenAI's safety policy white paper last year leaned toward "graceful degradation" rather than hard kill. Google DeepMind had previously introduced a Switch protocol that lets authorized parties issue an emergency interrupt to deployed Gemini models. Clark's initiative is likely to accelerate alignment of emergency-mechanism standards across the leading vendors.
+
+**Potential impact on the open source and smaller AI labs**: If Clark's initiative is adopted by legislators, the most direct regulatory targets will be the handful of frontier model developers — Anthropic, OpenAI, Google DeepMind and xAI. But the open source community and smaller AI labs worry that a mandatory kill switch could be over-extended to all models above a certain parameter scale, dampening innovation in the open ecosystem. The Open AI Alliance has already issued a statement urging regulators to distinguish between frontier models and general models in implementation rules.
+
+**Coordination space with Chinese AI labs**: On regulatory coordination, the EU AI Office has recently established AI governance dialogues with CAICT and the Beijing Academy of Artificial Intelligence. Whether the U.S., EU and China can find a coordination space on emergency interrupt mechanisms remains an open question. Clark's remarks may offer a concrete, operable entry point for follow-on U.S.–China AI safety dialogues.
+
+## Panoramic Analysis
+
+Clark's latest remarks on BBC look like a routine AI safety policy statement, but they carry significance that goes far beyond a media interview. They translate Anthropic's internal accumulation of AI safety research over the past several years into an operable policy initiative aimed at global regulators and mark a key inflection point in AI safety governance from industry self-regulation to mandatory norms.
+
+**The kill switch moves from technical concept to policy framework in a paradigm shift**. Over the past three years, AI labs' discussions of kill switches have mostly stayed inside technical white papers and safety research papers, leaving regulators without a concrete technical handle for legislation. Clark's three-layer framework — technical, governance and legal — gives regulators a fairly clear reference coordinate. In the next 12 to 18 months, the U.S. Congress and the EU AI Act implementation rules are likely to design specific provisions around this framework, which will be a key milestone in moving AI governance from principled legislation to fine-grained execution.
+
+**Anthropic is seizing the definitional high ground in AI safety governance**. Clark's remarks come at a moment when Anthropic's valuation continues to climb and its enterprise customer base is accelerating. By proactively launching the mandatory kill switch initiative, Anthropic is trying to build a brand positioning as the most responsible frontier model developer in the regulatory arena, in sharp contrast to the relative passivity of OpenAI and Google DeepMind on regulatory issues. This proactive rule-defining strategy will significantly strengthen Anthropic's competitive advantage in government contracts, enterprise customers and public trust.
+
+**A new phase of safety standards competition among frontier AI companies**. Clark's initiative puts OpenAI, Google DeepMind and xAI under passive pressure to disclose their emergency termination implementation paths and trigger conditions for regulators and the public. This transparency competition will drive rapid convergence in safety standards across the industry, but will also bring the negative effect of rising safety compliance costs and shrinking commercial innovation room.
+
+**The regulatory spillover effect on open source and small labs warrants close attention**. If Clark's initiative is adopted by legislators, it could be further extended to open source large models and smaller AI labs. But kill switch mechanisms for open source models are technically harder to implement, and pushing them too hard could push the open source community into regulatory avoidance — including distributing weights in pieces and using decentralized inference architectures. This tension is a key problem that future AI regulatory legislation must resolve.
+
+**Global AI governance coordination faces new opportunities and challenges**. Clark's remarks provide a new cooperation entry point for the U.S., EU and China on AI safety governance, especially on the relatively neutral technical issue of emergency interrupt mechanisms, where the three sides share broad common interests. However, global coordination on AI governance still faces multiple challenges from geopolitics, technological competition and regulatory philosophy differences, and a binding global AI safety agreement remains hard to reach in the short term. In the near term, regional bilateral or multilateral AI safety dialogues are more likely to make actual progress than a global pact.
+
+## Comparison of Multiple Viewpoints
+
+**Anthropic and Jack Clark** hold the clearest position. Clark said explicitly on BBC that the emergency termination mechanism should become a mandatory industry norm rather than an optional best practice. CEO Dario Amodei has made similar statements in several public settings, emphasizing that frontier AI companies have an obligation to prepare technically for possible loss-of-control scenarios.
+
+**OpenAI** is relatively cautious, emphasizing the importance of graceful degradation over a hard kill. The head of OpenAI's safety team has previously argued in public talks that abruptly cutting off the model could cause greater secondary harm, including to medical, educational and emergency service users mid-task. This position sits in subtle tension with Anthropic's hard-kill initiative.
+
+**Google DeepMind** has previously launched a Switch protocol that is closer in design to Anthropic's initiative, allowing authorized parties to issue emergency interrupt commands to deployed Gemini models. Google DeepMind tends to favor a hybrid model of industry self-discipline plus regulatory coordination, and is more receptive to mandatory legislation than OpenAI but less than Anthropic.
+
+**The U.S. Congress** shows bipartisan split on AI regulatory legislation. Democratic senators tend to push a harder framework, including mandatory safety standards and kill switch mechanisms; Republican senators prefer executive orders and industry self-discipline to avoid legislation over-intervening in industry. Clark's remarks are expected to accelerate Democrats' push.
+
+**The EU AI Office** is open in the second-stage implementation revision of the AI Act, where it has been assessing whether to add a dedicated emergency interrupt obligation for general-purpose AI models. The EU's overall regulatory philosophy tends toward risk grading plus mandatory high-risk category standards, and it is open to Clark's initiative while still needing to consult industry.
+
+**The Open AI Alliance** is reserved and urges regulators to distinguish between frontier and general models in implementation rules to avoid over-impacting the open source ecosystem. The community argues that mandatory kill switches are technically hard to apply to decentralized open source deployments and could force the ecosystem to fragment or go underground.
+
+**Chinese institutions such as CAICT and the Beijing Academy of Artificial Intelligence** are paying attention to the emergency interrupt topic but have not taken a clear public position. In the global AI governance coordination framework, the Chinese side tends to emphasize balanced development and security, and is cautious on specific technical standards in mandatory frameworks.
+
+Editorial Team: GoodInfo Global News Desk
