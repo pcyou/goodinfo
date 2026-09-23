@@ -1,0 +1,27 @@
+---
+title: "Ethiopia and Tigray Accuse Each Other of Launching Offensives, Fears of New War Grow"
+date: "2026-09-24T01:20:00+00:00"
+draft: false
+categories: ['world']
+tags: ['Ethiopia', 'Tigray', 'Africa', 'Conflict', 'International', 'Horn of Africa']
+description: "Ethiopia's federal authorities and the Tigray regional administration have accused each other of launching fresh military offensives, with Tigrayan authorities claiming control of regional airports and accusing federal forces of drone strikes."
+summary: "On 23 September 2026, Ethiopia's federal government and the Tigray regional authorities traded accusations of initiating military offensives, sharply escalating tensions. Tigrayan authorities said they had seized control of two regional airports and accused the federal military of carrying out drone strikes; the federal government rejected the claims and said Tigrayan forces had broken the ceasefire framework first. International organisations warned of the risk of a renewed full-scale war in the Horn of Africa."
+---
+
+## Ethiopia and Tigray Accuse Each Other of Launching Offensives, Fears of New War Grow
+
+**[Core Summary]** On 23 September 2026, Ethiopia's federal government and the Tigray regional authorities accused each other of launching fresh military offensives, with tensions visibly escalating within hours. Tigrayan authorities said they had taken control of airports in Aksum and Mekelle and accused the Ethiopian federal military of carrying out drone strikes; the federal government pushed back, saying Tigrayan forces had broken the ceasefire framework first and that defensive action had been taken. The developments drew urgent responses from the United Nations, the African Union and neighbouring states, with widespread concern that the long-running conflict could slide back into a full-scale war.
+
+According to the BBC, Tigrayan authorities said in their latest statement that they had taken control of Aksum and Mekelle airports and accused the federal air force of multiple drone strikes in recent days. Intermittent communications disruptions in the region have made independent verification more difficult. Ethiopia's federal government spokesperson insisted that Tigrayan forces had first violated the 2022 ceasefire framework and that federal troops had begun redeploying toward Amhara and adjacent regional states.
+
+**[Panoramic Perspective]** The renewed escalation in Tigray carries significant implications for the security architecture of the wider Horn of Africa. From a geopolitical standpoint, Ethiopia is the second most populous country in Africa and a central actor in East Africa; its internal stability directly affects the security environments of Sudan, South Sudan, Somalia and Eritrea. If the conflict between the federal government and Tigrayan forces reignites on a large scale, it would not only trigger a fresh humanitarian crisis but could also force neighbouring states to pick sides, reshaping the regional balance of power.
+
+Looking more broadly, the roots of the Tigray crisis lie in Ethiopia's complex federal arrangements. The 2020–2022 war killed hundreds of thousands of people and pushed Tigray into a severe humanitarian emergency. Although the ceasefire formally ended large-scale fighting, the underlying political disputes — including the boundaries of Tigray's autonomy, the disarmament and reintegration of Tigrayan forces, and Prime Minister Abiy's wider state-structure reform agenda — were never fully resolved. The persistent lack of mutual trust means that even a localised border incident can rapidly pull both sides back toward confrontation.
+
+For the international community, the escalation highlights the limits of existing African conflict-resolution mechanisms. The African Union continues to engage politically, but lacks the tools to enforce a ceasefire decisively; the UN Security Council has struggled to forge a unified position given the difficulty of coordinating major powers. If de-escalation cannot be achieved quickly, the window for meaningful external mediation may close rapidly and the situation could spiral into something far harder to contain.
+
+**[Multiple Perspectives]** Those aligned with the federal government — including supporters of the Abiy administration and political forces in the Amhara region — stress the importance of safeguarding constitutional order and national unity, arguing that the Tigrayan authorities must be held accountable for first violating the ceasefire framework. Critics, led by international human rights organisations and parts of the Western diplomatic community, warn that a large-scale military campaign under the banner of fighting separatists could once again produce serious civilian casualties and humanitarian suffering.
+
+Tigrayan political spokespeople argue that the region's population has long endured economic blockades and material shortages, that the federal government has failed to honour key provisions of the ceasefire, and that regional authorities have been left with little choice but to take necessary security measures. The UN Special Envoy for the Horn of Africa has called on all sides to exercise maximum restraint and to return immediately to dialogue; the African Union Peace and Security Council has announced an emergency meeting. Several international humanitarian organisations have begun pre-positioning relief supplies in Tigray and surrounding areas in case the situation deteriorates further.
+
+Editor: GoodInfo Global News Team
