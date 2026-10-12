@@ -136,8 +136,8 @@ def check_tier2_prefix(meta, tier, lang):
 def check_panoramic(text, tier):
     if tier != "1":
         return None
-    if "全景透视" not in text and "Panoramic Analysis" not in text:
-        return "Missing 全景透视/Panoramic Analysis section"
+    if "全景透视" not in text and "Panoramic Perspective" not in text and "Panoramic Analysis" not in text:
+        return "Missing 全景透视/Panoramic Perspective section"
     return None
 
 def check_sensitive_tags(meta):
