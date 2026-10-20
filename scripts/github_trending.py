@@ -252,7 +252,7 @@ categories: ["github"]
 # 🔥 GitHub {period}热门项目
 
 > 更新时间：{now.strftime("%Y年%m月%d日 %H:%M")} (北京时间)
-> 数据来源：GitHub Trending & Search API
+> 数据来源：GitHub Trending 官方榜单
 
 ---
 
@@ -314,17 +314,15 @@ def main():
     
     print(f"🚀 开始抓取 GitHub Trending ({since})...")
     
-    # 方案1: 使用 API
-    print("📡 尝试 GitHub Search API...")
-    repos = fetch_trending_repos(since=since, per_page=20)
-    # Search API 结果常常过少(新仓库 star 数低), 数据不足时回退到 Trending 页面
-    if len(repos) < 10:
-        print(f"\u26a0\ufe0f API \u4ec5\u8fd4\u56de {len(repos)} \u4e2a\u9879\u76ee\uff0c\u6539\u7528 Trending \u9875\u9762\u6293\u53d6...")
-        page_repos = fetch_trending_from_page(since=since)
-        if len(page_repos) > len(repos):
-            repos = page_repos
+    # 方案1: Trending 页面为权威数据源 (真实热度榜, 含总 star 与当日新增)
+    print("📡 抓取 GitHub Trending 页面...")
+    repos = fetch_trending_from_page(since=since)
     
-    # 方案2: 如果 API 失败，使用页面抓取
+    # 方案2: 页面结构变更或抓取失败时, 回退 Search API
+    if len(repos) < 5:
+        print(f"⚠️ Trending 页面仅返回 {len(repos)} 个项目, 回退 Search API...")
+        repos = fetch_trending_repos(since=since, per_page=20)
+    
     if not repos:
         print("⚠️ API 失败，尝试页面抓取...")
         repos = fetch_trending_from_page(since=since)
