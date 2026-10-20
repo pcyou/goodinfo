@@ -16,6 +16,35 @@ import re
 import json
 import urllib.request
 import urllib.parse
+import time
+
+# Force IPv4: this host's IPv6 route is broken, and the default IPv6-preferring
+# resolution makes every HTTPS handshake die with a TLS EOF error.
+try:
+    import socket as _socket
+    _orig_getaddrinfo = _socket.getaddrinfo
+    def _getaddrinfo_ipv4(host, port, family=0, *a, **kw):
+        return _orig_getaddrinfo(host, port, _socket.AF_INET, *a, **kw)
+    _socket.getaddrinfo = _getaddrinfo_ipv4
+except Exception:
+    pass
+
+
+def _urlopen_with_retry(req, timeout=30, retries=3):
+    """urlopen with exponential backoff.
+
+    The upstream TLS endpoint intermittently drops the handshake with an EOF;
+    retrying resolves it without masking genuine errors.
+    """
+    last_exc = None
+    for attempt in range(retries):
+        try:
+            return urllib.request.urlopen(req, timeout=timeout)
+        except Exception as exc:
+            last_exc = exc
+            if attempt < retries - 1:
+                time.sleep(2 * (attempt + 1))
+    raise last_exc
 from datetime import datetime, timedelta, timezone
 
 # ==========================================
@@ -73,7 +102,7 @@ def fetch_trending_repos(since="daily", language="", per_page=20):
     req = urllib.request.Request(full_url, headers=HEADERS)
     
     try:
-        with urllib.request.urlopen(req, timeout=30) as response:
+        with _urlopen_with_retry(req, timeout=30) as response:
             data = json.loads(response.read().decode())
             return data.get("items", [])
     except Exception as e:
@@ -98,7 +127,7 @@ def fetch_trending_from_page(since="daily"):
     })
     
     try:
-        with urllib.request.urlopen(req, timeout=30) as response:
+        with _urlopen_with_retry(req, timeout=30) as response:
             html = response.read().decode()
         
         # 解析每个 article 块
@@ -288,6 +317,12 @@ def main():
     # 方案1: 使用 API
     print("📡 尝试 GitHub Search API...")
     repos = fetch_trending_repos(since=since, per_page=20)
+    # Search API 结果常常过少(新仓库 star 数低), 数据不足时回退到 Trending 页面
+    if len(repos) < 10:
+        print(f"\u26a0\ufe0f API \u4ec5\u8fd4\u56de {len(repos)} \u4e2a\u9879\u76ee\uff0c\u6539\u7528 Trending \u9875\u9762\u6293\u53d6...")
+        page_repos = fetch_trending_from_page(since=since)
+        if len(page_repos) > len(repos):
+            repos = page_repos
     
     # 方案2: 如果 API 失败，使用页面抓取
     if not repos:
