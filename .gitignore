@@ -6,3 +6,4 @@ resources/
 # 1Panel installation files
 1panel-v2.2.3-linux-amd64.tar.gz
 1panel-v2.2.3-linux-amd64/
+__pycache__
