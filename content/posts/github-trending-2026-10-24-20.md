@@ -1,13 +1,13 @@
 ---
 title: "🔥 GitHub 每日热门项目 (2026-10-24)"
-date: 2026-10-24T20:01:16+08:00
+date: 2026-10-24T20:11:25+08:00
 tags: ["GitHub", "开源", "热门项目", "Trending"]
 categories: ["github"]
 ---
 
 # 🔥 GitHub 每日热门项目
 
-> 更新时间：2026年10月24日 20:01 (北京时间)
+> 更新时间：2026年10月24日 20:11 (北京时间)
 > 数据来源：GitHub Trending 官方榜单
 
 ---
@@ -18,7 +18,7 @@ categories: ["github"]
 
 A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings
 
-- ⭐ **Stars**: 42,998
+- ⭐ **Stars**: 43,024
 - 🔥 **Trending**: +2,271 stars
 - 💻 **Language**: JavaScript
 - 🏷️ **Topics**: 无
@@ -27,7 +27,7 @@ A coding-agent skill for multi-phase security audits with independently verified
 
 OpenShell is the safe, private runtime for autonomous AI agents.
 
-- ⭐ **Stars**: 19,125
+- ⭐ **Stars**: 19,131
 - 🔥 **Trending**: +893 stars
 - 💻 **Language**: Rust
 - 🏷️ **Topics**: 无
@@ -36,7 +36,7 @@ OpenShell is the safe, private runtime for autonomous AI agents.
 
 Official, AWS-supported MCP servers, skills, and plugins to help AI agents build on AWS
 
-- ⭐ **Stars**: 2,964
+- ⭐ **Stars**: 2,968
 - 🔥 **Trending**: +11 stars
 - 💻 **Language**: Python
 - 🏷️ **Topics**: 无
@@ -45,7 +45,7 @@ Official, AWS-supported MCP servers, skills, and plugins to help AI agents build
 
 Anti-AI-slop design skill for Claude Code, Cursor, and Codex.
 
-- ⭐ **Stars**: 31,500
+- ⭐ **Stars**: 31,504
 - 🔥 **Trending**: +567 stars
 - 💻 **Language**: CSS
 - 🏷️ **Topics**: 无
@@ -54,7 +54,7 @@ Anti-AI-slop design skill for Claude Code, Cursor, and Codex.
 
 A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate value.
 
-- ⭐ **Stars**: 44,155
+- ⭐ **Stars**: 44,157
 - 🔥 **Trending**: +1,053 stars
 - 💻 **Language**: Python
 - 🏷️ **Topics**: 无
@@ -63,7 +63,7 @@ A visual, example-driven guide to Claude Code — from basic concepts to advance
 
 The design language that makes your AI harness better at design.
 
-- ⭐ **Stars**: 85,852
+- ⭐ **Stars**: 85,860
 - 🔥 **Trending**: +541 stars
 - 💻 **Language**: Rust
 - 🏷️ **Topics**: 无
@@ -72,7 +72,7 @@ The design language that makes your AI harness better at design.
 
 A Tiny biped duck robot 🦆
 
-- ⭐ **Stars**: 10,631
+- ⭐ **Stars**: 10,632
 - 🔥 **Trending**: +421 stars
 - 💻 **Language**: Rust
 - 🏷️ **Topics**: 无
@@ -81,7 +81,7 @@ A Tiny biped duck robot 🦆
 
 An open-source AI agent that brings the power of Gemini directly into your terminal.
 
-- ⭐ **Stars**: 107,600
+- ⭐ **Stars**: 107,602
 - 🔥 **Trending**: +38 stars
 - 💻 **Language**: TypeScript
 - 🏷️ **Topics**: 无
@@ -90,7 +90,7 @@ An open-source AI agent that brings the power of Gemini directly into your termi
 
 欢迎来到电子书下载宝库，一个汇聚了各类电子书下载链接的地方。无论你是喜欢阅读经典文学、经管励志、终身学习、职场创业、技术手册还是其他类型的书籍，这里都能满足你的需求。 该库涵盖了帆书app(原樊登读书)、微信读书、京东读书、喜马拉雅等读书app的大部分电子书。
 
-- ⭐ **Stars**: 22,275
+- ⭐ **Stars**: 22,280
 - 🔥 **Trending**: +220 stars
 - 💻 **Language**: Python
 - 🏷️ **Topics**: 无
@@ -99,7 +99,7 @@ An open-source AI agent that brings the power of Gemini directly into your termi
 
 Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。
 
-- ⭐ **Stars**: 3,751
+- ⭐ **Stars**: 3,757
 - 🔥 **Trending**: +471 stars
 - 💻 **Language**: TypeScript
 - 🏷️ **Topics**: 无
