@@ -32,18 +32,39 @@ import html as html_lib
 # 100% 超时并降级到质量更差的 Search API。
 # 下列 Anycast 边缘 IP 属于同一 GitHub 前端集群, 返回内容一致; 由于 TLS 的
 # SNI 与证书校验仍使用主机名 github.com, 固定 IP 不削弱 TLS 安全性。
+#
+# 2026-10-24 复盘: 黑洞 IP 不只是本机 DNS 那一个 —— 20.27.177.113 这一
+# 陈旧备用地址同样会在"正文读取"阶段挂死 (TLS 握手能成功, 但读 body
+# 永远收不到数据)。因此这里把**已实测 HTTP 200** 的 4 个边缘 IP 单独
+# 提为白名单并放在最前面, DNS 解析结果一律垫后。
 GITHUB_WEB_FALLBACK_IPS = (
-    "20.27.177.113",
     "140.82.112.3",
     "140.82.113.3",
     "140.82.114.3",
     "140.82.116.3",
 )
 
-# 主机名 -> 备用 IP 列表
+# 已实测可达但可能随时间失效的备用地址, 排在白名单之后尝试
+GITHUB_WEB_SECONDARY_IPS = (
+    "20.27.177.113",
+)
+
+# 主机名 -> 备用 IP 列表 (顺序即优先级)
 _FALLBACK_IPS = {
-    "github.com": GITHUB_WEB_FALLBACK_IPS,
+    "github.com": GITHUB_WEB_FALLBACK_IPS + GITHUB_WEB_SECONDARY_IPS,
 }
+
+# 死 IP 黑名单 (自愈): 主机名 -> {已连续失败 >= 2 次的 IP}
+# 某个 IP 一旦进入黑名单, 本进程后续请求直接跳过它, 不再浪费超时窗口。
+_DEAD_IPS = {}
+
+# 判定为"死 IP"所需的连续失败次数
+_DEAD_IP_THRESHOLD = 2
+
+# 每个 IP 的首次尝试超时 (秒)。
+# 健康边缘 IP 实测 0.4-3s 返回, 用短超时可以快速识别黑洞地址;
+# 超时后该 IP 才被熔断并让位给下一个候选。
+_FIRST_ATTEMPT_TIMEOUT = 6
 
 # 当前生效的 IP 固定 (由 _http_get 在每次请求前设置, 用完立即复位)
 _PINNED_IP = {}
@@ -64,7 +85,7 @@ except Exception:
     pass
 
 
-def _urlopen_with_retry(req, timeout=30, retries=3):
+def _urlopen_with_retry(req, timeout=15, retries=3):
     """urlopen with exponential backoff.
 
     The upstream TLS endpoint intermittently drops the handshake with an EOF;
@@ -82,8 +103,19 @@ def _urlopen_with_retry(req, timeout=30, retries=3):
 
 
 def _candidate_ips(host, port=443):
-    """候选 IP 列表: 先用 DNS 当前解析结果, 再追加已知可达的边缘 IP。"""
+    """候选 IP 列表: **已验证可达的边缘 IP 在前, DNS 解析结果垫后**。
+
+    2026-10-24 复盘: 本机 DNS 把 github.com 解析到一个正文读取会挂死的
+    黑洞地址, 而旧的实现把 DNS 结果排在最前, 于是每次请求都要先在黑洞
+    地址上耗尽整个超时窗口, 健康边缘 IP 根本轮不到。
+    黑名单中的 IP 直接剔除 (自愈: 已被证实读不出正文的地址不再重试)。
+    """
     ips = []
+    # 1) 首选: 硬编码的已验证可达边缘 IP
+    for ip in _FALLBACK_IPS.get(host, ()):
+        if ip not in ips:
+            ips.append(ip)
+    # 2) 垫底: 本机 DNS 当前解析结果 (可能是黑洞源, 仅作兜底)
     try:
         for info in _orig_getaddrinfo(host, port, _socket.AF_INET):
             ip = info[4][0]
@@ -91,10 +123,37 @@ def _candidate_ips(host, port=443):
                 ips.append(ip)
     except Exception:
         pass
-    for ip in _FALLBACK_IPS.get(host, ()):
-        if ip not in ips:
-            ips.append(ip)
-    return ips
+    # 3) 剔除已被判定为死的 IP
+    dead = _DEAD_IPS.get(host) or set()
+    alive = [ip for ip in ips if ip not in dead]
+    if dead:
+        print(f"  跳过 {len(ips) - len(alive)} 个已知死 IP: {sorted(dead)}")
+    if not alive and ips:
+        # 全部候选都被拉黑时, 宁可重试一次也不要直接放弃
+        print("  ⚠️ 全部候选 IP 均被拉黑, 放开一次重试")
+        return ips
+    return alive
+
+
+def _is_timeout(exc):
+    """判断异常是否为超时类 (黑洞 IP 的确定性信号)。"""
+    if isinstance(exc, TimeoutError):
+        return True
+    reason = getattr(exc, "reason", None)
+    if isinstance(reason, TimeoutError):
+        return True
+    text = str(exc).lower()
+    return "timed out" in text or "timeout" in text
+
+
+def _mark_ip_dead(host, ip, failures):
+    """累计单个 IP 的失败次数, 达到阈值后加入黑名单。"""
+    if failures < _DEAD_IP_THRESHOLD:
+        return
+    dead = _DEAD_IPS.setdefault(host, set())
+    if ip not in dead:
+        dead.add(ip)
+        print(f"  🚫 熔断 {ip} (连续失败 {failures} 次), 本进程后续跳过该 IP")
 
 
 def _tls_handshake(host, ip, timeout=8):
@@ -124,11 +183,15 @@ def _tls_handshake(host, ip, timeout=8):
         return None
 
 
-def _raw_http_get(host, path, ip, headers, timeout=25):
+def _raw_http_get(host, path, ip, headers, timeout=15):
     """直连指定 IP 取回页面, 自行处理 chunked 与 gzip 解码。
 
     urllib/http.client 在本机出口链路上偶尔会在正文读取阶段卡死;
     原生 socket 路径实测 5/5 成功, 作为兜底手段保留。
+
+    2026-10-24 复盘: 黑洞 IP 的典型表现是"TCP + TLS 都成功, 但 recv
+    永远不返回"。因此这里在握手完成后显式调用 settimeout, 给**读取阶段**
+    单独加上保护, 避免一次挂死拖垮整个抓取流程。
     """
     ctx = ssl.create_default_context()
     sock = ctx.wrap_socket(
@@ -136,6 +199,8 @@ def _raw_http_get(host, path, ip, headers, timeout=25):
         server_hostname=host,
     )
     try:
+        # 读取阶段的独立超时保护 (握手后的 socket 需要显式设置)
+        sock.settimeout(timeout)
         req = f"GET {path} HTTP/1.1\r\nHost: {host}\r\n"
         for k, v in headers.items():
             req += f"{k}: {v}\r\n"
@@ -185,23 +250,33 @@ def _raw_http_get(host, path, ip, headers, timeout=25):
     return body.decode("utf-8", "replace")
 
 
-def _http_get(url, headers, timeout=30, retries=3, max_attempts=6):
+def _http_get(url, headers, timeout=12, retries=2, max_attempts=18, expect_html=True):
     """GET a URL and return the decoded body as text.
 
-    处理四类传输缺陷:
+    处理五类传输缺陷:
 
-    1. *DNS 黑洞.* 本机解析出的 github.com 地址接受 TCP 连接却永不完成
-       TLS 握手。先做 TLS 层探测, 只保留真正握手的 IP。
+    1. *DNS 黑洞.* 本机解析出的 github.com 地址能完成 TLS 握手, 但正文
+       读取会永远挂死。故候选 IP 里已验证可达的边缘 IP 排在最前, DNS
+       结果垫后 (见 _candidate_ips)。
 
-    2. *未压缩传输拖慢.* Trending 页面未压缩约 551 KB, 走本机出口需 21-37s,
+    2. *全局预算被黑洞 IP 吃光.* 旧的 max_attempts 是所有候选 IP 共享的
+       总预算: 每个坏 IP 要消耗 1 次 raw + 3 次 urllib 重试 = 4 次, 两个
+       坏 IP 就是 8 次 > 6 次上限, 于是还没轮到健康 IP 就已退出。现在改为
+       **每个 IP 独立预算** (默认 3 次), 整体上限 18 次可覆盖全部候选。
+
+    3. *未压缩传输拖慢.* Trending 页面未压缩约 551 KB, 走本机出口需 21-37s,
        会撑爆超时。请求 gzip 后载荷降到约 46 KB, 传输约 0.4s。
 
-    3. *重试只覆盖了连接.* urlopen 在响应头到达后即返回, 正文在此之后才读,
+    4. *重试只覆盖了连接.* urlopen 在响应头到达后即返回, 正文在此之后才读,
        因此截断响应抛出的 IncompleteRead 落在重试循环之外, 从未被重试。
        这里把正文读取纳入重试范围, 并检测截断的载荷。
 
-    4. *http.client 正文读取卡死.* 偶发于本机出口链路, 故保留原生 socket
+    5. *http.client 正文读取卡死.* 偶发于本机出口链路, 故保留原生 socket
        取数路径作为兜底。
+
+    expect_html=True 时会校验响应体是否以 </html> 闭合 (用于识别被截断的
+    HTML 页面); 取 JSON 接口 (如 GitHub Search API) 时须传 expect_html=False,
+    否则 JSON 响应会因不含 </html> 被误判为截断。
 
     失败时返回 ""。
     """
@@ -212,26 +287,47 @@ def _http_get(url, headers, timeout=30, retries=3, max_attempts=6):
         path += "?" + parsed.query
     last_exc = None
 
-    # 1) 逐个 IP 直接尝试取数。
-    #    注意: 这里不再做独立的 TLS 探测握手 —— 探测会额外消耗一次连接,
-    #    在本机出口链路上反而提高了整体失败率 (实测同一批 IP 探测全失败
-    #    而直接取数却能成功)。探测信息只作为日志参考。
+    # 每个 IP 的独立尝试预算: raw 一次 + urllib 重试若干次。
+    # total_budget 是所有候选 IP 共享的硬上限 (兜底), 保证整体耗时可控。
+    per_ip_budget = 1 + max(0, retries)
+    total_budget = max_attempts
     attempts = 0
+
+    # 逐个 IP 尝试。候选顺序已把已验证可达的边缘 IP 放在最前。
     for ip in _candidate_ips(host):
-        # 2) 优先走原生 socket 路径 (实测最稳), 失败再退回 urllib
-        if attempts < max_attempts:
+        if attempts >= total_budget:
+            break
+
+        # 单个 IP 连续失败次数 (用于熔断 / 黑名单)
+        ip_failures = 0
+
+        # 首次尝试用较短的超时: 健康 IP 0.4-3s 就能返回, 用不着一口气等满;
+        # 黑洞 IP 则在几秒内就暴露, 快速失败并交给下一个 IP。
+        # 只有在"看起来有希望"的 IP 上才启用完整超时。
+        first_timeout = min(timeout, _FIRST_ATTEMPT_TIMEOUT)
+
+        # 优先走原生 socket 路径 (实测最稳), 失败再退回 urllib
+        if attempts < total_budget:
             attempts += 1
             try:
-                text = _raw_http_get(host, path, ip, headers, timeout=timeout)
-                if "</html>" not in text:
+                text = _raw_http_get(host, path, ip, headers, timeout=first_timeout)
+                if expect_html and "</html>" not in text:
                     raise IOError(f"truncated response ({len(text)} bytes, no </html>)")
                 return text
             except Exception as exc:
                 last_exc = exc
-                print(f"  raw attempt {attempts}/{max_attempts} failed on {ip}: {exc}")
+                ip_failures += 1
+                print(f"  raw attempt {attempts}/{total_budget} failed on {ip}: {exc}")
+                # 首次尝试就超时的 IP 直接判死: 该路径已证明读不出正文,
+                # 再花一次 urllib 重试纯属浪费超时窗口, 立刻让位给下一个 IP。
+                # 首次超时已经是"黑洞"的确定性证据, 故按阈值计满并立即拉黑。
+                if _is_timeout(exc):
+                    print(f"  ⏱️ {ip} 首次即超时, 判定为黑洞并跳过")
+                    _mark_ip_dead(host, ip, _DEAD_IP_THRESHOLD)
+                    continue
 
         for attempt in range(retries):
-            if attempts >= max_attempts:
+            if attempts >= total_budget or ip_failures >= per_ip_budget:
                 break
             attempts += 1
             _PINNED_IP[host] = ip
@@ -245,19 +341,28 @@ def _http_get(url, headers, timeout=30, retries=3, max_attempts=6):
                 elif encoding == "deflate":
                     raw = zlib.decompress(raw, -zlib.MAX_WBITS)
                 text = raw.decode("utf-8", "replace")
-                # 截断的 HTML 仍可能解析出部分内容, 故先确认文档闭合再采信
-                if "</html>" not in text:
+                # 截断的 HTML 仍可能解析出部分内容, 故先确认文档闭合再采信;
+                # JSON 接口 (Search API) 不含 </html>, 故由 expect_html 关闭该校验。
+                if expect_html and "</html>" not in text:
                     raise IOError(f"truncated response ({len(text)} bytes, no </html>)")
                 _PINNED_IP[host] = None
                 return text
             except Exception as exc:
                 last_exc = exc
-                print(f"  HTTP attempt {attempts}/{max_attempts} failed on {ip}: {exc}")
+                ip_failures += 1
+                print(f"  HTTP attempt {attempts}/{total_budget} failed on {ip}: {exc}")
+                # 超时是"黑洞"的确定性信号: 该 IP 读不出正文, 再重试也是
+                # 白白等满整个超时窗口, 故立刻熔断并让位给下一个候选 IP。
+                if _is_timeout(exc):
+                    print(f"  ⏱️ {ip} 超时, 直接判定为黑洞并跳过")
+                    break
                 if attempt < retries - 1:
                     time.sleep(2 * (attempt + 1))
         _PINNED_IP[host] = None
-        if attempts >= max_attempts:
-            break
+
+        # 熔断: 该 IP 已连续失败达阈值则拉黑, 直接跳到下一个 IP,
+        # 不再在同一个黑洞地址上白白耗掉几十秒。
+        _mark_ip_dead(host, ip, ip_failures)
 
     print(f"Error fetching {url}: {last_exc}")
     return ""
@@ -431,10 +536,31 @@ def fetch_trending_repos(since="daily", language="", per_page=20):
     }
     
     full_url = f"{url}?{urllib.parse.urlencode(params)}"
+
+    # 降级路径同样要能自愈: Search API 走的是 api.github.com, 若该主机在本
+    # 出口链路上不可达, 必须给出清晰错误并返回空列表, 而不是抛出未捕获
+    # 异常或挂死。这里先试带 IP 容错的 _http_get (它会按候选 IP 依次尝试),
+    # 失败后再退回常规 urlopen。
+    raw_text = _http_get(full_url, headers=HEADERS, timeout=15, retries=2,
+                         expect_html=False)
+    if raw_text:
+        try:
+            data = json.loads(raw_text)
+            items = data.get("items", [])
+            clean = [r for r in items if not is_spam_repo(r)]
+            dropped = len(items) - len(clean)
+            if dropped:
+                print(f"🧹 已过滤 {dropped} 个垃圾仓库")
+            return clean
+        except Exception as e:
+            print(f"Error parsing GitHub API response: {e}")
+            return []
+
+    print("⚠️ api.github.com 经 IP 容错仍不可达, 回退常规 urlopen 重试一次...")
     req = urllib.request.Request(full_url, headers=HEADERS)
-    
+
     try:
-        with _urlopen_with_retry(req, timeout=30) as response:
+        with _urlopen_with_retry(req, timeout=15) as response:
             raw = response.read()
             if (response.headers.get("Content-Encoding") or "").lower() == "gzip":
                 raw = gzip.decompress(raw)
@@ -465,7 +591,7 @@ def fetch_trending_from_page(since="daily"):
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
         "Accept": "text/html,application/xhtml+xml",
         "Accept-Encoding": "gzip"
-    }, timeout=30, retries=3)
+    }, timeout=15, retries=3)
 
     try:
         if not html:
