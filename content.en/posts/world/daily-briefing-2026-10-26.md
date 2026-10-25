@@ -1,6 +1,6 @@
 ---
 title: "📅 Daily Briefing 2026-10-26"
-date: "2026-10-26T12:00:00+08:00"
+date: "2026-10-26T00:00:00+08:00"
 draft: false
 categories: ["world"]
 tags: ["Daily Briefing", "Global News"]
