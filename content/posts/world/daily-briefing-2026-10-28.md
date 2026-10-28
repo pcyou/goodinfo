@@ -2,6 +2,7 @@
 title: "📅 全球全景日报 (2026-10-28)"
 date: "2026-10-28T12:00:00+08:00"
 draft: false
+tier: "1"
 categories: ["资讯"]
 tags: ["日报", "AI", "全球热点"]
 description: "过去二十四小时，全球有五条主线同时推进。

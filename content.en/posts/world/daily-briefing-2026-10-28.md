@@ -2,6 +2,7 @@
 title: "📅 Daily Briefing 2026-10-28"
 date: "2026-10-28T12:00:00+08:00"
 draft: false
+tier: "1"
 categories: ["world"]
 tags: ["Daily Briefing", "Global News"]
 description: "Five threads moved at once in the past twenty-four hours. First, the artificial intelligence industry was forced to answer who pays the compute bill: Anthropic filed its first prospectus, disclosing more than $16 billion of first-half revenue against a net loss near $80 billion, and naming gas supply among its biggest near-term risks, with a cash pile of $131.7 billion larger than every US non-bank company except Berkshire Hathaway and Alphabet. Second, geopolitics entered the counting phase: Israel posted its highest turnout in over two decades with no clear winner, an eight-month Iran war loomed over the campaign, the US military put the Iran war at least $47.1 billion, and in Brazil the opposition accepted a Lula win while Flavio Bolsonaro refused to concede and flew to the United States. Third, market sentiment rotated from panic to dispersion: the AI bloc rebounded on the Anthropic filing, the Philadelphia semiconductor index jumped 3.6 percent in a session, leadership broadened beyond the mega-caps, mainland China stocks shed about $2.4 trillion since May, and margin-debt growth slowed sharply. Fourth, crypto repricing shifted to structure: Ripple won final approval for a national trust bank, the regulator escalated its fight with states over prediction markets, the NBA signed data agreements with Kalshi and Polymarket, and USDC reached 56 percent of euro stablecoin trading. Fifth, on the public-health and climate side, Ebola cases in the Democratic Republic of Congo passed 10,000, an attack in northeastern Nigeria killed at least 62, and the United Nations confirmed another record for greenhouse gas concentrations.
@@ -884,7 +885,7 @@ AI-powered reverse engineering uncovered how far Samsung smart TVs collect and s
 
 **Takeaway**: Once household appliances become persistent data collection endpoints, privacy defense has to extend into the living room.
 
-## Multiple Perspectives
+## Competing Views
 
 Observer positions diverge sharply on the valuation anchor for Anthropic. Optimists argue that a trillion-dollar market capitalisation prices an option on revolution in medicine and science rather than the models themselves, with strong retention and costs that cannot be passed through showing pricing power still sits with buyers. The cautious camp counters that an $80 billion loss against roughly $80 billion of decade-long commitments means the company has prepayed a decade of cash flow, so when financing conditions turn, uncashed procurement commitments are cut first. A middle view holds that both curves are real, since much of the loss is compute that is expensed but economically prepaid, and that the genuine risk is not the size of the loss but the absence of any buffer between commitments and future revenue.
 
