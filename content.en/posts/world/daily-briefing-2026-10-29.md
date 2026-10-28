@@ -2,7 +2,6 @@
 title: "📅 Daily Briefing 2026-10-29"
 date: "2026-10-29T00:00:00+08:00"
 draft: false
-tier: "1"
 categories: ["world"]
 tags: ["Daily Briefing", "Global News"]
 description: "Six threads moved at once in the past twenty-four hours. First, the artificial intelligence industry was forced to answer who pays the compute bill. One model company filed its first prospectus, listing extreme scenarios in which its systems blackmail people or end human civilisation, and warning that some of these risks may have no insurance capacity behind them. Second, model capability kept expanding: a real-time world model arrived, an open-weight speech model handled transcription, translation and speaker recognition in a single call, and one lab stood up an election monitoring unit ahead of the United States midterms. Third, geopolitics entered its settlement phase. A high-speed train collision in Spain raised the death toll to sixty-eight, vote counting in Israel showed no clear winner, and the United States military put the cost of the Iran war at least forty-seven point one billion dollars. Fourth, market structure shifted: correlation between the seven largest technology names broke down and the artificial intelligence trade moved from broad index gains toward single-stock selection. Fifth, crypto pricing kept rotating toward structure: a federal regulator approved a national trust bank, a rating agency assigned an investment-grade score to the associated stablecoin, and the jurisdictional fight over prediction markets escalated into litigation. Sixth, two hard public-interest stories emerged: Ebola cases in the Democratic Republic of Congo passed ten thousand and a deputy director at the top health agency resigned after less than a year in post, while record king tides flooded homes on two coasts. This edition aggregates twenty-five sources and one hundred fifty-seven headlines."
@@ -31,7 +30,7 @@ The gap in tempo remains the variable worth watching. Technical iteration runs i
 | ETH | $2,332.49 | -0.67% |
 | SOL | $100.98 | -0.02% |
 | BNB | $749.08 | -0.15% |
-| DOGE | $0.08 | +1.39% |
+| DOGE | $0.079 | +1.39% |
 
 *Source: Coinlore price API · 2026-10-29 00:00 HKT live snapshot*
 
@@ -496,168 +495,6 @@ Palestinian farmers in the occupied West Bank say they are watched continuously 
 
 ## 📈 Markets & Finance
 
-### 1. Options Traders Position Ahead of Alphabet and Microsoft Earnings
-
-Options traders positioned ahead of after-hours results from Alphabet and Microsoft, with the market's mini rally facing a key test, and investors focused on capital expenditure guidance rather than revenue growth alone.
-
-**Source**: CNBC
-
-**Takeaway**: Index moves now hinge on guidance from a handful of companies, making market concentration the dominant source of volatility.
-
-### 2. The Magnificent Seven Is No More as Pairwise Correlation Breaks Down
-
-A calculation of rolling sixty-day daily return correlations across the twenty-one unique pairs among the Magnificent Seven showed the linkage between them has clearly weakened, marking a shift from single-narrative pricing to stock-level dispersion.
-
-**Source**: CNBC
-
-**Takeaway**: Falling correlation signals a regime change, and in that regime any single stock's fundamentals get amplified rather than diluted.
-
-### 3. Wendy's Shares Jump 15 Percent on 1.4 Billion Dollar Trian Bid
-
-Wendy's shares jumped about fifteen percent after two difficult years for the burger chain, with Trian, the fund of activist investor Nelson Peltz, proposing an acquisition valued near one point four billion dollars.
-
-**Source**: CNBC
-
-**Takeaway**: Activist capital returning to mature consumer brands shows stable cash flow regaining appeal when growth stories are scarce.
-
-### 4. Stellantis Rises 12 Percent After Turnaround Plan Gains Traction
-
-European carmaker Stellantis said on Wednesday it recorded a four billion euro cash shortfall in the third quarter while presenting a turnaround plan and cost cuts, and its shares rose roughly twelve percent.
-
-**Source**: CNBC
-
-**Takeaway**: The sector's transition narrative is shifting from an electric sales contest to cash management, which shows the whole industry has changed its pricing logic.
-
-### 5. Google Rewrites Cloud Playbook to Sell More AI Chips With Partners
-
-Google is opening its tensor processing unit business beyond its own cloud by enlisting partners to distribute the custom chips, which have become a major growth engine and directly challenge the sales model of pure chip vendors.
-
-**Source**: CNBC
-
-**Takeaway**: When cloud vendors distribute for chip makers, bargaining power along the value chain is being redistributed.
-
-### 6. Robinhood Shares Fall as Crypto Slump Weighs on Profits
-
-A crypto slump weighed on Robinhood's third-quarter results as revenue met expectations but crypto-related income declined, with growth in options, prediction markets and other financial services offsetting part of the hit.
-
-**Source**: CNBC
-
-**Takeaway**: When crypto pulls back, trading platforms reprice quickly on the growth of their newer lines, which tests the substance of the second curve.
-
-### 7. UBS Third-Quarter Pretax Profit Jumps 27 Percent on Wealth Inflows
-
-UBS reported a third-quarter pretax profit of almost three point six billion dollars, up twenty-seven percent, driven by wealth management inflows as high-net-worth money kept concentrating in traditional bank channels.
-
-**Source**: CNBC
-
-**Takeaway**: When volatility rises, institutional stability becomes a scarce asset, which explains why bank wealth management expands against the grain.
-
-### 8. Why China Is Desperate to Ship Cars Outside of the Country
-
-Autumn has traditionally been the peak season for vehicle purchases in China, but this year many showrooms are empty or shut as makers push harder into export markets, reflecting price wars and saturated domestic demand.
-
-**Source**: CNBC
-
-**Takeaway**: Shifting capacity abroad creates trade friction in a chain, and tariff and market-access rules in Europe and the United States are becoming the binding constraints.
-
-### 9. America's Largest Budget Airline Reports 71 Percent Jump in Airfare
-
-Frontier Airlines reported a seventy-one percent jump in average fares for the third quarter and said customers continue to book early, indicating tight capacity coexisting with resilient demand.
-
-**Source**: CNBC
-
-**Takeaway**: Fares rising far above inflation points to supply rather than absent demand, which offers a counter-reference for judging consumer strength.
-
-### 10. Vertiv Earnings Send an Upbeat Signal About AI Buildout
-
-Data centre infrastructure vendor Vertiv posted a large sales beat, read by the market as an upbeat signal that the artificial intelligence buildout is still accelerating and providing an upstream read while the megacaps report.
-
-**Source**: MarketWatch
-
-**Takeaway**: Upstream infrastructure orders usually lead megacap spending guidance by one to two quarters, making this the most sensitive place to watch buildout demand.
-
-### 11. Beyond the Magnificent Seven, Market Leadership Broadens
-
-MarketWatch notes that certain software stocks could outperform as earnings season gathers pace, though the bar is higher after strong runs, a dispersion that shows investors have moved from blanket buying into the theme toward selective positions.
-
-**Source**: MarketWatch
-
-**Takeaway**: Moving from broad index gains to selective names is typical of the middle stage of a theme rally and often precedes risk accumulation.
-
-### 12. Mortgage Rates Fall for Second Straight Week as Borrowers Seek Riskier Loans
-
-Mortgage rates have fallen over the past two weeks with demand only slightly higher, and more borrowers are looking to save money through riskier options, showing households do not agree on the rate path.
-
-**Source**: MarketWatch
-
-**Takeaway**: Risk appetite rising as rates fall shows household expectations about income and asset prices improving, which explains spending and investment behaviour better than the rate itself.
-
-### 13. Heating Oil Costs Could Rise 750 Dollars This Winter
-
-Heating oil prices are at record highs, and analysts estimate households could spend about seven hundred fifty dollars more on warmth this winter, with policy responses lacking both the pipelines and accessible lending to make a real difference.
-
-**Source**: MarketWatch
-
-**Takeaway**: Energy prices act directly on household residual budgets and signal cost-of-living pressure earlier than headline inflation does.
-
-### 14. McDonald's Chicken Bet Hits a Snag as Franchisees Object
-
-An analyst said McDonald's franchisees have complained about tough meat and oversized portions on its new hand-breaded chicken offering, reflecting the tension in chain food between supply-chain standardisation and local taste.
-
-**Source**: MarketWatch
-
-**Takeaway**: When a standardised product fails to move, rising cost and falling experience arrive together, and franchisee complaints surface before financial reports do.
-
-### 15. Caregiving Costs Rising as Families Spend Over 11,000 Dollars a Year
-
-A study from AARP shows caregivers' out-of-pocket costs rose about sixty percent in five years to more than eleven thousand dollars a year, making care a major component of rising American living costs.
-
-**Source**: NPR
-
-**Takeaway**: Ageing costs appear mainly as intra-household spending that never enters any macro statistic, yet it genuinely squeezes consumption capacity.
-
-### 16. Home Prices Keep Rising Even as Fewer People Buy
-
-National home-price readings show prices still growing, and that growth is happening even as demand weakens and fewer buyers participate, with supply contraction and structural factors pushing price and volume in different directions.
-
-**Source**: MarketWatch
-
-**Takeaway**: Divergence between prices and volume usually means structural supply constraints dominate, rate sensitivity falls and monetary policy transmission weakens.
-
-### 17. Luxury Round-the-World Cruise Ends Abruptly as Fuel Costs Soar
-
-A luxury cruise operator suspended a three-year around-the-world voyage in Cambodia because of soaring fuel costs, disembarking hundreds of passengers and crew and saying it would restructure the business.
-
-**Source**: Sky News
-
-**Takeaway**: Long-haul cruising is one of the few high-consumption business models with no capacity to hedge fuel prices, so cost pass-through is immediate.
-
-### 18. Etsy Third-Quarter Revenue Rises 11 Percent With Net Profit Above 850 Million
-
-The online marketplace operator's revenue rose eleven percent to six hundred ninety-two point five million dollars, above estimates, with a net profit of eight hundred fifty-three point five million after selling Depop and gross merchandise sales up nine percent.
-
-**Source**: Techmeme
-
-**Takeaway**: Asset disposal and core growth occurring together shows the company trading a one-off portfolio restructuring for a valuation re-rating.
-
-### 19. Chinese PCB Maker Dongshan Debuts in Hong Kong Below Its Target
-
-Shares of Suzhou Dongshan Precision Manufacturing erased an opening slide after raising about one point three billion dollars in a Hong Kong debut, below its three billion dollar goal, at a thirty billion dollar valuation.
-
-**Source**: Techmeme
-
-**Takeaway**: A missed fundraising target alongside a still-high valuation shows pricing power remains with the issuer while caution is already visible on the funding side.
-
-### 20. Samsung Unveils 229 Dollar Galaxy Buds On Open-Fit Earbuds
-
-Samsung Electronics unveiled its first cuff-style open-fit earbuds at two hundred twenty-nine dollars, shipping November sixth, with audio features matching Sony and Bose but ecosystem integration as the differentiator.
-
-**Source**: Techmeme
-
-**Takeaway**: In a hardware era short of novelty, ecosystem binding rather than specifications has become the main axis of competition in the premium market.
-
-## 💵 Crypto & Digital Assets
-
 ### 1. Federal Reserve Decision Due, With Markets Expecting a Hold
 
 The Federal Reserve decides at two in the afternoon local time with traders seeing a hold as near certain, and attention focused on the language pointing to the path ahead as the technology trade has started to slip.
@@ -674,7 +511,169 @@ Stocks on China's mainland have shed about two point four trillion dollars since
 
 **Takeaway**: The two markets are heading in opposite directions on the same narrative, showing the disagreement is about converting compute into durable profit, not about technology itself.
 
-### 3. Intel, Oracle and IBM Join Objections to Tokenized Stock Venue
+### 3. Options Traders Position Ahead of Alphabet and Microsoft Earnings
+
+Options traders positioned ahead of after-hours results from Alphabet and Microsoft, with the market's mini rally facing a key test, and investors focused on capital expenditure guidance rather than revenue growth alone.
+
+**Source**: CNBC
+
+**Takeaway**: Index moves now hinge on guidance from a handful of companies, making market concentration the dominant source of volatility.
+
+### 4. The Magnificent Seven Is No More as Pairwise Correlation Breaks Down
+
+A calculation of rolling sixty-day daily return correlations across the twenty-one unique pairs among the Magnificent Seven showed the linkage between them has clearly weakened, marking a shift from single-narrative pricing to stock-level dispersion.
+
+**Source**: CNBC
+
+**Takeaway**: Falling correlation signals a regime change, and in that regime any single stock's fundamentals get amplified rather than diluted.
+
+### 5. Wendy's Shares Jump 15 Percent on 1.4 Billion Dollar Trian Bid
+
+Wendy's shares jumped about fifteen percent after two difficult years for the burger chain, with Trian, the fund of activist investor Nelson Peltz, proposing an acquisition valued near one point four billion dollars.
+
+**Source**: CNBC
+
+**Takeaway**: Activist capital returning to mature consumer brands shows stable cash flow regaining appeal when growth stories are scarce.
+
+### 6. Stellantis Rises 12 Percent After Turnaround Plan Gains Traction
+
+European carmaker Stellantis said on Wednesday it recorded a four billion euro cash shortfall in the third quarter while presenting a turnaround plan and cost cuts, and its shares rose roughly twelve percent.
+
+**Source**: CNBC
+
+**Takeaway**: The sector's transition narrative is shifting from an electric sales contest to cash management, which shows the whole industry has changed its pricing logic.
+
+### 7. Google Rewrites Cloud Playbook to Sell More AI Chips With Partners
+
+Google is opening its tensor processing unit business beyond its own cloud by enlisting partners to distribute the custom chips, which have become a major growth engine and directly challenge the sales model of pure chip vendors.
+
+**Source**: CNBC
+
+**Takeaway**: When cloud vendors distribute for chip makers, bargaining power along the value chain is being redistributed.
+
+### 8. Robinhood Shares Fall as Crypto Slump Weighs on Profits
+
+A crypto slump weighed on Robinhood's third-quarter results as revenue met expectations but crypto-related income declined, with growth in options, prediction markets and other financial services offsetting part of the hit.
+
+**Source**: CNBC
+
+**Takeaway**: When crypto pulls back, trading platforms reprice quickly on the growth of their newer lines, which tests the substance of the second curve.
+
+### 9. UBS Third-Quarter Pretax Profit Jumps 27 Percent on Wealth Inflows
+
+UBS reported a third-quarter pretax profit of almost three point six billion dollars, up twenty-seven percent, driven by wealth management inflows as high-net-worth money kept concentrating in traditional bank channels.
+
+**Source**: CNBC
+
+**Takeaway**: When volatility rises, institutional stability becomes a scarce asset, which explains why bank wealth management expands against the grain.
+
+### 10. Why China Is Desperate to Ship Cars Outside of the Country
+
+Autumn has traditionally been the peak season for vehicle purchases in China, but this year many showrooms are empty or shut as makers push harder into export markets, reflecting price wars and saturated domestic demand.
+
+**Source**: CNBC
+
+**Takeaway**: Shifting capacity abroad creates trade friction in a chain, and tariff and market-access rules in Europe and the United States are becoming the binding constraints.
+
+### 11. America's Largest Budget Airline Reports 71 Percent Jump in Airfare
+
+Frontier Airlines reported a seventy-one percent jump in average fares for the third quarter and said customers continue to book early, indicating tight capacity coexisting with resilient demand.
+
+**Source**: CNBC
+
+**Takeaway**: Fares rising far above inflation points to supply rather than absent demand, which offers a counter-reference for judging consumer strength.
+
+### 12. Vertiv Earnings Send an Upbeat Signal About AI Buildout
+
+Data centre infrastructure vendor Vertiv posted a large sales beat, read by the market as an upbeat signal that the artificial intelligence buildout is still accelerating and providing an upstream read while the megacaps report.
+
+**Source**: MarketWatch
+
+**Takeaway**: Upstream infrastructure orders usually lead megacap spending guidance by one to two quarters, making this the most sensitive place to watch buildout demand.
+
+### 13. Beyond the Magnificent Seven, Market Leadership Broadens
+
+MarketWatch notes that certain software stocks could outperform as earnings season gathers pace, though the bar is higher after strong runs, a dispersion that shows investors have moved from blanket buying into the theme toward selective positions.
+
+**Source**: MarketWatch
+
+**Takeaway**: Moving from broad index gains to selective names is typical of the middle stage of a theme rally and often precedes risk accumulation.
+
+### 14. Mortgage Rates Fall for Second Straight Week as Borrowers Seek Riskier Loans
+
+Mortgage rates have fallen over the past two weeks with demand only slightly higher, and more borrowers are looking to save money through riskier options, showing households do not agree on the rate path.
+
+**Source**: MarketWatch
+
+**Takeaway**: Risk appetite rising as rates fall shows household expectations about income and asset prices improving, which explains spending and investment behaviour better than the rate itself.
+
+### 15. Heating Oil Costs Could Rise 750 Dollars This Winter
+
+Heating oil prices are at record highs, and analysts estimate households could spend about seven hundred fifty dollars more on warmth this winter, with policy responses lacking both the pipelines and accessible lending to make a real difference.
+
+**Source**: MarketWatch
+
+**Takeaway**: Energy prices act directly on household residual budgets and signal cost-of-living pressure earlier than headline inflation does.
+
+### 16. McDonald's Chicken Bet Hits a Snag as Franchisees Object
+
+An analyst said McDonald's franchisees have complained about tough meat and oversized portions on its new hand-breaded chicken offering, reflecting the tension in chain food between supply-chain standardisation and local taste.
+
+**Source**: MarketWatch
+
+**Takeaway**: When a standardised product fails to move, rising cost and falling experience arrive together, and franchisee complaints surface before financial reports do.
+
+### 17. Caregiving Costs Rising as Families Spend Over 11,000 Dollars a Year
+
+A study from AARP shows caregivers' out-of-pocket costs rose about sixty percent in five years to more than eleven thousand dollars a year, making care a major component of rising American living costs.
+
+**Source**: NPR
+
+**Takeaway**: Ageing costs appear mainly as intra-household spending that never enters any macro statistic, yet it genuinely squeezes consumption capacity.
+
+### 18. Home Prices Keep Rising Even as Fewer People Buy
+
+National home-price readings show prices still growing, and that growth is happening even as demand weakens and fewer buyers participate, with supply contraction and structural factors pushing price and volume in different directions.
+
+**Source**: MarketWatch
+
+**Takeaway**: Divergence between prices and volume usually means structural supply constraints dominate, rate sensitivity falls and monetary policy transmission weakens.
+
+### 19. Luxury Round-the-World Cruise Ends Abruptly as Fuel Costs Soar
+
+A luxury cruise operator suspended a three-year around-the-world voyage in Cambodia because of soaring fuel costs, disembarking hundreds of passengers and crew and saying it would restructure the business.
+
+**Source**: Sky News
+
+**Takeaway**: Long-haul cruising is one of the few high-consumption business models with no capacity to hedge fuel prices, so cost pass-through is immediate.
+
+### 20. Etsy Third-Quarter Revenue Rises 11 Percent With Net Profit Above 850 Million
+
+The online marketplace operator's revenue rose eleven percent to six hundred ninety-two point five million dollars, above estimates, with a net profit of eight hundred fifty-three point five million after selling Depop and gross merchandise sales up nine percent.
+
+**Source**: Techmeme
+
+**Takeaway**: Asset disposal and core growth occurring together shows the company trading a one-off portfolio restructuring for a valuation re-rating.
+
+### 21. Chinese PCB Maker Dongshan Debuts in Hong Kong Below Its Target
+
+Shares of Suzhou Dongshan Precision Manufacturing erased an opening slide after raising about one point three billion dollars in a Hong Kong debut, below its three billion dollar goal, at a thirty billion dollar valuation.
+
+**Source**: Techmeme
+
+**Takeaway**: A missed fundraising target alongside a still-high valuation shows pricing power remains with the issuer while caution is already visible on the funding side.
+
+### 22. Samsung Unveils 229 Dollar Galaxy Buds On Open-Fit Earbuds
+
+Samsung Electronics unveiled its first cuff-style open-fit earbuds at two hundred twenty-nine dollars, shipping November sixth, with audio features matching Sony and Bose but ecosystem integration as the differentiator.
+
+**Source**: Techmeme
+
+**Takeaway**: In a hardware era short of novelty, ecosystem binding rather than specifications has become the main axis of competition in the premium market.
+
+## 💵 Crypto & Digital Assets
+
+### 1. Intel, Oracle and IBM Join Objections to Tokenized Stock Venue
 
 Intel, Oracle, IBM and IonQ became the latest companies to object to trading of their shares on the planned tokenized stock venue, bringing the total to twenty-six, more than forty percent of the companies initially approached.
 
@@ -682,7 +681,7 @@ Intel, Oracle, IBM and IonQ became the latest companies to object to trading of 
 
 **Takeaway**: When companies object collectively to a trading structure, regulators must first answer what substantive question tokenization actually changes.
 
-### 4. Bitcoin Seeks Support Near 80,000 as Morgan Stanley Says Correction Is Over
+### 2. Bitcoin Seeks Support Near 80,000 as Morgan Stanley Says Correction Is Over
 
 Bitcoin sought to rebuild support at eighty thousand dollars while Asian and United States technology stocks extended a rebound, with a Morgan Stanley strategist saying most of the correction is over and the fear and greed index neutral.
 
@@ -690,7 +689,7 @@ Bitcoin sought to rebuild support at eighty thousand dollars while Asian and Uni
 
 **Takeaway**: An institutional strategist call and neutral on-chain sentiment are both necessary for a rebound to continue, though neither is sufficient.
 
-### 5. Bitcoin ETF Inflows Climb to 286 Million Dollars Over Two Days
+### 3. Bitcoin ETF Inflows Climb to 286 Million Dollars Over Two Days
 
 United States spot bitcoin exchange-traded products drew about two hundred eighty-six million dollars over two days, narrowing October's net outflows to roughly twenty-six million dollars as price hovered near eighty thousand dollars.
 
@@ -698,7 +697,7 @@ United States spot bitcoin exchange-traded products drew about two hundred eight
 
 **Takeaway**: Flows turn before price does, and that divergence during a range is usually an early signal of the next direction.
 
-### 6. Ripple Expects 900 Million Dollar Annualised Product Revenue Run Rate
+### 4. Ripple Expects 900 Million Dollar Annualised Product Revenue Run Rate
 
 Ripple expects a nine hundred million dollar annualised product revenue run rate by the end of 2026, with the RLUSD stablecoin at about two and a half billion dollars and payment volume near one hundred fifty billion dollars lifetime.
 
@@ -706,7 +705,7 @@ Ripple expects a nine hundred million dollar annualised product revenue run rate
 
 **Takeaway**: Stablecoin issuers now disclose both scale and revenue mix, marking their move from payment experiment to a stage where they can be valued against peers.
 
-### 7. Goldman and BlackRock Alumni Raise 4 Million Dollars to Put Loans Onchain
+### 5. Goldman and BlackRock Alumni Raise 4 Million Dollars to Put Loans Onchain
 
 Birch Hill, founded by Goldman Sachs and BlackRock alumni, raised four million dollars in a seed round led by Multicoin Capital to build a regulated path for bringing United States farm and apartment loans onchain.
 
@@ -714,7 +713,7 @@ Birch Hill, founded by Goldman Sachs and BlackRock alumni, raised four million d
 
 **Takeaway**: Bringing traditional credit onchain is the second genuinely large path for onchain finance beyond stablecoins, and its pace deserves separate tracking.
 
-### 8. Google Cloud Outlines MPC Service for Institutional Bitcoin Custody
+### 6. Google Cloud Outlines MPC Service for Institutional Bitcoin Custody
 
 Google Cloud detailed its preview multi-party computation service for institutional bitcoin custody at a New York symposium on digital asset security, embedding threshold signature capability directly in the cloud platform.
 
@@ -722,7 +721,7 @@ Google Cloud detailed its preview multi-party computation service for institutio
 
 **Takeaway**: Cloud vendors entering custody means digital asset infrastructure is being absorbed into the mainstream cloud ecosystem rather than coexisting with it.
 
-### 9. DTCC Unit Launches Tokenization Services
+### 7. DTCC Unit Launches Tokenization Services
 
 A unit of the post-trade market infrastructure provider said it is launching tokenization services that create a practical path for tokenized securities adoption, with clearing-house entry usually signalling the last mile for compliant issuance.
 
@@ -730,7 +729,7 @@ A unit of the post-trade market infrastructure provider said it is launching tok
 
 **Takeaway**: Clearing and settlement are the hardest part of tokenization, so infrastructure providers entering carries more weight than promotional announcements from issuers.
 
-### 10. USDC Overtakes USDT in Euro Stablecoin Trading at 56 Percent
+### 8. USDC Overtakes USDT in Euro Stablecoin Trading at 56 Percent
 
 According to Kaiko, USDC's share of euro stablecoin trading has climbed to fifty-six percent since early 2024, driven by deeper liquidity and exchange restrictions on USDT under the European Union's new rules.
 
@@ -738,7 +737,7 @@ According to Kaiko, USDC's share of euro stablecoin trading has climbed to fifty
 
 **Takeaway**: Regulatory compliance produced a visible share shift in the stablecoin market for the first time, not merely compliance cost.
 
-### 11. CFTC Sues Utah as Prediction Market Regulation Fight Escalates
+### 9. CFTC Sues Utah as Prediction Market Regulation Fight Escalates
 
 After Utah sued the prediction market platform Kalshi seeking up to sixty million dollars in event-contract profits, the US regulator sued the state, and the jurisdictional conflict directly tests a new regulatory architecture.
 
@@ -746,7 +745,7 @@ After Utah sued the prediction market platform Kalshi seeking up to sixty millio
 
 **Takeaway**: Prediction markets becoming a regulatory focus before an election cycle shows innovation speed once again outrunning rulemaking.
 
-### 12. Polymarket Investigates Dozens of Midterm Election Bets
+### 10. Polymarket Investigates Dozens of Midterm Election Bets
 
 The firm's new head of investigations said its surveillance system flags hundreds of alerts a day, with at least two cases sent to the commodity regulator, and the company said it is investigating dozens of midterm election bets.
 
@@ -754,7 +753,7 @@ The firm's new head of investigations said its surveillance system flags hundred
 
 **Takeaway**: Self-surveillance and self-investigation raise the compliance bar for prediction markets to quasi-exchange levels in substance.
 
-### 13. SoFi Discloses 503,000 Crypto Products as Gross Crypto Revenue Hits 162 Million
+### 11. SoFi Discloses 503,000 Crypto Products as Gross Crypto Revenue Hits 162 Million
 
 The financial platform broke out crypto products for the first time, with gross crypto revenue up twenty percent to one hundred sixty-two million dollars, record total net revenue of one hundred thirty-nine million and more than five hundred thousand crypto products.
 
@@ -762,7 +761,7 @@ The financial platform broke out crypto products for the first time, with gross 
 
 **Takeaway**: A traditional financial platform disclosing crypto separately shows it has moved from a niche product to a profit line requiring its own explanation.
 
-### 14. Galaxy Digital Swings to 323 Million Dollar Profit, Announces 200 Million Buyback
+### 12. Galaxy Digital Swings to 323 Million Dollar Profit, Announces 200 Million Buyback
 
 The digital asset financial firm returned to profitability in the third quarter with a three hundred twenty-three million dollar profit as trading volumes and lending increased, and authorised a new two hundred million dollar share buyback.
 
@@ -770,7 +769,7 @@ The digital asset financial firm returned to profitability in the third quarter 
 
 **Takeaway**: When digital asset firms start routine buybacks, the valuation anchor shifts from token prices to the institutions' own cash flow.
 
-### 15. Ark Invest Buys Circle Shares and Sells Bitcoin ETF Holdings
+### 13. Ark Invest Buys Circle Shares and Sells Bitcoin ETF Holdings
 
 Ark Invest rebalanced its fund weightings, adding five point two million dollars of Circle shares and trimming fifteen point nine million dollars of its own bitcoin exchange-traded product as the price fell below eighty thousand dollars.
 
@@ -778,7 +777,7 @@ Ark Invest rebalanced its fund weightings, adding five point two million dollars
 
 **Takeaway**: Adding a stablecoin issuer while trimming bitcoin at the same moment signals a shift in asset form rather than in direction.
 
-### 16. Janus Henderson Launches Tokenized Nasdaq-100 Fund on Stellar
+### 14. Janus Henderson Launches Tokenized Nasdaq-100 Fund on Stellar
 
 The blockchain-based fund offers eligible non-United States investors exposure to the Nasdaq-100 as the large asset manager expands its institutional tokenization business.
 
@@ -786,7 +785,7 @@ The blockchain-based fund offers eligible non-United States investors exposure t
 
 **Takeaway**: Once a large traditional manager puts tokenized products into its normal distribution process, tokenization completes its move from edge experiment to regular product.
 
-### 17. JPMorgan and Coca-Cola Among Seven More to Object to Tokenized Stocks
+### 15. JPMorgan and Coca-Cola Among Seven More to Object to Tokenized Stocks
 
 Seven more companies including JPMorgan Chase, Coca-Cola and Dell objected to trading of their shares on the planned tokenized stock venue, bringing the total to thirty-three and showing institutional resistance well above expectations.
 
@@ -794,7 +793,7 @@ Seven more companies including JPMorgan Chase, Coca-Cola and Dell objected to tr
 
 **Takeaway**: Tokenization touches directly on share registries and corporate-action rights, which is precisely what issuers are least willing to loosen.
 
-### 18. Bithumb Discloses Internal System Breach With Possible Data Leak
+### 16. Bithumb Discloses Internal System Breach With Possible Data Leak
 
 South Korea's second-largest crypto exchange said hackers accessed its internal systems and it is checking whether customer data was exposed, with two other financial firms reporting breaches in the same period.
 
@@ -802,7 +801,7 @@ South Korea's second-largest crypto exchange said hackers accessed its internal 
 
 **Takeaway**: Internal collaboration systems at exchanges are harder to audit and harder to protect through decentralisation than on-chain assets.
 
-### 19. Coinbase Says Vendor Breach Exposed Customer Data, Platform Systems Intact
+### 17. Coinbase Says Vendor Breach Exposed Customer Data, Platform Systems Intact
 
 Coinbase said an incident at analytics vendor Amplitude exposed contact data for a small subset of customers but found no evidence of unauthorised access to its own systems, making third-party risk the most common exposure in the sector.
 
@@ -810,7 +809,7 @@ Coinbase said an incident at analytics vendor Amplitude exposed contact data for
 
 **Takeaway**: When platforms hand large volumes of user data to analytics vendors, the real length of the security boundary far exceeds the platform's own system boundary.
 
-### 20. Hardware Wallet Maker Keystone Pulls Devices After Factory Key Exposure
+### 18. Hardware Wallet Maker Keystone Pulls Devices After Factory Key Exposure
 
 Attackers obtained the factory key that proves Keystone hardware wallets are genuine, affecting buyer records for twenty-five thousand nine hundred sixty-four customers, and the company said recovery phrases and private keys were not involved while pulling the devices.
 
@@ -818,7 +817,7 @@ Attackers obtained the factory key that proves Keystone hardware wallets are gen
 
 **Takeaway**: Hardware trust rests on key management in manufacturing, and a single factory key exposure is enough to break the entire chain of trust.
 
-### 21. Datavault AI Stock Plunges 50 Percent as Bitcoin Payment Cannot Be Withdrawn
+### 19. Datavault AI Stock Plunges 50 Percent as Bitcoin Payment Cannot Be Withdrawn
 
 The stock of Datavault AI fell about fifty percent after the firm said it cannot withdraw bitcoin tied to a one hundred fifty million dollar deal with Scilex, under which Scilex agreed to buy shares payable in bitcoin.
 
@@ -826,7 +825,7 @@ The stock of Datavault AI fell about fifty percent after the firm said it cannot
 
 **Takeaway**: When a counterparty pays for equity in crypto, settlement capability itself becomes a structural risk, which is the core obstacle to crypto as a corporate settlement tool.
 
-### 22. Moody's Rates Ripple's RLUSD Stablecoin A2
+### 20. Moody's Rates Ripple's RLUSD Stablecoin A2
 
 The rating agency assigned the RLUSD stablecoin a long-term A2 and short-term P-1 investment-grade rating a day after the banking regulator's approval, citing treasury-heavy reserves while noting holders have no direct ownership interest in them.
 
@@ -834,7 +833,7 @@ The rating agency assigned the RLUSD stablecoin a long-term A2 and short-term P-
 
 **Takeaway**: An investment-grade rating is the key step for stablecoins entering institutional allocation, while reserve ownership remains the next question that must be answered.
 
-### 23. Ripple Wins Final OCC Approval for National Trust Bank
+### 21. Ripple Wins Final OCC Approval for National Trust Bank
 
 The federally supervised trust bank will manage RLUSD reserves and offer custody while issuance remains with the New York-regulated entity, with bank charter fights continuing in court.
 
@@ -842,7 +841,7 @@ The federally supervised trust bank will manage RLUSD reserves and offer custody
 
 **Takeaway**: Splitting reserves from issuance is the most common technical path for stablecoins entering the banking system and a necessary design for industry compliance.
 
-### 24. Coinbase Adds Ripple's RLUSD Across Retail and Prime Platforms
+### 22. Coinbase Adds Ripple's RLUSD Across Retail and Prime Platforms
 
 RLUSD is live on Coinbase with one-to-one United States dollar conversion on XRP Ledger, Ethereum and Base, capping a dense week of announcements for Ripple.
 
@@ -850,7 +849,7 @@ RLUSD is live on Coinbase with one-to-one United States dollar conversion on XRP
 
 **Takeaway**: One stablecoin spanning three major chains shows issuers competing on liquidity depth rather than on the number of networks.
 
-### 25. Circle Faces Up to 20 Percent Revenue Risk from AI Agents
+### 23. Circle Faces Up to 20 Percent Revenue Risk from AI Agents
 
 Mizuho cited ten to twenty percent medium-term reserve revenue downside risk as agents steer USDC holders toward higher-yielding fiat alternatives, the most direct quantified challenge yet to the stablecoin business model.
 
@@ -858,7 +857,7 @@ Mizuho cited ten to twenty percent medium-term reserve revenue downside risk as 
 
 **Takeaway**: Agents are both a new source of payment demand and an intermediary that routes around stablecoins, and that dual identity determines how the race ends.
 
-### 26. Bitcoin Miner Luxor Raises 16 Million Dollars to Scale AI Compute
+### 24. Bitcoin Miner Luxor Raises 16 Million Dollars to Scale AI Compute
 
 The CMT Digital-led round will fund expansion of the mining firm's artificial intelligence infrastructure business and GPU sourcing, with about twelve new roles planned by year end as the boundary between mining and compute blurs.
 
@@ -866,7 +865,7 @@ The CMT Digital-led round will fund expansion of the mining firm's artificial in
 
 **Takeaway**: Compute supply moving from mining halls to artificial intelligence shows power and land have become scarcer than chips.
 
-### 27. Bloom Bot Hackers Drain 953,000 Dollars From 48 Wallets
+### 25. Bloom Bot Hackers Drain 953,000 Dollars From 48 Wallets
 
 Trading bot service Bloom said ninety-five point three thousand dollars was drained from forty-eight wallets, pledged to reimburse nine affected traders, and said no private keys were accessed or compromised.
 
@@ -874,7 +873,7 @@ Trading bot service Bloom said ninety-five point three thousand dollars was drai
 
 **Takeaway**: Trading bots hold broader permissions than ordinary wallets, so incidents like this keep pushing custodial requirements for automated execution higher.
 
-### 28. Hayes Details FLOP's AI Compute Derivatives Vision
+### 26. Hayes Details FLOP's AI Compute Derivatives Vision
 
 Arthur Hayes revealed the derivatives market design for Flop Network and how he expects its native token could transform artificial intelligence compute into a tradable commodity, after selling his altcoin holdings.
 
@@ -882,7 +881,7 @@ Arthur Hayes revealed the derivatives market design for Flop Network and how he 
 
 **Takeaway**: Financialising compute puts power and chip supply curves directly into financial markets, moving volatility from companies to markets.
 
-### 29. VanEck Launches Diversified ETF Combining Stocks, Bonds and Bitcoin
+### 27. VanEck Launches Diversified ETF Combining Stocks, Bonds and Bitcoin
 
 VanEck's new Wealth Builder ETF targets a two percent bitcoin allocation with a permitted range of one to five percent, gaining exposure through a spot bitcoin exchange-traded product alongside stocks and bonds.
 
@@ -890,7 +889,7 @@ VanEck's new Wealth Builder ETF targets a two percent bitcoin allocation with a 
 
 **Takeaway**: Putting bitcoin inside a default mixed portfolio rather than as a standalone bet means it is priced as an asset class instead of a theme.
 
-### 30. Canton-Based Trading Platform Cancore Raises 7.2 Million Dollars
+### 28. Canton-Based Trading Platform Cancore Raises 7.2 Million Dollars
 
 The Canton-based trading platform connecting network assets with liquidity on public blockchains raised seven point two million dollars in seed funding at a sixty million dollar token valuation.
 
@@ -898,7 +897,7 @@ The Canton-based trading platform connecting network assets with liquidity on pu
 
 **Takeaway**: Continued funding for tokenization infrastructure shows capital still prices this track as infrastructure rather than as a concept.
 
-### 31. Bitcoin Analysis Sees Strong Rally as Old Coins Become Dormant
+### 29. Bitcoin Analysis Sees Strong Rally as Old Coins Become Dormant
 
 A decline in the share of bitcoin's realised cap held by coins unmoved for eighteen months or longer points to the early stages of a bull market, with dormant supply concentrating into long-term holders.
 
@@ -906,7 +905,7 @@ A decline in the share of bitcoin's realised cap held by coins unmoved for eight
 
 **Takeaway**: Supply-structure readings explain more than price does, making them the key variable in judging whether a rally is real.
 
-### 32. Quantum Fears Already Limiting Bitcoin's Growth, Stacks Founder Says
+### 30. Quantum Fears Already Limiting Bitcoin's Growth, Stacks Founder Says
 
 Stacks founder Muneeb Ali warned that uncertainty over bitcoin's quantum security could deter institutional investors, as the quantum computing threat moves from technical discussion into allocation discussion.
 
@@ -914,7 +913,7 @@ Stacks founder Muneeb Ali warned that uncertainty over bitcoin's quantum securit
 
 **Takeaway**: Once a long-horizon threat shapes present allocation decisions, it has already become a financial variable rather than a technical problem.
 
-### 33. Crypto.com and OG.com Launch US Crypto Perpetuals with 5x Leverage
+### 31. Crypto.com and OG.com Launch US Crypto Perpetuals with 5x Leverage
 
 The contracts carry no expiration date and allow traders to bet on crypto prices rising or falling, marking offshore platforms accelerating into the retail end of regulated markets.
 
@@ -922,7 +921,7 @@ The contracts carry no expiration date and allow traders to bet on crypto prices
 
 **Takeaway**: Combining perpetual contracts with high leverage pushes liquidity and clearing risk into the open, and regulators will face a real test of tolerance for derivatives.
 
-### 34. Anchorage Positions Itself as Custody Backbone of US-Mexico Corridor
+### 32. Anchorage Positions Itself as Custody Backbone of US-Mexico Corridor
 
 An expanded deal with Bitso puts Anchorage Digital Bank's custody beneath both sides of the United States-Mexico remittance route, showing the contest in cross-border stablecoin corridors shifting from issuance to custody and settlement reliability.
 
@@ -930,7 +929,7 @@ An expanded deal with Bitso puts Anchorage Digital Bank's custody beneath both s
 
 **Takeaway**: Once cross-border corridors mature, the reliability of compliant custody prices before exchange-rate advantages do.
 
-### 35. Circle Pushes Deeper Into Latin America With USDC Settlement in Colombia
+### 33. Circle Pushes Deeper Into Latin America With USDC Settlement in Colombia
 
 A collaboration with the payments technology firm ACI Worldwide will pilot folding USDC settlement into Colombia's instant-payments network, pushing stablecoins from offshore trading tools into local clearing layers.
 
@@ -938,7 +937,7 @@ A collaboration with the payments technology firm ACI Worldwide will pilot foldi
 
 **Takeaway**: Once stablecoins enter local payment networks they stop being an internal industry question and become an infrastructure question.
 
-### 36. Wall Street Veteran Says Crypto Could Outperform AI Stocks
+### 34. Wall Street Veteran Says Crypto Could Outperform AI Stocks
 
 Former Morgan Stanley executive Jordi Visser says AI agents are boosting demand for crypto as he expands holdings beyond bitcoin, ether and solana, a new formulation of the agent economy from traditional finance's perspective.
 
@@ -946,7 +945,7 @@ Former Morgan Stanley executive Jordi Visser says AI agents are boosting demand 
 
 **Takeaway**: When agents need to hold assets and pay autonomously, stablecoins and on-chain settlement become the default options, and that layer of demand is not yet fully priced.
 
-### 37. Euronext Halts CoinShares' Zcash ETP Ahead of Debut
+### 35. Euronext Halts CoinShares' Zcash ETP Ahead of Debut
 
 A Euronext spokesperson said the suspension was due to operational settlement requirements and remains in effect until settlement operations are supported by the central securities depository.
 
@@ -954,7 +953,7 @@ A Euronext spokesperson said the suspension was due to operational settlement re
 
 **Takeaway**: The obstacle to tokenized assets is rarely technical, it is whether legal settlement infrastructure can carry them.
 
-### 38. Zcash Cofounder Proposes Ending Grants Subsidy in Favour of Reserves
+### 36. Zcash Cofounder Proposes Ending Grants Subsidy in Favour of Reserves
 
 Sean Bowe proposed ending automatic grants funding, citing a treasury valuation of more than one hundred twenty-five million dollars, and wants the new ZEC redirected to a reserve for the network.
 
@@ -962,7 +961,7 @@ Sean Bowe proposed ending automatic grants funding, citing a treasury valuation 
 
 **Takeaway**: When a project team proposes redirecting its own inflation allocation into reserves, token economics shifts from a growth story to value preservation.
 
-### 39. OpenAI Paper Declares ETH False, Sparking Debate Across Crypto and Mathematics
+### 37. OpenAI Paper Declares ETH False, Sparking Debate Across Crypto and Mathematics
 
 A new OpenAI paper declares ETH false, a claim that hundreds of research papers lean on, and the assertion drew reactions across the crypto community and serious mathematicians alike, exposing a verification gap created by fast-spread research claims.
 
@@ -970,7 +969,7 @@ A new OpenAI paper declares ETH false, a claim that hundreds of research papers 
 
 **Takeaway**: When model-generated conclusions enter public debate in paper form, the gap between verification speed and dissemination speed becomes a new source of risk.
 
-### 40. Crypto Sector Earnings Show Pressure on Trading Firms and Strength in Infrastructure
+### 38. Crypto Sector Earnings Show Pressure on Trading Firms and Strength in Infrastructure
 
 Several listed crypto firms reported results together, with trading platforms pressured by weaker crypto prices while custody, settlement and compute-transition companies posted growth, shifting the sector's earnings mix from price beta toward service revenue.
 
