@@ -1,39 +1,107 @@
 #!/bin/bash
-set -e
+# GoodInfo build & deploy
+#
+# ⚠️ 2026-10-30 hardening (see skill ref deploy-run-verification-2026-10-30.md):
+#   1. flock serialisation — two cron jobs (goodinfo-daily-build 0 8 * * * and
+#      GoodInfo GitHub Trending 0 */4 * * *) fired at 08:00 and both ran this
+#      script, corrupting the rsync source mid-transfer.
+#   2. Isolated build dir + atomic publish — hugo writes to a temp dir, then the
+#      local public/ is swapped in with a single rename. The rsync source can
+#      never be observed half-written.
+#   3. rsync failure is NO LONGER swallowed — exit code now reflects reality.
+#   4. Post-sync verification via rsync dry-run; drift is a hard failure.
+set -euo pipefail
 
-SITE_DIR="/root/goodinfo-site"
-REMOTE="root@46.225.168.78"
-REMOTE_PORT="16651"
-REMOTE_DIR="/www/sites/goodinfo.net"
-KEY="/root/.ssh/id_rsa_hermes_migration"
-LOG="/var/log/goodinfo-deploy.log"
+# Paths are env-overridable so the deploy logic can be exercised in isolation
+# (see references/deploy-run-verification-2026-10-30.md).
+SITE_DIR="${GI_SITE_DIR:-/root/goodinfo-site}"
+REMOTE="${GI_REMOTE:-root@46.225.168.78}"
+REMOTE_PORT="${GI_REMOTE_PORT:-16651}"
+REMOTE_DIR="${GI_REMOTE_DIR:-/www/sites/goodinfo.net}"
+KEY="${GI_KEY:-/root/.ssh/id_rsa_hermes_migration}"
+LOG="${GI_LOG:-/var/log/goodinfo-deploy.log}"
+LOCKFILE="${GI_LOCKFILE:-/var/lock/goodinfo-deploy.lock}"
+CONTAINER="${GI_CONTAINER:-1Panel-openresty-Kb76}"
+LOCK_WAIT="${GI_LOCK_WAIT:-900}"
 
-echo "[$(date)] Starting build & deploy..." >> $LOG
-cd $SITE_DIR
+log() { echo "[$(date)] $*" >> "$LOG"; }
 
-# Build
-hugo --minify >> $LOG 2>&1
+# ---------------------------------------------------------------- locking ----
+# Prevent concurrent runs from writing the same build/rsync target.
+exec 9>"$LOCKFILE"
+if ! flock -n 9; then
+    log "Another deploy holds the lock; waiting (max ${LOCK_WAIT}s)."
+    if ! flock -w "$LOCK_WAIT" 9; then
+        log "FATAL: timeout waiting for deploy lock; aborting."
+        exit 1
+    fi
+fi
+log "Acquired deploy lock."
+
+BUILD_DIR=""
+# NOTE: must use the `if` form, not `[ -n "$X" ] && rm ...`. The latter returns 1
+# when X is empty, and under `set -e` that becomes the script's exit status —
+# the deploy would report failure even though everything succeeded.
+cleanup() {
+    if [ -n "$BUILD_DIR" ]; then
+        rm -rf "$BUILD_DIR"
+    fi
+    return 0
+}
+trap cleanup EXIT
+
+cd "$SITE_DIR"
+
+# ------------------------------------------------------------------ build ---
+# Build into an isolated directory (same filesystem as public/ for atomic swap).
+BUILD_DIR="$(mktemp -d "$(dirname "$SITE_DIR")/.gi-build-XXXXXX")"
+log "Starting build & deploy... (build dir: $BUILD_DIR)"
+
+hugo --minify --destination "$BUILD_DIR" --cleanDestinationDir >> "$LOG" 2>&1
 
 # Fix Hugo multilingual root index.html (often empty)
-if [ ! -s "$SITE_DIR/public/index.html" ] && [ -s "$SITE_DIR/public/zh/index.html" ]; then
-    cp "$SITE_DIR/public/zh/index.html" "$SITE_DIR/public/index.html"
-    echo "[$(date)] Patched empty root index.html from zh/" >> $LOG
+if [ ! -s "$BUILD_DIR/index.html" ] && [ -s "$BUILD_DIR/zh/index.html" ]; then
+    cp "$BUILD_DIR/zh/index.html" "$BUILD_DIR/index.html"
+    log "Patched empty root index.html from zh/"
 fi
 
-echo "[$(date)] Build successful." >> $LOG
+log "Build successful."
 
-# Deploy via rsync — exclude ssl/ and log/ to preserve certs and logs
+# ------------------------------------------------- atomic local publish swap --
+# public/ is replaced by a single rename so readers never see a torn build.
+rm -rf "$SITE_DIR/.public.old"
+if [ -d "$SITE_DIR/public" ]; then
+    mv "$SITE_DIR/public" "$SITE_DIR/.public.old"
+fi
+mv "$BUILD_DIR" "$SITE_DIR/public"
+BUILD_DIR=""
+rm -rf "$SITE_DIR/.public.old"
+
+# ------------------------------------------------------------------ deploy ---
+# NOTE: no `|| true` — a failed rsync must fail the deploy.
 rsync -avz --delete --exclude='ssl/' --exclude='log/' --no-perms --no-owner --no-group \
     -e "ssh -i $KEY -p $REMOTE_PORT -o StrictHostKeyChecking=no" \
-    public/ ${REMOTE}:${REMOTE_DIR}/ >> $LOG 2>&1 || true
+    public/ ${REMOTE}:${REMOTE_DIR}/ >> "$LOG" 2>&1
 
-echo "[$(date)] Files synced." >> $LOG
+log "Files synced."
 
-# Ensure log directory exists
+# ---------------------------------------------------------------- verify -----
+# Dry-run comparison: any reported difference means remote != local.
+DRIFT=$(rsync -ani --delete --exclude='ssl/' --exclude='log/' --no-perms --no-owner --no-group \
+    -e "ssh -i $KEY -p $REMOTE_PORT -o StrictHostKeyChecking=no" \
+    public/ ${REMOTE}:${REMOTE_DIR}/ 2>/dev/null | grep -vE '^\./$|^$' || true)
+if [ -n "$DRIFT" ]; then
+    log "FATAL: remote drift detected after sync:"
+    echo "$DRIFT" >> "$LOG"
+    exit 1
+fi
+log "Verified: remote tree matches local build exactly."
+
+# ------------------------------------------------------------------- logs ----
 ssh -i $KEY -p $REMOTE_PORT -o StrictHostKeyChecking=no ${REMOTE} \
-    "mkdir -p ${REMOTE_DIR}/log && touch ${REMOTE_DIR}/log/access.log ${REMOTE_DIR}/log/error.log" >> $LOG 2>&1
+    "mkdir -p ${REMOTE_DIR}/log && touch ${REMOTE_DIR}/log/access.log ${REMOTE_DIR}/log/error.log" >> "$LOG" 2>&1
 
-# Check SSL cert — renew via acme.sh if expiring within 30 days or missing
+# ------------------------------------------------------- SSL cert management ---
 CERT_EXPIRY=$(ssh -i $KEY -p $REMOTE_PORT -o StrictHostKeyChecking=no ${REMOTE} \
     "openssl x509 -enddate -noout -in ${REMOTE_DIR}/ssl/fullchain.pem 2>/dev/null | cut -d= -f2" 2>/dev/null || echo "")
 
@@ -44,21 +112,21 @@ if [ -n "$CERT_EXPIRY" ]; then
     DAYS_LEFT=$(( (EXPIRY_EPOCH - NOW_EPOCH) / 86400 ))
     if [ "$DAYS_LEFT" -gt 30 ]; then
         NEED_RENEW=false
-        echo "[$(date)] SSL cert valid for ${DAYS_LEFT} more days, skipping renewal." >> $LOG
+        log "SSL cert valid for ${DAYS_LEFT} more days, skipping renewal."
     else
-        echo "[$(date)] SSL cert expires in ${DAYS_LEFT} days, renewing..." >> $LOG
+        log "SSL cert expires in ${DAYS_LEFT} days, renewing..."
     fi
 else
-    echo "[$(date)] SSL certificate missing, issuing new one..." >> $LOG
+    log "SSL certificate missing, issuing new one..."
 fi
 
 if [ "$NEED_RENEW" = true ]; then
     # Use acme.sh on remote to issue/renew via Let's Encrypt HTTP-01
-    ssh -i $KEY -p $REMOTE_PORT -o StrictHostKeyChecking=no ${REMOTE} bash -s << 'REMOTE_EOF' >> /var/log/goodinfo-deploy.log 2>&1
+    ssh -i $KEY -p $REMOTE_PORT -o StrictHostKeyChecking=no ${REMOTE} bash -s -- "$REMOTE_DIR" "$CONTAINER" << 'REMOTE_EOF' >> "$LOG" 2>&1
         set -e
-        REMOTE_DIR="/www/sites/goodinfo.net"
+        REMOTE_DIR="$1"
+        CONTAINER="$2"
         CONF_BACKUP="/tmp/goodinfo.net.conf.bak"
-        CONTAINER="1Panel-openresty-Kb76"
         CONF_PATH="/usr/local/openresty/nginx/conf/conf.d/goodinfo.net.conf"
 
         # Backup current config
@@ -97,10 +165,10 @@ with open('/tmp/goodinfo-temp.conf', 'w') as f:
         docker exec $CONTAINER nginx -t
         docker exec $CONTAINER nginx -s reload
 REMOTE_EOF
-    echo "[$(date)] SSL cert renewed via acme.sh." >> $LOG
+    log "SSL cert renewed via acme.sh."
 fi
 
 # Reload Nginx (final, in case cert was already valid)
-ssh -i $KEY -p $REMOTE_PORT -o StrictHostKeyChecking=no ${REMOTE} "docker exec 1Panel-openresty-Kb76 nginx -s reload" >> $LOG 2>&1
+ssh -i $KEY -p $REMOTE_PORT -o StrictHostKeyChecking=no ${REMOTE} "docker exec $CONTAINER nginx -s reload" >> "$LOG" 2>&1
 
-echo "[$(date)] Deploy complete." >> $LOG
+log "Deploy complete."
