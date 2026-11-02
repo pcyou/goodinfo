@@ -386,6 +386,13 @@ from datetime import datetime, timedelta, timezone
 # ==========================================
 CONTENT_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'content', 'posts')
 GITHUB_API = "https://api.github.com"
+
+# 正文最多展示的项目数上限。
+# 实测 Trending 榜单条目数区间为 14~24, 取 25 足以覆盖正常情况;
+# 仅在异常超额时才发生截断, 截断时必须在统计区块显式标注, 不得静默丢弃信息。
+# 统计区块的"收录项目数"必须与正文实际渲染条目数严格一致 (恒等约束)。
+DISPLAY_LIMIT = 25
+
 HEADERS = {
     "Accept": "application/vnd.github.v3+json",
     "User-Agent": "GoodInfo-GitHub-Trending",
@@ -742,18 +749,27 @@ categories: ["github"]
 """
     
     # 添加仓库列表
-    for i, repo in enumerate(repos[:15], 1):
+    # 正文实际渲染的条目集合 —— 统计区块必须以它为准, 保证"正文条目数 == 收录项目数"恒成立
+    displayed = repos[:DISPLAY_LIMIT]
+    for i, repo in enumerate(displayed, 1):
         content += format_repo_item(repo, i)
-    
+
+    # 截断时显式标注被省略的项目数, 避免静默丢弃信息
+    # (未发生截断时绝不出现该行, 保持与既有文章风格一致)
+    note_line = ""
+    if len(repos) > len(displayed):
+        note_line = f"- **备注**: 榜单共 {len(repos)} 个项目，此处展示前 {len(displayed)} 个\n"
+
     # 添加尾部
     content += f"""
 ---
 
 ## 📊 统计
 
-- **收录项目数**: {len(repos)}
+- **收录项目数**: {len(displayed)}
 - **时间范围**: {period}
 - **排序依据**: 新增 Star 数
+{note_line}
 
 ---
 
