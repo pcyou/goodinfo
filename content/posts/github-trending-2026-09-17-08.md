@@ -154,9 +154,10 @@ All in one plugin for Hermes Agent ⚚ the coding intelligence, a long-term memo
 
 ## 📊 统计
 
-- **收录项目数**: 21
+- **收录项目数**: 15
 - **时间范围**: 每日
 - **排序依据**: 新增 Star 数
+- **备注**: 榜单共 21 个项目，此处展示前 15 个
 
 ---
 

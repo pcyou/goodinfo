@@ -154,9 +154,10 @@ Instatic is a modern self-hosted visual CMS - get it running in 1 minute
 
 ## 📊 统计
 
-- **收录项目数**: 19
+- **收录项目数**: 15
 - **时间范围**: 每日
 - **排序依据**: 新增 Star 数
+- **备注**: 榜单共 19 个项目，此处展示前 15 个
 
 ---
 

@@ -139,9 +139,10 @@ Godot 4 GDExtension: play rtsp:// / http(s):// / local files through VideoStream
 
 ## 📊 统计
 
-- **收录项目数**: 20
+- **收录项目数**: 15
 - **时间范围**: 每日
 - **排序依据**: 新增 Star 数
+- **备注**: 榜单共 20 个项目，此处展示前 15 个
 
 ---
 

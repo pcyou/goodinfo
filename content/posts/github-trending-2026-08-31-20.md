@@ -139,9 +139,10 @@ Ontology-driven AI-native contract management system / 本体驱动的 AI 原生
 
 ## 📊 统计
 
-- **收录项目数**: 18
+- **收录项目数**: 15
 - **时间范围**: 每日
 - **排序依据**: 新增 Star 数
+- **备注**: 榜单共 18 个项目，此处展示前 15 个
 
 ---
 
