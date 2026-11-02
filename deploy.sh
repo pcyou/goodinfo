@@ -67,35 +67,57 @@ fi
 
 log "Build successful."
 
-# ------------------------------------------------- atomic local publish swap --
-# public/ is replaced by a single rename so readers never see a torn build.
-rm -rf "$SITE_DIR/.public.old"
-if [ -d "$SITE_DIR/public" ]; then
-    mv "$SITE_DIR/public" "$SITE_DIR/.public.old"
-fi
-mv "$BUILD_DIR" "$SITE_DIR/public"
-BUILD_DIR=""
-rm -rf "$SITE_DIR/.public.old"
-
 # ------------------------------------------------------------------ deploy ---
+# CRITICAL (2026-11-02 fix): rsync must read from the ISOLATED build dir, never
+# from public/.
+#
+# Root cause of the 2026-11-02 08:00 failure (rsync code 23):
+#   The sibling cron "GoodInfo GitHub Trending" (schedule 0 */4 * * *) fires at
+#   08:00 too and runs `cd /root/goodinfo-site && hugo --minify`, which writes
+#   DIRECTLY into public/. Our rsync was reading public/ as its source, so the
+#   sibling rewrote files underneath the transfer mid-flight:
+#     rsync: [sender] read errors mapping
+#     "/root/goodinfo-site/public/tags/地震/index.xml": No data available (61)
+#     rsync error: some files/attrs were not transferred (code 23)
+#
+# flock only serialises deploy.sh runs against each other — it cannot stop an
+# unrelated process from mutating the rsync source. BUILD_DIR is created by
+# mktemp and is referenced by nothing else, so it is effectively immutable.
+# We therefore sync FROM BUILD_DIR, and only publish it to public/ afterwards.
+#
 # NOTE: no `|| true` — a failed rsync must fail the deploy.
 rsync -avz --delete --exclude='ssl/' --exclude='log/' --no-perms --no-owner --no-group \
     -e "ssh -i $KEY -p $REMOTE_PORT -o StrictHostKeyChecking=no" \
-    public/ ${REMOTE}:${REMOTE_DIR}/ >> "$LOG" 2>&1
+    "$BUILD_DIR/" ${REMOTE}:${REMOTE_DIR}/ >> "$LOG" 2>&1
 
 log "Files synced."
 
 # ---------------------------------------------------------------- verify -----
-# Dry-run comparison: any reported difference means remote != local.
+# Dry-run comparison against the SAME immutable source: any reported difference
+# means remote != local build.
 DRIFT=$(rsync -ani --delete --exclude='ssl/' --exclude='log/' --no-perms --no-owner --no-group \
     -e "ssh -i $KEY -p $REMOTE_PORT -o StrictHostKeyChecking=no" \
-    public/ ${REMOTE}:${REMOTE_DIR}/ 2>/dev/null | grep -vE '^\./$|^$' || true)
+    "$BUILD_DIR/" ${REMOTE}:${REMOTE_DIR}/ 2>/dev/null | grep -vE '^\./$|^$' || true)
 if [ -n "$DRIFT" ]; then
     log "FATAL: remote drift detected after sync:"
     echo "$DRIFT" >> "$LOG"
     exit 1
 fi
 log "Verified: remote tree matches local build exactly."
+
+# ------------------------------------------------- atomic local publish swap ---
+# Only NOW do we touch public/. The swap is a single rename so readers never
+# see a torn build. `rm -rf public` guards against a sibling hugo recreating
+# the directory between the two renames (which would make the second mv nest
+# the build INSIDE public/ instead of replacing it).
+rm -rf "$SITE_DIR/.public.old"
+if [ -d "$SITE_DIR/public" ]; then
+    mv "$SITE_DIR/public" "$SITE_DIR/.public.old"
+fi
+rm -rf "$SITE_DIR/public"
+mv "$BUILD_DIR" "$SITE_DIR/public"
+BUILD_DIR=""
+rm -rf "$SITE_DIR/.public.old"
 
 # ------------------------------------------------------------------- logs ----
 ssh -i $KEY -p $REMOTE_PORT -o StrictHostKeyChecking=no ${REMOTE} \
