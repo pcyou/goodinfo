@@ -95,7 +95,7 @@ On how election results feed into markets, one side points to historical pattern
 
 ---
 
-> Aggregated 65 headlines across five sections. Full illustrated edition: https://goodinfo.net
+> Aggregated 74 headlines across five sections. Full illustrated edition: https://goodinfo.net
 >
 > *Edited by the GoodInfo Global News Desk*
 
@@ -197,7 +197,47 @@ Researchers disclosed a Linux exploit written with assistance from Claude that w
 
 **Comment**: The barrier to using generative models in an attack chain is now low, which makes model driven defence equally urgent.
 
-### 13. Germany says lawmakers' iPhones may have been hacked with spyware
+### 13. Anthropic reports $17 billion in Q3 revenue and $895.4 billion in purchase commitments in a revised S-1
+
+Anthropic disclosed third-quarter revenue of $17 billion and purchase commitments of roughly $895.4 billion in a revised filing. The gap of about fifty times between the two figures quantifies the real exposure of this capital cycle and shows how long payback periods have become.
+
+**Source**: CNBC
+
+**Comment**: Revenue and purchase commitments differ by about fifty times, and that ratio is the real exposure of this capital cycle.
+
+### 14. OpenAI hires former US Army Secretary Dan Driscoll for a national security role
+
+OpenAI hired former US Army Secretary Dan Driscoll for a national security position, writing government and security commitments directly into its executive structure as intelligence and defence buyers shift from procurement to co-design.
+
+**Source**: CNBC
+
+**Comment**: A former army secretary inside the executive team means defence buyers have moved from procurement to co-design.
+
+### 15. OpenAI deepens its Abu Dhabi foothold with deals spanning energy, government and investment
+
+OpenAI signed a package of agreements in Abu Dhabi covering energy supply, government cooperation and direct investment, turning the Gulf from a compute buyer into a joint provider of capital and power. Sovereign capital is becoming a key funding source for AI infrastructure.
+
+**Source**: CNBC
+
+**Comment**: Sovereign capital and energy entering together means the funding structure of AI infrastructure is being rewritten by non-Western capital.
+
+### 16. Intel's foundry push faces a critical test after a 45 percent October stock plunge
+
+Intel shares fell about 45 percent over October, leaving its foundry transition facing a critical test. Process node competitiveness and the conversion of external customer orders are the two variables that will decide whether its valuation can recover.
+
+**Source**: CNBC
+
+**Comment**: Node competitiveness and customer order conversion are the only two props left for a valuation recovery.
+
+### 17. Nvidia's humanoid push relies on China-made robot hands
+
+Nvidia's humanoid robotics push has been reported to depend on robot hand components made in China, again tying the technology race to trade policy through the same supply chain variable.
+
+**Source**: CNBC
+
+**Comment**: Technology roadmap and trade policy collide on one supply chain, putting policy risk directly into product planning.
+
+### 18. Germany says lawmakers' iPhones may have been hacked with spyware
 
 German officials said the iPhones used by some lawmakers may have been compromised with spyware, again pushing mobile device security and political surveillance to the centre of the debate.
 
@@ -320,7 +360,15 @@ Israeli opposition leaders publicly pledged to move quickly against Benjamin Net
 
 **Comment**: Pressure on the home front while talks drag on compresses Israeli decision space from both sides.
 
-### 15. Houthis advance to within 80km of Aden in their furthest push since 2015
+### 15. Judge tosses DOJ case against ex-FBI officials accused of lying about the Hunter Biden probe
+
+A judge dismissed a Justice Department case against former FBI officials accused of making false statements during the Hunter Biden probe, another result across the administration's multiple legal fronts on election day.
+
+**Source**: CNBC
+
+**Comment**: Multiple legal fronts producing verdicts on the same day suggests this administration's court battles run for months.
+
+### 16. Houthis advance to within 80km of Aden in their furthest push since 2015
 
 Sources said Houthi forces in Yemen have advanced to within roughly 80 kilometres of Aden, their furthest push since 2015, complicating Red Sea shipping risk and Saudi American de-escalation efforts.
 
@@ -435,7 +483,31 @@ US liquefied natural gas exports are approaching a record high while European bu
 
 **Comment**: Once exports approach the ceiling, Europe loses the buffer in its winter procurement.
 
-### 14. Disney plans several thousand layoffs and asks some managers to cut costs by up to 20 percent
+### 14. BP's third-quarter profit nearly quadruples to $8.5 billion as refining margins surge
+
+BP reported third-quarter profit close to quadrupling to about $8.5 billion, driven by surging refining margins as the Iran war widened crude price swings. For the first time the costs and gains of the conflict are being allocated with unusual clarity.
+
+**Source**: CNBC
+
+**Comment**: War widens volatility, volatility widens refining spreads, and cost versus gain has never been allocated this clearly.
+
+### 15. Germany's auto sector faces fresh cuts as Schaeffler axes 3,460 jobs and eyes defence
+
+Germany's automotive supply chain is undergoing another round of structural job cuts, with Schaeffler axing 3,460 positions and turning towards defence. European manufacturing is shedding civilian capacity as electrification and cost pressure compound.
+
+**Source**: CNBC
+
+**Comment**: Shifting civilian capacity towards defence is the honest choice for European manufacturing under double pressure.
+
+### 16. Aramco's profit rises as refining margins strengthen amid the Iran war
+
+Aramco's profit rose as refining margins strengthened, with the crude and product price swings caused by the Iran war acting as an unexpected tailwind, a typical case of upstream and midstream both benefiting from one conflict.
+
+**Source**: CNBC
+
+**Comment**: Upstream and midstream benefiting from one conflict is a pricing feature unique to energy markets.
+
+### 17. Disney plans several thousand layoffs and asks some managers to cut costs by up to 20 percent
 
 Disney said it plans several thousand layoffs and asked some managers to cut costs by as much as 20 percent, reflecting a structural reset across content and theme park operations under cost pressure.
 
