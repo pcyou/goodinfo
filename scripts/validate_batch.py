@@ -80,7 +80,9 @@ EN_CORE = ["## Key Facts", "## Core Summary"]
 EN_DETAIL = ["## Event Details", "## 事件详情"]
 EN_ANALYSIS = ["## Panoramic Analysis", "## Wider Perspective", "## 全景透视"]
 EN_VIEWS = ["## Competing Views", "## Comparison of Viewpoints",
-            "## Multiple Perspectives", "## 多方观点比对"]
+            "## Multiple Perspectives", "## Viewpoints Compared",
+            "## Multi-Perspective Comparison", "## Comparison of Multiple Viewpoints",
+            "## 多方观点比对"]
 
 REQUIRED_FIELDS = ("title", "date", "categories", "tags", "tier", "description",
                     "summary", "source")
@@ -166,8 +168,8 @@ def validate_file(path, lang, tier):
         for label, opts, required in (
                 ("core", EN_CORE, True),
                 ("analysis", EN_ANALYSIS, True),
-                ("detail", EN_DETAIL, False),
-                ("views", EN_VIEWS, True)):
+                ("detail", EN_DETAIL, tier == "1"),
+                ("views", EN_VIEWS, tier == "1")):
             present = has_section(body, opts)
             if required and not present:
                 out.append("  FAIL: missing EN '%s' section (one of %s)" % (label, opts))
@@ -293,6 +295,18 @@ def main():
         for lang, path in (("CN", "content/posts/%s/%s.md" % (cat, slug)),
                            ("EN", "content.en/posts/%s/%s.md" % (cat, slug))):
             print("\n--- %s  [%s tier%s]" % (path, lang, s_tier))
+            if not os.path.exists(os.path.join(REPO, path)):
+                # Format C: Chinese-only Tier-2 briefs are valid (no EN file required).
+                if lang == "EN" and s_tier == "2" and \
+                        os.path.exists(os.path.join(REPO, "content/posts/%s/%s.md" % (cat, slug))):
+                    print("  n/a (CN-only Tier-2 brief, Format C)")
+                    continue
+                ok, out = validate_file(path, lang, s_tier)
+                for line in out:
+                    print(line)
+                if not ok:
+                    all_ok = False
+                continue
             ok, out = validate_file(path, lang, s_tier)
             for line in out:
                 print(line)
