@@ -29,14 +29,44 @@ The third thread is three simultaneous constraints on compute. OpenAI closed an 
 | BNB | $698.28 | +0.65% |
 | DOGE | $0.071 | -0.29% |
 
-*Source: Coinlore API · live snapshot 2026-11-09 00:11*
+*Source: Coinlore API · live snapshot 2026-11-09 00:21*
 
-### Closing Snapshot
+## 📈 Global Markets
 
-- **US Equities**: S&P 500 7,376.86 (+0.31%) | Nasdaq 24,579.425 (+1.09%) | Dow 51,285.73 (-0.46%)
-- **Tech & Semis**: PHLX Semiconductor 9,390.25 (+4.21%) | Nvidia 186.64 (+2.78%) | Tesla 358.22 (+4.23%)
-- **Asia & Europe**: Nikkei 225 57,434.77 (-5.96%) | Hang Seng 24,481.86 (-1.27%) | Shanghai 3,649.177 (-1.10%) | DAX 25,820.36 (-1.92%)
-- **Commodities & FX**: WTI 90.34 (-0.20%) | Brent 98.32 (flat) | Gold 4,079.50 (-0.83%) | Dollar Index 102.279 (+0.72%)
+| Index / Instrument | Last | Change |
+|------|--------|--------|
+| S&P 500 | 7,376.86 | +0.31% |
+| Nasdaq | 24,579.425 | +1.09% |
+| Dow Jones | 51,285.73 | -0.46% |
+| Russell 2000 | 2,754.105 | +0.89% |
+| PHLX Semiconductor | 9,390.25 | +4.21% |
+| Germany DAX | 25,820.36 | -1.92% |
+| Nikkei 225 | 57,434.77 | -5.96% |
+| Hang Seng | 24,481.86 | -1.27% |
+| Shanghai Composite | 3,649.177 | -1.10% |
+| WTI Crude | 90.34 | -0.20% |
+| Gold | 4,079.50 | -0.83% |
+| Silver | 51.965 | -0.78% |
+| Dollar Index | 102.279 | +0.72% |
+| USD JPY | 158.45 | +0.50% |
+
+*Source: CNBC quotes interface · US and Asian equities are 11-06 closes, crude and precious metals are 11-07 mid-session quotes, the two differ*
+
+## 📌 Editor Notes
+
+Two headlines most easily misread this edition actually point at one event: Israel's president tasking Gadi Eisenkot with forming a government, and President Trump announcing minor strikes on Iran, landed inside the same twenty-four hour window. The first marks the handover of a thirteen-year premiership; the second marks the start of testing a military option. Combined, they mean the regional security environment changed before the incoming Israeli government was even assembled, and every extra week of coalition negotiation adds another week of uncertainty over who decides under pressure.
+
+Another easily skipped but highly informative detail: US voters rejected data centres in all but one of more than forty local measures, and almost none of those votes had anything to do with artificial intelligence. The objections were electricity prices, water use and land acquisition. Compute expansion is therefore running into neither a technical nor an ideological obstacle but the ordinary sensitivity of local residents to the cost of living, which is the same sentiment surfacing in France's fourth consecutive weekend of protests and in Democrats naming tariffs a top priority.
+
+One further contrast is worth marking: the crypto industry absorbed three differently shaped regulatory signals in a single week, as the US Treasury moved to cut MEXC off the US financial system alleging more than $16 billion in illicit flows, all seven of the biggest US tech companies asked to keep shares off the planned OKX-ICE venue, and bitcoin spot products saw a $1.28 billion weekly outflow that flipped the year negative. The forms differ entirely, but the direction does not: compliance is no longer a cost line, it is the entry ticket for remaining inside the dollar system.
+
+## 🔭 What To Watch Next
+
+- The trilateral Russia, Ukraine and United States talks in Abu Dhabi this week are the first three-way contact since the escalation in February, and the negotiating capacity of both the European and Gulf tracks will be repriced by them.
+- Whether Gadi Eisenkot can secure a working majority within two weeks, especially on Arab-led parties and conscription, will determine whether post-Netanyahu policy continues or turns.
+- Whether the $1.28 billion weekly bitcoin outflow expands further, the worst week of the year, will show whether institutional selling is finished.
+- Anthropic's pre-Thanksgiving listing window and final price range: accepting a reduced $1.25 to $1.75 trillion valuation in order to list at all shows liquidity now outranks pricing.
+- Whether the Nikkei's near six percent drop and the dollar yen level of 158.45 combine into a second wave of Asian selling, which will test the effectiveness of regional stabilisation measures.
 
 ## Competing Views
 
