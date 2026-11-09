@@ -27,44 +27,55 @@ import html as html_lib
 # ==========================================
 # GitHub Web 端备用 IP (DNS 黑洞容灾)
 # ==========================================
-# 本机 DNS 把 github.com 解析到 20.205.243.166, 而该地址的 443 路由被
-# 中间链路丢弃 (SYN 无应答, TCP 握手永不完成), 导致 Trending 页面抓取
-# 100% 超时并降级到质量更差的 Search API。
+# 本机 DNS (10.0.0.1) 把 github.com 解析到 20.205.243.166, 而该地址的
+# 443 路由被中间链路丢弃 (SYN 无应答, TCP 握手永不完成), 导致 Trending
+# 页面抓取 100% 超时并降级到质量更差的 Search API。
 # 下列 Anycast 边缘 IP 属于同一 GitHub 前端集群, 返回内容一致; 由于 TLS 的
 # SNI 与证书校验仍使用主机名 github.com, 固定 IP 不削弱 TLS 安全性。
 #
-# 2026-10-24 复盘: 黑洞 IP 不只是本机 DNS 那一个 —— 20.27.177.113 这一
-# 陈旧备用地址同样会在"正文读取"阶段挂死 (TLS 握手能成功, 但读 body
-# 永远收不到数据)。因此这里把**已实测 HTTP 200** 的 4 个边缘 IP 单独
-# 提为白名单并放在最前面, DNS 解析结果一律垫后。
+# 2026-11-09 复盘 (16:00 事故): 上一版白名单里的 9 个地址 (140.82.11x.3/4
+# 与 20.27.177.113) **全部实测失效** —— 要么连不上, 要么 HTTP 504, 18 次
+# 尝试全灭, 脚本最终按质量闸 (len(repos) < 5) 正确地拒绝发布。教训依旧是:
+# 固定 IP 白名单会随 GitHub 边缘调度漂移而必然复发, 必须靠定期实测刷新。
 #
-# 2026-10-26 复盘: 上一版白名单里的 "140.82.11x.3" 四个地址已全部黑洞化
-# (TLS 握手成功但 body 永远不返回), 同时 "140.82.116.3" 退化为间歇性可用。
-# 实测同一 GitHub 前端集群的 "140.82.11x.4" 四地址稳定返回 HTTP 200 且
-# /trending 页面结构完整 (11 个 Box-row), 因此把 .4 系列提到白名单最前面,
-# .3 系列降级为次选, 陈旧的 "20.27.177.113" 移入末位。
+# 2026-11-09 复盘 (核心修复): 真正的解药不是继续猜 IP, 而是**换一条解析
+# 路径** —— 本机 DNS 是黑洞, 但两家独立的 DoH (dns.google 与 cloudflare-dns)
+# 给出一致的权威答案 172.182.252.133; 实测该地址 HTTP 200、页面含 9 个
+# Box-row、连续 8 次请求全部成功, 且抓到的 9 个项目与当天 08:00 已发布
+# 文章完全一致 (顺序/数量/star 数均吻合) → 证明是真实榜单数据。
+# 因此这里的硬编码白名单只保留"实测最稳"的少数地址, 并新增 DoH 动态解析
+# (见 _doh_resolve_ips) 作为白名单之后的第二梯队, 不再依赖单一猜测。
+#
+# 2026-11-09 复盘 (假阳性陷阱): 20.27.177.121 等地址会返回 **HTTP 200
+# 但 body 只有 4 字节 "OK"** —— 那是 GitHub 边缘节点的健康检查端点, 不是
+# Trending 页面。只看状态码会把它误判为成功, 从而生成 0 个项目的空文章。
+# 因此 _http_get 对 github.com 的 HTML 页面额外校验: 长度 > 10000 且含
+# "Box-row" 且以 "</html>" 闭合, 任一不满足即视为无效响应并换下一个 IP。
+# 同样地, 504 错误页 (仅 92 字节) 也会被这道校验挡下。
+# 20.27.177.121 是已知的假阳性端点, **禁止**加入任何白名单或候选列表。
 #
 # 教训: 固定 IP 白名单会随 GitHub 边缘调度漂移而失效, 必须靠定期实测刷新,
-# 不能假设"上次能用这次也能用"。
+# 不能假设"上次能用这次也能用"; 动态解析 (DoH) 只是补充, 不能替代实测。
 GITHUB_WEB_FALLBACK_IPS = (
-    "140.82.112.4",
-    "140.82.116.4",
-    "140.82.113.4",
-    "140.82.114.4",
-    "140.82.116.3",
+    "172.182.252.133",
+    "172.182.252.137",
 )
 
-# 已实测可达但可能随时间失效的备用地址, 排在白名单之后尝试
+# 同段邻近地址, 作为白名单与 DoH 之后的兜底
 GITHUB_WEB_SECONDARY_IPS = (
-    "140.82.112.3",
-    "140.82.113.3",
-    "140.82.114.3",
-    "20.27.177.113",
+    "172.182.252.134",
+    "172.182.252.135",
+    "172.182.252.136",
 )
 
-# 主机名 -> 备用 IP 列表 (顺序即优先级)
+# 末位兜底: 本机 DNS 当前解析值, 可能随时恢复; 放在最后, 不占用优先额度
+GITHUB_WEB_LAST_RESORT_IPS = (
+    "20.205.243.166",
+)
+
+# 主机名 -> 硬编码白名单 (仅第一梯队; 其余梯队由 _candidate_ips 按时序组装)
 _FALLBACK_IPS = {
-    "github.com": GITHUB_WEB_FALLBACK_IPS + GITHUB_WEB_SECONDARY_IPS,
+    "github.com": GITHUB_WEB_FALLBACK_IPS,
 }
 
 # 死 IP 黑名单 (自愈): 主机名 -> {已连续失败 >= 2 次的 IP}
@@ -77,7 +88,14 @@ _DEAD_IP_THRESHOLD = 2
 # 每个 IP 的首次尝试超时 (秒)。
 # 健康边缘 IP 实测 0.4-3s 返回, 用短超时可以快速识别黑洞地址;
 # 超时后该 IP 才被熔断并让位给下一个候选。
-_FIRST_ATTEMPT_TIMEOUT = 6
+#
+# 2026-11-09 复盘: 该阈值原为 6s, 但 172.182.252.133 在**冷连接**下
+# 首包偶尔要 6.3s 左右 (热连接 1.2-1.9s), 于是健康 IP 会被误判成黑洞
+# 并打印"⏱️ 判定为黑洞", 造成不必要的熔断。这里放宽到 12s:
+# 真正的黑洞 IP 是"SYN 无应答 / 读取永远不返回", 等满 12s 才暴露,
+# 代价可以接受; 而健康边缘 IP 不再被误杀。整体请求预算 (timeout=15)
+# 仍作为上限, 因此单次抓取的耗时不会明显变长。
+_FIRST_ATTEMPT_TIMEOUT = 12
 
 # 当前生效的 IP 固定 (由 _http_get 在每次请求前设置, 用完立即复位)
 _PINNED_IP = {}
@@ -96,6 +114,98 @@ try:
     _socket.getaddrinfo = _getaddrinfo_ipv4
 except Exception:
     pass
+
+
+# ==========================================
+# DoH (DNS over HTTPS) 动态解析
+# ==========================================
+# 本机 DNS 会把 github.com 解析到黑洞地址, 但 DoH 服务 (dns.google /
+# cloudflare-dns) 会给出完全不同的边缘 IP。硬编码白名单会随 GitHub 边缘
+# 调度漂移而必然失效, 动态解析是对"硬编码必然过期"这一根因的补充。
+#
+# 设计约束:
+#   * 仅用标准库 (urllib.request + json), 不引入第三方依赖;
+#   * 模块级缓存, TTL 600 秒, 避免每次请求都打 DoH;
+#   * 超时与异常一律静默降级 —— DoH 不可达时只影响候选来源, 绝不能
+#     让整体抓取失败。
+DOH_ENDPOINTS = (
+    # (URL, 额外请求头) —— 两者取并集
+    ("https://dns.google/resolve?name={host}&type=A", {}),
+    (
+        "https://cloudflare-dns.com/dns-query?name={host}&type=A",
+        {"Accept": "application/dns-json"},
+    ),
+)
+
+# DoH 解析结果的本地缓存: 主机名 -> (时间戳, [IP, ...])
+_DOH_CACHE = {}
+
+# DoH 缓存有效期 (秒)
+_DOH_CACHE_TTL = 600
+
+# 单个 DoH 端点的超时 (秒) —— 不可达时快速放弃, 不拖慢整体抓取
+_DOH_TIMEOUT = 5
+
+
+def _doh_fetch_json(url, extra_headers):
+    """请求 DoH 端点并解析 JSON, 失败返回 None。"""
+    headers = {
+        "User-Agent": "GoodInfo-GitHub-Trending",
+        "Accept": "application/dns-json",
+    }
+    headers.update(extra_headers)
+    req = urllib.request.Request(url, headers=headers)
+    try:
+        with urllib.request.urlopen(req, timeout=_DOH_TIMEOUT) as response:
+            raw = response.read()
+            encoding = (response.headers.get("Content-Encoding") or "").lower()
+        if encoding == "gzip":
+            raw = gzip.decompress(raw)
+        elif encoding == "deflate":
+            raw = zlib.decompress(raw, -zlib.MAX_WBITS)
+        return json.loads(raw.decode("utf-8", "replace"))
+    except Exception as exc:
+        print(f"  DoH 请求失败 {url}: {type(exc).__name__}: {exc}")
+        return None
+
+
+def _doh_resolve_ips(host):
+    """通过 DoH 解析主机名的 A 记录, 返回 IP 列表 (按 DoH 返回顺序去重)。
+
+    两个独立 DoH 服务的结果取并集 —— 两者给出一致答案时可信度更高,
+    只有一个可用时也仍有价值。异常一律吞掉并返回空列表: DoH 是**可选**
+    增强, 它的故障绝不能导致整体抓取失败。
+    """
+    cached = _DOH_CACHE.get(host)
+    now = time.time()
+    if cached and now - cached[0] < _DOH_CACHE_TTL:
+        return cached[1]
+
+    ips = []
+    for template, extra_headers in DOH_ENDPOINTS:
+        url = template.format(host=urllib.parse.quote(host))
+        data = _doh_fetch_json(url, extra_headers)
+        if not data:
+            continue
+        if str(data.get("Status", 0)) != "0":
+            continue
+        for answer in data.get("Answer") or []:
+            if int(answer.get("type", 0) or 0) != 1:
+                continue
+            ip = (answer.get("data") or "").strip()
+            # DoH 回答里偶尔混进 CNAME 等其它类型, 这里只收 IPv4 字面量
+            if not re.fullmatch(r"\d{1,3}(\.\d{1,3}){3}", ip):
+                continue
+            if ip not in ips:
+                ips.append(ip)
+
+    if ips:
+        print(f"  DoH 解析 {host} -> {ips}")
+    else:
+        print(f"  ⚠️ DoH 未解析到 {host} 的 A 记录, 静默降级 (仅用本地候选)")
+    # 失败结果同样写入缓存, 避免 DoH 故障时反复超时拖慢抓取
+    _DOH_CACHE[host] = (now, ips)
+    return ips
 
 
 def _urlopen_with_retry(req, timeout=15, retries=3):
@@ -124,11 +234,31 @@ def _candidate_ips(host, port=443):
     黑名单中的 IP 直接剔除 (自愈: 已被证实读不出正文的地址不再重试)。
     """
     ips = []
-    # 1) 首选: 硬编码的已验证可达边缘 IP
+    # 梯队顺序 (规范要求, 不可调换):
+    #   1) 硬编码实测白名单 -> 2) DoH 动态地址 -> 3) secondary -> 4) 本机 DNS
+    # 每一梯队内部去重, 但不跨梯队去重: 同一个 IP 若同时出现在白名单与
+    # DoH 结果里, 保留它在更高优先级的位置即可 (下面的 ip not in ips 会
+    # 跳过重复项, 因此顺序仍然稳定)。
+
+    # 1) 首选: 硬编码的已实测可达边缘 IP (CTO 2026-11-09 实测白名单)
     for ip in _FALLBACK_IPS.get(host, ()):
         if ip not in ips:
             ips.append(ip)
-    # 2) 垫底: 本机 DNS 当前解析结果 (可能是黑洞源, 仅作兜底)
+    # 2) 次选: DoH 动态解析出的边缘 IP (本次修复的核心 —— 本机 DNS 是黑洞,
+    #    但 dns.google / cloudflare-dns 会给出真正可达的边缘地址;
+    #    DoH 不可达时静默降级为空列表, 不影响其余候选)
+    for ip in _doh_resolve_ips(host):
+        if ip not in ips:
+            ips.append(ip)
+    # 3) 再次: secondary 兜底地址 (同段邻近边缘 IP)
+    for ip in GITHUB_WEB_SECONDARY_IPS:
+        if ip not in ips:
+            ips.append(ip)
+    # 4) 末位兜底: 保留的旧地址 (本机 DNS 当前解析值, 可能随时恢复)
+    for ip in GITHUB_WEB_LAST_RESORT_IPS:
+        if ip not in ips:
+            ips.append(ip)
+    # 5) 垫底: 本机 DNS 当前解析结果 (可能是黑洞源, 仅作兜底)
     try:
         for info in _orig_getaddrinfo(host, port, _socket.AF_INET):
             ip = info[4][0]
@@ -157,6 +287,17 @@ def _is_timeout(exc):
         return True
     text = str(exc).lower()
     return "timed out" in text or "timeout" in text
+
+
+def _is_invalid_response(exc):
+    """判断异常是否为"IP 可达但返回无效内容"。
+
+    2026-11-09 复盘: 这类失败 (200 + "OK" 假阳性、504 短响应、截断页面)
+    与超时一样说明该 IP 不能提供有效数据, 应计入 ip_failures 并在达到
+    阈值后拉黑, 否则脚本会在同一个坏 IP 上反复浪费预算。
+    """
+    text = str(exc).lower()
+    return "invalid response" in text or "truncated response" in text
 
 
 def _mark_ip_dead(host, ip, failures):
@@ -194,6 +335,42 @@ def _tls_handshake(host, ip, timeout=8):
             except Exception:
                 pass
         return None
+
+
+# github.com 的 Trending HTML 页面最小合理长度。
+# 健康页面实测约 520 KB (gzip 解压后), 远大于该阈值;
+# 而假阳性端点只回 4 字节 "OK", 504 错误页只有 92 字节。
+_MIN_TRENDING_HTML_BYTES = 10000
+
+
+def _validate_html_body(text):
+    """校验 HTML 响应体确实是 GitHub 的 Trending 页面, 而不是假阳性。
+
+    2026-11-09 复盘: 某些边缘地址 (如 20.27.177.121) 会返回 **HTTP 200
+    但 body 只有 4 字节 "OK"** —— 那是边缘节点的健康检查端点, 不是 Trending
+    页面。若只看状态码就会把它误判为成功, 从而生成 0 个项目的空文章。
+    504 错误页 (92 字节) 同样会被这道校验挡下。
+
+    校验三要素: 长度 > 10000、含 "Box-row"、以 "</html>" 闭合。
+    任一不满足 → 抛异常, 由调用方走"换下一个 IP"的快速失败路径。
+    """
+    size = len(text)
+    if size <= _MIN_TRENDING_HTML_BYTES:
+        raise IOError(
+            f"invalid response: body too small ({size} bytes, "
+            f"expected > {_MIN_TRENDING_HTML_BYTES})"
+        )
+    if "Box-row" not in text:
+        raise IOError(
+            f"invalid response: no Box-row marker ({size} bytes, "
+            f"likely a health-check endpoint)"
+        )
+    stripped = text.rstrip()
+    if not stripped.endswith("</html>"):
+        raise IOError(
+            f"invalid response: not closed by </html> ({size} bytes, truncated)"
+        )
+    return text
 
 
 def _raw_http_get(host, path, ip, headers, timeout=15):
@@ -324,8 +501,9 @@ def _http_get(url, headers, timeout=12, retries=2, max_attempts=18, expect_html=
             attempts += 1
             try:
                 text = _raw_http_get(host, path, ip, headers, timeout=first_timeout)
-                if expect_html and "</html>" not in text:
-                    raise IOError(f"truncated response ({len(text)} bytes, no </html>)")
+                # 假阳性端点会返回 200 + "OK", 必须校验正文才是真正的 Trending 页面
+                if expect_html:
+                    _validate_html_body(text)
                 return text
             except Exception as exc:
                 last_exc = exc
@@ -338,6 +516,10 @@ def _http_get(url, headers, timeout=12, retries=2, max_attempts=18, expect_html=
                     print(f"  ⏱️ {ip} 首次即超时, 判定为黑洞并跳过")
                     _mark_ip_dead(host, ip, _DEAD_IP_THRESHOLD)
                     continue
+                # 无效响应 (200 + "OK" 假阳性 / 504 短响应 / 截断页):
+                # IP 可达但拿不到有效数据, 同样计一次失败, 达到阈值后拉黑。
+                if _is_invalid_response(exc):
+                    print(f"  🚫 {ip} 返回无效响应, 计一次失败并换下一个 IP")
 
         for attempt in range(retries):
             if attempts >= total_budget or ip_failures >= per_ip_budget:
@@ -354,10 +536,12 @@ def _http_get(url, headers, timeout=12, retries=2, max_attempts=18, expect_html=
                 elif encoding == "deflate":
                     raw = zlib.decompress(raw, -zlib.MAX_WBITS)
                 text = raw.decode("utf-8", "replace")
-                # 截断的 HTML 仍可能解析出部分内容, 故先确认文档闭合再采信;
-                # JSON 接口 (Search API) 不含 </html>, 故由 expect_html 关闭该校验。
-                if expect_html and "</html>" not in text:
-                    raise IOError(f"truncated response ({len(text)} bytes, no </html>)")
+                # 截断的 HTML 仍可能解析出部分内容, 且 200 + "OK" 的假阳性
+                # 端点也会蒙混过关, 故对 HTML 页面做完整有效性校验;
+                # JSON 接口 (Search API) 不含 Box-row/</html>, 由 expect_html
+                # 关闭该校验。
+                if expect_html:
+                    _validate_html_body(text)
                 _PINNED_IP[host] = None
                 return text
             except Exception as exc:
@@ -368,6 +552,11 @@ def _http_get(url, headers, timeout=12, retries=2, max_attempts=18, expect_html=
                 # 白白等满整个超时窗口, 故立刻熔断并让位给下一个候选 IP。
                 if _is_timeout(exc):
                     print(f"  ⏱️ {ip} 超时, 直接判定为黑洞并跳过")
+                    break
+                # 无效响应重试也没有意义 (同一 IP 返回同样的垃圾内容),
+                # 直接换下一个候选 IP, 但仍计入 ip_failures 以便阈值拉黑。
+                if _is_invalid_response(exc):
+                    print(f"  🚫 {ip} 返回无效响应, 计一次失败并换下一个 IP")
                     break
                 if attempt < retries - 1:
                     time.sleep(2 * (attempt + 1))
